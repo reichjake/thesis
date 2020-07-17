@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Aims and Objectives}{4}{subsection.1.1}
+\contentsline {section}{\numberline {2}Relevant Theory}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Nuclear Half-life ($t_{\frac {1}{2}}$) }{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Nuclear Activation Reactions}{5}{subsection.2.2}
+\contentsline {section}{\numberline {3}Reasons for the use of the ${}^{16}$O$(\alpha ,$pn$){}^{18}$F reaction channel}{5}{section.3}
+\contentsline {section}{\numberline {4}A Basic Outline of the PEPT Technique}{8}{section.4}
+\contentsline {section}{\numberline {5}Experimental Method}{9}{section.5}
+\contentsline {subsection}{\numberline {5.1}Beam Path}{9}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Detectors and Measurements}{10}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}NaI Scintillator}{10}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}High Purity Germanium Detector (HPGe)}{11}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}HR++ Ring}{11}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Ionisation Chamber}{11}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.5}Measurements}{11}{subsubsection.5.2.5}
+\contentsline {subsection}{\numberline {5.3}Glass Beads}{13}{subsection.5.3}
+\contentsline {section}{\numberline {6}Analysis and Results}{13}{section.6}
+\contentsline {subsection}{\numberline {6.1}Half Life Measurements}{13}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}HR++}{13}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}NaI}{14}{subsubsection.6.1.2}
+\contentsline {subsection}{\numberline {6.2}Spectra}{14}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Contaminants}{16}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}511keV Photopeak}{21}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Probable Origin of Contaminants}{21}{subsection.6.5}
+\contentsline {section}{\numberline {7}Conclusions}{22}{section.7}
+\contentsline {section}{\numberline {A}Physical and Chemical Characteristics of the Glass Beads}{23}{appendix.A}
+\contentsline {section}{\numberline {B}Ionisation Chamber Measured Activities}{24}{appendix.B}

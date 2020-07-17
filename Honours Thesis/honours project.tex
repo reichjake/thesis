@@ -1,0 +1,463 @@
+\documentclass[]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[margin = 2cm]{geometry}
+\usepackage{tcolorbox}
+\usepackage{cite}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{subcaption}
+\usepackage{amssymb}
+\captionsetup[subfigure]{labelfont=rm}
+\bibliographystyle{unsrt}
+\usepackage{hyperref}
+
+
+\begin{document}
+
+%titlepage
+\thispagestyle{empty}
+\begin{center}
+	\begin{minipage}{0.75\linewidth}
+		\centering
+		%University logo
+		\includegraphics[width=1\linewidth]{deptPhysics.jpg}\\
+		\par
+		\vspace{3cm}
+		%Thesis title
+		{{\Large Development of Direct Activation Tracer Particles using a ${}^{16}$O($\alpha$,pn)${}^{18}$F Reaction for use in Positron Emission Particle Tracking (PEPT)\par}}
+		\vspace{3cm}
+		%Author's name
+		{\Large Jake Reich\\Student Number: RCHJAK001 \\Supervisor: Dr. Tom Leadbeater\par}
+		\vspace{8cm}
+		{\Large October 2019}
+	\end{minipage}
+\end{center}
+\clearpage
+
+
+\begin{abstract}
+	 The Positron Emission Particle Tracking (PEPT) technique measures the positions of a macroscopic positron emitting isotopes in order study the dynamics of granular and fluid flow. We used the facilities available at iThemba LABS to produce glass (SiO$_2$) tracer particles for use in PEPT measurements. We took advantage of the ${}^{16}$O$(\alpha,$pn$){}^{18}$F reaction channel, by use of a 100MeV alpha particle beam on glass beads of varying sizes. The different long lived contaminants produced in activation were characterised by use of half life measurements and spectral analysis. The long lived positron emitters produced in activation were determined to be ${}^{18}$F, ${}^{24}$Na and ${}^{43}$Sc, with ${}^{18}$F being the significantly dominant component. This reaction mechanism is therefore a reasonable candidate to compliment existing tracer particle production techniques at PEPT Cape Town. 
+ \end{abstract}\vfill
+~\\
+\textit{I certify that this assignment/report is my own work, based on my personal study and/or research and that I have acknowledged all material and sources used in its preparation, whether they be books, articles, reports, lecture notes, and any other kind of document, electronic or personal communication. I also certify that this assignment/report has not previously been submitted for assessment in any other unit, except where specific permission has been granted from all unit coordinators involved, or at any other time in this unit, and that I have not copied in part or whole or otherwise plagiarised the work of other students and/or persons.}
+
+\clearpage
+
+\tableofcontents
+
+\vfill
+\underline{ACKNOWLEDGEMENTS:}\\\\
+I would like to express my sincerest gratitude towards my supervisor, Dr. Tom Leadbeater(UCT) for his enthusiasm, patience, knowledge and continued support throughout the year. He was always available and willing to help. All the car rides to and from iThemba LABS could not have been possible without him. Mike van Heerden(PEPT Cape Town) is thanked for his welcoming and helpful hospitality during our late nights at iThemba LABS. Both Mike and Tom have spent countless out-of-work hours in order to provide the resources and facilities used for this investigation and should both be greatly commended and appraised for the success of this experiment.
+\clearpage
+
+\section{Introduction}
+PEPT (Positron Emission Particle Tracking) is a technique which uses a medical PET (Positron Emission Tomography) scanner to track the motion of a macroscopic particle (tracer) at very high spacial resolutions(kHz rates can provide a tracking precision of 1mm). Its applications span a large range of scientific fields, by providing an accurate method of studying granular and fluid flow. \\\\The technique takes advantage of the two back-to-back ($\sim$180${}^{\circ}$ to one another) \SI{511}{\kilo \electronvolt} photons emitted due to an annihilation event by positron emitting isotopes. The tracer particles are embedded, either through chemical or physical means, with a high activity pure positron emitter such as ${}^{68}$Ga or ${}^{18}$F (Refer to Section \ref{peptOutline} for further information).
+
+\subsection{Aims and Objectives}
+For this project, we are mostly interested in the production and viability of the tracer particle used in PEPT, rather than PEPT itself. PEPT requires tracer particle activities around \SI{2}{\milli Ci} and possible (albeit at a reduced performance) at \SI{100}{\micro Ci}. We aim to produce tracer particles which are activated directly by an incident alpha particle beam on naturally abundant (99.76$\%$) ${}^{16}$O. In particular we are interested in tracer activation using the ${}^{16}$O$(\alpha,$pn$){}^{18}$F reaction channel\footnote{refer to Section \ref{reasons for use} for further information}. 
+
+\section{Relevant Theory}
+\subsection{Nuclear Half-life ($t_{\frac{1}{2}}$) }
+An unstable nucleus decays to a stable nucleus at a fixed rate, by emitting radiation in the form of massive (e.g. proton, neutron, alpha) or massless (e.g. photon) particles. The decay of an unstable nucleus to a stable one may require several disintegrations. The decay of an unstable nucleus is an inherently stochastic process. However, since an unstable nucleus is equally likely to decay at any instant in time, we can predict the number of decays in a given time interval. Given a particular set of, $N$, identical isotopes, the number of decays, $dN$, expected to occur within a time interval, $dt$, is proportional to the number of atoms present, $N$. This can be written as,
+
+\begin{equation}\label{eq:1}
+-\frac{ dN}{dt} = \lambda N
+\end{equation}
+where the constant of proportionality, $\lambda$, is called the decay constant and is unique to each reaction channel\footnote{where the negative sign indicates that the number of nuclei will decrease}. The solution to the above differential equation is,
+\begin{equation}\label{eq:2}
+N(t) = N(0) e^{-\lambda t}
+\end{equation}
+where $N(0)$ is the number of nuclei at $t=0$. The time taken for $N(t)$ to drop to $\frac{1}{2}N_0$, is called the Half-life, $t_{\frac{1}{2}}$, of the particular reaction channel. The Half-life is related to the decay constant, $\lambda$, and is given by, 
+\begin{equation}\label{eq:3}
+t_{\frac{1}{2}} = \frac{\ln{2}}{\lambda}
+\end{equation}
+It is often useful to write Equation \ref{eq:2} in terms of the decay rate (or activity of the sample), $R(t) = -\frac{ dN}{dt}$. The activity can thus be written as,
+
+\begin{equation}\label{eq:4}
+R(t) = \lambda N(0) e^{-\lambda t} = R(0) e^{-\lambda t}
+\end{equation}
+where $R(0) = \lambda N(0)$ is the activity of the sample at $t=0$. Given a sample which decays via two or more processes simultaneously, the activity is given by the sum of the constituent decay channels by,
+
+\begin{equation}
+R(t) = \sum_{i=1}^{n} R_i(0) e^{-\lambda_i t}
+\end{equation}
+where $i$ indicates the specific decay channel. The unit of activity is the curie ($Ci$), and is defined as exactly $3.7\times 10^{10}$ disintegrations per second. Alternatively, the becquerel ($Bq$) is used as the unit of activity, and is equal to one disintegration per second.
+\subsection{Nuclear Activation Reactions}
+A nuclear activation reaction channel can be written as,
+\begin{equation}
+	{}^{Z+N}X(a,b){}^{Z'+N'}Y
+\end{equation}
+where $a$ and $b$ are the incident and exiting particles respectively. $X$ is the target nuclide, with proton and neutron numbers indicated by $Z$ and $N$ respectively. Similarly, $Y$ is the product nuclide from the reaction, with proton and neutron numbers indicated by $Z'$ and $N'$ respectively.\\\\
+The quantity which we use to characterize this probability is known as the cross section, $\sigma$, of the reaction. The standard unit for cross section is the barn ($b$), and is equal to 10$^{-28}$m$^2$. By inspection of the units of cross section (area) we can imagine this as being a classical cross sectional area projected by the target nucleus for the reaction with the incident beam. Through a suitable set of normalisation parameters related to the material number density, beam fluence, and beam area, we can relate the cross section to a reaction rate and ultimately a probability for the reaction to occur. \\\\
+The Table of Nuclides is a 2D representation of all the nuclides as a function of their proton and neutron numbers. It is often useful to refer to when considering if a particular reaction channel is energetically possible, given some incident particle bombarding some target nuclide (or material composed of said nuclide). An arbitrary target on the Table of Nuclides and its most probable nuclear reaction channels are illustrated below.
+\begin{figure}[h!]
+	\includegraphics[width=4cm]{nuclearReactions.png}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{Nuclear reaction channels for an arbitrary target on the Table of Nuclides\cite{nuclearReactionsPIC}. Atomic number increases on the positive vertical axis and neutron number increases on the positive horizontal axis.}
+	\label{fig:tableOfnuclides}
+\end{figure}~\\
+This table only shows nuclear reactions with large microscopic (relating to the effective target area of a single target nucleus) cross sections. The figure above includes information about the particle number conservation in activation reactions, but note that it does not include energy considerations which depends on the binding energy of the target nuclide. To illustrate its usefulness, we can look at the ${}^{16}$O$(\alpha,$pn$){}^{18}$F reaction channel. In this case, we are adding two protons and two neutron to a ${}^{16}$O nucleus (we move two spaces up and two spaces right on the Table of Nuclides), resulting in a prompt ${}^{20}$Ne which releases one proton and one neutron, resulting in a ${}^{18}$F nucleus. Since ${}^{18}$F decays via $\beta ^+$($\sim$ 100$\%$) over a longer timescale, we know that it will transmute one of its protons to a neutron and thus it will move one space down and one space to the right, leaving us with a ${}^{18}$O (stable) daughter nucleus.
+
+\section{Reasons for the use of the ${}^{16}$O$(\alpha,$pn$){}^{18}$F reaction channel}\label{reasons for use}
+${}^{18}$F is an acceptable radioactive isotope to be used in PEPT, since 96.73(4)$\%$ of the time it decays via $\beta ^+$ decay\cite{nudat}, and thus its emissions will be dominated by \SI{511}{\kilo \electronvolt} electron-positron annihilation reactions. Furthermore, ${}^{18}$F has a half life of 109.77(5) minutes which is a suitable timescale for most engineering, fluid and granular flow experiments, whilst being short enough that if the system were to get contaminated by the tracer (e.g. if the particle breaks or gets lost in the system), it will decay over a reasonable timescale. Note that the half life of ${}^{18}$F is approximately twice that of the current state of the art tracers, ${}^{68}$Ge, and therefore its usefulness significantly greater (i.e. we can achieve twice the acquisition time, compared to ${}^{68}$Ge tracers). The decay scheme of ${}^{18}$F is given below,
+\begin{figure}[h!]
+	\includegraphics[width=8cm]{f18DecayScheme.png}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{Decay scheme of ${}^{18}$F\cite{decaysheme}}
+	\label{fig:f18DecayScheme}
+\end{figure}~\\
+The total (any reaction occurring, including in-elastic and elastic scattering) and production (occurrence of the reaction of interest, i.e. ${}^{16}$O$(\alpha,$pn$){}^{18}$F) microscopic cross sections for the ${}^{16}$O$(\alpha,$pn$){}^{18}$F reaction channel is given in Figure \ref{fig:CrossSectionFromProposal} below.
+\begin{figure}[h!]
+	\includegraphics[width=12cm]{tendl.png}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{ Microscopic total and production cross sections for the ${}^{16}$O$(\alpha,$pn$){}^{18}$F reaction channel\protect\cite{crossSectionPIC}}
+	\label{fig:CrossSectionFromProposal}
+\end{figure}~\\
+A few important results can be stated from Figure \ref{fig:CrossSectionFromProposal}, which will give insight to why this specific reaction channel is viable for particle production.\\\\
+Microscopic production cross section (blue) peaks at $\sim \SI{35}{\mega \electronvolt}$ incident alpha particles, which well within the energy ranges (up to 200MeV) capable from the equipment at iThemba LABS. The total microscopic cross section (red) is a relatively flat distribution from $\sim \SI{20}{\mega \electronvolt}$ onwards. This indicates that there is minimal 'noise' from competing or unwanted reaction channels. \\\\
+~\\
+We can estimate the range of ions in different materials using the SRIM (Stopping and Range of Ions in Matter) program\cite{alphaGlassSimulation}. The calculation of the depth profile of $\SI{100}{\mega \electronvolt}$ alpha particles in a \SI{8}{\milli \metre} thick SiO$_2$ target is given in Figure \ref{fig:alphaGlassSim} below. 
+\begin{figure}[h!]
+	\includegraphics[width=8cm]{bb.png}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{SRIM calculation for the range (depth profile) of $\SI{100}{\mega \electronvolt}$ alpha particles on an \SI{8}{\milli \metre} thick SiO$_2$ (pure glass) target\protect\cite{alphaGlassSimulation}}
+	\label{fig:alphaGlassSim}
+\end{figure}~\\
+We can observe that the Bragg peak occurs well within \SI{4}{\milli \metre} of SiO$_2$. Therefore, a $\SI{100}{\mega \electronvolt}$ alpha particle impinging on a $>$ \SI{8}{\milli \metre} in diameter SiO$_2$ (as envisioned for the current project), would stop and deposit all of its energy, thus maximizing the activation yield. Keep in mind that the amount of energy deposited is equal to the integral under the depth profile, therefore the majority of the activation occurs \textit{before} the Bragg peak. Provided that the bead does not rotate in its position, a depth below the threshold of $\sim$\SI{3}{\milli \metre} on one side of the bead will be activated. This is illustrated in the figure below.
+\begin{figure}[h!]
+	\includegraphics[width=9cm]{beadRotate.png}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{Simplified illustration of the activation of a SiO$_2$ non-rotating bead by a $\SI{100}{\mega \electronvolt}$ alpha particle beam. The shaded area in grey represents the volume of the spherical bead which gets activated.}
+	\label{fig:glassRotatePaintPIC}
+\end{figure}~\\
+We therefore aim to allow the beads to rotate freely during activation, through use of a high velocity water cooling system circulating around the beads which are constrained but free to rotate(refer to Section \ref{experiment}).\\\\
+Recall that we are provided with a $\SI{100}{\mega \electronvolt}$ alpha particle beam by iThemba LABS, yet this value is not well measured and we expect the impinging alpha particles to slow down before reaching the glass beads. This expected energy loss is mainly due to the surrounding water coolant and aluminium target housing\footnote{refer to Section \ref{beamPathSection} for further information}. Since this upper limit of $\SI{100}{\mega \electronvolt}$ alpha particles impinging on the glass beads are therefore not expected to be reached, the depth profile as described above is not a limiting experimental factor. However, physical limits arise if we plan to use beads with diameters near (or smaller than) the threshold range. In such a case, we significantly decrease the reaction rate, since the physical area of interaction is smaller and there are less ${}^{16}$O nuclei available for activation. 
+
+\section{A Basic Outline of the PEPT Technique}\label{peptOutline}
+The macroscopic tracer particle used in the PEPT technique is manufactured to mimic the properties (e.g. density, hardness, surface chemistry, friction coefficients) of the bulk fluid/grain of interest. This minimizes the possibility of the tracer particle to affect the overall motion of the system. In order for PEPT to track the particle, it is embedded, either through chemical or physical means with a high activity pure positron emitter such as ${}^{68}$Ga or ${}^{18}$F. The emitted positrons readily annihilate with a free electron and produce two back-to-back ($\sim 180^\circ$ to one another) $\SI{511}{\kilo \electronvolt}$ photons. The PET scanner then detects the two photons within some time interval (ns scale) which then defines a line of response (LoR) that passes though (or very near) the tracer particle which can then be used to estimate the location of the annihilation event. Noise such as random coincidence and scattering events are removed by an iterative approach where around 100-1000 LoR measurements are taken within a \SI{1}{\milli \second} time interval. A set of LoRs are selected, based off their relative distances from a point of intersection which defined the particle position, and then triangulated, which provides an estimate for the location of the particle. This measurement results in spatial coordinates in 3D space$(x,y,z)$ at time $t$ for the tracer particle, thus repeated measurements results in a 3D mapping of its motion. It is assumed that the motion of the tracer particle closely resembles the motion of the bulk mixture which it aims to mimic.\\\\
+Currently, PEPT Cape Town at iThemba LABS use chemical methods to produce tracer particles for use in PEPT. For larger particles (1-20mm diameters) the so called, 'drill and dill' method is used. This method involves drilling into the macroscopic grain of interest and placing a positron emitting isotope inside. The hole is then filled up with a resin, whilst attempting to ensure that the particle's physical properties (e.g. density, hardness, surface chemistry, friction coefficients) have not changed. Changing the physical properties of the particle, could provide inaccurate representations of the dynamics of the bulk system (since we assume that the motion of the particle closely resembles the bulk mixture which it aims to mimic, when formulating our model). For smaller particles (\SI{50}{\micro \metre} - 1mm diameters), a synthetic tracer particle is made from scratch. In this case, an active resin polymer is used for the base of the particle, wherein subsequent layers of material are added to this base in order to simulate the physical prosperities of the material of interest. Alternatively, a suitable active base polymer, with the appropriate size and density needed to simulate physical properties of the material of interest is used. For example, a sub mm water tracer can be produced by the use of encapsulating (via an adhesive) a naturally buoyant active resin with a density of 1g/cm$^3$.\\\\
+Unlike the invasive nature of the chemical methods described above, the method of direct activation is non-invasive. In this case, a particle beam (with energies on \SI{}{\mega \electronvolt} scales) bombards the tracer particle, changing its nuclear structure through some reaction channel such that the resulting nuclei of the tracer particle are positron emitting isotopes. We aim to verify whether the facilities available at iThemba LABS can produce viable tracer particles for use in PEPT, through the process of direct activation. In particular, we are interested in glass tracer particles (SiO$_2$) and a \SI{100}{\mega \electronvolt} alpha particle beam involved in the reaction channel ${}^{16}$O$(\alpha,$pn$){}^{18}$F. In the broader picture and scope of this project, we aim to determine if there are any differences between chemically ('drill and fill') and physically (direct activation) activated particles in PEPT measurements, and ultimately adapting appropriately to achieve the best possible results from PEPT at iThemba LABS.
+\pagebreak
+\section{Experimental Method}\label{experiment}
+\subsection{Beam Path}\label{beamPathSection}
+A \SI{100}{\mega \electronvolt} alpha particle beam was delivered to the \textit{Elephant} Target Station (which houses the SiO$_2$ targets) by use of an injector cyclotron, namely the Light-ion solid-pole injector Cyclotron (SPC2) and a larger Separated Sector Cyclotron (SSC). The beam path is illustrated in the Figure below.
+
+\begin{figure}[h!]
+	\includegraphics[width=10cm]{beampath.JPG}
+	\centering
+	\caption{Beam path (indicated in red) as displayed at the iThemba LABS beam control room}
+	\label{fig:beampath}
+\end{figure}~\\
+Ionised ${}^4$He ions are axially injected to the SPC2 injector. The SPC2 accelerates the ions to $\sim$ \SI{10}{\mega \electronvolt} energies. The beam then travels to the SSC for acceleration to \SI{100}{\mega \electronvolt} energies. Magnets then focus the beam in to a circular sweep which aims to cover the full target window with a uniform current deposition. The focussed beam then travels to the \textit{Elephant} Target Station where the glass beads are placed in the aluminium target holder as shown below.
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[t]{.4\textwidth}
+		\centering
+		\includegraphics[width=.7\linewidth]{targetHolder.jpg}
+		\captionsetup{justification=centering,margin=1cm}
+			\caption{Aluminium target holder (which houses the glass bead capsule - Figure \ref{fig:beadcapsule}) before placement inside the \textit{Elephant} Target Station}
+		\label{fig:targetHolder}
+	\end{minipage}%
+\hspace{1.5cm}
+	\begin{minipage}[t]{.5\textwidth}
+		\centering
+		\includegraphics[width=1\linewidth]{beadcapsule.jpg}
+		\captionsetup{justification=centering,margin=0.5cm}
+		\caption{Glass bead capsule components.\\ \textbf{From left to right:} Bead holder comprised of two 8mm beads and eight 5mm beads; \SI{0.3}{\milli \metre} perforated aluminium lid, which covers the bead holder; aluminium enclosure which fits on the back of the bead holder}
+		\label{fig:beadcapsule}
+	\end{minipage}
+\end{figure}~\\
+A perforated aluminium lid (Figure \ref{fig:beadcapsule}) covers the capsule, and allows for entrance of surrounding water circulating at high velocities from the cooling system and minimizes alpha particle beam attenuation. The water cooling system encourages bead rotation since the particles are constrained in the capsule, but free to rotate. This rotation provides a larger and more uniform surface area for activation and allows spreading of the heat load. Aluminium spacers of varying thicknesses were placed between the different beads to ensure that the beads are as close as possible to the top aluminium lid.\pagebreak \\  A schematic of the aluminium capsule is illustrated below. 
+\begin{figure}[h!]
+	\includegraphics[width=10cm]{beadcapsuleScematic.png}
+	\centering
+	\caption{A cross section of the glass bead capsule.}
+	\label{fig:capsuleSchematic}
+\end{figure}~\\
+Before the beam reaches the glass targets, it travels through various layers during its traversal, causing energy loss (i.e. a loss and spread of alpha particle energy from 100MeV injected to lower energies in a continuum), and a loss in beam current (due to removal in the form of scatter and absorption) of beam in the material preceding the target. The beam passes though a vacuum line before reaching a helium cooled Mylar foil window. The foil window allows for a water tight interface between the vacuum and the $\approx$\SI{1}{\milli \metre} water cooling layer. After passing through the interface, the beam travels thought the cooling liquid layer, through the perforated aluminium lid of the capsule, finally to the glass bead targets. Keep in mind that the cooling water circulates throughout the capsule during the activation process, which may lead to further beam attenuation.\\\\
+A relatively constant beam current of $\sim$\SI{1}{\micro \ampere} (with around a maximum of \SI{0.2}{\micro \ampere} fluctuations throughout bombardment) was used on the target for 2 hours. The aim was to deliver \SI{2}{\micro \ampere \hour} of delivered beam to the target. Once this happened, by monitoring the beam current on the target using a current integrator, the beam was shut off and the end-of-beam was declared. These beam conditions enable a $50\%$ maximum saturation yield in the activation process\cite{proposal}. After activation, a 15 minute cool-down period is allowed in order to minimize the dose risk to operators. The targets were then removed from the target station via a remote controlled robotic arm and sent to various locations at iThemba LABS for different measurements (see Section \ref{measurments section}).
+
+\subsection{Detectors and Measurements}\label{measurments section}
+A series of independent measurements were designed using different detectors specific to each of the measurands required. Of interest was time series spectroscopy to measure half lives of the different spectroscopic components expected (Section 5.2.1), high resolution spectroscopy to identify activation yield and contaminants (Section 5.2.2), windowed single event counters and coincidence measurements using the PEPT Cape Town ring scanner to measure absolute decay rate within the energy window and the decay rate proportion of positron emitting species using coincidence detection (Section 5.2.3), and a calibrated ionisation chamber to measure absolute activity of the individual samples (Section 5.2.4). The high resolution, low efficiency HPGe detector(Section 5.2.2) and the low resolution, high efficiency NaI Scintilaltor detector(Section 5.2.1) complement each other well.
+
+\subsubsection{NaI Scintillator}
+A scintillator detector comprised of a cylindrical, thallium activated NaI crystal mounted to a photomultiplier tube connected to a \textit{SPECTECH UCS30} (Universal Computer Spectrometer)\footnote{$http://www.spectrumtechniques.com/products/instruments/ucs30-spectrometer/$} for multichannel time series spectroscopy. 180 second spectra with an energy range between $\sim$150 and $\sim$\SI{3000}{\kilo \electronvolt} were subsequently taken. The lower limit of $\sim$\SI{150}{\kilo \electronvolt} was used to remove high intensity acquisition from processes with $\lesssim$\SI{150}{\kilo \electronvolt}, in order to minimize deadtime and pile up. This provides us with meaningful data in order to measure the rate of decay of different reaction channels, and thus their corresponding half-lives.
+\subsubsection{High Purity Germanium Detector (HPGe)}
+A High Purity Germanium Detector (HPGe) has a high efficiency and energy resolution ($\sim$\SI{2}{\kilo \electronvolt} at \SI{1.33}{\mega \electronvolt}\cite{hpgeinfo}). It is well optimized for our targets, since we expect low intensity contaminants to arise in our spectrum after activation. The HPGe detector at iThemba LABS is placed in a \SI{10}{\centi \metre} thick lead castle for minimize background radiation. In addition to this, low-energy x-rays (mainly due to processes involved with gamma rays in lead) are attenuated by a thin copper lining inside the castle.
+ 
+\subsubsection{HR++ Ring}
+The EXACT3D (Model: CTI/Siemens 966) HR++ ring\cite{peptSite} is a re-purposed medical PET (Positron Emission Tomography) scanner, which is used in PEPT. It consists of 36 modules, each holding 12 detector blocks which consist of 8x8 bismuth germinate (BGO) crystals, resulting in 27648 individual detectors. The detector has a \SI{82}{\centi \metre} ring diameter, as seen in the figure below.
+\begin{figure}[h!]
+	\includegraphics[width=8cm]{hr.png}
+	\centering
+	\caption{The EXACT3D (Model: CTI/Siemens 966) HR++ ring at PEPT Cape Town}
+	\label{fig:HR_ring}
+\end{figure}~\\
+The detector is optimized to detect back-to-back \SI{511}{\kilo \electronvolt} gamma rays emitted by electron-positron annihilation events. It measures these 511keV coincidence pairs within an energy window of $\sim$125keV on either side of 511keV. It has a mean spacial resolution of 4.8 $\pm$ 0.2\SI{}{\milli \metre} (transaxial, \SI{1}{\centi \metre} off-axis) and 5.6 $\pm$ 0.5\SI{}{\milli \metre} (axial, on-axis). Coincidence measurements taken with the HR++ ring is useful for this investigation, since we can get accurate activity measurements for the positron emitters produced in the activation process\footnote{refer to Section \ref{peptOutline} for more information on PEPT measurements}.    
+
+\subsubsection{Ionisation Chamber}\label{ionisationchamber}
+A \textit{Capintec CRC-25R} ionisation chamber is a gas-filled radiation detector used to measure the absolute activity of a particular radioactive isotope. The detector is calibrated based on the assumption that we know what radioactive isotope is being detected. Before acquisition, the detector asks the user to input the isotope species which they wish to measure. Since there may be radioactive isotopes other than ${}^{18}$F produced during activation, the ionisation chamber may produce measurements which do not necessarily represent the activity of ${}^{18}$F. However, since we expect the dominating reaction channel of the activation process to be ${}^{16}$O$(\alpha,$pn$){}^{18}$F, the main component of the ionisation chamber's measurement is from ${}^{18}$F emissions, and is therefore a meaningful measurement to accept.
+
+\subsubsection{Measurements}
+
+Immediately after we receive the targets from the robotic arm, one \SI{5}{\milli \metre} glass bead was taken to the HPGe (High Purity Germanium Detector) for a 2 hour, high resolution spectroscopy measurement. Subsequently, another 2 hour measurement with the same bead was taken. The 2nd measurement allows us to compare the spectral features of the tracer particle after one ${}^{18}$F half-life(i.e. after the short lived, but not the long lived contaminants, have decayed). The glass bead taken to the HPGe was chosen at random (from the \SI{5}{\milli \metre} bead subset) due to time and resource limitations. Time constraints arise since we had to empty the target quickly in order to measure short lived activation products (it would take too long to move the targets to PEPT, then back to the HPGe detector after measuring activity with the ionisation chamber), whereas resource limitations arise from the fact that only one of each detector type (described above) was available to us.\\\\
+After the HPGe has started its acquisition process, the rest of the beads were sent to the ionisation chamber to measure the absolute activity of each remaining bead\footnote{Refer To Appendix B}. This process takes around 10 minutes. Following this, the bead with the highest measured activity was placed inside the HR++ Ring for coincidence measurements and multichannel time series spectroscopy measurements with the NaI scintillator was run concurrently. This setup is shown in the figure below.
+
+\begin{figure}[h!]
+	\includegraphics[width=10cm]{NAIsetup.jpg}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{NaI scintillator and HR++ setup during calibration using a ${}^{22}$Na source. The tracer particle was placed inside the centre of the HR++ field of view. The NaI scintillator detector was placed on top of the Universal Computer Spectrometer, and connected to the acquisition PC (right) and display (left).}
+	\label{fig:NaIandHRSetupPIC}
+\end{figure}
+~\\
+Three of these experiments have been run to date, we were directly involved in the past two. During the first run, beam current was not ideal and complete shut-down of the beam current occurred multiple times during activation, due to technical difficulties. A different bead configuration was used (compared to that shown in Figure \ref{fig:beadcapsule}), comprised of, two \SI{10}{\milli \metre}, one \SI{8}{\milli \metre} and four \SI{5}{\milli \metre} diameter beads. The measurements from the ionisation chamber showed that many targets did not get activated (or had very low activities), but both \SI{10}{\milli \metre} beads achieved an activity of $\sim$\SI{2}{\milli Ci} and is optimum for PEPT. This led us to reasonably believe that larger beads activate much more easily than smaller beads. During the second run, we planned to challenge this result and set the bead configuration to that as shown in Figure \ref{fig:beadcapsule} in the hope to activate the smaller sized beads. The beam current was much more stable than that of run 1 and to our surprise there was a wide range of activities. Notably, a \SI{5}{\milli \metre} and \SI{8}{\milli \metre} bead had an activities of $\sim$\SI{1}{\milli Ci}. One reason for this difference in success between run 1 and 2, was such that the beads in run 2 were more loosely packed in the target capsule, such that to increase the probability of bead rotation and maximize the surface area for activation. For the third run, we aimed to determine if the results from run 2 were repeatable. This time, to increase bead rotation, the gap between the beads and the surrounding aluminium capsule was enlarged slightly by using thin aluminium spacer discs. This allowed for a thicker layer of cooling water to be circulated around the beads, therefore stimulating further rotation. This run was extremely successful, resulting in the majority of the beads having $\gtrsim$\SI{1}{\milli Ci} activities and more notably, a \SI{5}{\milli \metre} and \SI{8}{\milli \metre} diameter bead with activities of $\sim$\SI{3}{\milli Ci}. These results therefore invalidated our suspicion that smaller beads were unable (or experimentally difficult) to be activated. \\\\For run 2, we ran the NaI and HPGe acquisition for 24 hours. After some initial analysis on this data set, long lived products were measured, but the 24 hour acquisition time was not long enough to achieve a suitable half-life measurement. Therefore for the third run, we ran the acquisition for $\sim$4 days.\\\\
+From the discussion above, it can be stated that the achievable activity is clearly not limited via fundamental physics principles(e.g. microscopic or macroscopic cross sections), but rather that the natural variance in the beam conditions and placement of the beads in the target station far outweighs the limits introduced via the aforementioned cross sectional areas.
+
+
+\subsection{Glass Beads}
+The glass beads were sourced from glass seed and bead manufacturers, \textit{PRECIOSA ORNELA} (Czech Republic). These are military grade (i.e. manufactured with a low tolerance (high precision)), high purity glass beads with the intent for application with tumbling mills present in minerals processing, and in particular, grinding of pigments. \textit{PRECIOSA ORNELA} ensures that its product has an almost perfect spherical shape, with closely controlled diameters. The beads are highly polished due to their thermal and chemical treatment, and have an extreme resistance to impact and wear\cite{glassbeads}. The chemical composition of the beads are quoted as,
+
+\begin{table}[h!]
+	\begin{tabular}{c|c}\toprule
+		Compound & Chemical Composition [$\%$]\\ \hline\hline 
+		SiO$_2$ & 61-67\\
+		Na$_2$O & 10-18\\
+		CaO  &  5-10\\
+		Al$_2$O$_3$  &  3-8\\
+		B$_2$O$_3$  &  1-5\\
+		MgO   & 0.5-3\\
+		\bottomrule
+		
+	\end{tabular}
+\centering
+
+\captionsetup{justification=centering,margin=2cm}
+\caption{Chemical composition of glass beads sourced from \textit{PRECIOSA ORNELA}\cite{glassbeads}}
+\label{table:beadsChemcialComposition}
+\end{table}
+~\\
+These beads are suitable for this experiment since their resistance to breakage from the high energy alpha particle beam is minimal. Furthermore, PEPT Cape Town is mainly used to study the dynamics of simple, idealistic systems of glass beads rotating in a tumbling mill. More complex systems (e.g. those present in mineral processing) are computationally difficult to model, therefore these simpler systems can be studied as a first approximation, or to test the complex model.
+
+
+\section{Analysis and Results}
+\subsection{Half Life Measurements}
+The data analysis techniques used to produce the half life measurements given in this investigation will be described in this section.
+\subsubsection{HR++}\label{HR++ Half life explanation}
+Consecutive $\sim$10s acquisition times were taken. The sum of the number of events detected within the energy window(350-850keV) for each detector module (34 of 36 modules used) was measured and converted into a rate averaged over the 10s time intervals. The singles data provide us with the coincidence data, which detect coincidence events within a nano-second timing window. Prompt coincidences consists of genuine pairs of annihilation photons plus random background events which are detected within the trigger event time window. The background events are estimated by use of a delayed coincidence window. The true coincidences can then be estimated by subtraction of the random background events from the prompt coincidences. The true coincidence rate is proportional(neglecting dead time) to the positron emission rate, i.e. the total positron activity. This provides us with a rate of 511keV coincidence measurements. We can then plot this rate against the full acquisition time and fit exponential decay functions (Equation \ref{eq:4}) to the data, in order to obtain an estimate for the decay constant, $\lambda$, and therefore determine the half life.
+\subsubsection{NaI}\label{NaI Half life explanation}
+Consecutive energy spectra were measured (with 180s acquisition times) over the full energy range of 100keV - 3MeV for one of the beads. A Gaussian function was fitted to a peak of interest. The area under said peak, which corresponds to the total number of counts obtained within the 180s acquisition, was computed by subtracting a baseline threshold which consists of an approximately uniform background event rate and gamma rays from higher energy photons being scattering into the region. Both of these contributions are approximately uniform in the small region chosen, so a linear subtraction is appropriate. The baseline was calculated by fitting a straight line to data points around 20keV past $\pm 2\sigma$ from the mean of the Gaussian. The $\pm 2\sigma$ threshold was chosen to ensure that we minimize subtracting counts which contribute to the peak. This procedure is illustrated below.
+
+\begin{figure}[h!]
+	\includegraphics[width=12cm]{HL_Explained.png}
+	\centering	
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{Peak fitted to a Gaussian (blue) and its corresponding baseline (orange)}
+	\label{fig:HL_expalnation}
+\end{figure}~\\
+This peak area for each 180s acquisition time provides us with a rate plot over the full acquisition time for the peak of interest. We can then follow the same procedure as for the HR++(Section \ref{HR++ Half life explanation}), to determine the half life of the nuclide relating to the peak.
+\subsection{Spectra}
+As stated in Section \ref{experiment}, spectroscopy data of a bead (picked at random) was taken with the HPGe detector after the cool-down period. The spectrum of one of the \SI{5}{\milli \metre} beads is shown below (unresolvable peaks have not been indicated/illustrated in the following spectra).\pagebreak
+
+\begin{figure}[h!]
+	\includegraphics[scale = 0.42]{HPGe_initial.png}
+	\centering
+	\captionsetup{justification=centering,margin=1cm}
+	\caption{\textbf{Top:} Initial spectroscopy taken with a high resolution HPGe detector of a \SI{5}{\milli \metre} glass bead (picked at random), immediately after the cooldown period with a \SI{2}{\hour} acquisition time. \textbf{Bottom:} Zoom in(area indicated by the red box(Top)) on the low energy emissions}
+	\label{fig:HPGe_Initial}
+\end{figure}~\\
+We can immediately see a high intensity \SI{511}{\kilo \electronvolt} peak and a few peaks (contaminants) with relatively low intensity (Notice that Figure \ref{fig:HPGe_Initial} is displayed on a log scale). We expect the \SI{511}{\kilo \electronvolt} to be comprised mostly of ${}^{18}$F emissions. To determine the contaminants present in the \SI{511}{\kilo \electronvolt} peak, it is useful to first characterise the contaminants, since these species may contribute emissions to the \SI{511}{\kilo \electronvolt} peak. Observe that there are some possible features not indicated on the Figure above, since they are unresolvable and are of extremely low intensity, possibly due to statistical noise.\\\\
+The background for the above data set is shown below.
+\begin{figure}[h!]
+	\includegraphics[scale = 0.55]{background.png}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{HPGe background spectrum for the data in Figure \ref{fig:HPGe_Initial} with a \SI{6}{\minute} acquisition time}
+	\label{fig:HPGe_Initial_background}
+\end{figure}~\\
+We can immediately see (511.63 $\pm$ 0.50)keV and (1459.25 $\pm$ 0.77)keV peaks in this spectrum. Due to the much longer acquisition time of the spectra shown in Figures \ref{fig:HPGe_Initial} and \ref{fig:HPGe_2H} (2 hours), these emissions have contributed significantly to the counts detected in these spectra. 
+\subsection{Contaminants}
+We can predict that our activation products are near the target nuclide (i.e. chemical constituents of SiO$_2$) on the Table of Nuclides. Referring back to Table \ref{table:beadsChemcialComposition}, the nuclides present in the beads are Si; O; Na; Ca; Al; B and Mg. These nuclides were potentially activated, thus producing the contaminants observed in Figure 13. We shall keep this information in mind during analysis of the spectra.\\\\
+Since there was a \SI{15}{\minute} cooling period before any measurements were taken (refer to Section \ref{beamPathSection}), we expect short lived radioactive isotopes with half lives on the order of \SI{5}{\minute} to almost entirely have decayed to their stable daughter nuclei. Therefore, their associated photopeaks are expected to be unresolvable or non existent in the initial HPGe spectrum.\\\\
+The initial HPGe spectrum of the \SI{5}{\milli \metre} bead (Figure 13) can be compared to the same bead's HPGe spectrum taken 2 hours after activation.
+\begin{figure}[h!]
+	\includegraphics[scale = 0.42]{HPGe_2H.png}
+	\centering
+	\captionsetup{justification=centering,margin=1cm}
+	\caption{\textbf{Top:} Spectroscopy taken with a high resolution HPGe detector of a \SI{5}{\milli \metre} glass bead (picked at random), 2 hours after activation with a \SI{2}{\hour} acquisition time. \textbf{Bottom:} Zoom in(area indicated by the red box(Top)) on the low energy emissions}
+	\label{fig:HPGe_2H}
+\end{figure}~\\
+We can see that all resolvable peaks are still visible after 2 hours. We therefore expect the isotopes causing these spectral features to have relatively long half lives.\pagebreak \\ To extract more information from our data, we can compare spectra from the NaI scintillator detector (\SI{180}{\second} acquisition time). 
+\begin{figure}[h!]
+	\includegraphics[scale = 0.42]{NaISpectrum.png}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{NaI scintillator spectra of the \SI{5}{\milli \metre} glass bead with the highest activity (\SI{3.09}{\milli Ci}) as measured by the ionisation chamber. \\ \textbf{Top:} Initial.  \textbf{Bottom:} 2 Hours after activation. }
+	\label{fig:NaI_spectra}
+\end{figure}~\\
+Similar to the HPGe spectra, all resolvable peaks are visible after 2 hours, indicating relatively long half lives.\\\\
+~\\
+We can attempt to identify the peaks in the spectra above, by cross referencing their energies with the nuclear data sheets\cite{nudat}. When searching, intensities $<$5$\%$ will be ignored, since we expect these emissions to be unresolvable. Starting with the (1366.93 $\pm$ 0.36)keV peak, we find two likely candidates, namely ${}^{24}$Na and ${}^{24}$Al. ${}^{24}$Al has a short half life (\SI{2.053(4)}{\second}), whereas ${}^{24}$Na has a much longer half life (\SI{14.997(12)}{\hour}). Due to the short half life of ${}^{24}$Al, we can assume that if it were produced during activation, it is of extremely low activity and is therefore unresolvable. ${}^{24}$Na has a 99.9936$\%$(15) 1368.626(5)keV emission and a 99.855$\%$(5) 2754.007(11)keV. Looking at our NaI spectra (Figure \ref{fig:NaI_spectra}), we can see a peak around 2754.007(11)keV([k]). This provides further evidence that ${}^{24}$Na has been produced during activation. Since we have access to the time series spectroscopy for this peak, we can calculate its half life.\pagebreak \\ Using the method described in Section \ref{NaI Half life explanation}, the decay rate is given below.
+\begin{figure}[h!]
+ 	\includegraphics[width = 17cm]{2754HL.png}
+ 	\centering
+ 	\captionsetup{justification=centering,margin=2cm}
+ 	\caption{Exponential decay rate of the 2754.007(11)keV photopeak measured with the NaI scintillator detector. $t_{\frac{1}{2}} = $(15.20 $\pm$ 0.11)h.}
+ 	\label{fig:DecayRate_2754Na24}
+\end{figure}~\\
+The measured half life is (15.20 $\pm$ 0.11)h and we can see that our fit to the data closely follows the expected exponential decay curve of ${}^{24}$Na. This provides very strong evidence for ${}^{24}$Na to have been produced during activation and that the measured [k] photopeak is solely due to emission from ${}^{24}$Na, since there was only one exponential decay component present in the data. \pagebreak \\
+Following our discussion above, we expect that the decay rate of the 1368.626(5)keV emission (peak [i]) should look similar to that in Figure \ref{fig:DecayRate_2754Na24}. The decay rate of peak [i] is shown below.
+\begin{figure}[h!]
+	\includegraphics[width = 16cm]{1368HL.png}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{Exponential decay rate of the photopeak [i] measured with the NaI scintillator detector. $t_{\frac{1}{2}} = $(14.918 $\pm$ 0.020)h.}
+	\label{fig:DecayRate_1368.62Na24}
+\end{figure}~\\
+The measured half life is (14.918 $\pm$ 0.020)h and unsurprisingly, our fit closely follows the expected exponential decay curve of ${}^{24}$Na. We can therefore make the same conclusions as stated for photopeak[k].\\\\
+Since we now know that peak [i] and [k] are in fact photopeaks from ${}^{24}$Na with energies greater than two times the rest mass of an electron (510.99895000(15)keV), there is some probability for these peaks to have associated single and double escape peaks. The associated escape peaks for [k] have energies of $\approx$857keV and $\approx$346keV for the single and double escape peaks, respectively. Similarly, the associated escape peaks for [k] have energies $\approx$2243keV and $\approx$1732keV for the single and double escape peaks, respectively. In the HPGe spectrum (Figure \ref{fig:HPGe_Initial}) there is a peak at a measured (372.22 $\pm$ 0.32)keV and there is a small, unresolvable 'feature' at $\sim$832keV. To to their low intensities, relative to peak [i], we can suspect that these are the corresponding double and single escape peaks, respectively. We note the bump at $\sim$1070keV present in the NaI spectrum, corresponds to the expected Compton edge of the peak [i] ($\sim$1152keV). Referring to the NaI spectrum (Figure \ref{fig:NaI_spectra}) for peak [k], there is an unresolvable shallow hump at $\sim$2246keV. This is expected to be the corresponding single escape peak for [k] due to its low intensity. There are no visible features corresponding to the [k] photopeak's double escape peak in neither the HPGe spectra nor the NaI spectra. Due to the relativity low probability for escape peaks to occur, this result is not surprising. Similarly, the absence of a Compton edge and a backscatter corresponding to this peak is probably due to the its low intensity. \\\\
+Directing our attention to peak [f] measured using the HPGe (Figure \ref{fig:HPGe_Initial}), it cannot be a single escape peak since the sum of its energy and the electron's rest mass energy is less than two times the rest mass energy of the electron. However, it can be a double escape peak, where in this case we would observe a high intensity photopeak at $\approx$1394keV. This $\approx$1394keV photopeak is not seen in our spectra and therefore the peak [f] must be a photopeak itself. Searching this energy into the nuclear data sheets, we obtain ${}^{43}$K (with an intensity of 86.80$\%$) and ${}^{43}$Sc (with an intensity of 22.5$\%$) with half lives of \SI{22.3(1)}{\hour} and \SI{3.891(12)}{\hour} respectively. The ${}^{43}$K decays through this reaction channel 100$\%$ of the time via $\beta^-$ decay. However, it emits a 617.490(6)keV gamma photon with an intensity of 79.2(6)$\%$, which is not observed in any of our spectra. Given this information, we can neglect our discussion on ${}^{43}$K as a possible activation product. The only energies from the ${}^{43}$Sc reaction channel (100$\%$ due to $\beta^+$) which have intensities high enough to be detected by our detectors are the aforementioned 372.9(3)keV and 511keV photon due to annihilation (176.2(16)$\%$). We therefore expect there to be a component to the 511keV decay rate curve corresponding to this reaction channel.\\\\
+We expect the HPGe [j] peak to be due to background contaminants (Refer to Figure \ref{fig:HPGe_Initial_background}), however, we must confirm this suspicion by analysing if this peak is possibly due to an activation product. Since our NaI spectra were taken in a different section of iThemba LABS, it was not subject to the same background conditions as the HGPe detector. Therefore the absence of a peak at $\sim$1459keV suggests that this peak is not due to an activation product, but rather contaminants present in the HPGe before acquisition of the activated glass beads.\\\\
+Peaks [a], [b], [c] and [e] have no corresponding energetically viable long lived isotopes. If they were double escape peaks, we should expect to see two relatively high intensity peaks at $\sim$1094keV, one at $\sim$1106keV and one at $\sim$1233keV. None of these emissions are observed in any of our spectra. These emissions are therefore due to background processes (present in the HPGe detector) , most probably present in Figure \ref{fig:HPGe_Initial_background} but not resolvable.\\\\
+Looking at the peak [d], we have a ${}^{47}$Sc ($t_{\frac{1}{2}}=$3.3292(6) day) which emits a photon at 159.381(15)keV with 68.3$\%$ intensity. Ensuring this is not due to a double escape peak, we would expect to see a high intensity peak at $\sim$1181keV, which is not observed in any of our spectra.\\\\
+Our final peak, [h], has one corresponding nuclide namely, ${}^{48}$Sc ($t_{\frac{1}{2}}=$\SI{43.67(9)}{\hour}) with a 97.6$\%$ intensity for emission 1037.522(12)keV. However, in addition to this emission, it has 983.526(12)keV and 1312.120(12)keV emissions both with intensities $>$100$\%$. Since these two photopeaks are not visible in any of our spectra, feature [h] cannot be due to ${}^{48}$Sc. If this is a single escape peak, we should expect to see a high intensity peak at $\sim$1548keV. Similarly, if this were a double escape peak, we would see a high intensity peak at $\sim$2059keV. Since none of these are observed, [h] feature must be due to some background process in the HGPe spectrum, not due to the activation products. The NaI spectra provide further evidence to this claim, since none of the aforementioned peaks are visible in its spectra.
+\pagebreak
+\subsection{511keV Photopeak}
+The 511keV photopeak's Compton edge (340.67keV) and backscatter peak (170keV) can be observed clearly in both HPGe spectra.\\\\
+We can fit exponential decay curves to the 511keV peak, in order to extrapolate the associated half lives, and thus determine the positron emitting isotopes produced during activation. Since the HR++ has a high counting resolution for 511keV coincidence events, we shall use its data for our analysis instead of the NaI time series spectroscopy.
+\begin{figure}[h!]
+	\includegraphics[width = 18cm]{511BAYBII.png}
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{Exponential decay rate of the 511keV photopeak measured with the HR++ detector.\\ \textbf{Top:} HR++ Data (Log Scale). \textbf{Bottom Left:} Fit to data in the Blue box (Linear Scale). The blue line indicates the theoretical decay curve for a pure ${}^{18}$F substance. \textbf{Bottom Right:} Fit to data in the Red box (Linear Scale).}
+	\label{fig:511HL}
+\end{figure}~\\
+The measured half lives are (1.903 $\pm$ 0.060)h, (3.5616 $\pm$ 0.0053)h and (15.304 $\pm$ 0.064)h for ${}^{18}$F, ${}^{43}$Sc and ${}^{24}$Na respectively.\\\\
+The measured activity for ${}^{18}$F by the ionisation chamber detector (\ref{ionisationchamber}) for the bead used in this data set, was 3.090mCi. From the above analysis, a activity of (1.83520 $\pm$ 0.00023)mCi. This deviation is most probably due to the fact that the ionisation chamber assumes that all the emissions detected are due to ${}^{18}$F.
+
+\subsection{Probable Origin of Contaminants}
+Since we know the composition of the glass beads and we have determined the activation products produced in our experiment, we can provide some insight into the probable origin of these reaction products.\\\\
+Recall that in the reaction channel, ${}^{16}$O$(\alpha,$pn$){}^{18}$F, a neutron and proton are emitted. We expect that the majority of the emitted neutrons are of thermal energies, and thus have a relatively high microscopic cross section for neutron activation processes. It should be clear, due to the relatively large percentage of Na present in our beads (See Table \ref{table:beadsChemcialComposition}), the most probable reaction for the production of ${}^{24}$Na is ${}^{23}$Na(n,$\gamma$)${}^{24}$Na. Furthermore, since ${}^{24}$Na is surrounded by stable isotopes on the Table of Nuclides, it cannot be a product of an activated unstable isotope undergoing $\beta$ decay. Similarly, multiple alpha particle activations from ${}^{16}$O cannot reach ${}^{24}$Na, and is therefore not energetically possible.\\\\
+The nearest nuclides, which are present in our glass beads, to ${}^{43}$Sc on the Table of Nuclides are the isotopes of Calcium. The most probable way to produce ${}^{43}$Sc from an incoming alpha particle and ${}^{40}$Ca (96.941$\%$ abundance) is through the activation of the short lived nuclide ${}^{43}$Ti ($t_{\frac{1}{2}}$ = 509(5)ms) via the reaction channel, ${}^{40}$Ca($\alpha$,n)${}^{43}$Ti, which then decays to ${}^{43}$Sc. Another possibility due to the neutron activation of ${}^{40}$Ca to the long lived ${}^{41}$Ca (contains no gamma emissions with a high enough intensity to be resolvable in our analysis) and then to ${}^{43}$Sc via the reaction channel ${}^{41}$Ca($\alpha$,pn)${}^{43}$Sc. However this reaction is probably less likely since it has to travel through two reaction channels to reach ${}^{43}$Sc.
+\section{Conclusions}
+Our results are summarized in the table below.
+
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}[t]{.5\textwidth}
+		\scalebox{0.95}{
+	\renewcommand\arraystretch{1.5}
+		\begin{tabular}{c|c|c|c}\toprule
+			Peak & Origin & Expected $t_\frac{1}{2}$[h]&Measured $t_\frac{1}{2}$[h]\\ \hline\hline 
+			$\text{[a]}$ & HPGe Background&-&-\\
+			$\text{[b]}$ & HPGe Background&-&-\\
+			$\text{[c]}$&  HPGe Background&-&-\\
+			$\text{[d]}$  &  ${}^{47}$Sc& 80.38(1)&-\\
+			$\text{[e]}$  & HPGe Background& -&-\\
+			$\text{[f]}$   & ${}^{43}$Sc & 3.891(12)& 3.5616(53)\\
+			$\text{[h]}$   &  HPGe Background&-&-\\
+			$\text{[i]}$   & ${}^{24}$Na&14.997(12) &14.918(20) \\
+			$\text{[j]}$   & HPGe Background& -&-\\
+			$\text{[k]}$   & ${}^{24}$Na&14.997(12) &15.20(11) \\			
+			\bottomrule		
+		\end{tabular}}
+		\centering
+		
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{.45\textwidth}
+		\scalebox{0.95}{
+		\renewcommand\arraystretch{1.5}
+			\begin{tabular}{c|c|c}\toprule
+				Positron Emitter & Expected $t_\frac{1}{2}$[h]&Measured $t_\frac{1}{2}$[h]\\ \hline\hline 
+				${}^{18}$F&1.8295(8)&1.903(60)\\
+				${}^{43}$Sc&3.891(12)&3.5616(53)\\		
+				${}^{24}$Na&14.997(12)&15.304(64)\\	
+				\bottomrule		
+			\end{tabular}}
+			\centering	
+				
+	\end{minipage}
+\captionsetup{justification=centering,margin=2cm}
+\caption{Summary of results obtained in Section 6.\\ \textbf{Left:} Results excluding the 511keV peak. \textbf{Right:} 511keV peak results.}
+\end{figure}~\\
+The deviations in the measured results from the theoretical values of ${}^{18}$F and ${}^{43}$Sc are probably due to the low intensity of the ${}^{43}$Sc emissions and the similarity in their decay constants, which lead to a our fit being very sensitive to initial conditions and presents a low resolution for distinguishing between the two decay curves. Although our half life measurements deviate from the theoretical values, they are relatively reasonable and agree with the dominant activated isotopes which have been determined. In future experiments, a greater number of background measurements should be taken with longer acquisition times since the majority of contaminants observed in the HPGe spectra were due to background processes. Furthermore, an analysis of the dead time limits (due to the high activities of the products produced in activation) associated with the different detectors used in this experiment should be investigated in the future.\\\\
+We have determined the products produced in our activation process and have successfully produced positron emitting isotopes within glass beads of various diameters which are more than viable for PEPT measurements. In future, we plan to increase the beam current, in order to decrease the activation time. This would be limited by the water cooling system's ability to ensure the target's survivability and the surrounding equipment's stability. Furthermore, we plan to investigate activation of a wider range of target materials, which have different reaction channels which can be exploited by the facilities available at iThemba LABS.
+
+
+\bibliography{Project-bibtex}
+
+
+\begin{appendix}
+	\section{Physical and Chemical Characteristics of the Glass Beads}
+	\begin{figure}[h!]
+		\includegraphics[width = 12cm]{characteristicsOFglass.PNG}
+		\centering
+		\captionsetup{justification=centering,margin=2cm}
+		\caption{Physical and Chemical Characteristics of the Glass Beads\cite{glassbeads}}
+	\end{figure}~\\
+	
+
+	\pagebreak
+	\section{Ionisation Chamber Measured Activities}
+	
+	\begin{table}[h!]
+		\scalebox{0.6}{
+		\renewcommand\arraystretch{1.5}
+		\begin{tabular}{ccccccccccccc}
+			\hline
+			Trial 1    &               & 5/12/2018     &            &  & 5/12/2018         &            &  &                   &          &  &                   &          \\ \hline
+			&               &               &            &  &                   &            &  &                   &          &  &                   &          \\ \hline
+			Tracer no. & Bead diameter [mm] & Time  [h:m]        & Activity  [$\mu Ci$ ]  &  & Time [h:m]             & Activity  [$\mu Ci$]  &  &                   &          &  &                   &          \\ \hline
+			1          & 10            & 19:30         & 2180       &  & 20:30             & 1530       &  &                   &          &  &                   &          \\
+			2          & 10            & 19:30         & 1880       &  & 20:30             & 1330       &  &                   &          &  &                   &          \\
+			3          & 8             & 19:30         & 39         &  & 20:30             & 33         &  &                   &          &  &                   &          \\
+			4          & 5             & 19:30         & Background &  & 20:30             & Background &  &                   &          &  &                   &          \\
+			5          & 5             & 19:30         & Background &  & 20:30             & Background &  &                   &          &  &                   &          \\
+			6          & 5             & 19:30         & Background &  & 20:30             & Background &  &                   &          &  &                   &          \\
+			7          & 5             & 19:30         & 729        &  & 20:30             & 506        &  &                   &          &  &                   &          \\ \hline
+			&               &               &            &  &                   &            &  &                   &          &  &                   &          \\ \hline
+			Trial 2    &               & 19/09/2019    &            &  & 19/09/2019        &            &  & 20/09/2019        &          &  & 20/09/2019        &          \\ \hline
+			&               &               &            &  &                   &            &  &                   &          &  &                   &          \\ \hline
+			Tracer no. & Bead diameter [mm] & Time [h:m]         & Activity [$\mu Ci $] &  & Time [h:m]              & Activity [$\mu Ci $]  &  & Time  [h:m]              & Activity [$\mu Ci $]&  & Time [h:m]             & Activity  [$\mu Ci $] \\ \hline
+			1          &               & 17:54         & 1106       &  & Used for NaI data &            &  & Used for NaI data &          &  & 16:07             & 27.1     \\
+			2          &               & 17:55         & 641        &  & 20:05             & 308        &  & 9:23              & 24.4     &  & 15:52             & 15.2     \\
+			3          &               & 17:55         & 247        &  & 20:05             & 116        &  & 9:24              & 8.1      &  & 15:52             & 5.1      \\
+			4          &               & 17:55         & 954        &  & 20:05             & 455        &  & 9:25              & 36.2     &  & 15:53             & 22.5     \\
+			5          &               & 17:56         & 84.2       &  & 20:07             & 39.7       &  & 9:25              & 2.3      &  & 15:53             & 1.2      \\
+			6          &               & 17:56         & 378        &  & 20:07             & 177        &  & 9:26              & 12.6     &  & 15:54             & 7.9      \\
+			7          &               & 17:57         & 639        &  & 20:08             & 303        &  & 9:27              & 23.7     &  & 15:54             & 15.2     \\
+			8          &               & 17:57         & 417        &  & 20:09             & 202        &  & 9:27              & 15.5     &  & 15:55             & 10       \\
+			9          &               & 17:58         & 49.8       &  & 20:10             & 23.4       &  & 9:28              & 0.9      &  & 15:55             & 0.3      \\
+			10         &               & Used for HPGe &            &  & 20:04             & 191        &  & 9:28              & 14.5     &  & 15:56             & 9.4      \\ \hline
+			&               &               &            &  &                   &            &  &                   &          &  &                   &          \\ \hline
+			Trial 3    &               & 3/10/2019     &            &  & 3/10/2019         &            &  & 4/10/2019         &          &  & 4/10/2019         &          \\ \hline
+			&               &               &            &  &                   &            &  &                   &          &  &                   &          \\ \hline
+			Tracer no. & Bead diameter [mm] & Time [h:m]          & Activity  [$\mu Ci$ ]  &  & Time [h:m]              & Activity  [$\mu Ci $]  &  & Time [h:m]              & Activity &  & Time [h:m]              & Activity[$\mu Ci $] \\ \hline
+			1          &               & 17:17         & 2920       &  & 19:31             & 1260       &  & 9:42              & 79.1     &  & 16:56             & 50       \\
+			2          &               & 17:18         & 1770       &  & 19:32             & 754        &  & 9:42              & 46.8     &  & 16:56             & 28.5     \\
+			3          &               & 17:19         & 919        &  & 19:32             & 402        &  & 9:43              & 24.8     &  & 16:56             & 16.1     \\
+			4          &               & 17:19         & 338        &  & 19:33             & 149        &  & 9:43              & 8.7      &  & 16:57             & 5.5      \\
+			5          &               & 17:20         & 1420       &  & 19:34             & 617        &  & 9:44              & 40       &  & 16:57             & 25.4     \\
+			6          &               & 17:20         & 1050       &  & 19:34             & 453        &  & 9:44              & 28.4     &  & 16:58             & 18.1     \\
+			7          &               & 17:21         & 346        &  & 19:35             & 144        &  & 9:45              & 8.4      &  & 16:58             & 5.4      \\
+			8          &               & 17:22         & 192        &  & 19:35             & 82         &  & 9:45              & 4.5      &  & 16:59             & 3        \\
+			9          &               & 17:22         & 3090       &  & Used for NaI data &            &  & Used for NaI data &          &  & Used for NaI data &          \\
+			10         &               & Used for HPGe &            &  & 19:36             & 87         &  & 9:45              & 4.7      &  & 16:59             & 3.1      \\ \hline
+		\end{tabular}}
+	\centering
+	\caption{Measured activities of the beads using the Ionisation Chamber}
+	\end{table}
+	
+
+	
+	
+\end{appendix}
+
+\end{document}

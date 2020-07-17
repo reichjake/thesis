@@ -1,0 +1,44 @@
+\begin{thebibliography}{1}
+
+\bibitem{nuclearReactionsPIC}
+KNCO++ Karlsruhe Nuclide Chart~Online.
+\newblock \textit{Nuclear reactions on the nuclide chart}
+  https://www.nucleonica.com/wiki/.
+
+\bibitem{nudat}
+\textit{Nuclear Data Sheets}, https://www.nndc.bnl.gov/nudat2/chartnuc.jsp.
+
+\bibitem{decaysheme}
+Nucleonica.
+\newblock \textit{Reduced decay scheme of ${}^{18}F$},
+  https://nucleonica.com/application/reduceddecayschemes/f18$\_$txt.htm.
+
+\bibitem{crossSectionPIC}
+A.J. Koning and D.~Rochman.
+\newblock \textit{TENDL-2009, TALYS-based Evaluated Nuclear Data Library}.
+
+\bibitem{alphaGlassSimulation}
+J.F. Ziegler, J.P. Biersack, and M.D. Ziegler.
+\newblock \textit{The Stopping and Range of Ions in Solids}.
+
+\bibitem{proposal}
+T.~Leadbeater.
+\newblock (28 september 2017) \textit{Development of direct activation tracer
+  particles for positron emission particle tracking (PEPT)}, proposal for beam
+  time.
+
+\bibitem{hpgeinfo}
+iThemba LABS.
+\newblock \textit{HPGe (High-purity germanium) system},
+  https://tlabs.ac.za/hpge-high-purity-germanium-system/.
+
+\bibitem{peptSite}
+Centre for Minerals~Research.
+\newblock \textit{PEPT Cape Town},
+  http://www.cmr.uct.ac.za/cmr/ra/pept-cape-town.
+
+\bibitem{glassbeads}
+PRECIOSA Traditional~Czech Glass.
+\newblock \textit{Glass Beads as Grinding Media}.
+
+\end{thebibliography}

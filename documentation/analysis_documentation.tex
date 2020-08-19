@@ -8,13 +8,13 @@
 \usepackage{siunitx}
 \usepackage{subcaption}
 \usepackage{amssymb}
-\captionsetup[subfigure]{labelfont=rm}
 \bibliographystyle{unsrt}
 \usepackage{hyperref}
 %\pagestyle{headings}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+
 %\fancyhf{}
 %\rhead{Overleaf}
 %\lhead{Guides and tutorials}
@@ -25,11 +25,74 @@
 \begin{document}
 
 
-\section{Introduction}
-\section{Theory}
-\section{The ATLAS Experiment}
-\section{Analysis Setup and Strategy}
-\section{Search for $tWZ$ Production}
+\section{Move to $\ell b$ classifier}
+\footnotetext{Date: Early August 2020}
+\subsection{Motivation}
+Move due to poor performance on event level BDT (was using 50\% TRF and 50\% testing/training). ST, minMax, HT and a few other variables performed better than the BDT $\rightarrow$ most likely due to the fact that the BDT score variable had half the MC than just taking the full MC dataset as normal.
+\subsection{Different Iterations/Setups}
+Common setup:
+\begin{itemize}
+	\item use $t\bar{t}$ Bakoven sample (Ntuple-level selection of 1 lepton)
+	\item Signal: $\ell b$ from the same top
+	\item Signal: $\ell b$ \textbf{NOT} from the same top
+\end{itemize}
+\subsubsection{Matching $\ell$ \textbf{AND} $b$ to truth}
+
+Match $\ell$ and $b$ to their truth particles, by use of smallest $\Delta R$. Small $\Delta R$ is indication of a good match to truth. 
+
+
+\begin{itemize}
+	\item Signal: $\ell$ and $b$ with the smallest $\Delta R$ (below some threshold $\rightarrow$ 0.3) and come from the same top
+	\item Background: $\ell$ and $b$ with the smallest $\Delta R$ (below some threshold $\rightarrow$ 0.3) and DON'T come from the same top
+	
+\end{itemize}
+\fbox{
+Note: threshold chosen of 0.3 is VERY loose}
+\begin{figure}[!h]
+	\centering
+	\captionsetup[subfigure]{labelformat=empty}
+	\includegraphics[width=0.7\textwidth]{variables.pdf}
+	\caption{Input variables}
+\end{figure}
+
+\begin{itemize}
+	\item Num events\footnote{James says this is sufficient and any more would just slow down training} training $\sim$ 240 000 (sig and back)
+	\item Num events testing $\sim$ 60 000 (sig and back)
+\end{itemize}
+$\star$ Check non-linear correlation coefficient graphs (In TMVAGui)
+\pagebreak
+
+\begin{figure}[!h]
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{gtb_response.pdf}
+		
+	\end{subfigure}
+	%
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{keras_response.pdf}
+		
+	\end{subfigure}
+\end{figure}
+$\star$ Weird bump?\\ \\
+\underline{\large Results:}
+\begin{figure}[!h]
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{bdt_res_1.png}
+		
+	\end{subfigure}
+	%
+	\begin{subfigure}[b]{0.4\textwidth}
+		\includegraphics[width=\textwidth]{bdt_res_2.png}
+		
+	\end{subfigure}
+\end{figure}
+
+\fbox{Limit $\rightarrow$ \textcolor{blue}{2.429} (All ASIMOV), \textcolor{red}{2.488} (Data in CR)}\\\\
+Previously (Full Run 2 $m(\ell b)_{minMax}$) $\rightarrow$ \textcolor{blue}{2.474} (All ASIMOV), \textcolor{red}{2.535} (Data in CR)
+
+
+\subsubsection{Matching $\ell b$ system to truth}
+
 
 
 \end{document}

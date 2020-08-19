@@ -1,5 +1,5 @@
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Theory}{}% 2
-\BOOKMARK [1][-]{section.3}{The ATLAS Experiment}{}% 3
-\BOOKMARK [1][-]{section.4}{Analysis Setup and Strategy}{}% 4
-\BOOKMARK [1][-]{section.5}{Search for tWZ Production}{}% 5
+\BOOKMARK [1][-]{section.1}{Move to b classifier}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Motivation}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Different Iterations/Setups}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Matching \040AND b to truth}{subsection.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Matching b system to truth}{subsection.1.2}% 5

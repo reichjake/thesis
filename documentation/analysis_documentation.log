@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.21)  14 AUG 2020 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.21)  19 AUG 2020 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1006,46 +1006,136 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 32.
+(hyperref)                removing `math shift' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 32.
+(hyperref)                removing `\ell' on input line 28.
 
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 11.
-See the caption package documentation for explanation.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 28.
 
+
+Package hyperref Warning: Ignoring empty anchor on input line 29.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ell' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 39.
+
+<variables.pdf, id=27, 569.12625pt x 304.13625pt>
+File: variables.pdf Graphic file (type pdf)
+<use variables.pdf>
+Package pdftex.def Info: variables.pdf  used on input line 54.
+(pdftex.def)             Requested size: 350.33727pt x 187.22598pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
+ <./variables.pdf, page is rotated 90 degrees>]
+<gtb_response.pdf, id=89, 569.12625pt x 421.575pt>
+File: gtb_response.pdf Graphic file (type pdf)
+<use gtb_response.pdf>
+Package pdftex.def Info: gtb_response.pdf  used on input line 67.
+(pdftex.def)             Requested size: 200.19054pt x 148.29321pt.
+<keras_response.pdf, id=90, 569.12625pt x 421.575pt>
+File: keras_response.pdf Graphic file (type pdf)
+<use keras_response.pdf>
+Package pdftex.def Info: keras_response.pdf  used on input line 72.
+(pdftex.def)             Requested size: 200.19054pt x 148.29321pt.
+<bdt_res_1.png, id=91, 598.235pt x 674.52pt>
+File: bdt_res_1.png Graphic file (type png)
+<use bdt_res_1.png>
+Package pdftex.def Info: bdt_res_1.png  used on input line 80.
+(pdftex.def)             Requested size: 200.19054pt x 225.72116pt.
+<bdt_res_2.png, id=92, 598.235pt x 674.52pt>
+File: bdt_res_2.png Graphic file (type png)
+<use bdt_res_2.png>
+Package pdftex.def Info: bdt_res_2.png  used on input line 85.
+(pdftex.def)             Requested size: 200.19054pt x 225.72116pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 94.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ell' on input line 94.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 94.
+
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 53.
+See the caption package documentation for explanation.
+
+[2 <./gtb_response.pdf, page is rotated 90 degrees> <./keras_response.pdf, page
+ is rotated 90 degrees> <./bdt_res_1.png> <./bdt_res_2.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
 
 (./analysis_documentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `analysis_documentation.out' has not changed.
 
-(rerunfilecheck)             Checksum: CFC72890E0A5E17E51DB122E3F3B74DB;265.
+(rerunfilecheck)             Checksum: E35BCA821BFA82C697B1D1075B3B50F5;361.
  ) 
 Here is how much of TeX's memory you used:
- 27609 strings out of 494923
- 549758 string characters out of 6180742
- 575772 words of memory out of 5000000
- 30617 multiletter control sequences out of 15000+600000
- 536061 words of font info for 46 fonts, out of 8000000 for 9000
+ 27692 strings out of 494923
+ 551152 string characters out of 6180742
+ 578743 words of memory out of 5000000
+ 30678 multiletter control sequences out of 15000+600000
+ 541010 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 54i,14n,73p,10396b,723s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on analysis_documentation.pdf (1 page, 47790 bytes).
+ 54i,12n,73p,10396b,723s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+
+Output written on analysis_documentation.pdf (2 pages, 213124 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
+ 12 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

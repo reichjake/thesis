@@ -1,24 +1,51 @@
-\documentclass[]{article}
+\documentclass[]{report}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\graphicspath{ {figures/} }
 \usepackage[margin = 2cm]{geometry}
 \usepackage{tcolorbox}
-\usepackage{cite}
 \usepackage{booktabs}
 \usepackage{siunitx}
 \usepackage{subcaption}
 \usepackage{amssymb}
 \captionsetup[subfigure]{labelfont=rm}
-\bibliographystyle{unsrt}
 \usepackage{hyperref}
 %\pagestyle{headings}
 
+% centering of chapter headings 
+\usepackage{sectsty}
+\chapterfont{\centering}
+
+
+\usepackage[style=numeric]{biblatex}
+\addbibresource{references.bib}
+
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-%\fancyhf{}
-%\rhead{Overleaf}
-%\lhead{Guides and tutorials}
-%\rfoot{Page \thepage}
+
+\makeatletter
+\let\stdchapter\chapter
+\renewcommand*\chapter{%
+	\@ifstar{\starchapter}{\@dblarg\nostarchapter}}
+\newcommand*\starchapter[1]{%
+	\stdchapter*{#1}
+	\thispagestyle{fancy}
+	\markboth{\MakeUppercase{#1}}{}
+}
+\def\nostarchapter[#1]#2{%
+	\stdchapter[{#1}]{#2}
+	\thispagestyle{fancy}
+}
+
+
+
+%\fancyhead{}
+%\fancyhead[RO,LE]{\thechapter}
+%\fancyfoot{}
+%\fancyfoot[LE,RO]{\thepage}
+%\fancyfoot[LO,CE]{Chapter \thechapter}
+%\fancyfoot[CO,RE]{Jake Reich}
 
 
 
@@ -42,32 +69,48 @@
 		{\Large October 2021}
 	\end{minipage}
 \end{center}
-\clearpage
 
-\vfill
-~\\
+
+
+\chapter*{Abstract}
+\thispagestyle{empty}
+\chapter*{Declaration}
+\thispagestyle{empty}
 \textit{I certify that this assignment/report is my own work, based on my personal study and/or research and that I have acknowledged all material and sources used in its preparation, whether they be books, articles, reports, lecture notes, and any other kind of document, electronic or personal communication. I also certify that this assignment/report has not previously been submitted for assessment in any other unit, except where specific permission has been granted from all unit coordinators involved, or at any other time in this unit, and that I have not copied in part or whole or otherwise plagiarised the work of other students and/or persons.}
+\chapter*{Acknowledgements}
+\thispagestyle{empty}
 
-\clearpage
 
+
+\lhead[]{}  %remove 'CONTENTS' from lhs header
 \tableofcontents
 
-\vfill
-\underline{ACKNOWLEDGEMENTS:}\\\\
-Acknowledgements go here
-\clearpage
 
-\begin{abstract}
+\chapter{Introduction}
+\input{sections/introduction.tex}
 
-\end{abstract}
+\chapter{Theory}
+\input{sections/theory.tex}
+
+\chapter{The ATLAS Detector}
+\input{sections/atlasDetector.tex}
+
+\chapter{Analysis Setup and Strategy}
+\input{sections/analysis.tex}
+
+\chapter{Search for $tWZ$ Production}
+\input{sections/search_for_tWZ.tex}
+
+\chapter{Conclusion and Outlook}
+\input{sections/conclusion.tex}
 
 
 
-\section{Introduction}
-\section{Theory}
-\section{The ATLAS Experiment}
-\section{Analysis Setup and Strategy}
-\section{Search for $tWZ$ Production}
 
+\appendix
+\chapter{Appendix}
+\input{sections/appendix.tex}
+
+\printbibliography
 
 \end{document}

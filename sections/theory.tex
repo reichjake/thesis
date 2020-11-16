@@ -8,6 +8,141 @@ Properties. History (when/how was it discovered/theorised). Why interesting (lar
 \subsection{Tetra-lepton Channel}
 Provide feynman diagram. Cross section. 
 
+The leading order Feynman diagram for \tWZ in the tetra-lepton channel is shown below.
+
+
+
+
+\begin{tikzpicture}
+\label{fig:twz_FeymanDiagram}
+\begin{feynman}
+\vertex (a);
+\vertex [below right=of a] (c);
+\vertex [below left=of c] (b);
+
+\vertex [right=of c] (d);  %d: tW vertex
+
+\vertex (e) at (4.6,1);  %e: top vertex
+
+\vertex (i) at (7,-1.25);  %i: Z -> ll vertex
+\vertex [above right=of i] (f1) {$\ell^{\mp}$}; 
+\vertex [below right=of i] (f2) {$\ell^{\pm}$}; 
+
+
+\vertex (f) at (6,2.35);  %f: Wb vertex
+\vertex [below right=of f] (f7) {$b$};
+
+\vertex [above right=of f] (g);  %g: l \nu vertex
+\vertex [below right=of g] (f3) {${\nu}_{\ell}$};
+\vertex [above right=of g] (f4) {$\ell^{+}$};
+
+%\vertex [below right=of d] (h); %h: l \nu vertex (bottom)
+\vertex (h) at (7,-5.1); %h: l \nu vertex (bottom)
+\vertex [below right=of h] (f5) {$\bar{\nu}_{\ell}$};
+\vertex [above right=of h] (f6) {$\ell^{-}$};
+
+
+
+\diagram* {
+	(a) -- [fermion, edge label=$b$] (c),
+	(b) -- [gluon, edge label'=$g$] (c),
+	(c) -- [fermion, edge label=$b$] (d),
+	(d) -- [fermion, edge label=$t$] (e),
+	
+	(e) -- [boson, edge label=$Z$] (i),
+	(i) -- [fermion] (f1),
+	(i) -- [anti fermion] (f2),
+	
+	(f) -- [boson, edge label=$W^{+}$] (g),
+	(e) -- [fermion] (f),
+	(f) -- [fermion] (f7),
+	(g) -- [fermion] (f3),
+	(g) -- [anti fermion] (f4),
+	
+	
+	
+	(d) -- [boson, edge label=$W^{-}$] (h),
+ 	(h) -- [anti fermion] (f5),
+	(h) -- [fermion] (f6),
+	
+	
+	
+	
+};
+\end{feynman}
+
+\end{tikzpicture}
+
+\subsubsection{Backgrounds}
+
+\begin{tikzpicture}
+\label{fig:ttz_FeymanDiagram}
+
+\begin{feynman}
+
+\vertex (a);
+\vertex [below right=of a] (c);
+\vertex [below left=of c] (b);
+
+\vertex [right=of c] (d);   %g -> ttbar vertex
+
+\vertex (e) at (7,3);   %d: t-> Wb vertex
+\vertex (f) at (5,-3.5);   %e: t bar-> Z tbar vertex
+
+ %t-> Wb vertex
+\vertex [above right=of e] (g);  %(g): W-> l\nu (top)
+\vertex [above right=of g] (f1)  {$\ell^{+}$};  
+\vertex [below right=of g] (f2)  {$\nu_{\ell}$}; 
+\vertex [below right=of e] (f3)  {$b$};   
+
+\vertex (h) at (8,-0.7);   %(h): Z-> ll vertex 
+\vertex [above right=of h] (f4) {$\ell^{\mp}$}; 
+\vertex [below right=of h] (f5)  {$\ell^{\pm}$}; 
+
+
+\vertex (i) at (7,-5.5);   %(i): tbar-> bW
+\vertex [above right=of i] (f6)  {$\bar{b}$};  
+\vertex [below right=of i] (j);   %W-> l\nu vertex (tbar)
+\vertex [above right=of j] (f7)  {$\ell^{-}$};  
+\vertex [below right=of j] (f8)  {$\bar{\nu}_{\ell}$}; 
+
+
+
+
+
+\diagram* {
+
+(a) -- [gluon, edge label=$g$] (c),
+(b) -- [gluon, edge label=$g$] (c),
+
+(c) -- [gluon, edge label=$g$] (d),
+
+(d) -- [fermion, edge label =$t$](e),
+(d) -- [anti fermion, edge label'=$\bar{t}$](f),
+
+(e) -- [boson, edge label=$W^{+}$] (g),
+(e) -- [fermion] (f3),
+(g) -- [anti fermion] (f1),
+(g) -- [fermion] (f2),
+
+(f) -- [boson, edge label=$Z$] (h),
+(h) -- [fermion] (f4),
+(h) -- [fermion] (f5),
+
+(f) -- [anti fermion] (i),
+(i) -- [anti fermion] (f6),
+(i) -- [boson, edge label=$W^{-}$] (j),
+(j) -- [fermion] (f7),
+(j) -- [anti fermion] (f8),
+
+	
+	
+	
+	
+};
+\end{feynman}
+\end{tikzpicture}
+
 \subsection{Comparison to Tri-lepton Channel}
 
 Less backgrounds to deal with (in tetralepton). However lower stats (in tetra). Give cross sections (and feynman diagram). Maybe talk a bit about analysis related challenges (trilepton has a hadronically decaying W, does this make the analysis easier or more difficult?).

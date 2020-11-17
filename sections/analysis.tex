@@ -37,14 +37,70 @@ Explain why we applied each cut/selection.\\\\
 
 \subsection{Leptons}
 Tight/loose/med definitions, efficiency of electron and muons specifically at ATLAS. Why we don't consider taus.
+
+
+In addition to our selection criteria of exactly four tight leptons, we require that the leading (L), next-to-leading (NL), next-to-next-to-leading (NNL) and next-to-next-to-next-to-leading (NNNL) leptons have $p_{T}$ greater than $\SI{28}{}$, $\SI{10}{}$, $\SI{10}{}$ and $\SI{10}{\GeV}$ respectively. Here we have chosen to apply looser object-level cuts than the tri-lepton channel in an attempt to maximize our signal statistics, as the tetra-lepton channel is heavily statistically limited.\\\\
+Reconstructed electrons are required to be within $|\eta| < 2.47$ and excluding the transition region between the barrel and end-cap calorimeters at $1.37 < |\eta| < 1.52$. Reconstructed muons are required to be within $|\eta| < 2.5$.
 \subsection{Jets}
-What algorithm did we use and why
+What algorithm did we use and why, loose and tight jet definitions
+
+Jets are required to be within $|\eta| < 2.5$ and $p_{T}(\text{jet}) > \SI{25}{\GeV}$. We apply these looser $p_T$ cuts in an attempt to increase our limited signal statistics. The jet-vertex-tagger (jvt) on jets are required to have a value greater than $\SI{0.5}{}$, in an attempt to reject effects caused by pile-up interactions. (** more detail to go here about what jvt is, why do we require this, more info on how electrons and muons are reconstructed and why we apply these selections **)
+
+
+
 \subsection{b-tagging}
 What algorithm/WP did we use and why
 \section{Kinematic Pre-selection cuts}
 Mass windows on Z (OSSF), sum charge $=$ 0, explanations on all other non object level cuts/selections, OSSF $<$ 10 GeV cut
+
+
+The invariant mass of the OSSF lepton pair coming from the $Z$ boson must equal the invariant mass of the $Z$ boson, and noting that lepton reconstruction and identification in the ATLAS detector has a high accuracy ~\cite{}, we can use these OSSF leptons to reconstruct the $Z$ boson with relatively high confidence. We therefore define a $Z$ candidate as an OSSF lepton pair with an invariant mass, $m_{\text{OSSF}}$, satisfying the condition, $|m_{\text{OSSF}} - m_Z| <  \SI{30}{\GeV}$, where $m_Z$ is the nominal $Z$ boson mass ($\SI{91.1876}{\GeV}$ ~\cite{pdg}). Multiple $Z$ candidates can be present in certain decay channels (e.g. $eeee$, $\mu\mu ee$, $\mu \mu \mu \mu$). In these cases, the $Z$ candidate which has an invariant mass closest to the nominal $Z$ boson mass is chosen.\\\\
+In order to suppress quarkonia (low mass resonances such as $J/\psi$ and upsilon) we require that all OSSF lepton pairs have an invariant mass, $m_{\text{OSSF}}$, greater than $\SI{10}{\GeV}$.\\\\
+Due to conservation of charge, the final state lepton charges must sum to zero.\\ We therefore require $\displaystyle\sum_{i=1}^{4} \text{charge}(\ell_i) = 0$.
+
+
+
 \section{Regions and Event Selection}
 \label{sec:regionsAndEventSelection}
+
+
+The selection criteria which define the SR and the CRs are summarised in Table ~\ref{tab:4Lep-cutsummary}. In order to check the modelling of the most dominant background components in our signal region, we have modified our selection criteria to define $t\bar{t}Z$ and $ZZb$ control regions. The $t\bar{t}Z$ control region has the same requirement on the number of reconstructed $Z$ boson candidates in the signal region (due to a commonality on the number of $Z$ bosons present in both processes), however we require at least two jets and that exactly two of these jets are b-tagged (corresponding to the $b$-quark jets originating from the two top-quark decays). We choose to define a $ZZb$ region, as opposed to a $ZZ$ region, since the $ZZ$ background present in the $tWZ$ signal region contains exactly one b-tagged jet. Therefore defining a region with $ZZ$ plus exactly one $b$-quark more closely resembles the $ZZ$ background present in the signal region. In addition to this, mis-modelling of $ZZ$ has been seen in other analyses ~\cite{Aaboud:2019, ppToZZ:CMSpaper}, further motivating the use of a $ZZb$ control region over a $ZZ$ CR. The $ZZb$ CR requires exactly two $Z$ boson candidates and exactly one b-tagged jet, with no requirement on the number of jets.
+
+
+
+
+\begin{table}[htbp]
+	
+	
+	\centering
+	\begin{tabular}{m{3.5cm}m{3.5cm}m{3.5cm}}
+		\toprule
+		\multicolumn{3}{c}{Common selections}  \\
+		\midrule
+		\multicolumn{3}{c}{Exactly 4 tight leptons}   \\
+		%  \multicolumn{3}{c}{$\pT(\ell_1)> \SI{28}{\GeV}$, $\pT(\ell_2)> \SI{10}{\GeV}$, $\pT(\ell_3)> \SI{10}{\GeV}$, $\pT(\ell_4)> \SI{10}{\GeV}$}   \\
+		\multicolumn{3}{c}{$\pT(\ell_1,\ell_2,\ell_3,\ell_4) > (28,10,10,10)$ $\SI{}{\GeV}$}   \\
+		\multicolumn{3}{c}{$\pT(\text{jet})> \SI{25}{\GeV}$, $|\eta(\text{jet})| < \SI{2.5}{}$, $\text{jvt} > \SI{0.5}{}$}   \\
+		\multicolumn{3}{c}{$|\eta(\ell_e)| < \SI{2.47}{}$ excluding $\SI{1.37}{} < |\eta(\ell_e)| < \SI{1.52}{}$}   \\
+		\multicolumn{3}{c}{$|\eta(\ell_\mu)| < \SI{2.5}{}$}   \\
+		\multicolumn{3}{c}{$\displaystyle\sum_{i=1}^{4} \text{charge}(\ell_i) = 0$}   \\
+		\multicolumn{3}{c}{All OSSF lepton pairs require $m_{\text{OSSF}} > \SI{10}{\GeV}$}   \\
+		\bottomrule
+		SR 1z1b & \ttZ 1z2b CR & $ZZb$ 2z1b CR\\
+		\midrule
+		1 $Z$ candidate & 1 $Z$ candidate & 2 $Z$ candidates\\
+		$\geq$ 1 jet & $\geq$ 2 jets & no requirement\\
+		exactly 1 b-tagged jet & exactly 2 b-tagged jets & exactly 1 b-tagged jet\\
+		\bottomrule
+	\end{tabular}
+	\caption{
+		Overview of the requirements applied for selecting events in the signal and control regions in the tetralepton channel
+	}%
+	\label{tab:4Lep-cutsummary}
+\end{table}
+
+
+
 
 Summary table of event selection. Why chose ZZb and ttz region. 
 \section{Machine Learning Techniques}

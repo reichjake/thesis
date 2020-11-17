@@ -6,13 +6,13 @@
 \contentsline {subsection}{\numberline {2.1.2}Top Quark}{8}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}$tWZ$}{8}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Tetra-lepton Channel}{8}{subsection.2.2.1}
-\contentsline {subsubsection}{Backgrounds}{10}{section*.5}
-\contentsline {subsection}{\numberline {2.2.2}Comparison to Tri-lepton Channel}{10}{subsection.2.2.2}
+\contentsline {subsubsection}{Backgrounds}{8}{section*.6}
+\contentsline {subsection}{\numberline {2.2.2}Comparison to Tri-lepton Channel}{9}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Effective Field Theory (EFT)}{10}{section.2.3}
 \contentsline {section}{\numberline {2.4}Machine Learning in the Context of Particle Physics Analyses}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}Statistical Techniques}{11}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Maximum Likelihood Fitting}{11}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}p-value and $\chi ^2$}{11}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.5}Statistical Techniques}{10}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Maximum Likelihood Fitting}{10}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}p-value and $\chi ^2$}{10}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Significance}{11}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Limit Setting}{11}{subsection.2.5.4}
 \contentsline {chapter}{\numberline {3}The ATLAS Experiment and Detector}{12}{chapter.3}
@@ -22,8 +22,8 @@
 \contentsline {subsection}{\numberline {3.2.1}Coordinate System and Kinematics}{12}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Tracking Detectors}{12}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Calorimeter System}{12}{subsection.3.2.3}
-\contentsline {subsubsection}{Electromagnetic Calorimeter}{12}{section*.6}
-\contentsline {subsubsection}{Hadronic Calorimeter}{12}{section*.7}
+\contentsline {subsubsection}{Electromagnetic Calorimeter}{12}{section*.8}
+\contentsline {subsubsection}{Hadronic Calorimeter}{12}{section*.9}
 \contentsline {subsection}{\numberline {3.2.4}Muon Spectrometer}{12}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Trigger and Data Acquisition System}{12}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}Particle Identification}{12}{subsection.3.2.6}

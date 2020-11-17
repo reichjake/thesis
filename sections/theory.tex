@@ -6,46 +6,46 @@ Properties of W and Z. Decay channels. Z as the standard candle (distinct OSSF l
 Properties. History (when/how was it discovered/theorised). Why interesting (large mass). Hierarchy problem. Decay channels. Extremely short lifetime (makes b's so important for top ID).
 \section{$tWZ$}
 \subsection{Tetra-lepton Channel}
-Provide feynman diagram. Cross section. 
+Provide Cross section. 
 
 The leading order Feynman diagram for \tWZ in the tetra-lepton channel is shown below.
 
-
-
-
-\begin{tikzpicture}
-\label{fig:twz_FeymanDiagram}
+\begin{figure}[h!]
+	
+\centering
+\begin{tikzpicture}[thick,scale=0.6, every node/.style={transform shape}]
+\label{fig:twz4lep_FeymanDiagram}
 \begin{feynman}
-\vertex (a);
+\vertex (a) {$b$};
 \vertex [below right=of a] (c);
-\vertex [below left=of c] (b);
+\vertex [below left=of c] (b) {$g$};
 
 \vertex [right=of c] (d);  %d: tW vertex
 
-\vertex (e) at (4.6,1);  %e: top vertex
+\vertex [above right=3cm of d] (e);  %e: top vertex
 
-\vertex (i) at (7,-1.25);  %i: Z -> ll vertex
+\vertex [below right=3cm of e] (i);  %i: Z -> ll vertex
 \vertex [above right=of i] (f1) {$\ell^{\mp}$}; 
 \vertex [below right=of i] (f2) {$\ell^{\pm}$}; 
 
 
-\vertex (f) at (6,2.35);  %f: Wb vertex
+\vertex [above right=2cm of e] (f);  %f: Wb vertex
 \vertex [below right=of f] (f7) {$b$};
 
 \vertex [above right=of f] (g);  %g: l \nu vertex
 \vertex [below right=of g] (f3) {${\nu}_{\ell}$};
 \vertex [above right=of g] (f4) {$\ell^{+}$};
 
-%\vertex [below right=of d] (h); %h: l \nu vertex (bottom)
-\vertex (h) at (7,-5.1); %h: l \nu vertex (bottom)
+
+\vertex  [below right=6cm of d] (h); %h: l \nu vertex (bottom)
 \vertex [below right=of h] (f5) {$\bar{\nu}_{\ell}$};
 \vertex [above right=of h] (f6) {$\ell^{-}$};
 
 
 
 \diagram* {
-	(a) -- [fermion, edge label=$b$] (c),
-	(b) -- [gluon, edge label'=$g$] (c),
+	(a) -- [fermion] (c),
+	(b) -- [gluon] (c),
 	(c) -- [fermion, edge label=$b$] (d),
 	(d) -- [fermion, edge label=$t$] (e),
 	
@@ -72,37 +72,44 @@ The leading order Feynman diagram for \tWZ in the tetra-lepton channel is shown 
 \end{feynman}
 
 \end{tikzpicture}
+\caption{Example Feynman diagram of \tWZ production in the tetra-lepton channel.}
+\end{figure}
+
+
 
 \subsubsection{Backgrounds}
+The main backgrounds for \tWZ (tetra-lepton channel) are the production of a two tops, both in the $\ell \nu b$ final state channel, together with a $Z$ boson (\ttZ) and diboson production with fully leptonic final states (\ZZ).
 
-\begin{tikzpicture}
+\begin{minipage}{.5\textwidth}
+	\centering
+\begin{tikzpicture}[thick,scale=0.6, every node/.style={transform shape}]
 \label{fig:ttz_FeymanDiagram}
 
 \begin{feynman}
 
-\vertex (a);
+\vertex (a) {$g$};
 \vertex [below right=of a] (c);
-\vertex [below left=of c] (b);
+\vertex [below left=of c] (b) {$g$};
 
 \vertex [right=of c] (d);   %g -> ttbar vertex
 
-\vertex (e) at (7,3);   %d: t-> Wb vertex
-\vertex (f) at (5,-3.5);   %e: t bar-> Z tbar vertex
+\vertex [above right=3cm of d] (e);   %d: t-> Wb vertex
+\vertex [below right=3cm of d] (f);   %e: t bar-> Z tbar vertex
 
- %t-> Wb vertex
-\vertex [above right=of e] (g);  %(g): W-> l\nu (top)
+%t-> Wb vertex
+\vertex [above right=3cm of e] (g);  %(g): W-> l\nu (top)
 \vertex [above right=of g] (f1)  {$\ell^{+}$};  
 \vertex [below right=of g] (f2)  {$\nu_{\ell}$}; 
 \vertex [below right=of e] (f3)  {$b$};   
 
-\vertex (h) at (8,-0.7);   %(h): Z-> ll vertex 
+\vertex [above right=3cm of f] (h);   %(h): Z-> ll vertex 
 \vertex [above right=of h] (f4) {$\ell^{\mp}$}; 
 \vertex [below right=of h] (f5)  {$\ell^{\pm}$}; 
 
 
-\vertex (i) at (7,-5.5);   %(i): tbar-> bW
+\vertex [below right=2cm of f] (i);   %(i): tbar-> bW
 \vertex [above right=of i] (f6)  {$\bar{b}$};  
-\vertex [below right=of i] (j);   %W-> l\nu vertex (tbar)
+\vertex [below right=2cm of i] (j);   %W-> l\nu vertex (tbar)
 \vertex [above right=of j] (f7)  {$\ell^{-}$};  
 \vertex [below right=of j] (f8)  {$\bar{\nu}_{\ell}$}; 
 
@@ -111,30 +118,30 @@ The leading order Feynman diagram for \tWZ in the tetra-lepton channel is shown 
 
 
 \diagram* {
-
-(a) -- [gluon, edge label=$g$] (c),
-(b) -- [gluon, edge label=$g$] (c),
-
-(c) -- [gluon, edge label=$g$] (d),
-
-(d) -- [fermion, edge label =$t$](e),
-(d) -- [anti fermion, edge label'=$\bar{t}$](f),
-
-(e) -- [boson, edge label=$W^{+}$] (g),
-(e) -- [fermion] (f3),
-(g) -- [anti fermion] (f1),
-(g) -- [fermion] (f2),
-
-(f) -- [boson, edge label=$Z$] (h),
-(h) -- [fermion] (f4),
-(h) -- [fermion] (f5),
-
-(f) -- [anti fermion] (i),
-(i) -- [anti fermion] (f6),
-(i) -- [boson, edge label=$W^{-}$] (j),
-(j) -- [fermion] (f7),
-(j) -- [anti fermion] (f8),
-
+	
+	(a) -- [gluon] (c),
+	(b) -- [gluon] (c),
+	
+	(c) -- [gluon, edge label=$g$] (d),
+	
+	(d) -- [fermion, edge label =$t$](e),
+	(d) -- [anti fermion, edge label'=$\bar{t}$](f),
+	
+	(e) -- [boson, edge label=$W^{+}$] (g),
+	(e) -- [fermion] (f3),
+	(g) -- [anti fermion] (f1),
+	(g) -- [fermion] (f2),
+	
+	(f) -- [boson, edge label=$Z$] (h),
+	(h) -- [fermion] (f4),
+	(h) -- [fermion] (f5),
+	
+	(f) -- [anti fermion] (i),
+	(i) -- [anti fermion] (f6),
+	(i) -- [boson, edge label=$W^{-}$] (j),
+	(j) -- [fermion] (f7),
+	(j) -- [anti fermion] (f8),
+	
 	
 	
 	
@@ -142,10 +149,138 @@ The leading order Feynman diagram for \tWZ in the tetra-lepton channel is shown 
 };
 \end{feynman}
 \end{tikzpicture}
+\end{minipage}% This must go next to `\end{minipage}`
+\begin{minipage}{.5\textwidth}
+	\centering
+	\begin{tikzpicture}[thick,scale=0.6, every node/.style={transform shape}]
+	\label{fig:zz_FeymanDiagram}
+	
+	\begin{feynman}
+	
+	\vertex (a) {$q$};
+	\vertex [below right=of a] (c);
+	\vertex [below left=of c] (b) {$\bar{q}$};
+	
+	\vertex [above right=3cm of d] (e); % Z vertex (top)
+	\vertex [above right=of e] (f1) {$\ell^{\mp}$}; 
+	\vertex [below right=of e] (f2) {$\ell^{\pm}$}; 
+	
+	
+	\vertex [below right=3cm of d] (f); % Z vertex (bottom)
+	\vertex [above right=of f] (f3) {$\ell^{\mp}$}; 
+	\vertex [below right=of f] (f4) {$\ell^{\pm}$}; 
+	
+	
+	
+	
+	\diagram* {
+		
+		(a) -- [fermion] (c),
+		(b) -- [anti fermion] (c),
+		
+		(c) -- [boson, edge label=$Z/ \gamma$] (d),
+		
+		(d) -- [boson, edge label=$Z$] (e),
+		(d) -- [boson, edge label=$Z$] (f),
+		
+		(e) -- [fermion] (f1),
+		(e) -- [anti fermion] (f2),
+		
+		(f) -- [fermion] (f3),
+		(f) -- [anti fermion] (f4)
+		
+			
+	};
+	\end{feynman}
+	\end{tikzpicture}
+
+\end{minipage}
+
+\captionof{figure}{Example Feynman diagrams for \ttZ (left) and \ZZ (right) in the tetra-lepton channel.}  %minipage 'figure' caption
+
+
+
+
+
+
+
 
 \subsection{Comparison to Tri-lepton Channel}
 
 Less backgrounds to deal with (in tetralepton). However lower stats (in tetra). Give cross sections (and feynman diagram). Maybe talk a bit about analysis related challenges (trilepton has a hadronically decaying W, does this make the analysis easier or more difficult?).
+
+
+
+
+
+\begin{figure}[h!]
+	
+	\centering
+	\begin{tikzpicture}[thick,scale=0.6, every node/.style={transform shape}]
+	\label{fig:twz3lep_FeymanDiagram}
+	\begin{feynman}
+	\vertex (a) {$b$};
+	\vertex [below right=of a] (c);
+	\vertex [below left=of c] (b) {$g$};
+	
+	\vertex [right=of c] (d);  %d: tW vertex
+	
+	\vertex [above right=3cm of d] (e);  %e: top vertex
+	
+	\vertex [below right=3cm of e] (i);  %i: Z -> ll vertex
+	\vertex [above right=of i] (f1) {$\ell^{\mp}$}; 
+	\vertex [below right=of i] (f2) {$\ell^{\pm}$}; 
+	
+	
+	\vertex [above right=2cm of e] (f);  %f: Wb vertex
+	\vertex [below right=of f] (f7) {$b$};
+	
+	\vertex [above right=of f] (g);  %g: l \nu vertex
+	\vertex [below right=of g] (f3) {${\nu}_{\ell}, q$};
+	\vertex [above right=of g] (f4) {$\ell^{+}, \bar{q}$};
+	
+	
+	\vertex  [below right=6cm of d] (h); %h: l \nu vertex (bottom)
+	\vertex [below right=of h] (f5) {$\bar{q}, \bar{\nu}_{\ell}$};
+	\vertex [above right=of h] (f6) {$q, \ell^{-}$};
+	
+	
+	
+	\diagram* {
+		(a) -- [fermion] (c),
+		(b) -- [gluon] (c),
+		(c) -- [fermion, edge label=$b$] (d),
+		(d) -- [fermion, edge label=$t$] (e),
+		
+		(e) -- [boson, edge label=$Z$] (i),
+		(i) -- [fermion] (f1),
+		(i) -- [anti fermion] (f2),
+		
+		(f) -- [boson, edge label=$W^{+}$] (g),
+		(e) -- [fermion] (f),
+		(f) -- [fermion] (f7),
+		(g) -- [fermion] (f3),
+		(g) -- [anti fermion] (f4),
+		
+		
+		
+		(d) -- [boson, edge label=$W^{-}$] (h),
+		(h) -- [anti fermion] (f5),
+		(h) -- [fermion] (f6),
+		
+		
+		
+		
+	};
+	\end{feynman}
+	
+	\end{tikzpicture}
+	\caption{Example Feynman diagram of \tWZ production in the tri-lepton channel.}
+\end{figure}
+
+The most apparent difference between the tri and tetra-lepton channels is the amount of statistics present, with the tetra-lepton channel having far less events in its phase space than that of the tri-lepton channel. The lack of statistics in the tetra-lepton channel can be attributed to its low production cross section, $\sigma^{\text{NLO}}_{(tW^{\pm}Z).Br(4\ell)} = \SI{0.7}{fb}$\cite{twz_3_lep}. The tri-lepton channel has a production cross section ($\sigma^{\text{NLO}}_{(tW^{\pm}Z).Br(3\ell)} = \SI{3.9}{fb}$\cite{twz_3_lep}) around a factor of 4 larger than that of the tetra-lepton channel. This difference between the production cross section of the two decay channels can be largely attributed to the difference in branching ratios ($\frac{\Gamma_i}{\Gamma}$) between a hadronically decaying $W$ boson, $\frac{\Gamma_{W \rightarrow had}}{\Gamma_W} = (67.41 \pm 0.27) \%$\cite{pdg}, present in the tri-lepton channel and a leptonically decaying $W$ boson, $\frac{\Gamma_{W \rightarrow \ell^{\+} \nu}}{\Gamma_W}  = (10.86 \pm 0.09) \%$\cite{pdg}, present in the tetra-lepton channel.\\\\
+Despite the tetra-lepton channel's low statistics, it is not subject to the large $WZ$ background present in the tri-lepton channel.
+
 
 \section{Effective Field Theory (EFT)}
 Brief overview of EFT. What is EFT? Why important to pp as a whole? Why important in twz (high sensitivity to wilson coefficients, expected to have a large impact on global fit)? Similar to what james says in INT note.

@@ -76,9 +76,8 @@ The selection criteria which define the SR and the CRs are summarised in Table ~
 		\multicolumn{3}{c}{Common selections}  \\
 		\midrule
 		\multicolumn{3}{c}{Exactly 4 tight leptons}   \\
-		%  \multicolumn{3}{c}{$\pT(\ell_1)> \SI{28}{\GeV}$, $\pT(\ell_2)> \SI{10}{\GeV}$, $\pT(\ell_3)> \SI{10}{\GeV}$, $\pT(\ell_4)> \SI{10}{\GeV}$}   \\
-		\multicolumn{3}{c}{$\pT(\ell_1,\ell_2,\ell_3,\ell_4) > (28,10,10,10)$ $\SI{}{\GeV}$}   \\
-		\multicolumn{3}{c}{$\pT(\text{jet})> \SI{25}{\GeV}$, $|\eta(\text{jet})| < \SI{2.5}{}$, $\text{jvt} > \SI{0.5}{}$}   \\
+		\multicolumn{3}{c}{$p_T(\ell_1,\ell_2,\ell_3,\ell_4) > (28,10,10,10) \SI{}{\GeV}$}   \\
+		\multicolumn{3}{c}{$p_T(\text{jet})> \SI{25}{\GeV}$, $|\eta(\text{jet})| < \SI{2.5}{}$, $\text{jvt} > \SI{0.5}{}$}   \\
 		\multicolumn{3}{c}{$|\eta(\ell_e)| < \SI{2.47}{}$ excluding $\SI{1.37}{} < |\eta(\ell_e)| < \SI{1.52}{}$}   \\
 		\multicolumn{3}{c}{$|\eta(\ell_\mu)| < \SI{2.5}{}$}   \\
 		\multicolumn{3}{c}{$\displaystyle\sum_{i=1}^{4} \text{charge}(\ell_i) = 0$}   \\
@@ -92,7 +91,7 @@ The selection criteria which define the SR and the CRs are summarised in Table ~
 		\bottomrule
 	\end{tabular}
 	\caption{
-		Overview of the requirements applied for selecting events in the signal and control regions in the tetralepton channel
+		Overview of the requirements applied for selecting events in the signal and control regions in the tetra-lepton channel
 	}%
 	\label{tab:4Lep-cutsummary}
 \end{table}
@@ -107,11 +106,11 @@ Expected to be a small effect, why? Brief, general explanation/idea of methods u
 What is TRExFitter? What can it do? At which stage(s) in the analysis did we use it? Which version did we use? Binning method. Explain calculation of error bars in TRF. \\\\ 
 Include general flow chart of analysis (not sure where)
 
-We make use of industry standard \texttt{ROOT}\footnote{CERN's HEP data analysis framework (written in \texttt{C$\+\+$})} wrappers in this analysis, namely, \texttt{PyROOT} and \texttt{TRExFitter}.\\\\
+We make use of industry standard \texttt{ROOT}\footnote{CERN's HEP data analysis framework (written in C\texttt{++})} wrappers in this analysis, namely, \texttt{PyROOT} and \texttt{TRExFitter}.\\\\
 \texttt{Python} is used extensively in many fields of science (not limited to physics and data science) due to its simplicity and ongoing support by the communities which utilize it. \texttt{PyROOT} allows users to access the full \texttt{ROOT} functionality within \texttt{Python}. More specifically, \texttt{PyROOT} provides \texttt{Python} bindings for \texttt{ROOT}.\\\\
 \texttt{TRExFitter} is a framework for binned template profile likelihood fits\cite{TRexfitter}. In this analysis, we used TRExFitter (tag: \texttt{TRExFitter-00-04-11}) to produce all pre-fit and post-fit plots (including fit statistics, e.g. limit, significance, $\mu_{best-fit}$).\\\\
 The analysis pipeline starts with sample derivations (derived dataset) being submitted to the grid for ntuple production. This applies cuts and selections to the already reduced derivations and produces ntuples with trees containing variables (e.g. scale factors, observables, MC truth flags) that will be used at future stages in the analysis. These ntuples are then read by \texttt{PyROOT} where the events are looped over, before being written to \texttt{ROOT} files as input to \texttt{TRExFitter}. The \texttt{Python} script's main purpose is to define the different regions and apply the final cuts and selections outlined in Table \ref{tab:4Lep-cutsummary}. As each event is looped over, these cut and selection criteria are checked for the given event and is either thrown away, or gets written to a \texttt{ROOT} file corresponding to the MC sample and Full Run 2 data-set (mc16a, mc16d, mc16e) which it belongs to. \texttt{TRExFitter} then takes these files as input, runs a maximum likelihood fit and produces relevant plots (e.g. pre-fit, post-fit, pull plots) and statistical parameters (e.g. limit, significance, $\mu_{best-fit}$).\\\\
-Throughout this analysis, we ensured that the signal region is blinded. We did this by implementing \texttt{TRExFitter's} \textit{'mixed data and MC'}~\cite{MixedDataAndMC_TRF} fit, which aims to obtain the most accurate prediction for the expected results (while keeping the signal region blinded). It does this by performing a background only fit to the control regions (using real data). The set of fitted values for all the nuisance parameters from the background only fit are then used to construct a modified ASIMOV data-set. Finally, the fit is performed using real data in the control regions and the aforementioned modified ASIMOV data-set in the signal region.
+Throughout this analysis, we ensured that the signal region was kept blinded. We did this by implementing \texttt{TRExFitter's} \textit{'mixed data and MC'}~\cite{MixedDataAndMC_TRF} fit, which aims to obtain the most accurate prediction for the expected results (while keeping the signal region blinded). It does this by performing a background only fit to the control regions (using real data). The set of fitted values for all the nuisance parameters from the background only fit are then used to construct a modified ASIMOV data-set. Finally, the fit is performed using real data in the control regions and the aforementioned modified ASIMOV data-set in the signal region.
 
 
 

@@ -1,19 +1,8 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [0] Config.pm:315> INFO - Logfile is 'thesis.blg'
-[98] biber:330> INFO - === Thu Nov 19, 2020, 10:05:05
-[114] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[207] Biber.pm:952> INFO - Found 6 citekeys in bib section 0
-[223] Biber.pm:4334> INFO - Processing section 0
-[235] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
-[236] bibtex.pm:1682> INFO - LaTeX decoding ...
-[244] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[245] Utils.pm:395> WARN - Duplicate entry key: 'ppToZZ:CMSpaper' in file 'references.bib', skipping ...
-[667] Utils.pm:395> WARN - year field '{2020}' in entry 'ppToZZ:CMSpaper' is not an integer - this will probably not sort properly.
-[668] Utils.pm:395> WARN - I didn't find a database entry for 'Aaboud:2019' (section 0)
-[693] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[693] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[693] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[693] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
-[711] bbl.pm:651> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[1041] bbl.pm:754> INFO - Output to thesis.bbl
-[1041] Biber.pm:128> INFO - WARNINGS: 3
+[100] biber:330> INFO - === Fri Mar  5, 2021, 13:21:52
+[117] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[208] Utils.pm:411> ERROR - Error: Found biblatex control file version 3.4, expected version 3.7.
+This means that your biber (2.15) and biblatex (3.10) versions are incompatible.
+See compat matrix in biblatex or biber PDF documentation.
+[209] Biber.pm:132> INFO - ERRORS: 1

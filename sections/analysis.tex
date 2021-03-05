@@ -99,7 +99,65 @@ The selection criteria which define the SR and the CRs are summarised in Table ~
 
 Summary table of event selection. Why chose ZZb and ttz region. 
 \section{Machine Learning Techniques}
-What tool did we use, how did we use it, parameters of bdt/nn, input variables/importance, conversion of event level bdt output (bdtscore) to variable for fitting. Used ROC curve integral as a proxy for how good bdt was doing. 
+What tool did we use, how did we use it, parameters of bdt/nn, input variables/importance, conversion of event level bdt output (bdtscore) to variable for fitting. Used ROC curve integral as a proxy for how good bdt was doing.\\\\
+
+Now that we have our baseline selections applied and our regions defined, we implement a Boosted Decision Tree (BDT) in order to discriminate between \tWZ and our most prominent background process, \ttZ. We chose to use a BDT, as opposed to another ML algorithm, since they are very stable and perform well with minimal/no optimisation or tweaking of the hyper parameters. A multi-layered sequential neutral network was tried, however, it was out-performed by a BDT. More specifically, Scikit-learn's \texttt{GradientBoostingClassifier} was used.\\\\
+The BDT was trained on 50$\%$ of the \tWZ MC sample's events for the signal class and similarly, 50$\%$ of the \ttZ MC sample's events were used for the background class. The samples we train on are individual events, with the features being carefully chosen observables. These observables are chosen on the basis that they are somewhat uncorrelated from one another and show a relatively large amount of discriminating power between \tWZ and \ttZ. Since we train on observables from individual events, we refer to this BDT as an \textit{event-level} BDT. The observables and hyper-parameters used in training are summarised in Tables ***** below.
+
+
+
+\begin{table}[h!]
+	\resizebox{1\textwidth}{!}{%
+	\begin{tabular}{c|c}
+\toprule
+	Observable	& Description   \\
+	\hline
+	2$\nu$SM	& Maximum weight from the 2$\nu$SM algorithm \\
+	$\Delta\eta(\ell\ell_{\text{non-Z}}, b_{2} )$	&  $\Delta \eta$ between the dilepton system not from a $Z$ candidate and the Next-to-Leading $b$-tagged jet  \\
+	$HT$	&  Scalar sum of $p_T(\text{jet})$  \\
+	$\Delta\eta(\ell_{1,\text{non-Z}},\ell_{2,\text{non-Z}}) $	& $\Delta \eta$ between the Leading lepton not from a $Z$ candidate and Next-to-Leading lepton not from a $Z$ candidate   \\
+	$\Delta R (b_{1}, Z_{1})$	&  $\Delta R$ between the Leading $b$-tagged jet and the Leading $Z$ candidate \\
+	$\Sigma p_{T}(b)$	&  Scalar sum of $b$-tagged jet $p_{T}$ \\
+$\Delta\eta(\ell\ell_{\text{non-Z}}, b_{1} )$	& $\Delta \eta$ between the dilepton system not from a $Z$ candidate and the Leading $b$-tagged jet \\
+\bottomrule
+
+
+	\end{tabular}}
+\caption{A list of the observables used in the event-level BDT, ordered by importance (descending, top to bottom).}
+	\label{tab:bdt-variables}
+\end{table}
+
+
+\begin{table}[h!]
+	\resizebox{1\textwidth}{!}{%
+		\begin{tabular}{c|c|c}
+			\toprule
+			Hyperparameter &Value & Description\\
+			\hline
+			loss & deviance &\\
+			criterion &friedman$\_$mse &\\
+			n$\_$estimators & &\\
+			learning$\_$rate & &\\
+			max$\_$depth & &\\
+			min$\_$samples$\_$split & 2 &\\
+			min$\_$samples$\_$leaf & 1 &\\
+			
+			
+			\bottomrule
+			
+		\end{tabular}}
+		\caption{A list of the hyper-parameters used in the event-level BDT. Hyperparameters not listed in this table use the default values as stated in the Scikit-learn Documentation\cite{skLearnGBClassifierDocs}.}
+	\label{tab:bdt-hyperParams}
+\end{table}
+
+
+
+
+
+
+
+
+
 \section{Fake Lepton Estimation} 
 Expected to be a small effect, why? Brief, general explanation/idea of methods used (full explanation/description of what we did and the results/plots/etc. later) 
 \section{Analysis Pipeline/Workflow and TRExFitter}

@@ -1,8 +1,16 @@
-[0] Config.pm:312> INFO - This is Biber 2.15
-[0] Config.pm:315> INFO - Logfile is 'thesis.blg'
-[100] biber:330> INFO - === Fri Mar  5, 2021, 13:21:52
-[117] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[208] Utils.pm:411> ERROR - Error: Found biblatex control file version 3.4, expected version 3.7.
-This means that your biber (2.15) and biblatex (3.10) versions are incompatible.
-See compat matrix in biblatex or biber PDF documentation.
-[209] Biber.pm:132> INFO - ERRORS: 1
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'thesis.blg'
+[27] biber:313> INFO - === Tue Mar  9, 2021, 10:06:34
+[47] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[107] Biber.pm:857> INFO - Found 7 citekeys in bib section 0
+[120] Biber.pm:3981> INFO - Processing section 0
+[130] Biber.pm:4154> INFO - Looking for bibtex format file 'references.bib' for section 0
+[131] bibtex.pm:1468> INFO - LaTeX decoding ...
+[139] bibtex.pm:1294> INFO - Found BibTeX data source 'references.bib'
+[500] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[500] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[500] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[500] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[520] bbl.pm:617> INFO - Writing 'thesis.bbl' with encoding 'ascii'
+[520] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[612] bbl.pm:720> INFO - Output to thesis.bbl

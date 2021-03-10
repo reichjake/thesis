@@ -1927,13 +1927,15 @@
     <bcf:citekey order="2">twz_3_lep</bcf:citekey>
     <bcf:citekey order="3">pdg</bcf:citekey>
     <bcf:citekey order="4">pdg</bcf:citekey>
-    <bcf:citekey order="6">pdg</bcf:citekey>
-    <bcf:citekey order="7">Aaboud:2019</bcf:citekey>
-    <bcf:citekey order="7">ppToZZ:CMSpaper</bcf:citekey>
-    <bcf:citekey order="8">skLearnGBClassifierDocs</bcf:citekey>
-    <bcf:citekey order="9">skLearnGBClassifierDocs</bcf:citekey>
-    <bcf:citekey order="10">TRexfitter</bcf:citekey>
-    <bcf:citekey order="11">MixedDataAndMC_TRF</bcf:citekey>
+    <bcf:citekey order="5">pdg</bcf:citekey>
+    <bcf:citekey order="6">DL1r-paper</bcf:citekey>
+    <bcf:citekey order="8">pdg</bcf:citekey>
+    <bcf:citekey order="9">Aaboud:2019</bcf:citekey>
+    <bcf:citekey order="9">ppToZZ:CMSpaper</bcf:citekey>
+    <bcf:citekey order="10">skLearnGBClassifierDocs</bcf:citekey>
+    <bcf:citekey order="11">skLearnGBClassifierDocs</bcf:citekey>
+    <bcf:citekey order="12">TRexfitter</bcf:citekey>
+    <bcf:citekey order="13">MixedDataAndMC_TRF</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

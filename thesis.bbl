@@ -1335,6 +1335,28 @@
       \verb https://doi.org/10.1093/ptep/ptaa104
       \endverb
     \endentry
+    \entry{DL1r-paper}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{number}{ATL-PHYS-PUB-2020-009}
+      \field{title}{{Monte Carlo to Monte Carlo scale factors for flavour tagging efficiency calibration}}
+      \field{type}{techreport}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2718610
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2718610
+      \endverb
+    \endentry
     \entry{twz_3_lep}{online}{}
       \name{author}{1}{}{%
         {{hash=5d828806bf32a8842023699442059581}{%

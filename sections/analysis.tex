@@ -36,10 +36,10 @@ Explain why we applied each cut/selection.\\\\
 
 
 \subsection{Leptons}
-Tight/loose/med definitions, efficiency of electron and muons specifically at ATLAS. Why we don't consider taus.
+Tight/loose/med definitions.\\\\
 
-
-In addition to our selection criteria of exactly four leptons, we require that the leading (L), next-to-leading (NL), next-to-next-to-leading (NNL) and next-to-next-to-next-to-leading (NNNL) leptons have $p_{T}$ greater than $\SI{28}{}$, $\SI{10}{}$, $\SI{10}{}$ and $\SI{10}{\GeV}$ respectively. Here we have chosen to apply relativity loose object-level cuts in an attempt to maximize our signal statistics, since the analysis is heavily statistically limited.\\\\
+In this analysis we only consider $e$ and $\mu$ leptons, since $\tau$ leptons are difficult to detect in the ATLAS detector. $\tau$ leptons are challenging to detect since they have an extremely short lifetime ( 290.3 $\pm$ 0.5fs~\cite{pdg}) which causes them to decay before reaching any detector components and therefore can only be reconstructed via their decay products.\\\\
+In addition to our selection criteria of exactly four leptons, we require that the Leading (L), Next-to-Leading (NL), Next-to-Next-to-Leading (NNL) and Next-to-Next-to-Next-to-Leading (NNNL) leptons have $p_{T}$ greater than $\SI{28}{}$, $\SI{10}{}$, $\SI{10}{}$ and $\SI{10}{\GeV}$ respectively. Here we have chosen to apply relativity loose object-level cuts in an attempt to maximize our signal statistics, since the analysis is heavily statistically limited.\\\\
 Reconstructed electrons are required to be within $|\eta| < 2.47$ and excluding the transition region between the barrel and end-cap calorimeters at $1.37 < |\eta| < 1.52$. Reconstructed muons are required to be within $|\eta| < 2.5$.
 \subsection{Jets}
 What algorithm did we use and why, loose and tight jet definitions
@@ -47,16 +47,13 @@ What algorithm did we use and why, loose and tight jet definitions
 Jets are required to be within $|\eta| < 2.5$ and $p_{T}(\text{jet}) > \SI{25}{\GeV}$. We apply these looser $p_T$ cuts in an attempt to increase our limited signal statistics. The jet-vertex-tagger (jvt) on jets are required to have a value greater than $\SI{0.5}{}$, in an attempt to reject effects caused by pile-up interactions. (** more detail to go here about what jvt is, why do we require this, more info on how electrons and muons are reconstructed and why we apply these selections **)
 
 \subsection{b-tagging}
-What algorithm/WP did we use and why
+The DL1r $b$-tagger~\cite{DL1r-paper} was used to identify jets as $b$-jets. The DL1r algorithm combines outputs from several low-level tagging algorithms using a Deep Neural Network and outputs the probability that a given input jet is identified as a $b$, $c$ or light flavoured jet. We use different pseudo-continuous DL1r working points to identify $b$-jets in our event selection (See Section ~\ref{sec:regionsAndEventSelection}). The pseudo-continuous working points are defined based on intervals with edges defined by using a cut on the DL1r score corresponding to a $b$-jet tagging efficiency of 60$\%$, 70$\%$, 77$\%$ and 85$\%$. The intervals therefore correspond to $b$-tagging efficiencies of [100$\%$, 85$\%$], [85$\%$, 77$\%$], [77$\%$, 70$\%$], [70$\%$, 60$\%$] and [60$\%$, 0$\%$].  
+
+ Different DL1r working points are used in our baseline selection (See Section ~\ref{sec:regionsAndEventSelection}). ***go through dl1r wp stuff here - last sentence here doesn't flow***
 \section{Kinematic Pre-selection cuts}
-Mass windows on Z (OSSF), sum charge $=$ 0, explanations on all other non object level cuts/selections, OSSF $<$ 10 GeV cut
-
-
 The invariant mass of the OSSF lepton pair coming from the $Z$ boson must equal the invariant mass of the $Z$ boson, and noting that $e$,$\mu$ reconstruction and identification in the ATLAS detector has a high accuracy ~\cite{}, we can use these OSSF leptons to reconstruct $Z$ bosons with relatively high confidence. We therefore define a $Z$ candidate as an OSSF lepton pair with an invariant mass, $m_{\text{OSSF}}$, satisfying the condition, $|m_{\text{OSSF}} - m_Z| <  \SI{30}{\GeV}$, where $m_Z$ is the nominal $Z$ boson mass ($\SI{91.1876}{\GeV}$~\cite{pdg}). Multiple $Z$ candidates can be present in certain decay channels (e.g. $eeee$, $\mu\mu ee$, $\mu \mu \mu \mu$). In these cases, the $Z$ candidate which has an invariant mass closest to the nominal $Z$ boson mass is chosen.\\\\
 In order to suppress potential fakes and quarkonia (low mass resonances such as $J/\psi$ and upsilon) we require that all OSSF lepton pairs have an invariant mass, $m_{\text{OSSF}}$, greater than $\SI{10}{\GeV}$.\\\\
 Due to conservation of charge, the final state lepton charges must sum to zero.\\ We therefore require $\displaystyle\sum_{i=1}^{4} \text{charge}(\ell_i) = 0$.
-
-
 
 \section{Regions and Event Selection}
 \label{sec:regionsAndEventSelection}

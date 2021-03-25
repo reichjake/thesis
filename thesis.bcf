@@ -4,7 +4,7 @@
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
       <bcf:key>output_encoding</bcf:key>
-      <bcf:value>ascii</bcf:value>
+      <bcf:value>utf8</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>input_encoding</bcf:key>
@@ -1928,14 +1928,19 @@
     <bcf:citekey order="3">pdg</bcf:citekey>
     <bcf:citekey order="4">pdg</bcf:citekey>
     <bcf:citekey order="5">pdg</bcf:citekey>
-    <bcf:citekey order="6">DL1r-paper</bcf:citekey>
-    <bcf:citekey order="8">pdg</bcf:citekey>
-    <bcf:citekey order="9">Aaboud:2019</bcf:citekey>
-    <bcf:citekey order="9">ppToZZ:CMSpaper</bcf:citekey>
-    <bcf:citekey order="10">skLearnGBClassifierDocs</bcf:citekey>
-    <bcf:citekey order="11">skLearnGBClassifierDocs</bcf:citekey>
-    <bcf:citekey order="12">TRexfitter</bcf:citekey>
-    <bcf:citekey order="13">MixedDataAndMC_TRF</bcf:citekey>
+    <bcf:citekey order="6">TopRecoObjTwikiModel</bcf:citekey>
+    <bcf:citekey order="7">Overlap-removal-slides</bcf:citekey>
+    <bcf:citekey order="8">electronRecoAndID:paper</bcf:citekey>
+    <bcf:citekey order="9">muon-selection-tool</bcf:citekey>
+    <bcf:citekey order="10">recommendedIsolationWPs</bcf:citekey>
+    <bcf:citekey order="11">DL1r-paper</bcf:citekey>
+    <bcf:citekey order="13">pdg</bcf:citekey>
+    <bcf:citekey order="14">Aaboud:2019</bcf:citekey>
+    <bcf:citekey order="14">ppToZZ:CMSpaper</bcf:citekey>
+    <bcf:citekey order="15">skLearnGBClassifierDocs</bcf:citekey>
+    <bcf:citekey order="16">skLearnGBClassifierDocs</bcf:citekey>
+    <bcf:citekey order="17">TRexfitter</bcf:citekey>
+    <bcf:citekey order="18">MixedDataAndMC_TRF</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -36,20 +36,65 @@ Explain why we applied each cut/selection.\\\\
 
 
 \subsection{Leptons}
-Tight/loose/med definitions.\\\\
-
 In this analysis we only consider $e$ and $\mu$ leptons, since $\tau$ leptons are difficult to detect in the ATLAS detector. $\tau$ leptons are challenging to detect since they have an extremely short lifetime ( 290.3 $\pm$ 0.5fs~\cite{pdg}) which causes them to decay before reaching any detector components and therefore can only be reconstructed via their decay products.\\\\
+
+
 In addition to our selection criteria of exactly four leptons, we require that the Leading (L), Next-to-Leading (NL), Next-to-Next-to-Leading (NNL) and Next-to-Next-to-Next-to-Leading (NNNL) leptons have $p_{T}$ greater than $\SI{28}{}$, $\SI{10}{}$, $\SI{10}{}$ and $\SI{10}{\GeV}$ respectively. Here we have chosen to apply relativity loose object-level cuts in an attempt to maximize our signal statistics, since the analysis is heavily statistically limited.\\\\
-Reconstructed electrons are required to be within $|\eta| < 2.47$ and excluding the transition region between the barrel and end-cap calorimeters at $1.37 < |\eta| < 1.52$. Reconstructed muons are required to be within $|\eta| < 2.5$.
+
+
+Reconstructed electrons are required to be within $|\eta| < 2.47$ and excluding the transition region between the barrel and end-cap calorimeters at $1.37 < |\eta| < 1.52$. Reconstructed muons are required to be within $|\eta| < 2.5$.\\\\
+
+The transverse impact parameter, $d_{0}$, is defined as the minimal spacial distance between the object's (here we are referring to leptons) trajectory and the primary vertex (the vertex associated with the $p$-$p$ hard scatter). The longitudinal impact parameter, $z_{0}$, is defined as the value of $z$ of the point on the object's trajectory which determines $d_{0}$. To ensure consistency between the lepton and the primary vertex, we require that $|\frac{d_{0}}{\sigma(d_{0})}| < 5$, $|z_{0}\sin{\theta}| < \SI{0.5}{mm}$ for electrons and $|\frac{d_{0}}{\sigma(d_{0})}| < 3$, $|z_{0}\sin{\theta}| < \SI{0.5}{mm}$ for muons, following the current recommendations~\cite{TopRecoObjTwikiModel}.\\\\
+
+
+To avoid instances where one detector signal can result in multiple different reconstructed objects, an overlap removal is applied which ignores all but one of these objects. We use the current recommended configuration~\cite{Overlap-removal-slides}.\\\\
+
+Electrons are selected using a likelihood based discriminant~\cite{electronRecoAndID:paper} which takes measurements from the tracking system, calorimeter system and quantities derived from both the tracking and calorimeter system as input. Muons are selected using AnalysisBase's \texttt{Muon Selection Tool}~\cite{muon-selection-tool}.\\\\
+
+Loose electrons are defined with the criteria above, using the \texttt{LooseAndBLayerLH} identification working point. Similarly, tight electrons are defined with the criteria above, using the \texttt{TightLH} identification working point. Both loose and tight muons use the \texttt{Medium} identification working point.\\\\
+
+Tight leptons additionally require that they are sufficiently isolated from other particles produced in the collision. This is done by defining a cone of radius $\Delta R = \sqrt{\Delta \eta^{2} + \Delta \phi^{2}}$ around the particle of interest and summing the $p_{T}$ of all the reconstructed particles surrounding the particle of interest, situated within the cone. A quantity, $I_{rel}$, is then defined as ,$I_{rel} = \frac{\Sigma p_{T}(\text{surrounding candidate})  }{p_{T}(\text{candidate})}$, the ratio of this sum to the $p_{T}$ of the lepton candidate. If this value is large, is it likely that the particle of interest originated from a jet (together with many other particles), whereas a prompt decay product resulting from the hard scatter will have little to no energy surrounding it ($I_{rel} \ll 1$). We use Analysis Base's \texttt{IsolationSelectionTool} with the \texttt{PLVTight} and \texttt{PflowTight$\_$FixedRad} working points for tight electrons and tight muons respectively (following the current recommendations~\cite{recommendedIsolationWPs}).\\\\
+The selection criteria for leptons are summarised in the Table \ref{tab:lepton-selection} below. 
+
+
+
+
+\begin{table}
+	\centering
+		\resizebox{\textwidth}{!}{%
+	\begin{tabular}{c|cc|cc} 
+		\toprule
+		& \multicolumn{2}{c|}{Electrons }   & \multicolumn{2}{c}{Muons}       \\ 
+		& Tight    & Loose    & Tight      & Loose        \\ 
+		\hline
+		$p_{T}$ cuts    & \multicolumn{4}{c}{$p_{T}(\ell_1,\ell_2,\ell_3,\ell_4) > (28,10,10,10)$ $\SI{}{\GeV}$}   \\
+		\multicolumn{1}{l|}{Overlap Removal} &\multicolumn{4}{c}{"recommended"}\\  
+		$\eta$ cuts       & \multicolumn{2}{c|}{$|\eta(\ell_e)| < \SI{2.47}{}$ excluding $\SI{1.37}{} < |\eta(\ell_e)| < \SI{1.52}{}$} & \multicolumn{2}{c}{$|\eta(\ell_\mu)| < \SI{2.5}{}$~}                                           \\
+		\multicolumn{1}{c|}{Impact Parameters} & \multicolumn{2}{c|}{$|\frac{d_{0}}{\sigma(d_{0})}| < 5$,~$|z_{0}\sin{\theta}| < \SI{0.5}{mm}$}             & \multicolumn{2}{c}{$|\frac{d_{0}}{\sigma(d_{0})}| < 3$,~$|z_{0}\sin{\theta}| < \SI{0.5}{mm}$}  \\ 
+		Identification WP  & TightLH  & LooseAndBLayerLH      & Medium   & Medium   \\
+		Isolation WP & PLVTight & Not Used      & PflowTight$\_$FixedRad  & Not Used  \\
+		\bottomrule
+	\end{tabular}}
+\caption{Summary of the requirements applied for selecting tight and loose leptons ($e,\mu$)}
+\label{tab:lepton-selection}
+\end{table}
+
+
+
+
 \subsection{Jets}
-What algorithm did we use and why, loose and tight jet definitions
 
-Jets are required to be within $|\eta| < 2.5$ and $p_{T}(\text{jet}) > \SI{25}{\GeV}$. We apply these looser $p_T$ cuts in an attempt to increase our limited signal statistics. The jet-vertex-tagger (jvt) on jets are required to have a value greater than $\SI{0.5}{}$, in an attempt to reject effects caused by pile-up interactions. (** more detail to go here about what jvt is, why do we require this, more info on how electrons and muons are reconstructed and why we apply these selections **)
+Jets are required to be within $|\eta| < 2.5$ and $p_{T}(\text{jet}) > \SI{25}{\GeV}$. We apply these looser $p_T$ cuts in an attempt to increase our limited signal statistics.\\\\
 
-\subsection{b-tagging}
-The DL1r $b$-tagger~\cite{DL1r-paper} was used to identify jets as $b$-jets. The DL1r algorithm combines outputs from several low-level tagging algorithms using a Deep Neural Network and outputs the probability that a given input jet is identified as a $b$, $c$ or light flavoured jet. We use different pseudo-continuous DL1r working points to identify $b$-jets in our event selection (See Section ~\ref{sec:regionsAndEventSelection}). The pseudo-continuous working points are defined based on intervals with edges defined by using a cut on the DL1r score corresponding to a $b$-jet tagging efficiency of 60$\%$, 70$\%$, 77$\%$ and 85$\%$. The intervals therefore correspond to $b$-tagging efficiencies of [100$\%$, 85$\%$], [85$\%$, 77$\%$], [77$\%$, 70$\%$], [70$\%$, 60$\%$] and [60$\%$, 0$\%$].  
 
- Different DL1r working points are used in our baseline selection (See Section ~\ref{sec:regionsAndEventSelection}). ***go through dl1r wp stuff here - last sentence here doesn't flow***
+ We use the \texttt{Medium} working point for the jet-vertex-tagger (jvt) and the forward jet-vertex-tagger (forward jvt). Jets are required to have a jvt value greater than $\SI{0.5}{}$, in an attempt to reject effects caused by pile-up interactions.
+
+
+
+\subsection{$b$-tagging}
+The DL1r $b$-tagger~\cite{DL1r-paper} was used to identify jets as $b$-jets. The DL1r algorithm combines outputs from several low-level tagging algorithms using a Deep Neural Network and outputs the probability that a given input jet is identified as a $b$, $c$ or light flavoured jet. We use different DL1r working points to identify $b$-jets in our event selection (See Section~\ref{sec:regionsAndEventSelection}). The working points are defined based off a cut on the DL1r score corresponding to a $b$-jet tagging efficiency of 60$\%$, 70$\%$, 77$\%$ and 85$\%$. \\\\
+Since we are heavily statistically limited, we aim to increase the amount of statistics in our four regions. In an attempt to achieve this goal, $b$-tagged jets were placed under \textit{tight} and \textit{loose} definitions. A tight $b$-tagged jet is defined as a jet which passes the 77$\%$, 70$\%$, 65$\%$ or 60$\%$ DL1r $b$-tagger working point. A loose $b$-tagged jet is defined as a jet which passes 85$\%$ DL1r $b$-tagger working point, but not the 77$\%$, 70$\%$, 65$\%$ or 60$\%$ DL1r $b$-tagger working points. Different numbers (and definitions) of tight and loose $b$-tagged jets were tried in each region, with the final selection criteria being chosen which maximised the expect significance of \tWZ.
+
 \section{Kinematic Pre-selection cuts}
 The invariant mass of the OSSF lepton pair coming from the $Z$ boson must equal the invariant mass of the $Z$ boson, and noting that $e$,$\mu$ reconstruction and identification in the ATLAS detector has a high accuracy ~\cite{}, we can use these OSSF leptons to reconstruct $Z$ bosons with relatively high confidence. We therefore define a $Z$ candidate as an OSSF lepton pair with an invariant mass, $m_{\text{OSSF}}$, satisfying the condition, $|m_{\text{OSSF}} - m_Z| <  \SI{30}{\GeV}$, where $m_Z$ is the nominal $Z$ boson mass ($\SI{91.1876}{\GeV}$~\cite{pdg}). Multiple $Z$ candidates can be present in certain decay channels (e.g. $eeee$, $\mu\mu ee$, $\mu \mu \mu \mu$). In these cases, the $Z$ candidate which has an invariant mass closest to the nominal $Z$ boson mass is chosen.\\\\
 In order to suppress potential fakes and quarkonia (low mass resonances such as $J/\psi$ and upsilon) we require that all OSSF lepton pairs have an invariant mass, $m_{\text{OSSF}}$, greater than $\SI{10}{\GeV}$.\\\\
@@ -60,11 +105,7 @@ Due to conservation of charge, the final state lepton charges must sum to zero.\
 
 
 The selection criteria which define the SR and the CRs are summarised in Table ~\ref{tab:4Lep-cutsummary}. In order to check the modelling of the most dominant background components in our signal region, we have modified our selection criteria to define \ttZ and $ZZb$ control regions. The \ttZ control region has the same requirement on the number of reconstructed $Z$ boson candidates in the signal region (due to a commonality on the number of $Z$ bosons present in both processes), however we require at least two jets and that exactly two of these jets are $b$-tagged (corresponding to the $b$-quark jets originating from the two top-quark decays). We choose to define a $ZZb$ region, as opposed to a \ZZ region, since the \ZZ background present in the $tWZ$ signal region contains exactly one b-tagged jet. Therefore defining a region with \ZZ plus exactly one $b$-jet more closely resembles the $ZZ$ background present in the signal region. In addition to this, mis-modelling of \ZZ has been seen in other analyses ~\cite{Aaboud:2019, ppToZZ:CMSpaper}, further motivating the use of a $ZZb$ control region over a \ZZ CR. The $ZZb$ CR requires exactly two $Z$ boson candidates and exactly one b-tagged jet, with no requirement on the number of jets. In order to constrain the fake lepton component contained within the \ttZ sample, we define a \ttZ fake CR which is as similar as possible to the \ttZ CR but is enhanced in fakes. This is achieved by defining the \ttZ fake CR to inherit the same selection criteria as the \ttZ CR however, in this case, we require exactly 3 tight leptons and exactly 1 loose lepton (since loose leptons are more likely to be fakes, compared to tight leptons).\\\\
-Since we are heavily statistically limited, we aim to increase the amount of statistics in our four regions. In an attempt to achieve this goal, $b$-tagged jets were placed under \textit{tight} and \textit{loose} definitions. A tight $b$-tagged jet is defined as a jet which passes the 77$\%$, 70$\%$, 65$\%$ or 60$\%$ DL1r $b$-tagger working point. A loose $b$-tagged jet is defined as a jet which passes 85$\%$ DL1r $b$-tagger working point, but not the 77$\%$, 70$\%$, 65$\%$ or 60$\%$ DL1r $b$-tagger working points. Different numbers (and definitions) of tight and loose $b$-tagged jets were tried in each region, with the final selection criteria being chosen which maximised the expect significance of $\sigma(\tWZ)$. The final selection criteria for the $b$-tagged jets in each region (and all other selection criteria) are summarised in Table ~\ref{tab:4Lep-cutsummary} below.
-
-
-
-
+ The final selection criteria and region definitions are summarised in Table ~\ref{tab:4Lep-cutsummary} below.
 
 
 
@@ -105,10 +146,6 @@ Since we are heavily statistically limited, we aim to increase the amount of sta
 	}%
 	\label{tab:4Lep-cutsummary}
 \end{table}
-
-
-
-Summary table of event selection. Why chose ZZb and ttz region. 
 
 
 \section{Machine Learning Techniques}
@@ -171,7 +208,7 @@ The number of events used in training for the signal and background classes were
 The resulting BDT discriminator plots are shown below in Figure ~\ref{fig:bdt-overtrain-check}.
 
 \begin{figure}[h!]
-	\includegraphics[scale=0.8]{overtrainingCheck.png}
+	\includegraphics[scale=0.8]{overtrainingCheck.eps}
 	\centering
 	\caption{Normalised histograms of the BDT discriminator output from the signal and background classes for the training and test sets.}
 	\label{fig:bdt-overtrain-check}

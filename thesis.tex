@@ -8,17 +8,16 @@
 \usepackage{siunitx}
 \usepackage{subcaption}
 \usepackage{amssymb}
-\captionsetup[subfigure]{labelfont=rm}
 \usepackage{hyperref}
 %\pagestyle{headings}
 \usepackage{xspace} 
 \usepackage{multirow}
+\usepackage{booktabs}
 
-
-\graphicspath{ {figures/} }
+\graphicspath{ {figures} }
 
 \usepackage{tikz-feynman}
-\tikzfeynmanset{compat=1.0.0}
+\tikzfeynmanset{compat=1.1.0}
 
 
 
@@ -35,6 +34,7 @@
 \pagestyle{fancy}
 
 \makeatletter
+\let\@@magyar@captionfix\relax
 \let\stdchapter\chapter
 \renewcommand*\chapter{%
 	\@ifstar{\starchapter}{\@dblarg\nostarchapter}}
@@ -73,7 +73,7 @@
 	\begin{minipage}{0.75\linewidth}
 		\centering
 		%University logo
-		\includegraphics[width=1\linewidth]{deptPhysics.jpg}\\
+		\includegraphics[width=1\linewidth]{deptPhysics.eps}\\
 		\par
 		\vspace{3cm}
 		%Thesis title

@@ -46,20 +46,17 @@ Reconstructed electrons are required to be within $|\eta| < 2.47$ and excluding 
 
 The transverse impact parameter, $d_{0}$, is defined as the minimal spacial distance between the object's (here we are referring to leptons) trajectory and the primary vertex (the vertex associated with the $p$-$p$ hard scatter). The longitudinal impact parameter, $z_{0}$, is defined as the value of $z$ of the point on the object's trajectory which determines $d_{0}$. To ensure consistency between the lepton and the primary vertex, we require that $|\frac{d_{0}}{\sigma(d_{0})}| < 5$, $|z_{0}\sin{\theta}| < \SI{0.5}{mm}$ for electrons and $|\frac{d_{0}}{\sigma(d_{0})}| < 3$, $|z_{0}\sin{\theta}| < \SI{0.5}{mm}$ for muons, following the current recommendations~\cite{TopRecoObjTwikiModel}.\\\\
 
-
 To avoid instances where one detector signal can result in multiple different reconstructed objects, an overlap removal is applied which ignores all but one of these objects. We use the current recommended configuration~\cite{Overlap-removal-slides}.\\\\
 
 Electrons are selected using a likelihood based discriminant~\cite{electronRecoAndID:paper} which takes measurements from the tracking system, calorimeter system and quantities derived from both the tracking and calorimeter system as input. Muons are selected using AnalysisBase's \texttt{Muon Selection Tool}~\cite{muon-selection-tool}.\\\\
 
-Loose electrons are defined with the criteria above, using the \texttt{LooseAndBLayerLH} identification working point. Similarly, tight electrons are defined with the criteria above, using the \texttt{TightLH} identification working point. Both loose and tight muons use the \texttt{Medium} identification working point.\\\\
+Loose electrons are defined with the criteria above, using the \texttt{LooseAndBLayerLH} ($\sim$ 91$\%$ selection efficiency for electrons with $E_{T} > \SI{30}{GeV}$~\cite{electronIDefficiency}) identification working point. Similarly, tight electrons are defined with the criteria above, using the \texttt{TightLH} ($\sim$ 80$\%$ selection efficiency for electrons with $E_{T} > \SI{30}{GeV}$~\cite{electronIDefficiency}) identification working point. Both loose and tight muons use the \texttt{Medium} ($\sim$ 95$\%$ selection efficiency~\cite{muonIDEfficiency}) identification working point.\\\\
 
-Tight leptons additionally require that they are sufficiently isolated from other particles produced in the collision. This is done by defining a cone of radius $\Delta R = \sqrt{\Delta \eta^{2} + \Delta \phi^{2}}$ around the particle of interest and summing the $p_{T}$ of all the reconstructed particles surrounding the particle of interest, situated within the cone. A quantity, $I_{rel}$, is then defined as ,$I_{rel} = \frac{\Sigma p_{T}(\text{surrounding candidate})  }{p_{T}(\text{candidate})}$, the ratio of this sum to the $p_{T}$ of the lepton candidate. If this value is large, is it likely that the particle of interest originated from a jet (together with many other particles), whereas a prompt decay product resulting from the hard scatter will have little to no energy surrounding it ($I_{rel} \ll 1$). We use Analysis Base's \texttt{IsolationSelectionTool} with the \texttt{PLVTight} and \texttt{PflowTight$\_$FixedRad} working points for tight electrons and tight muons respectively (following the current recommendations~\cite{recommendedIsolationWPs}).\\\\
+Tight leptons additionally require that they are sufficiently isolated from other particles produced in the collision. This is done by defining a cone of radius $\Delta R = \sqrt{\Delta \eta^{2} + \Delta \phi^{2}}$ around the particle of interest and summing the $p_{T}$ of all the reconstructed particles surrounding the particle of interest, situated within the cone. A quantity, $I_{rel}$, is then defined as ,$I_{rel} = \frac{\Sigma p_{T}(\text{surrounding candidate})  }{p_{T}(\text{candidate})}$, the ratio of this sum to the $p_{T}$ of the lepton candidate. If this value is large, is it likely that the particle of interest originated from a jet (together with many other particles), whereas a prompt decay product resulting from the hard scatter will have little to no energy surrounding it ($I_{rel} \ll 1$). We use Analysis Base's \texttt{IsolationSelectionTool} with the \texttt{PLVTight} ($\sim$ 70$\%$ efficiency~\cite{elecIsolationEfficiency})  and \texttt{PflowTight$\_$FixedRad} ($\sim$ 70$\%$ efficiency at $p_{T} = \SI{30}{GeV}$~\cite{muonIsolationEfficiency}) working points for tight electrons and tight muons respectively (following the current recommendations~\cite{recommendedIsolationWPs}).\\\\
 The selection criteria for leptons are summarised in the Table \ref{tab:lepton-selection} below. 
 
 
-
-
-\begin{table}
+\begin{table}[htbp]
 	\centering
 		\resizebox{\textwidth}{!}{%
 	\begin{tabular}{c|cc|cc} 
@@ -83,11 +80,11 @@ The selection criteria for leptons are summarised in the Table \ref{tab:lepton-s
 
 
 \subsection{Jets}
+Jets are reconstructed from topological clusters using the anti-$k_{t}$ algorithm. Topological clusters are groups of adjacent calorimeter cells which originate from \textit{seed} cells. Seed cells are defined to contain at least 4 times the average amount of noise expected in the cell\footnote{$\sigma$: average noise in a given cell}. All cells adjacent to the seed cell are grouped together given that the energy deposited within the cell is at least 2$\sigma$. This process is repeated until there are no adjacent cells which meet the above criteria. All adjacent cells to the cluster are then added, with no requirement on the energy deposited within these cells. We use the \texttt{AntiKt4EMPFlowjets} ($\sim$ 97$\%$ average efficiency with JVT (outlined in the subsequent paragraph) $>$ 0.2~\cite{TopRecoObjTwikiModel}) working point (following the current recommendations~\cite{TopRecoObjTwikiModel}).\\\\
 
-Jets are required to be within $|\eta| < 2.5$ and $p_{T}(\text{jet}) > \SI{25}{\GeV}$. We apply these looser $p_T$ cuts in an attempt to increase our limited signal statistics.\\\\
-
-
- We use the \texttt{Medium} working point for the jet-vertex-tagger (jvt) and the forward jet-vertex-tagger (forward jvt). Jets are required to have a jvt value greater than $\SI{0.5}{}$, in an attempt to reject effects caused by pile-up interactions.
+ The jet-vertex-tagger (JVT) and the forward jet-vertex-tagger (fJVT) are likelihood discriminants which aim to suppress pile-up jets. We use the \texttt{Medium} working point for the JVT and the fJVT (following the current recommendations~\cite{JVTandfJVT-Recommendations}). We additionally require that jets have a JVT value greater than $\SI{0.5}{}$.\\\\
+ 
+Jets are required to be within $|\eta| < 2.5$ and $p_{T}(\text{jet}) > \SI{25}{\GeV}$. We apply these looser $p_T$ cuts in an attempt to increase our limited signal statistics.
 
 
 
@@ -110,8 +107,7 @@ The selection criteria which define the SR and the CRs are summarised in Table ~
 
 
 \begin{table}[htbp]
-	
-	
+
 	\centering
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{m{4.5cm}m{4.5cm}m{4.5cm}m{4.5cm}}

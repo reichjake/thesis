@@ -1,0 +1,22 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'thesis.blg'
+[28] biber:313> INFO - === Mon Jun 21, 2021, 10:42:09
+[49] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[109] Biber.pm:857> INFO - Found 41 citekeys in bib section 0
+[121] Biber.pm:3981> INFO - Processing section 0
+[132] Biber.pm:4154> INFO - Looking for bibtex format file 'references.bib' for section 0
+[134] bibtex.pm:1468> INFO - LaTeX decoding ...
+[170] bibtex.pm:1294> INFO - Found BibTeX data source 'references.bib'
+[208] Utils.pm:169> WARN - month field 'Apr' in entry 'ttz-xsec-paper' is not an integer - this will probably not sort properly.
+[597] Utils.pm:169> WARN - month field 'Aug' in entry 'electronRecoAndID:paper' is not an integer - this will probably not sort properly.
+[612] Utils.pm:169> WARN - month field 'May' in entry 'muonIDEfficiency' is not an integer - this will probably not sort properly.
+[622] Utils.pm:169> WARN - month field 'May' in entry 'DL1r-paper' is not an integer - this will probably not sort properly.
+[682] Utils.pm:169> WARN - I didn't find a database entry for related entry 'PERF-2016-06-err' in entry 'PERF-2016-06' - ignoring (section 0)
+[727] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[727] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[727] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[727] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[777] bbl.pm:617> INFO - Writing 'thesis.bbl' with encoding 'ascii'
+[777] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[895] bbl.pm:720> INFO - Output to thesis.bbl
+[895] Biber.pm:110> INFO - WARNINGS: 5

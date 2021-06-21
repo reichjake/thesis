@@ -12,14 +12,15 @@
 %\pagestyle{headings}
 \usepackage{xspace} 
 \usepackage{multirow}
-\usepackage{booktabs}
+\usepackage{commath}
+\usepackage{pifont}
 
-\graphicspath{ {figures} }
+\graphicspath{ {figures/} }
 
 \usepackage{tikz-feynman}
 \tikzfeynmanset{compat=1.1.0}
 
-
+\setcounter{secnumdepth}{3}  %subsubsections are numbered
 
 % centering of chapter headings 
 \usepackage{sectsty}
@@ -34,7 +35,6 @@
 \pagestyle{fancy}
 
 \makeatletter
-\let\@@magyar@captionfix\relax
 \let\stdchapter\chapter
 \renewcommand*\chapter{%
 	\@ifstar{\starchapter}{\@dblarg\nostarchapter}}
@@ -62,6 +62,10 @@
 \newcommand{\tWZ}{$tWZ$\xspace}
 \newcommand{\ttZ}{$t\bar{t}Z$\xspace}
 \newcommand{\ZZ}{$ZZ$\xspace}
+\newcommand{\tWZfake}{$(\tWZ)_{\text{fake}}$\xspace}
+\newcommand{\ttZfake}{$(t\bar{t}Z)_{\text{fake}}$\xspace}
+\newcommand{\cmark}{\ding{51}\xspace} %check mark
+\newcommand{\xmark}{\ding{55}\xspace} %cross
 
 
 
@@ -113,9 +117,6 @@
 
 \chapter{Analysis Setup and Strategy}
 \input{sections/analysis.tex}
-
-\chapter{Search for $tWZ$ Production}
-\input{sections/search_for_tWZ.tex}
 
 \chapter{Conclusion and Outlook}
 \input{sections/conclusion.tex}

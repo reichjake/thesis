@@ -4,7 +4,7 @@
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
       <bcf:key>output_encoding</bcf:key>
-      <bcf:value>utf8</bcf:value>
+      <bcf:value>ascii</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>input_encoding</bcf:key>
@@ -1923,32 +1923,58 @@
     <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">twz_3_lep</bcf:citekey>
-    <bcf:citekey order="2">twz_3_lep</bcf:citekey>
-    <bcf:citekey order="3">pdg</bcf:citekey>
-    <bcf:citekey order="4">pdg</bcf:citekey>
+    <bcf:citekey order="1">ttz-xsec-paper</bcf:citekey>
+    <bcf:citekey order="2">zz-xsec-paper</bcf:citekey>
+    <bcf:citekey order="3">twz_3_lep</bcf:citekey>
+    <bcf:citekey order="4">twz_3_lep</bcf:citekey>
     <bcf:citekey order="5">pdg</bcf:citekey>
-    <bcf:citekey order="6">TopRecoObjTwikiModel</bcf:citekey>
-    <bcf:citekey order="7">Overlap-removal-slides</bcf:citekey>
-    <bcf:citekey order="8">electronRecoAndID:paper</bcf:citekey>
-    <bcf:citekey order="9">muon-selection-tool</bcf:citekey>
-    <bcf:citekey order="10">electronIDefficiency</bcf:citekey>
-    <bcf:citekey order="11">electronIDefficiency</bcf:citekey>
-    <bcf:citekey order="12">muonIDEfficiency</bcf:citekey>
-    <bcf:citekey order="13">elecIsolationEfficiency</bcf:citekey>
-    <bcf:citekey order="14">muonIsolationEfficiency</bcf:citekey>
-    <bcf:citekey order="15">recommendedIsolationWPs</bcf:citekey>
-    <bcf:citekey order="16">TopRecoObjTwikiModel</bcf:citekey>
-    <bcf:citekey order="17">TopRecoObjTwikiModel</bcf:citekey>
-    <bcf:citekey order="18">JVTandfJVT-Recommendations</bcf:citekey>
-    <bcf:citekey order="19">DL1r-paper</bcf:citekey>
-    <bcf:citekey order="21">pdg</bcf:citekey>
-    <bcf:citekey order="22">Aaboud:2019</bcf:citekey>
-    <bcf:citekey order="22">ppToZZ:CMSpaper</bcf:citekey>
-    <bcf:citekey order="23">skLearnGBClassifierDocs</bcf:citekey>
-    <bcf:citekey order="24">skLearnGBClassifierDocs</bcf:citekey>
-    <bcf:citekey order="25">TRexfitter</bcf:citekey>
-    <bcf:citekey order="26">MixedDataAndMC_TRF</bcf:citekey>
+    <bcf:citekey order="6">pdg</bcf:citekey>
+    <bcf:citekey order="7">GoodRunLists</bcf:citekey>
+    <bcf:citekey order="8">Demartin:2016axk</bcf:citekey>
+    <bcf:citekey order="9">pdg</bcf:citekey>
+    <bcf:citekey order="10">TopRecoObjTwikiModel</bcf:citekey>
+    <bcf:citekey order="11">Overlap-removal-slides</bcf:citekey>
+    <bcf:citekey order="12">electronRecoAndID:paper</bcf:citekey>
+    <bcf:citekey order="13">muon-selection-tool</bcf:citekey>
+    <bcf:citekey order="14">electronIDefficiency</bcf:citekey>
+    <bcf:citekey order="15">electronIDefficiency</bcf:citekey>
+    <bcf:citekey order="16">muonIDEfficiency</bcf:citekey>
+    <bcf:citekey order="17">elecIsolationEfficiency</bcf:citekey>
+    <bcf:citekey order="18">muonIsolationEfficiency</bcf:citekey>
+    <bcf:citekey order="19">recommendedIsolationWPs</bcf:citekey>
+    <bcf:citekey order="20">TopRecoObjTwikiModel</bcf:citekey>
+    <bcf:citekey order="21">TopRecoObjTwikiModel</bcf:citekey>
+    <bcf:citekey order="22">JVTandfJVT-Recommendations</bcf:citekey>
+    <bcf:citekey order="23">DL1r-paper</bcf:citekey>
+    <bcf:citekey order="25">pdg</bcf:citekey>
+    <bcf:citekey order="26">Aaboud:2019</bcf:citekey>
+    <bcf:citekey order="26">ppToZZ:CMSpaper</bcf:citekey>
+    <bcf:citekey order="27">IFFTruthClassifier</bcf:citekey>
+    <bcf:citekey order="28">IFFTruthClassifier-leptonCategories</bcf:citekey>
+    <bcf:citekey order="29">skLearnGBClassifierDocs</bcf:citekey>
+    <bcf:citekey order="30">skLearnGBClassifierDocs</bcf:citekey>
+    <bcf:citekey order="31">skLearnGBClassifierDocs</bcf:citekey>
+    <bcf:citekey order="32">skLearnGBClassifierDocs</bcf:citekey>
+    <bcf:citekey order="33">2vSM-ref1</bcf:citekey>
+    <bcf:citekey order="33">2vSM-ref2</bcf:citekey>
+    <bcf:citekey order="34">Avoni:2018</bcf:citekey>
+    <bcf:citekey order="35">twiki-JVT</bcf:citekey>
+    <bcf:citekey order="36">PERF-2016-06</bcf:citekey>
+    <bcf:citekey order="37">PERF-2016-05</bcf:citekey>
+    <bcf:citekey order="37">FTAG-2018-01</bcf:citekey>
+    <bcf:citekey order="38">ATLAS-CONF-2018-001</bcf:citekey>
+    <bcf:citekey order="39">ATLAS-CONF-2018-006</bcf:citekey>
+    <bcf:citekey order="40">twiki-elSF</bcf:citekey>
+    <bcf:citekey order="41">EGAM-2018-01</bcf:citekey>
+    <bcf:citekey order="42">twiki-elSF</bcf:citekey>
+    <bcf:citekey order="42">twiki-elSFunc</bcf:citekey>
+    <bcf:citekey order="43">MUON-2018-03</bcf:citekey>
+    <bcf:citekey order="44">twiki-muSF</bcf:citekey>
+    <bcf:citekey order="45">TRF-ForceShape</bcf:citekey>
+    <bcf:citekey order="46">TRexfitter</bcf:citekey>
+    <bcf:citekey order="47">MixedDataAndMC_TRF</bcf:citekey>
+    <bcf:citekey order="48">transfod-autobin</bcf:citekey>
+    <bcf:citekey order="49">HL-LHC-paper</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

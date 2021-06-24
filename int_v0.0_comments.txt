@@ -1,0 +1,215 @@
+- Introduction needs work - essentially the next section does at least some of this task. 
+
+L72-74 felt like a repetition to lines 76-80. Maybe the intro and the theoretical context can be merged together?
+
+- Introduction / Theoretical motivation - what is the expected SM cross-section for tWZ? Have any searches been performed before at ATLAS or CMS?
+
+Figure 2 needs a caption and should be referred to somewhere in lines 101-106
+
+L124 The tag "epping" - what does this mean? Is it something we need to worry about or is it useful internal information for the team?
+
+L125 "Table ??"
+
+L125: need a list of all MC samples including signal and background and corresponding DSIDs in an appendix 
+
+L131 "Section ??"
+
+Table 4 - Formatting goes off the page, some columns may be out of range of the document
+
+Table 4: What do you do with both Sherpa 221 and 228 for ttW? It makes sense to just use the latest Sherpa 2210 samples which are now available and being used by the ttW team. 
+
+Table 4 - Have you considered a manual ttW normalisation correction following recent issues with this process? A special CR may be overkill, Table 9 suggests ttW is a small contribution to each region, perhaps you can simply multiply by a factor of 1.6 for this MC?
+
+L196 Do you need these very low m_ll ttZ events or is this just a feature of the sample? (The production differs from tZq with mll > 30 GeV)
+
+L 223: Probably it is ok to use LO for 4tops but you might want to use the latest NLO samples which were used by the 4tops team 
+
+L 241 and L 257: Did you investigate the PLIV working points? 
+
+Table 7 Did you do any optimisation studies for creating this selection? Especially for the lepton pT values? Also the b-tagging WP? What motivated these particular numbers? (Later this may be relevant as subleading lepton pT cuts are great at killing HF->lepton fakes but perhaps your signal requires such a low third-leading lepton pT?)
+
+L 316: How did you decide on 30 GeV for the leading lepton?
+
+L 323: it seems you chose the 77% WP but earlier around L 276 you mentioned pseudo-continuous b-tagging. Can you clarify how this is used?
+
+L342/Figure 4 What about a tZq CR? The WZ CR even looks more dominated by tZq? Maybe WZ CR could be enhanced by requiring < 2 jets?  Actually Figure 4 suggests WZ CR does use <= 2 jets whereas Table 8 states == 2 jets (as does L354), which is the final selection? 
+
+L 343: Did you also check S/√B or S/B in the WZ and ttZ CRs?
+
+Figure 4 - This figure suggests that the WZ CR is <= 2 jets whereas Table 8 states == 2 jets (as does L354), which is the final selection? Actually it states that this particular region is specifically the WZ+b CR, but a special region just for this HF breakdown is not described elsewhere? Maybe this plot is out of date? 
+
+Figure 4: Why does the top left plot stop at 7 jets whereas the right top and bottom left have events with 8 jets? 
+
+L360/Figure 6 - As a detail, the blinding is only strictly required for bins where tWZ >= 10% of total bin content. (S/(S+B) > 0.1).  This may help you if you wish to partially unblind some bins in the SR for any reason.  Additionally however you need to make sure that this rule is followed in the CR - without the numbers it is hard to tell but it’s possible in Figure 6 that the central 2 bins in the lepton eta spectra might be reaching the 0.1 value for tWZ contamination?
+
+L 360: Please give the S/√B or S/B in the SR and write out the blinding threshold explicitly
+
+L 365: Is this categorization done at particle level? How is a true b/c-jets defined?
+
+Table 9: Should not you mention fakes here? It might be better to already mention fake leptons where you list all your backgrounds. But it is probably OK to keep the details of the estimation in section 5.4.
+
+Figure 5 and following figures: What is included in the uncertainty band? Stat only?
+
+Figure 8  - What’s happening in the outer bins of the N b-tag jet plot? Large error bands and no data points? (Maybe data = 0 and the log scale makes the error bands look obscure when they are actually small as raw values?
+
+Figure 9 - For Njets and B-tagged jets, are the outer bins zero or small numbers? These look like small numbers with large errors but the selection means they should be identically zero? This may just be a visual illusion
+
+Fig 8/9 - The jet pT distributions all share a slope, is this something you’ll be sensitive to for your selection of tWZ? How sensitive are you to higher jet pT bins?
+
+Section 5.4 - It would be good to have a diagram to show the contribution of fakes to your SR and their breakdown.  How prominent are fakes in your selection? Is it primarily HF decays (and if so what’s the balance of e and mu) - or is it primarily photon conversions? What are the main MC processes which contribute those sources of fakes numerically according to your MC? Is it always the third leading lepton which is fake? How often is there more than 1 fake?
+
+L401 - Have you included MC for ttgamma and Zgamma? These can contribute significant fakes (via photon conversion) to 3 lepton regions. If that is the case, you may need also CRs enhanced in photon conv specifically.
+
+L415 - Do you make sure you appropriately reweight your event for the change in leptonSF when using one lepton which is loose_not_tight ? It may only be a small effect but it complicates systematics etc as well
+
+Figure 10 - The labelling here on the x-axis should definitely include the ‘fake’ or ‘fk’ label to make it clear to the EB (if it is read quickie) that this is not the actual SR.  It would also be useful to have the ordering of these 3 bins set up to match Figure 5, so that quick comparisons may be drawn if they are placed side-by-side.
+
+Figure 10 - You have enough stats to consider binning your fakes in some distributions as well, which might help you to identify again if there are multiple sources which could use different CRs to separate them or if your fakes are concentrated in particular pT ranges for instance which could be more focused on?
+
+L451-460 Would it help this MC study to also request that neither jet in the dijet system is close in DR to a b-hadron?
+
+Figure 12 - This isn’t really a flow chart - you’re mixing “Yes” and “No” answers to statements of action rather than questions, and also representing collections of objects in the same way as statements of action.  It’s a nice diagram, it’s not really needed and might confuse an EB member, the simplest way to fix it would be to replace the shape of the statement of action with a different shape (to differentiate them from the object collections) and to rephrase the statement as questions, (“Does dijet pair have smallest dR?”, “Does dijet pair pass dR cut?”)
+
+L471 “It was the case that some background dijet were labelled as background and vice versa” - this sentence sounds like you have truth information to know the exact number of each but I guess that is not the case right? (Otherwise the dR method would not be necessary)
+
+L477 “Section X”
+
+L484-L498 Do you expect these variables to differ much between a tt sample and a WZ diboson sample? Perhaps the separation of the jets could be affected by the kinematics? Probably not enough to affect the performance of the GBDT when applying to a diboson sample? You mention in L517 that no significant differences in kinematics are found which is good, but did you check the BDT input variables specifically?
+
+L517-519: Can you include some of the kinematic distributions to support  that it is OK to use dijets from ttbar samples with a single lepton to train the W_had GBDT? 
+
+L528 subsection title mis-formatted
+
+L527 Figure 16 - Did you have to go through much of an optimisation procedure to get this performance? Can you overlay the test and training performance (maybe the purity as a function of discriminant cut) to show there’s no over-training? Was this a 50/50 test-training split or similar?  Is this plot for the score per jet or the max score per event?
+
+Figure 17 - Might be useful to slightly improve the labelling on the plots to clearly state which SR/CR is which (rather than relying on good memory for the definitions by jet selections etc)
+
+L542/Figure 17 - The last bin of WZ looks like it just had no data and 1 expected MC? This isn’t really a disagreement if we’ve understood correctly? Stat fluctuation? Is this why the error looks significantly large?
+
+L563 Did you also train the BDT against MC representing fakes? Do you expect the poor modelling to play any role in the performance of the BDT w.r.t MC vs Data?
+
+L576 Why the “minimum” vectorial sum specifically?
+
+Fig 20 The last two bins in the min(m_non-Z,l,b) distribution may need blinding due to signal contamination.
+
+Figure 19: Are these distributions in the signal region? Is the training done in the SR?
+
+L607 What fraction of negative weights did you have? Was this in the signal or the background(s)?
+
+Fig 22 - You may need to blind some of your CR bins based on signal contamination.
+
+L659 Missing reference
+
+L661 How did you choose the size of this Z mass window?
+
+L675 Is the goal of tWZ SF SR to still be a SR or is it actually to be used like a CR?
+
+L684 Is ZZ+c a concern for you?  Do you have the flavour breakdown of the ZZ events in the SR? Is it possible to include this in the INT?
+
+L692 May you can point the reader forward here to let them know the studies will be shown in the next section
+
+L695 This is a little confusingly named.  Should ‘tWZ’ be written as ‘ttZ’ everywhere here or at least in a few places? Or maybe line 696 means tWZ SR? If you take the tWZ SR and set one lepton to loose-not-tight it might already kill your signal and give you lots of fakes.  Alternatively you can take the ttZ CR and do the same? Would that not be more appropriate? It would be good to see a breakdown of what fraction of ttZ events entering your selection are real and which are fakes, to understand this CR motivation better.
+
+L704-705 How are these expected significances and expected upper limits derived / calculated? Are you running TRexFitter using different baseline cuts and with all of the regions as defined in Table 10?
+
+Fig 24/25/26/27 The error bars on the upper limit plots are large, should they be equivalently so on the significance plot? Or this this a simple S/B type calculation? (If they are very large it is harder to argue for any particular point, if they are accurate and tiny then this is fine)
+
+L724 This argument is a little confusing.  Fig 27 really shows no sensitivity to this cut, and you use single lepton triggers so the second lepton is not the trigger lepton - will the systematics cause issues still? 
+
+Fig 28 - Could you please make the y-axis scale consistent across all 5 regions?  Please add these plots for the trilepton region also.
+
+Table 11 - The SRs should be blinded but you have the data yield written here for both.  (This table is also never referred to in the text).
+
+Table 12 - Would be good to have this for trilepton also.
+
+Table 12 - The MC stat unc as a percentage is very large on the ‘other’ category.  This is only a tiny contribution so it’s not an issue, but do you know which sample(s) are driving this?
+
+Fig 37-47 - A few bins may need to be blinded here according to the 0.1 sensitivity threshold.
+
+Section 6.3.6 / Fig 47 - This section perhaps needs merging with the section describing the ML strategy.  At this stage in the note showing plots of a BDT discriminant is confusing as no BDTs have been introduced for the tetralepton channel.
+
+Section 6.4: many missing links to Sections (Line 763, 764, 772, 786)
+
+L 776:  Please write exactly what  “KnownUnknown” covers 
+
+L779 Why do you not consider photon conversion fakes?  Also how do you handle Charge misID - are you very sensitive to it?
+
+L788 - Do you make sure you appropriately reweight your event for the change in leptonSF when using one lepton which is loose_not_tight ? It may only be a small effect but it complicates systematics etc as well
+
+Sec 6.4 needs some work - some plots would be nice!
+
+L817 Since the BDT is specifically looking at b-tagged jets and being trained on MV2c10 tags, do you expect that to have much effect when you are then evaluating it on DLr1 jets? Could you run a ttbar+DL1r selection?  You can still use the single-lepton sample to stay orthogonal to the ttbar used in the analysis, as was done for trilepton. Are the differences here only in the object/event selection i.e. different b-tagger? There is not anything else different in the MC ttbar sample that you are using right? Please make this more clear in the text if that is the case.
+
+L835 In your signal what are the parents of the lb object pairings which are not from top decays? Is it safe to assume that the kinematic of these pairings will be similar enough to the cross-top object pairings used as the background in the object-level BDT training?  If so, please demonstrate how similar the lb systems in ttbar samples are to MC samples used in the rest of the analysis (a few plots would be useful)
+
+Table 13 - How did you calculate the relative importance? Is this straight from scikit-learn? What is the metric?
+
+Table 13: Did you check the modeling of these variables? 
+
+Fig 49 The background distribution shows two independent categories of events according to the BDT discriminant.  Do you understand these two peaks? One is considerably more signal-like than the other.
+
+L845 Do you have an equally large testing set? Is it a 50:50 split?
+
+L865 It would be good to have a plot of this BDT ratio variable for the processes you intend to separate (or for all processes even).
+
+Table 15 - Please consider pointing the reader to the relevant Section for the neutrino variable as this is the first mention of it.
+
+Table 15 - How did you calculate the importance? Was it straight from scikit-learn? What was the metric?
+
+L903 Does this algorithm differ much from neutrino weighting? We may need to take some time to understand this algorithm.
+
+L 964-965: what is the threshold range?
+
+L 974: refer to the Figure 53 and not “the above Figure”
+
+L 1007: Why 3%? Should it be 1.6%?
+
+Sec 7.1 What about other uncertainties like JER, JES and ETMiss?
+
+Sec 7.2 What motivated most of the numerical values given in this section? Are they arbitrary or do you have references for instance? Especially where different values are used between trilepton and dilepton (e.g. ZZ).
+
+Sec 7.2  Are you not using tWZ DR1 vs DR2 as an uncertainty in the trilepton channel? Why have you written that tWZ is a background in your tetralepton channel?
+
+Section 7.2.2: Fill in the missing references on line 1072, Line 1076
+
+Sec 7.3 This procedure seems more complicated than just including the relevant modelling systematics into the fit, Generator, Parton shower, PDF, Scales etc - why not just include those and show that their effect is negligible? tWZ may be statistically limited but we still perform the full correct systematic treatment in for example ttgamma and 4top analyses which have smaller SM cross-sections.  Given that this analyses used many different BDTs which could be very sensitive to shape effects, it seems important to correctly include the modelling of these effects and to consider their correlations also in the final fit - even for a statistically limited analysis.  It’s unclear at this stage how statistically limited the analysis is?
+
+L 1093: Please explain (very briefly) what TRF’s ForceShape option is 
+
+Table 17 - You are giving data values here in your SR which should be blinded.
+
+Section 8 - Please consider showing some post-fit kinematic distributions! It would be useful to observe if differences in your pre-fit CRs are resolved by the fit
+
+Sec 8.2 Do you have a pure Asimov fit to show that it returns perfect NPs with 0 pulls and to look at any constraints? Before running the mixed data and MC fit, to validate the functionality of the fit procedure.
+
+Fig 59 - Some of these bins should possibly be blinded if sensitivity > 0.1 according to the blinding guidelines.
+
+Fig 61 This plot seems to report that the signal strength is both 1.62 and 2.03? (Is one of thse values the best fit and the oher the upper limit?)
+
+Fig 62 - What’s the correlation threshold here, 20%? Maybe you can reduce it to 10%?
+
+Fig 64/66 - There is a large constraint on the ZZ cross-section uncertainty.  Have you studied this?
+
+Sec 8.2  There should be some discussion please of any observed constraints, pulls, large correlations etc to show that they are investigated and understood.
+
+Fig 68 Some of these bins should possibly be blinded if sensitivity > 0.1 according to the blinding guidelines.
+
+Maybe swap sections 8.2 and 8.3 to be consistent with the ordering of the rest of the note
+
+Sec 8.3 Centrally formatted text?
+
+Sec 8.3 Do you have a pure Asimov fit to show that it returns perfect NPs with 0 pulls and to look at any constraints? Before running the mixed data and MC fit, to validate the functionality of the fit procedure.
+
+Fig 69 - tZq is quite pulled and Z+Jets is heavily constrained.  Have you studied this?
+
+Sec 8.3 There should be some discussion please of any observed constraints, pulls, large correlations etc to show that they are investigated and understood.
+
+Sec 8.3 Do you have trilepton region pruning and correlation plots?
+
+Sec 8.4 Do you have a pure Asimov fit to show that it returns perfect NPs with 0 pulls and to look at any constraints? Before running the mixed data and MC fit, to validate the functionality of the fit procedure.
+
+Sec 8.4 Do you have combined region pruning and correlation plots?
+
+L1174 Is this saying that the expected significant from trilepton+tetralepton channels is lower than from the tetralepton channel alone? This value also does not agree with Figure 72?
+
+Section 9 - Please at least template out a summary and conclusion (of course you don’t have the real result yet but the text can help the EB still) 

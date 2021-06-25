@@ -254,8 +254,7 @@ Since there is a very small change between the different $p_{T}(\text{NL Lepton}
 
 \section{Signal and Control Regions}
 
-In this section, pre-fit distributions of variables in each region are shown. More pre-fit distributions for each region are shown in the appendix (Section~\ref{sec:app-controlPlots}). For each figure in this section, the data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. The plots in the $tWZ$ OF SR and $tWZ$ SF SR are kept blinded by omitting the data points.
-
+In this section, pre-fit distributions of variables in each region are shown. More pre-fit distributions for each region are shown in the appendix (Section~\ref{sec:app-controlPlots}). For each figure in this section, the data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. The plots in the $tWZ$ OF SR and $tWZ$ SF SR are kept blinded by omitting the data points.\\\\
 
 In Table~\ref{tab:4Lep-PreFit-Yields}, the pre-fit yields for each sample in each region is shown.
 \begin{table}[h!]
@@ -778,33 +777,6 @@ In Figure~\ref{fig:4lep-tWZ-fake-CR-bjetPlots} MC predictions for $p_{T}$, $\eta
 \end{figure}
 
 
-\subsection{Fit Variables}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%   fit variables         %%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-The variables used in the fit, in each region, are outlined in this section.
-
-In Figure~\ref{fig:4lep-prefitPlots} MC predictions for the variables used in the likelihood fit in each region are shown.
-\begin{figure}[htbp]
-\centering
-
-     \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_tWZ_4T_SF.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_tWZ_4T_OF.png}  \quad
-    \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_ttZ_4T.png}
-
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_ZZb_4T.png} \quad
-     \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_tWZ_3T1L.png}
-
-        \caption{Pre-fit distributions (blinded) of variables used in the fit are shown. \textbf{Top left:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Middle Top:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Top right:} The event-level BDT Disc. Output in the $t\bar{t}Z$ CR region is shown. \textbf{Bottom left:} $SMT = \sum p_{T} (\ell) + \sum p_{T} (jet) + E_{T}^{\text{miss}}$ in the $ZZb$ CR is shown. \textbf{Bottom right:} $p_{T}(\text{loose lepton})$ in the $(tWZ)_{\text{fake}}$ (3T1L) CR is shown.}
-  \label{fig:4lep-prefitPlots}
-\end{figure}
-
-
 Given the limited statistics which we are presented with in the tetralepton channel, we nevertheless observe relatively good agreement overall between data and MC.
 
 \section{Fake Lepton Estimation}
@@ -815,7 +787,7 @@ We aim to estimate the fake lepton contribution in this analysis. We start off b
 
 Firstly, we split up the dominant \ttZ background into \ttZ and $(t\bar{t}Z)_{\text{fake}}$ components. Secondly, we define a $(tWZ)_{\text{fake}}$ CR (See Section~\ref{sec:regionsAndEventSelection}) which is enhanced in fakes and aims to constrain the $(t\bar{t}Z)_{\text{fake}}$ background in the SR.
 
- All events which contribute to the $(t\bar{t}Z)_{\text{fake}}$ background are determined by the \texttt{IFF Truth Classifier}~\cite{IFFTruthClassifier}. The \texttt{IFF Truth Classifier} is a tool which aims to classify leptons based off their truth information. The function returns one of the following lepton categories: \texttt{Unknown}, \texttt{KnownUnknown}, \texttt{IsoElectron}, \texttt{ChargeFlipIsoElectron}, \texttt{PromptMuon}, \texttt{PromptPhotonConversion}, \texttt{ElectronFromMuon}, \texttt{TauDecay}, \texttt{BHadronDecay}, \texttt{CHadronDecay} or \texttt{LightFlavorDecay} (More details~\cite{IFFTruthClassifier-leptonCategories}). Given these categories, we consider leptons classified as \texttt{BHadronDecay}, \texttt{CHadronDecay} or \texttt{LightFlavorDecay} (i.e. a lepton originating from the decay of a $b$-Hadron, $c$-Hadron or light-flavour jet) to be fakes. Since we only consider events with one fake lepton to contribute to our $(t\bar{t}Z)_{\text{fake}}$ background, we require that events which contribute to this background are those where exactly one lepton from the \ttZ sample are classified by the \texttt{IFF Truth Classifier} with one of the three aforementioned categories.
+ All events which contribute to the $(t\bar{t}Z)_{\text{fake}}$ background are determined by the \texttt{IFF Truth Classifier}~\cite{IFFTruthClassifier}. The \texttt{IFF Truth Classifier} is a tool which aims to classify leptons based off their truth information. It uses the more general \texttt{MCTruthClassifier}~\cite{MCTruthClassifier} tool's output as input and returns one of the following lepton categories: \texttt{Unknown}, \texttt{KnownUnknown} (leptons which can (in priciple) be classified, but the \texttt{MCTruthClassifier} fails to classify the lepton's truth type or origin), \texttt{IsoElectron}, \texttt{ChargeFlipIsoElectron}, \texttt{PromptMuon}, \texttt{PromptPhotonConversion}, \texttt{ElectronFromMuon}, \texttt{TauDecay}, \texttt{BHadronDecay}, \texttt{CHadronDecay} or \texttt{LightFlavorDecay} (More details~\cite{IFFTruthClassifier-leptonCategories}). Given these categories, we consider leptons classified as \texttt{PromptPhotonConversion}, \texttt{BHadronDecay}, \texttt{CHadronDecay} or \texttt{LightFlavorDecay} (i.e. a lepton originating from the decay of a $b$-Hadron, $c$-Hadron or light-flavour jet) to be fakes. Since we only consider events with one fake lepton to contribute to our $(t\bar{t}Z)_{\text{fake}}$ background, we require that events which contribute to this background are those where exactly one lepton from the \ttZ sample are classified by the \texttt{IFF Truth Classifier} with one of the three aforementioned categories.
 
 The $(tWZ)_{\text{fake}}$ CR aims to be as similar as possible to the $tWZ$ SRs, but enhanced in fakes. This CR can then be used to constrain the normalisation of the $(t\bar{t}Z)_{\text{fake}}$ template from data, since we use the \textit{mixed data and MC fit} (See Section \ref{sec:pipelineAnalysis-and-TRF}) which uses the data in the CRs to construct a modified ASIMOV dataset from the fitted nuisance parameters from a background only fit to the CRs. To ensure that this region is enhanced in fakes, we require that it contains 3 tight leptons and 1 loose lepton, since loose leptons are more likely to be fakes. By using the $p_{T}$ of the loose lepton ($p_{T}(\text{Loose Lepton})$) in this region as the variable used in the fit, the shape (and normalisation) of the $(t\bar{t}Z)_{\text{fake}}$ template can be constrained.
 
@@ -1306,7 +1278,27 @@ An auto-binning algorithm, \texttt{TransfoD}~\cite{transfod-autobin}, was used t
 In the section, an expected upper limit and an expected significance are set on the cross section of $tWZ$. This is performed for the current analysis in the tetralepton channel as well as for a combined analysis across the trilepton and tetralepton channels. The trilepton analysis was performed as an independent study by Benjamin Warren (UCT). Note that throughout this section, all signal regions remain blinded.
 
 \subsection{Tetralepton Channel}
-In Figure~\ref{fig:4lep-postfitPlots} post-fit distributions for the variables used in the likelihood fit (See Figure~\ref{fig:4lep-prefitPlots}) in each region are shown.
+
+In Figure~\ref{fig:4lep-prefitPlots} pre-fit distributions for the variables used in the likelihood fit in each region are shown.
+
+\begin{figure}[htbp]
+\centering
+
+     \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_tWZ_4T_SF.png} \quad
+    \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_tWZ_4T_OF.png}  \quad
+    \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_ttZ_4T.png}
+
+    \medskip
+
+    \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_ZZb_4T.png} \quad
+     \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_tWZ_3T1L.png}
+
+        \caption{Pre-fit distributions (blinded) of variables used in the fit are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. The plots in the $tWZ$ OF SR and $tWZ$ SF SR are kept blinded by omitting the data points. \textbf{Top left:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Middle Top:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Top right:} The event-level BDT Disc. Output in the $t\bar{t}Z$ CR region is shown. \textbf{Bottom left:} $SMT = \sum p_{T} (\ell) + \sum p_{T} (jet) + E_{T}^{\text{miss}}$ in the $ZZb$ CR is shown. \textbf{Bottom right:} $p_{T}(\text{loose lepton})$ in the $(tWZ)_{\text{fake}}$ (3T1L) CR is shown.}
+  \label{fig:4lep-prefitPlots}
+\end{figure}
+
+
+In Figure~\ref{fig:4lep-postfitPlots} post-fit distributions for the variables used in the likelihood fit in each region are shown.
 
 \begin{figure}[htbp]
 \centering

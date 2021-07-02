@@ -820,43 +820,28 @@ Firstly, we split up the dominant \ttZ background into \ttZ and $(t\bar{t}Z)_{\t
 
 The $(tWZ)_{\text{fake}}$ CR aims to be as similar as possible to the $tWZ$ SRs, but enhanced in fakes. This CR can then be used to constrain the normalisation of the $(t\bar{t}Z)_{\text{fake}}$ template from data, since we use the \textit{mixed data and MC fit} (See Section \ref{sec:pipelineAnalysis-and-TRF}) which uses the data in the CRs to construct a modified ASIMOV dataset from the fitted nuisance parameters from a background only fit to the CRs. To ensure that this region is enhanced in fakes, we require that it contains 3 tight leptons and 1 loose lepton, since loose leptons are more likely to be fakes. By using the $p_{T}$ of the loose lepton ($p_{T}(\text{Loose Lepton})$) in this region as the variable used in the fit, the shape (and normalisation) of the $(t\bar{t}Z)_{\text{fake}}$ template can be constrained.\\\\
 
-In Table~\ref{tab:iff-breakdown}, the number of leptons, by their IFF Truth classification, in each region for the $t\bar{t}Z$ and $t\bar{t}Z$ fake backgrounds are shown.
+In Figure~\ref{fig:4lep-iff-bar1}, the number of leptons classified as fake, split up by their IFF Truth classification, in each region is shown.
 
-\begin{table}[h!]
-
-\begin{tabular}{llllll}
-\hline
-\multicolumn{1}{l|}{}                                & \multicolumn{1}{l|}{$tWZ$ OF SR} & \multicolumn{1}{l|}{$tWZ$ SF SR} & \multicolumn{1}{l|}{$t\bar{t}Z$ CR} & \multicolumn{1}{l|}{$ZZb$ CR} & $(tWZ)_{\text{fake}}$ CR \\ \hline
-\multicolumn{6}{c}{$t\bar{t}Z$ background}                                                                                                                                                                  \\ \hline
-\multicolumn{1}{l|}{\texttt{Unknown}}                & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 0             \\
-\multicolumn{1}{l|}{\texttt{KnownUnknown}}           & \multicolumn{1}{l|}{2}     & \multicolumn{1}{l|}{3}     & \multicolumn{1}{l|}{7}         & \multicolumn{1}{l|}{0}         & 18            \\
-\multicolumn{1}{l|}{\texttt{IsoElectron}}            & \multicolumn{1}{l|}{10906} & \multicolumn{1}{l|}{6495}  & \multicolumn{1}{l|}{22828}     & \multicolumn{1}{l|}{3362}      & 17737         \\
-\multicolumn{1}{l|}{\texttt{ChargeFlipIsoElectron}}  & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{1}     & \multicolumn{1}{l|}{3}         & \multicolumn{1}{l|}{2}         & 3             \\
-\multicolumn{1}{l|}{\texttt{PromptMuon}}             & \multicolumn{1}{l|}{12863} & \multicolumn{1}{l|}{10273} & \multicolumn{1}{l|}{30434}     & \multicolumn{1}{l|}{5272}      & 18112         \\
-\multicolumn{1}{l|}{\texttt{PromptPhotonConversion}} & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 1             \\
-\multicolumn{1}{l|}{\texttt{ElectronFromMuon}}       & \multicolumn{1}{l|}{1}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 9             \\
-\multicolumn{1}{l|}{\texttt{TauDecay}}               & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 51            \\
-\multicolumn{1}{l|}{\texttt{BHadronDecay}}           & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 4             \\
-\multicolumn{1}{l|}{\texttt{CHadronDecay}}           & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 3             \\
-\multicolumn{1}{l|}{\texttt{LightFlavourDecay}}      & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 2             \\ \hline
-\multicolumn{6}{c}{$t\bar{t}Z$ fake background}                                                                                                                                                                     \\ \hline
-\multicolumn{1}{l|}{\texttt{Unknown}}                & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 0             \\
-\multicolumn{1}{l|}{\texttt{KnownUnknown}}           & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 2             \\
-\multicolumn{1}{l|}{\texttt{IsoElectron}}            & \multicolumn{1}{l|}{47}    & \multicolumn{1}{l|}{26}    & \multicolumn{1}{l|}{48}        & \multicolumn{1}{l|}{15}        & 2887          \\
-\multicolumn{1}{l|}{\texttt{ChargeFlipIsoElectron}}  & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 1             \\
-\multicolumn{1}{l|}{\texttt{PromptMuon}}             & \multicolumn{1}{l|}{82}    & \multicolumn{1}{l|}{31}    & \multicolumn{1}{l|}{69}        & \multicolumn{1}{l|}{27}        & 3878          \\
-\multicolumn{1}{l|}{\texttt{PromptPhotonConversion}} & \multicolumn{1}{l|}{4}     & \multicolumn{1}{l|}{4}     & \multicolumn{1}{l|}{12}        & \multicolumn{1}{l|}{0}         & 18            \\
-\multicolumn{1}{l|}{\texttt{ElectronFromMuon}}       & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 0             \\
-\multicolumn{1}{l|}{\texttt{TauDecay}}               & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}     & \multicolumn{1}{l|}{0}         & \multicolumn{1}{l|}{0}         & 0             \\
-\multicolumn{1}{l|}{\texttt{BHadronDecay}}           & \multicolumn{1}{l|}{26}    & \multicolumn{1}{l|}{10}    & \multicolumn{1}{l|}{10}        & \multicolumn{1}{l|}{9}         & 1593          \\
-\multicolumn{1}{l|}{\texttt{CHadronDecay}}           & \multicolumn{1}{l|}{5}     & \multicolumn{1}{l|}{2}     & \multicolumn{1}{l|}{6}         & \multicolumn{1}{l|}{4}         & 345           \\
-\multicolumn{1}{l|}{\texttt{LightFlavourDecay}}      & \multicolumn{1}{l|}{8}     & \multicolumn{1}{l|}{3}     & \multicolumn{1}{l|}{11}        & \multicolumn{1}{l|}{1}         & 300           \\ \hline
-\end{tabular}
+\begin{figure}[htbp]
 \centering
-\label{tab:iff-breakdown}
-\caption{The number of leptons, by their IFF Truth classification, in each region for the $t\bar{t}Z$ and $t\bar{t}Z$ fake backgrounds are shown.}
-\end{table}
 
+    \includegraphics[width=.5\textwidth]{figures/iff_bar_1.png}   
+
+    \caption{The number of leptons classified as fake, split up by their IFF Truth classification, in each region is shown. The left panel shows the number of leptons classified as fakes, scaled by a factor of 50, on the y-axis. The right panel shows the number of leptons classified as fakes (unscaled), on the y-axis. The different signal and control regions are shown on the x-axes of the left and right panels. The IFF truth classification of the leptons are shown in the legend and correspond to the different coloured stacked histograms.}
+  \label{fig:4lep-iff-bar1}
+\end{figure}
+
+
+In Figure~\ref{fig:4lep-iff-bar2}, the relative dominance of the different classifications for fake leptons (classified by the IFF truth classified) in each region, is shown.
+
+\begin{figure}[htbp]
+\centering
+
+    \includegraphics[width=.5\textwidth]{figures/iff_bar_2.png}   
+
+    \caption{The relative dominance of the different classifications for fake leptons (classified by the IFF truth classified) in each region, is shown. The relative dominance of leptons classified as fakes, as a fraction of the total number of fake leptons (in each region), is shown on the y-axis. The different signal and control regions are shown on the x-axis. The IFF truth classification of the leptons are shown in the legend and correspond to the different coloured stacked histograms.}
+  \label{fig:4lep-iff-bar2}
+\end{figure}
 
 
 The proportion of fake events in a region can be calculated by taking the ratio of the $(t\bar{t}Z)_{\text{fake}}$ MC yield in the region and the total MC yield in the region. These are 0.0035 $\pm$ 0.0025, 0.0014 $\pm$ 0.0012 and 0.10 $\pm$ 0.051 for the $tWZ$ OF SR, $tWZ$ SF SR and $(tWZ)_{\text{fake}}$ CR respectively. This shows that there is significantly more $(t\bar{t}Z)_{\text{fake}}$ events in the $(tWZ)_{\text{fake}}$ CR compared to the $tWZ$ SRs, therefore justifying our inclusion of the $(tWZ)_{\text{fake}}$ CR in the fit (to constrain the $(t\bar{t}Z)_{\text{fake}}$ background).

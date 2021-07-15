@@ -913,7 +913,23 @@ In Figure~\ref{fig:norm-object-bdt-vars}, normalised distributions of the signal
     \label{fig:norm-object-bdt-vars}
 \end{figure}
 
-Overall the BDT input variables show a large amount of discrimination.
+Overall the BDT input variables show a large amount of discrimination. \\\\
+We can check the modelling of the input variables to the object-level BDT by studying the agreement between data and simulation in the $t\bar{t}Z$ CR. 
+In Figure~\ref{fig:4lep-ttZCR-objectbdt-var}, MC predictions for the input variables to the object-level BDT in the $t\bar{t}Z$ CR are shown.
+\begin{figure}[htbp]
+\centering
+
+     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_delEta_l0b0.png} 
+ \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png} 
+ \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png} 
+ \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png} 
+ \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png} 
+
+\caption{Pre-fit distributions of variables used as input to the object-level BDT (ordered from top left to bottom right via decreasing importance), in the $t\bar{t}Z$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the blue diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} $\Delta \eta$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta \phi$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta R$ between the lepton and $b$-jet of the leading $\ell b$ system. $p_{T}$ of the leading $\ell b$ system. Mass of the leading $\ell b$ system.}
+  \label{fig:4lep-ttZCR-objectbdt-vars}
+\end{figure}
+
+Overall, there is good agreement between data and simulation for the input variables to the object-level BDT in the $t\bar{t}Z$ CR. This suggests that the input variables to the object-level BDT are well-modelled and are reasonable to include as inputs to the object-level BDT.
 
 In Table~\ref{tab:object-bdt-hyperParams}, the hyper-parameters used in the object-level BDT is shown.
 \begin{table}[htbp!]

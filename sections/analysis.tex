@@ -843,7 +843,7 @@ In Figure~\ref{fig:4lep-iff-bar2}, the relative dominance of the different class
     \caption{The relative dominance of the different classifications for fake leptons (classified by the IFF truth classified) in each region, is shown. The relative dominance of leptons classified as fakes, as a fraction of the total number of fake leptons (in each region), is shown on the y-axis. The different signal and control regions are shown on the x-axis. The IFF truth classification of the leptons are shown in the legend and correspond to the different coloured stacked histograms.}
   \label{fig:4lep-iff-bar2}
 \end{figure}
-The majority of fake leptons which pass our selection criteria originate from the decay of $b$-hadrons, in all regions but the $t\bar{t}Z$ CR. The smaller proportion of fake leptons originating from $b$-hadron decays in the $t\bar{t}Z$ CR could possibly be a effect (statistical fluctuation) resulting from the low number of fake leptons which pass our selection criteria in this region ($\sim 40$ fake leptons).\\\\
+The majority of fake leptons which pass our selection criteria originate from the decay of $b$-hadrons, in all regions but the $t\bar{t}Z$ CR. The smaller proportion of fake leptons originating from $b$-hadron decays in the $t\bar{t}Z$ CR could possibly be due to statistical fluctuations resulting from the low number of fake leptons which pass our selection criteria in this region ($\sim 40$ fake leptons).\\\\
 
 In Figure~\ref{fig:4lep-iff-bar3}, the amount of fake and real $t\bar{t}Z$ events which pass our selection criteria, in each region, is shown.
 
@@ -894,8 +894,6 @@ In Table~\ref{tab:object-bdt-variables}, the variables used in training the obje
 	\label{tab:object-bdt-variables}
 \end{table}
 
-
-
 In Figure~\ref{fig:norm-object-bdt-vars}, normalised distributions of the signal and background classes for the training set of all variables used in the object-level BDT are show.
 
 
@@ -904,18 +902,19 @@ In Figure~\ref{fig:norm-object-bdt-vars}, normalised distributions of the signal
 
     
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_m_lb.png} 
+     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_delR_lb.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_pt_lb.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_delEta_lb.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_delPhi_lb.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_delR_lb.png} 
+   
     
-    \caption{Normalised distributions of the signal and background classes for the training set of all variables used in the object-level BDT (ordered from top left to bottom right via decreasing importance) are shown. The red and blue dotted lined histograms represent the signal and background classes events (normalised to an area of 1), respectively. The variable used in training is shown on the x-axis. The y-axis shows the relative number of events for the signal and background classes (in arbitrary units). \textbf{From top left to bottom right:} Invariant mass of the $\ell b$ system. The $p_{T}$ of the $\ell b$ system. $\Delta \eta$ between the $\ell$ and $b$-tagged jet. $\Delta \phi$ between the $\ell$ and $b$-tagged jet. $\Delta R$ between the $\ell$ and $b$-tagged jet. }
+    \caption{Normalised distributions of the signal and background classes for the training set of all variables used in the object-level BDT (ordered from top left to bottom right via decreasing importance) are shown. The red and blue dotted lined histograms represent the signal and background classes events (normalised to an area of 1), respectively. The variable used in training is shown on the x-axis. The y-axis shows the relative number of events for the signal and background classes (in arbitrary units). \textbf{From top left to bottom right:} Invariant mass of the $\ell b$ system. $\Delta R$ between the $\ell$ and $b$-tagged jet. The $p_{T}$ of the $\ell b$ system. $\Delta \eta$ between the $\ell$ and $b$-tagged jet. $\Delta \phi$ between the $\ell$ and $b$-tagged jet.  }
     \label{fig:norm-object-bdt-vars}
 \end{figure}
 
 Overall the BDT input variables show a large amount of discrimination. \\\\
 We can check the modelling of the input variables to the object-level BDT by studying the agreement between data and simulation in the $t\bar{t}Z$ CR. 
-In Figure~\ref{fig:4lep-ttZCR-objectbdt-var}, MC predictions for the input variables to the object-level BDT in the $t\bar{t}Z$ CR are shown.
+In Figure~\ref{fig:4lep-ttZCR-objectbdt-vars}, MC predictions for the input variables to the object-level BDT in the $t\bar{t}Z$ CR are shown.
 \begin{figure}[htbp]
 \centering
 
@@ -929,7 +928,24 @@ In Figure~\ref{fig:4lep-ttZCR-objectbdt-var}, MC predictions for the input varia
   \label{fig:4lep-ttZCR-objectbdt-vars}
 \end{figure}
 
-Overall, there is good agreement between data and simulation for the input variables to the object-level BDT in the $t\bar{t}Z$ CR. This suggests that the input variables to the object-level BDT are well-modelled and are reasonable to include as inputs to the object-level BDT.
+Overall, there is good agreement between data and simulation for the input variables to the object-level BDT in the $t\bar{t}Z$ CR. This suggests that the input variables to the object-level BDT are well-modelled and are reasonable to include as inputs to the object-level BDT. \\\\
+A final check can be done to study the similarity of the $\ell b$ systems present in the alternative $t\bar{t}$ sample which we use for training the object-level BDT, and the $\ell b$ systems which we aim to identify using the object-level BDT. More specifically, we want to ensure that the $\ell b$ systems in the alternative $t\bar{t}$ sample are similar enough to those in the $tWZ$ and $t\bar{t}Z$ samples (see Table~\ref{tab:evtgen-partshower}). In Figure~\ref{fig:lb-vars-compare}, normalised distributions of input variables to the object-level BDT in the alternative $t\bar{t}$, $tWZ$ and $t\bar{t}Z$ samples, are shown.
+
+
+\begin{figure}
+    \centering
+
+    
+    \includegraphics[width=.3\textwidth]{figures/normPlot_compare_m_lb.png} 
+    \includegraphics[width=.3\textwidth]{figures/normPlot_compare_pt_lb.png} 
+    \includegraphics[width=.3\textwidth]{figures/normPlot_compare_delEta_lb.png} 
+    \includegraphics[width=.3\textwidth]{figures/normPlot_compare_delPhi_lb.png} 
+    \includegraphics[width=.3\textwidth]{figures/normPlot_compare_delR_lb.png} 
+    
+    \caption{Normalised distributions of input variables (ordered from top left to bottom right via decreasing importance) to the object-level BDT in the alternative $t\bar{t}$, $tWZ$ and $t\bar{t}Z$ samples, are shown. The green, blue and orange dotted lined histograms represent events from the alternative $t\bar{t}$, $tWZ$ and $t\bar{t}Z$ samples (normalised to an area of 1), respectively. The variable used in training is shown on the x-axis. The y-axis shows the relative number of events (in arbitrary units). \textbf{From top left to bottom right:} Invariant mass of the $\ell b$ system. $\Delta R$ between the $\ell$ and $b$-tagged jet. The $p_{T}$ of the $\ell b$ system. $\Delta \eta$ between the $\ell$ and $b$-tagged jet. $\Delta \phi$ between the $\ell$ and $b$-tagged jet.}
+    \label{fig:lb-vars-compare}
+\end{figure}
+The distributions of the input variables to the object-level classifier, for the three samples, are similar and show no large deviations between one another. This tells us that the $\ell b$ systems which we use in training are similar enough to those we aim to identify using the classifier. The use of the alternative $t\bar{t}$ sample for training the object-level classifier is therefore sufficient for this analysis.\\\\
 
 In Table~\ref{tab:object-bdt-hyperParams}, the hyper-parameters used in the object-level BDT is shown.
 \begin{table}[htbp!]
@@ -974,14 +990,41 @@ The output from the object-level BDT was used to construct a variable to be used
 In Figure~\ref{fig:bdtscore-bestover2ndbest}, normalised distributions of the signal and total background of the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown.
 \begin{figure}
     \centering
-    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_OF_bdtScorebest.png}
-    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_SF_bdtScorebest.png}
-    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_bdtScorebest.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_OF_bdtScorebest_noExclusion.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_SF_bdtScorebest_noExclusion.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_bdtScorebest_noExclusion.png}
     \caption{Normalised distributions of the signal and total background of the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown (left to right). The dotted red and solid blue lines represent the distributions (normalised to an area of 1) of the signal and total background events respectively. The x-axis shows the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ and the y-axis show the relative number of events (in arbitrary units).}
     \label{fig:bdtscore-bestover2ndbest}
 \end{figure}
 
-There doesn't seem to be a large amount of discrimination between signal and background for BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ in either of the above regions. We do however see some discrimination in bins near a value of 1, where the number of background events exceed the number of signal events, which is what we expect. This effect is slightly more exaggerated in the $t\bar{t}Z$ CR than the $tWZ$ SRs. This can be explained since we expect to have a larger proportion of $t\bar{t}Z$ events (events with two $\ell b$ systems) in the $t\bar{t}Z$ CR. Despite the apparent lack of discrimination between signal and background events from this variable, when used as input to training in the event-level BDT (see Section~\ref{sec:event-level-bdt}), it ranks relatively high on variable importance (see Table~\ref{tab:event-bdt-variables}) and thus improves the mean accuracy of the classifier. The tells us that the event-level BDT is taking advantage of the discrimination between signal and background present in the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable.
+There doesn't seem to be a large amount of discrimination between signal and background for BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ in either of the above regions. We do however see some discrimination in bins near a value of 1, where the number of background events exceed the number of signal events, which is what we expect. This effect is slightly more exaggerated in the $t\bar{t}Z$ CR than the $tWZ$ SRs. This can be explained since we expect to have a larger proportion of $t\bar{t}Z$ events (events with two $\ell b$ systems) in the $t\bar{t}Z$ CR. An excess of signal events (compared to background) are observed at larger values. This is to be expected, since these events correspond to a lower score by the $\ell b$ classifier on the 2nd best scoring $\ell b$ system in the event. The 2nd best scoring $\ell b$ system in a $tWZ$ event is expected to be low, since there is only one $\ell b$ system originating from a top. Despite the apparent lack of discrimination between signal and background events from this variable, when used as input to training in the event-level BDT (see Section~\ref{sec:event-level-bdt}), improves the mean accuracy of the classifier. The tells us that the event-level BDT is taking advantage of the discrimination between signal and background present in the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable.\\\\
+
+In an attempt to optimise the performance of the object-level BDT, we aim to train on signal events which are as pure in $\ell b$ systems originating from top quarks, as possible. Similarly, we aim to train on background events which are as pure in $\ell b$ systems not originating from top quarks, as possible. This is done by studying the distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$), and excluding $\ell b$ systems from training which are moderately matched in $\Delta R$ to their truth counterparts, leaving well matched $\ell b$ systems being labelled as signal and badly matched $\ell b$ systems labelled as background. We call the $\Delta R$ range where $\ell b$ systems are excluded from training, the exclusion region. In Figure~\ref{fig:exclusionRegion}, the distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$) in the alternative $t\bar{t}$ sample, along with the exclusion region, is shown.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.3\textwidth]{figures/DeltaR_lb_bdt.png}
+    \caption{The distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$) in the alternative $t\bar{t}$ sample, along with the exclusion region, is shown. The $\Delta R$ distribution is shown in green. $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$) is shown on the x-axis. The bin frequency is shown on the y-axis. The exclusion region is shown between the vertical red lines situated at $\Delta R((lb)_{reco}$, $(lb)_{truth}) = 0.05$ and $\Delta R((lb)_{reco}$, $(lb)_{truth})=3.0$. Reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \leq 0.05$ are labelled as signal and reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \geq 3.0$ are labelled as background. }
+    \label{fig:exclusionRegion}
+\end{figure}
+
+A large number of reconstructed $\ell b$ systems have $\Delta R((lb)_{reco}$, $(lb)_{truth})$ at values near $0$. These are matched (in $\Delta R$) extremely well to truth $\ell b$ systems originating from top quarks. We therefore define our exclusion region to be between $0.05 < \Delta R((lb)_{reco}$, $(lb)_{truth}) < 3.0$, such that all reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \leq 0.05$ are labelled as signal and reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \geq 3.0$ are labelled as background. All reconstructed $\ell b$ systems with $0.05 < \Delta R((lb)_{reco}$, $(lb)_{truth}) < 3.0$ are excluded from training.\\\\
+
+The performance of the object-level BDT with and without the exclusion region can be compared by studying the discrimination between signal and background events in the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable (object-level output converted to an event-level variable to be used in the event-level BDT) for both object-level BDTs. In Figure~\ref{fig:exclusionRegion-normplots}, normalised distributions of BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ using the object-level BDT without the exclusion region (see Figure~\ref{fig:exclusionRegion}) for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown.
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_OF_bdtScorebest_sep.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_SF_bdtScorebest_sep.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_bdtScorebest_sep.png}
+    \caption{Normalised distributions of BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ using the object-level BDT without the exclusion region (see Figure~\ref{fig:exclusionRegion}) for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown (left to right). The dotted red and solid blue lines represent the distributions (normalised to an area of 1) of the signal and total background events respectively. The x-axis shows the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ and the y-axis show the relative number of events (in arbitrary units).}
+    \label{fig:exclusionRegion-normplots}
+\end{figure}
+
+The amount of discrimination can be quantified by the separation metric, which gives the percentage of the total area of the distributions which do not overlap. A value of 1 indicates that the distributions are fully separated (no overlap) and a value of 0 indicates that the distributions have no separation (fully overlapped). We can compare the separation metrics between the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR for the $\ell b$ classifier with (Figure~\ref{fig:bdtscore-bestover2ndbest}) and without (Figure~\ref{fig:exclusionRegion-normplots}) the exclusion region by taking the absolute difference between the two values in each region. The differences are $0.31\%$, $0.37\%$ and $0.36\%$ for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, respectively. These differences are minimal and the object-level BDT with the exclusion region outperforms the object-level BDT without the exclusion region in the $tWZ$ SF SR. Due to the small differences in performance between the two BDTs, we ultimately chose to keep the BDT with the exclusion region.
+
+
 
 \subsection{Event-level BDT}
 \label{sec:event-level-bdt}
@@ -1032,7 +1075,7 @@ In Figure~\ref{fig:norm-event-bdt-vars}, normalised distributions of the signal 
 
 Overall the BDT input variables show a reasonable amount of discrimination. In particular the output weight from the 2$\nu$SM algorithm shows the most discrimination. When determining which variables to use in training the event-level BDT, the output weight from 2$\nu$SM was shown to provide the most sizeable boost in performance of the BDT. Surprisingly, the least important variable, $\Delta \phi$ between the non-$Z$ lepton system (leptons not originating from a $Z$-candidate) and the leading $b$-tagged jet, seem to discriminate well between signal and background. A possible explanation for its low ranking importance is due to it being relatively highly correlated with many of the other input variables.\\\\
 We can check the modelling of the input variables to the event-level BDT by referring to the pre-fit distributions of data and simulation in the control regions. Note that certain variables which are ill-defined in certain regions (e.g. $\Delta \eta (\ell_{1,Non-Z}, \ell_{2,Non-Z})$ in the $ZZb$ CR, as all leptons originate from a $b$-jet in this region) will not be shown.
-In Figure~\ref{fig:4lep-ttZCR-eventbdt-var}, MC predictions for the input variables to the event-level BDT in the $t\bar{t}Z$ CR are shown.
+In Figure~\ref{fig:4lep-ttZCR-eventbdt-vars}, MC predictions for the input variables to the event-level BDT in the $t\bar{t}Z$ CR are shown.
 \begin{figure}[htbp]
 \centering
 
@@ -1051,7 +1094,7 @@ In Figure~\ref{fig:4lep-ttZCR-eventbdt-var}, MC predictions for the input variab
 
 
 
-In Figure~\ref{fig:4lep-ZZbCR-eventbdt-var}, MC predictions for the input variables to the event-level BDT in the $ZZb$ CR are shown.
+In Figure~\ref{fig:4lep-ZZbCR-eventbdt-vars}, MC predictions for the input variables to the event-level BDT in the $ZZb$ CR are shown.
 \begin{figure}[htbp]
 \centering
 
@@ -1065,7 +1108,7 @@ In Figure~\ref{fig:4lep-ZZbCR-eventbdt-var}, MC predictions for the input variab
 \end{figure}
 
 
-In Figure~\ref{fig:4lep-tWZfakeCR-eventbdt-var}, MC predictions for the input variables to the event-level BDT in the $(tWZ)_{\text{fake}}$ CR are shown.
+In Figure~\ref{fig:4lep-tWZfakeCR-eventbdt-vars}, MC predictions for the input variables to the event-level BDT in the $(tWZ)_{\text{fake}}$ CR are shown.
 \begin{figure}[htbp]
 \centering
 

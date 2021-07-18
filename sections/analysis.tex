@@ -216,7 +216,6 @@ In Figure~\ref{fig:4lep-jetEta-optimisation} the expected significance ($Z_{\mu}
 
 From Figure \ref{fig:4lep-jetEta-optimisation}, we can see that the $\eta(jet)$ cut which maximises the sensitivity of \tWZ in the tetralepton channel is requiring that $\eta(jet) < 4.5$. This selection criteria was set for the $\eta(jet)$ across all regions.\\\\
 
-
 In Figure~\ref{fig:4lep-jetpt-optimisation} the expected significance ($Z_{\mu}^{exp}$) and expected upper limits ($\mu_{up}^{exp}$) for different $p_{T}(jet)$ cuts are shown.
 \begin{figure}[h!]
 	\includegraphics[width = 0.34\textwidth]{figures/signif_jetPt.png}
@@ -254,7 +253,7 @@ Since there is a very small change between the different $p_{T}(\text{NL Lepton}
 
 \section{Signal and Control Regions}
 
-In this section, pre-fit distributions of variables in each region are shown. More pre-fit distributions for each region are shown in the appendix (Section~\ref{sec:app-controlPlots}). For each figure in this section, the data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \\\\
+In this section, pre-fit distributions of variables in each region are shown. More pre-fit distributions for each region are shown in the appendix (Section~\ref{sec:app-controlplotstetralepton-tWZ-3T1L-CR}). For each figure in this section, the data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \\\\
 
 In Table~\ref{tab:4Lep-PreFit-Yields}, the pre-fit yields for each sample in each region is shown.
 \begin{table}[h!]
@@ -868,7 +867,7 @@ Two different BDTs were used, the first aims to discriminate between \tWZ events
 \label{sec:object-level-bdt}
 The object-level BDT was trained on a $t\bar{t}$ sample with a baseline selection of exactly 1 tight lepton with $p_{T} > 28$ GeV. Additionally, jets in this sample are required to have $p_{T} > 20$ GeV. $b$-tagged jets are identified by the $77\%$ DL1r working point. These baseline selections were chosen to mimic those used in the event selection of the analysis (outlined in Table~\ref{tab:4Lep-cutsummary}). We opted to use this disjoint $t\bar{t}$ sample as to avoid resorting to use our MC samples used in the rest of the analysis which is heavily limited on statistics, therefore maximizing the amount of MC statistics used in the fitting procedure and the training of the event-level BDT.\\\\
 
-The signal class is defined to consist of reconstructed $\ell b$ systems (defined as the sum of the 4-vectors of the lepton and $b$-jet) coming from top quarks which are well matched to their truth counterparts. In particular, we require that $\Delta R$ between the reconstructed and truth $\ell b$ system is less than 0.05. We additionally require that the reconstructed lepton and the truth top have charges with the same sign (since $t\rightarrow b\ell^{+}\bar{\nu_{\ell}}$ and $\bar{t}\rightarrow \bar{b}\ell^{-}\nu_{\ell}$). Conversely, the background class is defined to consist of reconstructed $\ell b$ systems which are not well matched to their truth counterparts. In particular, we require that $\Delta R$ between the reconstructed and truth $\ell b$ system is greater than 0.05. We additionally require that the reconstructed lepton and the truth top have charges with opposite sign. These definitions for the signal and background classes ensure that the signal class consists of mostly $\ell b$ systems originating from tops and the background class consists of mostly $\ell b$ systems which do not originate from a top decay.\\\\
+The signal class is defined to consist of reconstructed $\ell b$ systems (defined as the sum of the 4-vectors of the lepton and $b$-jet) coming from top quarks which are well matched to their truth counterparts. In particular, we require that $\Delta R$ between the reconstructed and truth $\ell b$ system is less than 0.05. We additionally require that the reconstructed lepton and the truth top have charges with the same sign (since $t\rightarrow b\ell^{+}\bar{\nu_{\ell}}$ and $\bar{t}\rightarrow \bar{b}\ell^{-}\nu_{\ell}$). The background class is defined to consist of all reconstructed $\ell b$ systems which fail to pass the criteria for $\ell b$ systems which are labelled as signal. These definitions for the signal and background classes ensure that the signal class consists of mostly $\ell b$ systems originating from tops and the background class consists of mostly $\ell b$ systems which do not originate from a top decay.\\\\
 
 Different observables corresponding to an $\ell b$ system were used as input to training. The optimum values for the hyper-parameters used were determined by training the BDT with a range of different values for the hyper-parameters and choosing the set of values which maximized the mean accuracy (based off 5 fold kfold cross-validation). This method is more commonly referred to as hyper-parameter optimisation or tuning. After hyper-parameter optimisation, the mean accuracy of each fold increased from 0.76 to 0.77 ($\sim 1\%$ increase). Input features can be assigned a score called \textit{variable importance}, based on their usefulness on predicting a target variable (in this case, a signal or background event). The variable importance for any given variable was obtained by computing the mean accuracy of the model, removing the variable from training, retraining the model and computing the mean accuracy of this new model. The difference between mean accuracies of the unaltered model and the retrained model (after removal of the variable) gives us the variable importance of the variable of interest. This method returns positive values for variables which increase the mean accuracy of the model and negative values for variables which decrease the mean accuracy of the model. Variables with negative variable importances were completely removed from training.
 
@@ -972,7 +971,7 @@ In Table~\ref{tab:object-bdt-hyperParams}, the hyper-parameters used in the obje
 	\label{tab:object-bdt-hyperParams}
 \end{table}
 
-The number of events used in training for the signal and background classes were 347952 and 266636 respectively. Imbalanced datasets can cause ML classifiers to ignore small classes while concentrating on classifying large classes more accurately, which may result in the trained classifier performing sub-optimally. In order to correct this dataset imbalance, we ensure that the relative weighting of each event is such that the sum of the signal weights is equal to the sum of the background weights.
+The number of events used in training for the signal and background classes were 49871 and 384152 respectively. Imbalanced datasets can cause ML classifiers to ignore small classes while concentrating on classifying large classes more accurately, which may result in the trained classifier performing sub-optimally. In order to correct this dataset imbalance, we ensure that the relative weighting of each event is such that the sum of the signal weights is equal to the sum of the background weights.
 In Figure~\ref{fig:object-bdt-overtrain-check} the normalised histograms of the training and test sets (extracted from fold 5 from a 5 fold kfold cross validation) for signal and background is shown.
 
 
@@ -990,9 +989,9 @@ The output from the object-level BDT was used to construct a variable to be used
 In Figure~\ref{fig:bdtscore-bestover2ndbest}, normalised distributions of the signal and total background of the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown.
 \begin{figure}
     \centering
-    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_OF_bdtScorebest_noExclusion.png}
-    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_SF_bdtScorebest_noExclusion.png}
-    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_bdtScorebest_noExclusion.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_noExclusion.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_noExclusion.png}
     \caption{Normalised distributions of the signal and total background of the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown (left to right). The dotted red and solid blue lines represent the distributions (normalised to an area of 1) of the signal and total background events respectively. The x-axis shows the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ and the y-axis show the relative number of events (in arbitrary units).}
     \label{fig:bdtscore-bestover2ndbest}
 \end{figure}
@@ -1003,7 +1002,7 @@ In an attempt to optimise the performance of the object-level BDT, we aim to tra
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.3\textwidth]{figures/DeltaR_lb_bdt.png}
+    \includegraphics[width=0.7\textwidth]{figures/DeltaR_lb_bdt.png}
     \caption{The distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$) in the alternative $t\bar{t}$ sample, along with the exclusion region, is shown. The $\Delta R$ distribution is shown in green. $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$) is shown on the x-axis. The bin frequency is shown on the y-axis. The exclusion region is shown between the vertical red lines situated at $\Delta R((lb)_{reco}$, $(lb)_{truth}) = 0.05$ and $\Delta R((lb)_{reco}$, $(lb)_{truth})=3.0$. Reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \leq 0.05$ are labelled as signal and reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \geq 3.0$ are labelled as background. }
     \label{fig:exclusionRegion}
 \end{figure}
@@ -1015,20 +1014,20 @@ The performance of the object-level BDT with and without the exclusion region ca
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_OF_bdtScorebest_sep.png}
-    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_SF_bdtScorebest_sep.png}
-    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_bdtScorebest_sep.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_sep.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_sep.png}
+    \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.png}
     \caption{Normalised distributions of BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ using the object-level BDT without the exclusion region (see Figure~\ref{fig:exclusionRegion}) for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown (left to right). The dotted red and solid blue lines represent the distributions (normalised to an area of 1) of the signal and total background events respectively. The x-axis shows the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ and the y-axis show the relative number of events (in arbitrary units).}
     \label{fig:exclusionRegion-normplots}
 \end{figure}
 
-The amount of discrimination can be quantified by the separation metric, which gives the percentage of the total area of the distributions which do not overlap. A value of 1 indicates that the distributions are fully separated (no overlap) and a value of 0 indicates that the distributions have no separation (fully overlapped). We can compare the separation metrics between the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR for the $\ell b$ classifier with (Figure~\ref{fig:bdtscore-bestover2ndbest}) and without (Figure~\ref{fig:exclusionRegion-normplots}) the exclusion region by taking the absolute difference between the two values in each region. The differences are $0.31\%$, $0.37\%$ and $0.36\%$ for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, respectively. These differences are minimal and the object-level BDT with the exclusion region outperforms the object-level BDT without the exclusion region in the $tWZ$ SF SR. Due to the small differences in performance between the two BDTs, we ultimately chose to keep the BDT with the exclusion region.
+The amount of discrimination can be quantified by the separation metric, which gives the percentage of the total area of the distributions which do not overlap. A value of 1 indicates that the distributions are fully separated (no overlap) and a value of 0 indicates that the distributions have no separation (fully overlapped). We can compare the separation metrics between the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR for the $\ell b$ classifier with (Figure~\ref{fig:bdtscore-bestover2ndbest}) and without (Figure~\ref{fig:exclusionRegion-normplots}) the exclusion region by taking the absolute difference between the two values in each region. The differences are $0.31\%$, $0.37\%$ and $0.36\%$ for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, respectively. These differences are minimal and the object-level BDT with the exclusion region outperforms the object-level BDT without the exclusion region in the $tWZ$ SF SR. Due to the small differences in performance between the two BDTs, for simplicity, we ultimately chose to keep the BDT with the exclusion region.
 
 
 
 \subsection{Event-level BDT}
 \label{sec:event-level-bdt}
-The event-level BDT was trained on 50$\%$ of the \tWZ MC sample's events for the signal class and similarly, 50$\%$ of the \ttZ and $ZZ$ MC sample's events were used for the background class. The samples we train on are individual events, with the features being carefully chosen observables. These observables are chosen on the basis that they are somewhat uncorrelated from one another and show a relatively large amount of separation power between \tWZ and \ttZ. Similarly to the object-level BDT, the optimum values for the hyper-parameters used were determined via hyper-parameter optimisation.  After hyperparameter optimisation, the mean accuracy of each fold (determined from 5 fold kfold cross validation) increased from 0.72 to 0.74 ($\sim 3\%$ increase). The variable importance of each variable was computed in the same way as described for the object-level BDT (See Section ~\ref{sec:object-level-bdt}).
+The event-level BDT was trained on 50$\%$ of the \tWZ MC sample's events for the signal class and similarly, 50$\%$ of the \ttZ and $ZZ$ MC sample's events were used for the background class. The samples we train on are individual events, with the features being carefully chosen observables. These observables are chosen on the basis that they are somewhat uncorrelated from one another and show a relatively large amount of separation power between \tWZ and \ttZ. Similarly to the object-level BDT, the optimum values for the hyper-parameters used were determined via hyper-parameter optimisation.  After hyperparameter optimisation, the mean accuracy of each fold (determined from 5 fold kfold cross validation) increased from 0.72 to 0.74 ($\sim 3\%$ increase). The variable importance of each variable was computed in the same way as described for the object-level BDT (See Section~\ref{sec:object-level-bdt}).
 
 In Table~\ref{tab:event-bdt-variables}, the variables used in training the event-level BDT are shown.
 \begin{table}[htbp!]
@@ -1044,8 +1043,6 @@ In Table~\ref{tab:event-bdt-variables}, the variables used in training the event
 	$\sum p_{T}(b-jet)$	& Scalar sum of $b$-tagged jet $p_{T}$  \\
 	BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ & Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT ($\ell b$ classifier)\\
 		 $\Delta \eta (\ell_{1,Non-Z}, \ell_{2,Non-Z})$ & $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate\\
-		 $min(m(\ell b))$ & Mass of the $\ell b$ system with the smallest mass \\
-	 $\Delta \phi (\ell_{1,Non-Z} \ell_{2,Non-Z}, b_{1})$ & $\Delta \phi$ between the non-$Z$ lepton system (leptons not originating from a $Z$-candiate) and the leading $b$-tagged jet\\
 
     \bottomrule
 \end{tabular}}
@@ -1066,10 +1063,8 @@ In Figure~\ref{fig:norm-event-bdt-vars}, normalised distributions of the signal 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_sum_bJet_pt.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_lb_min_m.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_delPhi_llNonZ_b0.png} 
     
-    \caption{Normalised distributions of the signal and background classes for the training set of all variables used in the event-level BDT (ordered from top left to bottom right via decreasing importance) are shown. The red and blue dotted lined histograms represent the signal and background classes events (normalised to an area of 1), respectively. The variable used in training is shown on the x-axis. The y-axis shows the relative number of events for the signal and background classes (in arbitrary units). \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section~\ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Output from the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate. Mass of the $\ell b$ system with the smallest mass. $\Delta \phi$ between the non-$Z$ lepton system (leptons not originating from a $Z$-candidate) and the leading $b$-tagged jet.}
+    \caption{Normalised distributions of the signal and background classes for the training set of all variables used in the event-level BDT (ordered from top left to bottom right via decreasing importance) are shown. The red and blue dotted lined histograms represent the signal and background classes events (normalised to an area of 1), respectively. The variable used in training is shown on the x-axis. The y-axis shows the relative number of events for the signal and background classes (in arbitrary units). \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section~\ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate.}
     \label{fig:norm-event-bdt-vars}
 \end{figure}
 
@@ -1085,10 +1080,9 @@ In Figure~\ref{fig:4lep-ttZCR-eventbdt-vars}, MC predictions for the input varia
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_lb_min_m.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_delPhi_llNonZ_b0.png} 
 
-\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $t\bar{t}Z$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the blue diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section~\ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Output from the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate. Mass of the $\ell b$ system with the smallest mass. $\Delta \phi$ between the non-$Z$ lepton system (leptons not originating from a $Z$-candidate) and the leading $b$-tagged jet.}
+
+\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $t\bar{t}Z$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the blue diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section~\ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate.}
   \label{fig:4lep-ttZCR-eventbdt-vars}
 \end{figure}
 
@@ -1117,10 +1111,9 @@ In Figure~\ref{fig:4lep-tWZfakeCR-eventbdt-vars}, MC predictions for the input v
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_lb_min_m.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_delPhi_llNonZ_b0.png} 
+  
 
-\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $(tWZ)_{\text{fake}}$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the blue diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom:} Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Output from the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate. Mass of the $\ell b$ system with the smallest mass. $\Delta \phi$ between the non-$Z$ lepton system (leptons not originating from a $Z$-candidate) and the leading $b$-tagged jet.}
+\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $(tWZ)_{\text{fake}}$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the blue diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section~\ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate.}
   \label{fig:4lep-tWZfakeCR-eventbdt-vars}
 \end{figure}
 
@@ -1157,7 +1150,7 @@ W = \frac{\sigma \mathcal{L} \text{weight(MC)}}{\text{totalWeight(MC)}}
 \end{equation}
 where $\sigma$ is the cross section of the process, $\mathcal{L}$ is the integrated luminosity, weight(MC) is the weight assigned to the event by the MC generator and totalWeight(MC) is the sum of those weights for all the generated events.\\\\
 
-The number of events used in training for the signal and background classes were 41157 and 22701 respectively. Similarly to the object-level BDT, there is a dataset imbalance. We correct this imbalance (in the same way as before with the object-level BDT) by ensuring that the relative weighting of each event is such that the sum of the signal weights is equal to the sum of the background weights.\\\\
+The number of events used in training for the signal and background classes were 41066 and 22608 respectively. Similarly to the object-level BDT, there is a dataset imbalance. We correct this imbalance (in the same way as before with the object-level BDT) by ensuring that the relative weighting of each event is such that the sum of the signal weights is equal to the sum of the background weights.\\\\
 
 In Figure~\ref{fig:event-bdt-overtrain-check} the normalised histograms of the training and test sets (extracted from fold 5 from a 5 fold kfold cross validation) for signal and background is shown.
 \begin{figure}[h!]
@@ -1375,7 +1368,7 @@ In this section, the theoretical systematics are outlined.
 \begin{itemize}
 \item \textbf{$t\bar{t}Z$ background:}
 
-An overall normalization uncertainty of 10$\%$ is considered for the $t\bar{t}Z$ background. Two generic shape systematics are considered for the $t\bar{t}Z$ background. They are constructed (see Section ~\ref{sec:genericShapeSyst}) by either applying a linear or triangular interpolation to up and down variations which are defined to be $\pm$20$\%$ from the nominal $t\bar{t}Z$ background.
+An overall normalization uncertainty of 10$\%$ is considered for the $t\bar{t}Z$ background. Two generic shape systematics are considered for the $t\bar{t}Z$ background. They are constructed (see Section~\ref{sec:genericShapeSyst}) by either applying a linear or triangular interpolation to up and down variations which are defined to be $\pm$20$\%$ from the nominal $t\bar{t}Z$ background.
 
 \item \textbf{$ZZ$ background:}
 
@@ -1405,7 +1398,7 @@ The 'other' background consists of many processes which have minimal but non-neg
 \item \textbf{$tWZ$:}
 A modelling uncertainty on $tWZ$ is considered by comparing the nominal sample (using the DR1 scheme) and a minimal DR2 sample.
 
-Two generic shape systematics are considered for the $tWZ$ background. They are constructed (see Section ~\ref{sec:genericShapeSyst}) by either applying a linear or triangular interpolation to up and down variations which are defined to be $\pm$20$\%$ from the nominal $tWZ$ background.
+Two generic shape systematics are considered for the $tWZ$ background. They are constructed (see Section~\ref{sec:genericShapeSyst}) by either applying a linear or triangular interpolation to up and down variations which are defined to be $\pm$20$\%$ from the nominal $tWZ$ background.
 
 \end{itemize}
 
@@ -1416,16 +1409,17 @@ It is evident that the tetralepton channel is statistically limited. We therefor
 
 In order to include shape uncertainties related to the modelling of our samples, we construct generic shape systematics for any given sample process. Given that we choose a sufficiently large set of values for which the systematics can take in the fit, the constructed systematics could represent many shape systematics which we have not yet considered to include in the fitting procedure.\\\\
 
-We start by constructing an envelope (error bars) consisting of two MC templates. One with the nominal MC template increased by 20$\%$ on its normalisation and the other with the nominal MC template decreased by 20$\%$ on its normalisation. The templates are then modified from their original shape either by doing linear interpolation (from the leftmost-up variation to the rightmost-down variation) or triangular interpolation (shape is set to zero at the rightmost and leftmost parts and reaches the envelope in the middle). The linear and triangular interpolation is done using TRF's \texttt{ForceShape} option ~\cite{TRF-ForceShape}, which alters the original templates (as described above). This envelope now represents the bounds which the systematic can vary in the fit.\\\\
+We start by constructing an envelope (error bars) consisting of two MC templates. One with the nominal MC template increased by 20$\%$ on its normalisation and the other with the nominal MC template decreased by 20$\%$ on its normalisation. The templates are then modified from their original shape either by doing linear interpolation (from the leftmost-up variation to the rightmost-down variation) or triangular interpolation (shape is set to zero at the rightmost and leftmost parts and reaches the envelope in the middle). The linear and triangular interpolation is done using TRF's \texttt{ForceShape} option~\cite{TRF-ForceShape}, which alters the original templates (as described above). This envelope now represents the bounds which the systematic can vary in the fit.\\\\
 
-In Figure~\ref{fig:genericShapeSyst-example} the envelope before and after the shape change, for both the linear and triangular interpolations, for the $t\bar{t}Z$ background in the $t\bar{t}Z$ CR is shown.
+In Figure~\ref{fig:genericShapeSystexamples} the envelope before and after the shape change, for both the linear and triangular interpolations, for the $t\bar{t}Z$ background in the $t\bar{t}Z$ CR is shown.
 
 \begin{figure}[h!]
   \includegraphics[width=0.4\textwidth]{figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png}
   \includegraphics[width=0.4\textwidth]{figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png}
   \centering
-  \label{fig:genericShapeSyst-example}
+  
   \caption{$t\bar{t}Z$ generic shape systematic before (original) and after (modified) linear (left) and triangular (right) interpolation in the $t\bar{t}Z$ CR is shown. The output from the event-level BDT shown on the x-axis. In the upper panel, the number of events is shown on the y-axis. In the lower panel, the difference between the systematic variation (the envelope's templates) and the nominal template, divided by the nominal template, is shown on the y-axis. The nominal $t\bar{t}Z$ template is shown by the solid black lined histogram, with the diagonal lined bands representing its total uncertainty. The templates of the upper and lower envelopes (before modification) is given by the dotted red and blue lined histograms respectively. The templates of the upper and lower envelopes (after modification) is given by the solid red and blue lined histograms respectively, with the vertical dotted lines representing its total uncertainty. }
+  \label{fig:genericShapeSystexamples}
 \end{figure}
 
 We consider two shape systematics (linear and triangular shapes) for $tWZ$ and the most dominant background processes across both channels. In particular, we consider these shape systematics for $t\bar{t}Z$ for both the tri- and tetralepton channels. Additionally, we consider these shape systematics for the $WZ+b$ and $WZ+c$ backgrounds in the trilepton channel.
@@ -1442,7 +1436,7 @@ The analysis pipeline starts with sample derivations (derived dataset) being sub
 \label{sec:fitting-procedure}
 Using the TRExFitter framework, binned profile-likelihood fits are performed to determine the signal strength $\mu_{tWZ} = \sigma_{obs}(tWZ)/\sigma_{SM}(tWZ)$ of $tWZ$ production. A fit across all regions in the tetralepton channel is performed to determine the sensitivity $tWZ$ in this channel. In Section~\ref{sec:combined-results}, a combined fit is performed across all regions in the trilepton and tetralepton channels to take advantage of the sensitivity of $tWZ$ in both channels in order to further boost the sensitivity of $tWZ$.\\\\
 
-In the separate and combined fits, the \textit{mixed data and MC} fit setup ~\cite{MixedDataAndMC_TRF} is used. This is done to obtain the most accurate prediction of the expected results while keeping the signal regions blinded. For this setup, first a background-only fit to the control regions using real data is done to determine estimates of the nuisance parameters. Then these estimates are used to construct a modified ASIMOV dataset in the signal regions. Finally, the fit is performed using real data in the control regions and the aforementioned modified ASIMOV data-set in the signal regions.\\\\
+In the separate and combined fits, the \textit{mixed data and MC} fit setup~\cite{MixedDataAndMC_TRF} is used. This is done to obtain the most accurate prediction of the expected results while keeping the signal regions blinded. For this setup, first a background-only fit to the control regions using real data is done to determine estimates of the nuisance parameters. Then these estimates are used to construct a modified ASIMOV dataset in the signal regions. Finally, the fit is performed using real data in the control regions and the aforementioned modified ASIMOV data-set in the signal regions.\\\\
 
 In these fits, the parameter of interest (POI) is $\mu_{tWZ}$. The POI is ultimately the quantity which we wish to measure and is set as a free parameter (unconstrained; can take any value in the fit). The nuisance parameters are assigned to the systematic uncertainties outlined in \ref{sec:systematics}. Furthermore, a gamma ($\gamma$) nuisance parameter for a bin is added to the likelihood function if the statistical uncertainty in the bin exceeds $0.1\%$ of its nominal value.\\\\
 
@@ -1524,17 +1518,17 @@ In Table~\ref{tab:4Lep-PostFit-Yields}, the post-fit yields for each sample in e
 
 The expected upper limit of $tWZ$ in the tetralepton channel is measured as,
 \begin{equation}
-  \mu_{up}^{exp} =   1.60^{+2.34}_{-1.15}
+  \mu_{up}^{exp} =   1.61^{+2.35}_{-1.16}
 \end{equation}
 
 The expected significance of $tWZ$ in the tetralepton channel is measured as,
 \begin{equation}
- Z_{\mu}^{exp} =   1.43\sigma
+ Z_{\mu}^{exp} =   1.44\sigma
 \end{equation}
 
 The best-fit value of the signal strength, $\mu (tWZ)= \frac{\sigma(tWZ)}{\sigma(tWZ)_{SM}}$, from the likelihood fit is measured as,
 \begin{equation}
-  \mu (tWZ) =   2.18^{+0.99}_{-0.85}
+  \mu (tWZ) =   1.91^{+0.95}_{-0.82}
 \end{equation}
 
 The expected upper limit is in agreement with the extracted best-fit value on the signal strength, therefore no deviations from the SM cross section of $tWZ$ is observed. Neither the 3$\sigma$ evidence nor the 5$\sigma$ discovery standards are reached for the expected significance. This is not surprising, given the low amount of events present in the tetralepton channel.\\\\
@@ -1548,25 +1542,25 @@ In Figure~\ref{fig:4lep-PostFit-nuisance-ranking}, a ranking plot showing the im
   \label{fig:4lep-PostFit-nuisance-ranking}
 \end{figure}
 
-Some nuisance parameters are pulled down from their nominal pre-fit values, however these are all within 1 $\sigma$ uncertainty and are thus relatively small. It is expected that the modelling uncertainties (shape and normalisations) of the most dominant backgrounds (e.g. $t\bar{t}Z$, $ZZ$) have relatively large impacts on $\mu(tWZ)$, since the uncertainty of the analysis is dominated by statistical uncertainty.
+The most important systematics are the cross sections of $t\bar{t}Z$ and $ZZ$, and shape modelling on $t\bar{t}Z$ ($t\bar{t}Z$ triangular shape) and $tWZ$ ($tWZ$-DR2 and $tWZ$ triangular shape). The cross section of $ZZ$ is significantly shifted down in the fit from its nominal value. The $t\bar{t}Z$ cross section, $tWZ$-DR2 and $t\bar{t}Z$ triangular shape nuisance parameters are similarly shifted down in the fit from their nominal values, but to a much lesser degree than the cross section of $ZZ$. These pulls are all within 1 $\sigma$ uncertainty and are thus relatively small. It is expected that the modelling uncertainties (shape and normalisations) of the most dominant backgrounds (e.g. $t\bar{t}Z$, $ZZ$) have relatively large impacts on $\mu(tWZ)$, since the uncertainty of the analysis is dominated by statistical uncertainty.
 
 \subsection{Trilepton and Tetralepton Channels}
 \label{sec:combined-results}
 In the section, an expected upper limit and an expected significance are set on the cross section of $tWZ$ from the combined fit across all regions of $tWZ$ in the tetralepton and trilepton channels.\\\\
-The trilepton analysis follows a similar analysis strategy to that of the tetralepton analysis. It includes an event-level BDT which aims to discriminate between the $tWZ$ and all background as well as an object-level BDT which aims to identify hadronically decaying $W$ bosons to discriminate between $tWZ$ and the large $WZ$ background. One $tWZ$ SR is defined and five CRs are defined. $WZ$ and $t\bar{t}Z$ CRs are defined to constrain the dominant $WZ$ and $t\bar{t}Z$ backgrounds. Three CRs which require that one of the three selected leptons are loose, are defined for $WZ$, $t\bar{t}Z$ and $tWZ$ in order to constraint the fake lepton component (using the MC template method - similar to the method used in Section ~\ref{sec:fakelepest} to estimate the fake lepton component).\\\\
+The trilepton analysis follows a similar analysis strategy to that of the tetralepton analysis. It includes an event-level BDT which aims to discriminate between the $tWZ$ and all background as well as an object-level BDT which aims to identify hadronically decaying $W$ bosons to discriminate between $tWZ$ and the large $WZ$ background. One $tWZ$ SR is defined and five CRs are defined. $WZ$ and $t\bar{t}Z$ CRs are defined to constrain the dominant $WZ$ and $t\bar{t}Z$ backgrounds. Three CRs which require that one of the three selected leptons are loose, are defined for $WZ$, $t\bar{t}Z$ and $tWZ$ in order to constraint the fake lepton component (using the MC template method - similar to the method used in Section~\ref{sec:fakelepest} to estimate the fake lepton component).\\\\
 The expected upper limit of $tWZ$ in the trilepton channel is measured as,
 \begin{equation}
-  \mu_{up}^{exp} =   2.53^{+3.55}_{-1.82}
+  \mu_{up}^{exp} =   2.65^{+3.67}_{-1.91}
 \end{equation}
 
 The expected significance of $tWZ$ in the trilepton channel is measured as,
 \begin{equation}
- Z_{\mu}^{exp} =   0.81\sigma
+ Z_{\mu}^{exp} =   0.75\sigma
 \end{equation}
 
 The best-fit value of the signal strength, $\mu (tWZ)= \frac{\sigma(tWZ)}{\sigma(tWZ)_{SM}}$, from the likelihood fit is measured as,
 \begin{equation}
-  \mu (tWZ) =   1.27^{+1.32}_{-1.24}
+  \mu (tWZ) =   1.16^{+1.33}_{-1.30}
 \end{equation}
 
 The expected upper limit is in agreement with the extracted best-fit value on the signal strength, therefore no deviations from the SM cross section of $tWZ$ is observed.\\\\
@@ -1620,12 +1614,12 @@ The expected upper limit of $tWZ$ across both channels is measured as,
 
 The expected significance of $tWZ$ across both channels is measured as,
 \begin{equation}
- Z_{\mu}^{exp} =   1.56\sigma
+ Z_{\mu}^{exp} =   1.61\sigma
 \end{equation}
 
 The best-fit value of the signal strength, $\mu (tWZ)= \frac{\sigma(tWZ)}{\sigma(tWZ)_{SM}}$, from the likelihood fit is measured as,
 \begin{equation}
-  \mu (tWZ) =   2.00^{+0.75}_{-0.70}
+  \mu (tWZ) =   1.80^{+0.70}_{-0.65}
 \end{equation}
 
 
@@ -1659,7 +1653,10 @@ In Figure~\ref{fig:4lep-combined-nuisance-ranking}, a ranking plot showing the i
     \label{fig:4lep-combined-nuisance-ranking}
 \end{figure}
 
-Some nuisance parameters are pulled down from their nominal pre-fit values, however these are all within 1 $\sigma$ uncertainty and are thus relatively small. It is expected that the modelling uncertainties (shape and normalisations) of the most dominant backgrounds (e.g. $t\bar{t}Z$, $ZZ$, $WZ$) have relatively large impacts on $\mu(tWZ)$, since the uncertainty of the analysis is dominated by statistical uncertainty.
+Some nuisance parameters are pulled down from their nominal pre-fit values, however these are all within 1 $\sigma$ uncertainty and are thus relatively small. It is expected that the modelling uncertainties (shape and normalisations) of the most dominant backgrounds (e.g. $t\bar{t}Z$, $ZZ$, $WZ$) have relatively large impacts on $\mu(tWZ)$, since the uncertainty of the analysis is dominated by statistical uncertainty.\\\\
+
+The most important systematics are the cross sections of $t\bar{t}Z$, $ZZ$ and $WZ+b$, and shape modelling on $t\bar{t}Z$ ($t\bar{t}Z$ triangular shape). The aforementioned nuisance parameters are significantly shifted down in the fit from its nominal value. The less important systematics are pulled in the fit from their nominal values, but to a much lesser degree than the cross section of those mentioned above. It is expected that the modelling uncertainties (shape and normalisations) of the most dominant backgrounds (e.g. $t\bar{t}Z$, $ZZ$ and $WZ+b$) have relatively large impacts on $\mu(tWZ)$, since the uncertainty of the analysis is dominated by statistical uncertainty.
+
 
 \subsubsection{Projection to Higher Luminosity}
 

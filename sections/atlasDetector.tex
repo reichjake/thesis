@@ -13,13 +13,14 @@ At the interaction points, the two proton beams which consist of protons in clos
 
 
 \section{The ATLAS Detector}
-The ATLAS detector is a general purpose particle detector, located at one of the four interaction points along the LHC beam pipe (100 m below ground). 
-In Figure~\ref{fig:atlas-detector}, the schematic of the ATLAS detector, is shown.
+The ATLAS detector is a general purpose particle detector, located at one of the four interaction points along the LHC beam pipe (100 m below ground). In Figure~\ref{fig:atlas-detector}, the schematic of the ATLAS detector, is shown.
 
 
 \begin{figure}[h!]
  \includegraphics[width=0.5\textwidth]{figures/theoryFigs/atlasDetector.png}
 \caption{Schematic of the ATLAS detector~\cite{Collaboration_2008}}
+\centering
+\label{fig:atlas-detector}
 \end{figure}
 
 
@@ -27,18 +28,44 @@ The detector is cylindrically shaped which covers close to 4$\pi$ in solid angle
 
 \subsection{Coordinate System and Kinematics}
 
-The ATLAS detector adopts a right-handed coordinate system. The origin is at the nominal interaction point and the beam direction defines the $z$-axis. The $x-y$ plane (or transverse plane) is perpendicular to the beam line, with the $x$-axis pointing towards the centre of the LHC ring and the $y$-axis pointing upwards towards the Earth's surface. An azimuthal angle, $\phi$, with $\phi \in \[ -\frac{\pi}{2}, \frac{\pi}{2} \] $ is defined in 
+The ATLAS detector adopts a right-handed coordinate system. The origin is at the nominal interaction point with the beam direction defining the $z-$axis. The $x-y$ plane (or transverse plane) is perpendicular to the beam line, with the $x-$axis pointing towards the centre of the LHC ring and the $y$-axis pointing upwards towards the Earth's surface. The azimuthal angle, $\phi \in [-\pi, \pi]$, is measured in the transverse plane with respect to the positive $x-$axis. The polar angle, $\theta \in [0,\pi]$, is measured in the $z-y$ plane with respect to the positive $y-$axis. A quantity called the pseudorapidity, $\eta \in [0,\infty]$ is defined as,
+
+\begin{equation}
+\eta = -\ln{\tan{\left(\frac{\theta}{2}\right)}}
+\end{equation}
+$\eta$ is often used as a measure of the polar angle, instead of $\theta$, since the difference in $\eta$ between two particles, $\Delta \eta$, is invariant under a Lorentz boost in the $z-$direction. The angular distance between two physics objects, $\Delta R$, can be written as,
+
+\begin{equation}
+\Delta R = \sqrt{(\Delta\phi)^{2} + (\Delta\eta)^{2}}
+\end{equation}
+where $\Delta\phi$ is the difference in $\phi$ between the two physics objects of interest. Quantities defined in the transverse plane are often used to describe the kinematics of physics objects in hadron collider experiments. The transverse momentum, $p_{T}$, is defined as,
+\begin{equation}
+p_{T}= \sqrt{(p_{x})^{2} + (p_{y})^{2}}
+\end{equation}
+where $p_{x}$ and $p_{y}$ are the $x$ and $y$ components of the physics object's momenta, respectively. The transverse energy, $E_{T}$, is defined as,
+\begin{equation}
+E_{T} = \sqrt{m^{2} + p_{T}^{2}}
+\end{equation}
+where $m$ is the invariant mass of the physics object. 
+
+%The energy and momentum in particle collisions are conserved, however the absence of detector elements along the beam line, neutrinos escaping from the detector and unknown initial parton momenta restricts us from fully reconstructing the initial and final state particles. We can however, quantify the amount of transverse momenta which is - possibly go in particle ID section
 
 
+\subsection{Inner Detector}
+The inner detector is the first layer of concentric cylindrical sub-detector layers in the ATLAS detector. It is used to identify charged particles and reconstruct the trajectories of charged particles produced in the collisions via energy deposition in semiconductor material (hits) and the ionisation of gas. It consists of three complementary sub-detectors (in order from nearest to farthest from the beam pipe): the Pixel Detector, the Semiconductor Tracker (SCT) and the Transition Radiation Detector (TRT). The Pixel Detector and SCT are based on semiconductor technology and have the highest granularity of any sub-detector in ATLAS, in order to cope with the high frequency of collisions near the interaction point. The TRT consists of drift tubes (straws) containing a mixture of gas ($70\%$ Xe, $27\%$ CO$_{2}$ and $3\%$O$_{2}$), which allows measurement of the energy deposited by charged particles through the ionisation of the gas. Solenoid magnets surround the inner detector and bend the trajectories of charged particles. The charges and momenta of particles can be inferred from their bent trajectories, which are reconstructed by the hits produced via energy deposition in the Inner Detector.
 
-Physical dimensions, properties (mass). Coordinate system. Definition of $\Delta R$, $\eta$.\\\\
-In the next subsections:\\
-Where are different particles detected? How are they detected at each part of the detector? How well do the different parts detect the different particles and how do they take advantage of different particle properties each part wishes to detect in an engineering/physics perspective (e.g. why we WANT some particles to get detected at some parts of the detector and how we do this (by use of correct materials which interact specifically with those particles which we wish to measure and NOT with other particles))
+\subsection{Electromagnetic and Hadronic Calorimeters}
+The Electromagnetic Calorimeter (ECAL) and Hadronic Calorimeter (HCAL) surround the Inner Detector, with the ECAL nearer to the beam line. The ECAL and HCAL provide accurate measurements of the energy of particles which interact electromagnetically (e.g. photons and electrons) and hadronically (e.g. jets), respectively. Particles entering the calorimeters interact with the detector material and create either a electromagnetic shower (in the ECAL) or a hadronic shower (in the HCAL), depositing all their energy in the calorimeter cells. The calorimeters consist of an active material and a passive absorber material. Active materials are used to measure the energy deposited by the particles and passive absorber materials induce the electromagnetic and hadronic showers. The ECAL uses liquid argon (LAr) as its active material and lead as its absorber material. The HCAL uses alternating steel absorber layers and plastic scintillating tile layers as its active material. The primary mechanism of energy deposition in the ECAL is through bremsstrahlung (for electrons) and pair production (photons). Hadrons usually deposit a small amount of their energy in the ECAL, and interact via inelastic scattering with the nuclei of the detector material. The hadronic showers (jets) produced in these nuclear interactions travel much further than an electromagnetic shower, and for that reason, the volume of the is designed HCAL occupies a much larger space than that of the ECAL.
 
-\subsection{Tracking Detectors}
-\subsection{Calorimeter System}
-\subsubsection{Electromagnetic Calorimeter}
-\subsubsection{Hadronic Calorimeter}
 \subsection{Muon Spectrometer}
+The Muon Spectrometer (MS) is the outermost sub-detector of ATLAS and surrounds the HCAL. Muons traverse through the inner detector and calorimeters, with minimal energy loss, before reaching the MS. The MS consists of trigger and high-precision tracking systems. Large superconducting toroid shaped magnets deflect the incoming muons to measure their trajectories and subsequently their momenta via the curvature of the trajectories. The MS measures muon trajectories as they ionize gas (filled with Ar and CO$_{2}$ gas) in the MS drift chambers.
+
 \subsection{Trigger and Data Acquisition System}
-\subsection{Particle Identification} 
+The Trigger and Data Acquisition System (TDAQ) manages and handles the large amount of data produced within the ATLAS detector. In Run 2, $p-p$ bunch crossings occur every 25 ns, corresponding to an event rate of 40 MHz~\cite{Collaboration_2008}. The TDAQ system performs a fast preliminary reconstruction to select events with signatures which are interesting for physics analyses. The information collected from these events are permanently stored for offline reconstructon and analysis, and the rest (the vast majority of events) are discarded. The trigger system reduces the 40 MHz data rate to around 1 kHz~\cite{Collaboration_2008}.
+
+
+%\subsection{Particle Identification and Object Reconstruction}
+
+%Particles originating from the hard scatter or from their subsequent decays interact with the various detector materials in each sub-detector. Different particles produce characteristic signatures (detector response) inside these sub-detectors.  Include??
+
+

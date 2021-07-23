@@ -293,6 +293,77 @@
       \verb %7Bhttp://dx.doi.org/10.1007/JHEP10(2019)127%7D
       \endverb
     \endentry
+    \entry{ATLAS-tt-crossSection-2020}{article}{}
+      \name{author}{8}{}{%
+        {{hash=50f20d3c6dfbe5459d0f39bcb67740ec}{%
+           family={Aad},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6ff2c6c5b44129d4cfb6389e75869ea6}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=388bab9521275ab03be4f823f4ab8b6a}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={D.C.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=397073338c6d77a62e9cfa3b795a16cb}{%
+           family={{Abed Abud}},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e7bca2a93005a929c29cda76b0369ab}{%
+           family={Abeling},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c60f97b900dae34f82a0dde8b6b11864}{%
+           family={Abhayasinghe},
+           familyi={A\bibinitperiod},
+           given={D.K.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1291ecc48177f6e1bdc612065e42c733}{%
+           family={Abidi},
+           familyi={A\bibinitperiod},
+           given={S.H.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{fullhash}{f50f59458c614a590c6759156b8a3f9c}
+      \strng{bibnamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authorbibnamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authornamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authorfullhash}{f50f59458c614a590c6759156b8a3f9c}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-2693}
+      \field{journaltitle}{Physics Letters B}
+      \field{title}{Measurement of the tt¯ production cross-section in the lepton+jets channel at s=13 TeV with the ATLAS experiment}
+      \field{volume}{810}
+      \field{year}{2020}
+      \field{pages}{135797}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.physletb.2020.135797
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0370269320306006
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0370269320306006
+      \endverb
+    \endentry
     \entry{muonIDEfficiency}{article}{}
       \name{author}{10}{}{%
         {{hash=50f20d3c6dfbe5459d0f39bcb67740ec}{%
@@ -356,6 +427,7 @@
       \strng{authorbibnamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
       \strng{authornamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
       \strng{authorfullhash}{975f1a3cc89be144d508d05a21083741}
+      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
@@ -846,6 +918,18 @@
       \verb https://indico.cern.ch/event/455289/contributions/1953694/attachments/1209081/1762963/Calvet_binning_Htop_160108.pdf
       \endverb
     \endentry
+    \entry{summaryPlots}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{title}{CERN Twiki - TOP WG Summary Plots}
+      \verb{urlraw}
+      \verb https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCTopWGSummaryPlots
+      \endverb
+      \verb{url}
+      \verb https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCTopWGSummaryPlots
+      \endverb
+    \endentry
     \entry{HL-LHC-paper}{misc}{}
       \name{author}{1}{}{%
         {{hash=b90e6bd941ccd5adbe3370f1a1c89183}{%
@@ -1112,6 +1196,47 @@
       \endverb
       \verb{url}
       \verb https://www.zeuthen.desy.de/~wischnew/amanda/discussion/wgterror/working.html
+      \endverb
+    \endentry
+    \entry{fantini2020formalism}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=a2c1972d5a3707ff3d5fa5cd85f254ad}{%
+           family={Fantini},
+           familyi={F\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod}}}%
+        {{hash=38fcf0abdf0d2b62f16f44c605eaa522}{%
+           family={Rosso},
+           familyi={R\bibinitperiod},
+           given={Andrea\bibnamedelima Gallo},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=31a7a10cd4b3a37ebd2eb620cec1024a}{%
+           family={Vissani},
+           familyi={V\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=33534d9c867c76b6b54dcb83d26cdce1}{%
+           family={Zema},
+           familyi={Z\bibinitperiod},
+           given={Vanessa},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{78bb230491fd61ecdcfbf230ab781d48}
+      \strng{fullhash}{fbbeabed1480c77c84953c36fc4dda8b}
+      \strng{bibnamehash}{78bb230491fd61ecdcfbf230ab781d48}
+      \strng{authorbibnamehash}{78bb230491fd61ecdcfbf230ab781d48}
+      \strng{authornamehash}{78bb230491fd61ecdcfbf230ab781d48}
+      \strng{authorfullhash}{fbbeabed1480c77c84953c36fc4dda8b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{The formalism of neutrino oscillations: an introduction}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 1802.05781
       \endverb
     \endentry
     \entry{Overlap-removal-slides}{online}{}
@@ -2498,6 +2623,28 @@
       \verb{url}
       \verb https://gitlab.cern.ch/ATLAS-IFF/IFFTruthClassifier/-/tree/master#3-details-about-the-lepton-categories
       \endverb
+    \endentry
+    \entry{hierarchy-problem-paper}{article}{}
+      \name{author}{1}{}{%
+        {{hash=375b62e00f0d4aeac5c40d2eb4bcad2e}{%
+           family={Jegerlehner},
+           familyi={J\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{375b62e00f0d4aeac5c40d2eb4bcad2e}
+      \strng{fullhash}{375b62e00f0d4aeac5c40d2eb4bcad2e}
+      \strng{bibnamehash}{375b62e00f0d4aeac5c40d2eb4bcad2e}
+      \strng{authorbibnamehash}{375b62e00f0d4aeac5c40d2eb4bcad2e}
+      \strng{authornamehash}{375b62e00f0d4aeac5c40d2eb4bcad2e}
+      \strng{authorfullhash}{375b62e00f0d4aeac5c40d2eb4bcad2e}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{05}
+      \field{title}{The hierarchy problem of the electroweak Standard Model revisited}
+      \field{year}{2013}
     \endentry
     \entry{zz-xsec-paper}{article}{}
       \name{author}{31}{}{%

@@ -1,34 +1,22 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Theory}{8}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Theory}{7}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Standard Model of Particle Physics}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Standard Model of Particle Physics}{7}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}The Top Quark}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}The Top Quark}{8}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}$tWZ$}{9}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Tetralepton Channel}{9}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.1}Backgrounds}{10}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Backgrounds}{9}{subsubsection.2.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Comparison to Tri-lepton Channel}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Comparison to Trilepton Channel}{10}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Effective Field Theory (EFT)}{11}{section.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Machine Learning in the Context of Particle Physics Analyses}{11}{section.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Statistical Techniques}{11}{section.2.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Maximum Likelihood Fitting}{11}{subsection.2.5.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}p-value and $\chi ^2$}{11}{subsection.2.5.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Significance}{11}{subsection.2.5.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Limit Setting}{11}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.2.3}Motivation for the search for $tWZ$ production in the tetralepton channel}{11}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}The ATLAS Experiment and Detector}{12}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -47,8 +35,6 @@
 \contentsline {subsection}{\numberline {3.2.4}Muon Spectrometer}{14}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.5}Trigger and Data Acquisition System}{14}{subsection.3.2.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.6}Particle Identification and Object Reconstruction}{14}{subsection.3.2.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Analysis Setup and Strategy}{15}{chapter.4}%
 \defcounter {refsection}{0}\relax 

@@ -825,6 +825,44 @@
       \verb 10.1088/1748-0221/13/07/P07017
       \endverb
     \endentry
+    \entry{twz-theory-paper}{report}{}
+      \name{author}{1}{}{%
+        {{hash=8e1a242c0c7e00bfc30407943708b3a1}{%
+           family={Bessidskaia\bibnamedelima Bylund},
+           familyi={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{8e1a242c0c7e00bfc30407943708b3a1}
+      \strng{fullhash}{8e1a242c0c7e00bfc30407943708b3a1}
+      \strng{bibnamehash}{8e1a242c0c7e00bfc30407943708b3a1}
+      \strng{authorbibnamehash}{8e1a242c0c7e00bfc30407943708b3a1}
+      \strng{authornamehash}{8e1a242c0c7e00bfc30407943708b3a1}
+      \strng{authorfullhash}{8e1a242c0c7e00bfc30407943708b3a1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{{Measurement of ttZ and ttW production at ATLAS in 13 TeV data, using trilepton and same charge dimuon final states}}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.22323/1.276.0237
+      \endverb
+      \verb{urlraw}
+      \verb http://cds.cern.ch/record/2211022
+      \endverb
+      \verb{url}
+      \verb http://cds.cern.ch/record/2211022
+      \endverb
+    \endentry
     \entry{lhc-design-report}{book}{}
       \name{author}{7}{}{%
         {{hash=c9a324bb9a73322510ce6491007589ce}{%
@@ -3110,6 +3148,27 @@
       \verb{url}
       \verb https://trexfitter-docs.web.cern.ch/trexfitter-docs/AdvancedTutorial2020/Mixed/
       \endverb
+    \endentry
+    \entry{ben-thesis}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c3261dd870dd1bfb651bbdfe9112fb66}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3261dd870dd1bfb651bbdfe9112fb66}
+      \strng{fullhash}{c3261dd870dd1bfb651bbdfe9112fb66}
+      \strng{bibnamehash}{c3261dd870dd1bfb651bbdfe9112fb66}
+      \strng{authorbibnamehash}{c3261dd870dd1bfb651bbdfe9112fb66}
+      \strng{authornamehash}{c3261dd870dd1bfb651bbdfe9112fb66}
+      \strng{authorfullhash}{c3261dd870dd1bfb651bbdfe9112fb66}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A search for tWZ production in the trilepton channel using Run 2 data from the ATLAS experiment.}
+      \field{year}{2021}
     \endentry
     \entry{quark-confinement}{article}{}
       \name{author}{1}{}{%

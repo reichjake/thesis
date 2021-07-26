@@ -2426,6 +2426,7 @@
     <bcf:citekey order="74">MixedDataAndMC_TRF</bcf:citekey>
     <bcf:citekey order="75">transfod-autobin</bcf:citekey>
     <bcf:citekey order="76">HL-LHC-paper</bcf:citekey>
+    <bcf:citekey order="77">ben-thesis</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

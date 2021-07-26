@@ -1160,7 +1160,19 @@ In Figure~\ref{fig:event-bdt-overtrain-check} the normalised histograms of the t
 	\label{fig:event-bdt-overtrain-check}
 \end{figure}
 
-We can see that the shapes of the training and test sets for both signal and background are very similar. This is a good indicator that no over-training occurred. As with the object-level BDT, we perform another over-training check, by ensuring that the variance of the mean accuracy of each folds' test set in a 5 fold kfold cross validation is substantially small. This indicates that fluctuations in features from different training sets are not learnt by the classifier. For the event-level classifier, a variance of 0.00026 was calculated for the mean accuracies of each folds' test set in cross validation, providing further evidence that no over-training occurred.
+We can see that the shapes of the training and test sets for both signal and background are very similar. This is a good indicator that no over-training occurred. As with the object-level BDT, we perform another over-training check, by ensuring that the variance of the mean accuracy of each folds' test set in a 5 fold kfold cross validation is substantially small. This indicates that fluctuations in features from different training sets are not learnt by the classifier. For the event-level classifier, a variance of 0.00026 was calculated for the mean accuracies of each folds' test set in cross validation, providing further evidence that no over-training occurred.\\\\
+In Figure~\ref{fig:2vsm-normdists}, normalised distributions of the signal and total background of the event-level BDT discriminator output in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, are shown. 
+
+\begin{figure}[h!]
+	\includegraphics[scale=0.27]{figures/lep4_tWZ_4T_OF.png}
+	\includegraphics[scale=0.27]{figures/lep4_tWZ_4T_SF.png}
+	\includegraphics[scale=0.27]{figures/lep4_ttZ_4T.png}
+	\centering
+	\caption{Normalised distributions of the signal and total background of the event-level BDT discriminator output in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown (left to right). The dotted red and solid blue lines represent the distributions (normalised to an area of 1) of the signal and total background events respectively. The x-axis shows the event-level BDT discriminator output and the y-axis shows the relative number of events (in arbitrary units).}
+	\label{fig:event-bdt-overtrain-check}
+\end{figure}
+
+The event-level BDT discriminates well between signal and background events in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, with separations of 8.98$\%$, 10.6$\%$ and 20.6$\%$, respectively.
 
 
 \section{Two Neutrino Scanning Method (2$\nu$SM) Algorithm}
@@ -1672,5 +1684,5 @@ In Figure~\ref{fig:limit-sig-projection}, the expected upper limit and significa
     \label{fig:limit-sig-projection}
 \end{figure}
 
-As we increase the total integrated luminosity, the sensitivity of $tWZ$ increases. The increase in sensitivity is shown by the decrease of the expected upper limit and the increase of the expected significance with increasing integrated luminosity. It can be noted that a 3$\sigma$ expected significance is achieved at $\mathcal{L} \sim 400$fb$^{-1}$, indicating evidence for observation of $tWZ$. The 5$\sigma$ significance 'discovery' standard is above our 1000fb$^{-1}$ luminosity range of study. Furthermore, these plots show that the sensitivity of $tWZ$ is hindered by the low amount of events we observe, rather than the systematic effects. This is evident since increasing the luminosity, therefore increasing the number of events we see in the detector, directly causes a steady in increase in sensitivity.
+As we increase the total integrated luminosity, the sensitivity of $tWZ$ increases. The increase in sensitivity is shown by the decrease of the expected upper limit and the increase of the expected significance with increasing integrated luminosity. It can be noted that a 3$\sigma$ expected significance is achieved at $\mathcal{L} \sim 400$ fb$^{-1}$, indicating evidence for observation of $tWZ$. The 5$\sigma$ significance 'discovery' standard is above our 1000fb$^{-1}$ luminosity range of study. Furthermore, these plots show that the sensitivity of $tWZ$ is hindered by the low amount of events we observe, rather than the systematic effects. This is evident since increasing the luminosity, therefore increasing the number of events we see in the detector, directly causes a steady in increase in sensitivity.
 

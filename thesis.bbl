@@ -1114,6 +1114,60 @@
       \verb https://doi.org/10.1088/1748-0221/3/08/s08003
       \endverb
     \endentry
+    \entry{Cowan_2011}{article}{}
+      \name{author}{4}{}{%
+        {{hash=66ffd2ca2c2d8aeb563033389eb813ff}{%
+           family={Cowan},
+           familyi={C\bibinitperiod},
+           given={Glen},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0003024ea8011848862cbf896b544a27}{%
+           family={Cranmer},
+           familyi={C\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e4e0607feb58cac42d6e610ebd8bafd1}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Eilam},
+           giveni={E\bibinitperiod}}}%
+        {{hash=63095f782c12657f0556f148e399c606}{%
+           family={Vitells},
+           familyi={V\bibinitperiod},
+           given={Ofer},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{22db102a3f181de2baabd3c2fb244138}
+      \strng{fullhash}{01410fa503312f8756583d42dcefa458}
+      \strng{bibnamehash}{22db102a3f181de2baabd3c2fb244138}
+      \strng{authorbibnamehash}{22db102a3f181de2baabd3c2fb244138}
+      \strng{authornamehash}{22db102a3f181de2baabd3c2fb244138}
+      \strng{authorfullhash}{01410fa503312f8756583d42dcefa458}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Asymptotic formulae for likelihood-based tests of new physics}
+      \field{volume}{71}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-011-1554-0
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-011-1554-0
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-011-1554-0
+      \endverb
+    \endentry
     \entry{Demartin:2016axk}{article}{}
       \name{author}{5}{}{%
         {{hash=4af8981e478a30b63728ad9da938d5a3}{%
@@ -3099,6 +3153,18 @@
       \endverb
       \verb{url}
       \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/RecommendedIsolationWPs
+      \endverb
+    \endentry
+    \entry{scikit-bdt}{online}{}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{title}{scikit-learn Documentation - Gradient Boosting Classifier}
+      \verb{urlraw}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
+      \endverb
+      \verb{url}
+      \verb https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
       \endverb
     \endentry
     \entry{skLearnGBClassifierDocs}{online}{}

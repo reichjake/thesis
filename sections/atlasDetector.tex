@@ -66,8 +66,12 @@ The Muon Spectrometer (MS) is the outermost sub-detector of ATLAS and surrounds 
 The Trigger and Data Acquisition System (TDAQ) manages and handles the large amount of data produced within the ATLAS detector. In Run 2, $pp$ bunch crossings occur every 25 ns, corresponding to an event rate of 40 MHz~\cite{Collaboration_2008}. The TDAQ system performs a fast preliminary reconstruction to select events with signatures which are interesting for physics analyses. The information collected from these events are permanently stored for offline reconstructon and analysis, and the rest (the vast majority of events) are discarded. The trigger system reduces the 40 MHz data rate to around 1 kHz~\cite{Collaboration_2008}.
 
 
-%\subsection{Particle Identification and Object Reconstruction}
+\subsection{Particle Identification and Object Reconstruction}
 
 %Particles originating from the hard scatter or from their subsequent decays interact with the various detector materials in each sub-detector. Different particles produce characteristic signatures (detector response) inside these sub-detectors.  Include??
 
+Particles originating from $pp$ collisions, or from their subsequent decays, traverse through the ATLAS detector and interact with its different sub-detectors, producing characteristic electronic signals. These signals are then processed by various algorithms to reconstruct and identify the physics objects (e.g. electrons, muons, jets) in the event. This section outlines the procedures used to define these physics objects.
 
+\subsubsection{Tracks and primary vertices}
+
+The trajectories of charged particles, or tracks, are reconstructed in the ID. First, energy is deposited by charged particles (hits) in pixels or strips, in the Pixel and SCT detectors respectively. Adjacent pixels or strips are grouped together in \textit{energy clusters}. A \textit{space-point} is defined in the 

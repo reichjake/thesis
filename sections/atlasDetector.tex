@@ -74,4 +74,10 @@ Particles originating from $pp$ collisions, or from their subsequent decays, tra
 
 \subsubsection{Tracks and primary vertices}
 
-The trajectories of charged particles, or tracks, are reconstructed in the ID. First, energy is deposited by charged particles (hits) in pixels or strips, in the Pixel and SCT detectors respectively. Adjacent pixels or strips are grouped together in \textit{energy clusters}. A \textit{space-point} is defined in the 
+The trajectories of charged particles, or tracks, are reconstructed in the ID. First, energy is deposited by charged particles (hits) in pixels or strips, in the Pixel and SCT detectors respectively. Adjacent pixels or strips are grouped together in \textit{energy clusters}. Energy clusters define 3D space-points indicating the location where the charged particle traversed. Track seeds are then defined as sets of three space-points, in either the Pixel or SCT detectors. A Kalman filter~\cite{ASTIER2000138} is then used to build track candidates from the track seeds. Often, multiple track candidates are built per track seed, therefore an ambiguity solver is needed for finding the track which best represents the traversal of the charged particle. The ambiguity solver ranks each track from a given seed based on, the number of associated hits, the number of holes (expected hits which are absent), track momenta and the $\chi^{2}$ of the track fit. Low ranked tracks are then discarded. High ranked tracks are refitting, introducing information from the TRT.\\
+
+The primary vertex is the location of the $pp$ collision of interest. 
+\subsubsection{Electrons}
+\subsubsection{Muons}
+\subsubsection{Jets and $b$-tagged Jets}
+\subsubsection{Lepton Isolation}

@@ -2426,11 +2426,12 @@
     <bcf:citekey order="74">TRF-ForceShape</bcf:citekey>
     <bcf:citekey order="75">TRexfitter</bcf:citekey>
     <bcf:citekey order="76">Cowan_2011</bcf:citekey>
-    <bcf:citekey order="77">MixedDataAndMC_TRF</bcf:citekey>
-    <bcf:citekey order="78">transfod-autobin</bcf:citekey>
-    <bcf:citekey order="79">ben-thesis</bcf:citekey>
-    <bcf:citekey order="80">HL-LHC-paper</bcf:citekey>
-    <bcf:citekey order="81">ben-thesis</bcf:citekey>
+    <bcf:citekey order="77">asymptotic-formulae-slides</bcf:citekey>
+    <bcf:citekey order="78">MixedDataAndMC_TRF</bcf:citekey>
+    <bcf:citekey order="79">transfod-autobin</bcf:citekey>
+    <bcf:citekey order="80">ben-thesis</bcf:citekey>
+    <bcf:citekey order="81">HL-LHC-paper</bcf:citekey>
+    <bcf:citekey order="82">ben-thesis</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

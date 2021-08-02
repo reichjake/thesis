@@ -449,6 +449,76 @@
       \verb http://dx.doi.org/10.1140/epjc/s10052-016-4120-y
       \endverb
     \endentry
+    \entry{Aad:2138166}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ec1463e7fbfc553eca7d18cd31454ab6}{%
+           family={Aad},
+           familyi={A\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a85e0445e4a031167b7ad6b520dae94a}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={Brad},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d263845b67b3cf08c04d8847294e29ab}{%
+           family={Abdallah},
+           familyi={A\bibinitperiod},
+           given={Jalal},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ad5443c72817de4c2db7d8ff29cc2a23}{%
+           family={Abdinov},
+           familyi={A\bibinitperiod},
+           given={Ovsat},
+           giveni={O\bibinitperiod}}}%
+        {{hash=9b1e873a439ded148ae790e26b267174}{%
+           family={Aben},
+           familyi={A\bibinitperiod},
+           given={Rosemarie},
+           giveni={R\bibinitperiod}}}%
+        {{hash=aad77416e9979b5094d8da966252b733}{%
+           family={Abolins},
+           familyi={A\bibinitperiod},
+           given={Maris},
+           giveni={M\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{fullhash}{92232e560b4bfc3759c0dba88753c38e}
+      \strng{bibnamehash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{authorbibnamehash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{authornamehash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{authorfullhash}{92232e560b4bfc3759c0dba88753c38e}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{month}{3}
+      \field{title}{{Topological cell clustering in the ATLAS calorimeters and its performance in LHC Run 1. Topological cell clustering in the ATLAS calorimeters and its performance in LHC Run 1}}
+      \field{volume}{77}
+      \field{year}{2016}
+      \field{pages}{490. 87 p}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-017-5004-5
+      \endverb
+      \verb{eprint}
+      \verb 1603.02934
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2138166
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2138166
+      \endverb
+    \endentry
     \entry{elecIsolationEfficiency}{online}{}
       \name{author}{2}{}{%
         {{hash=d715d97d0fc00a7af592ed0e5ea39055}{%
@@ -481,6 +551,97 @@
       \verb{url}
       \verb https://indico.cern.ch/event/854783/contributions/3595486/attachments/1929380/3195230/PLV_Summary.pdf
       \endverb
+    \endentry
+    \entry{asymptotic-formulae-slides}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d2aea016c4cf52c05315d4fe0a0b7d72}{%
+           family={Armbruster},
+           familyi={A\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2aea016c4cf52c05315d4fe0a0b7d72}
+      \strng{fullhash}{d2aea016c4cf52c05315d4fe0a0b7d72}
+      \strng{bibnamehash}{d2aea016c4cf52c05315d4fe0a0b7d72}
+      \strng{authorbibnamehash}{d2aea016c4cf52c05315d4fe0a0b7d72}
+      \strng{authornamehash}{d2aea016c4cf52c05315d4fe0a0b7d72}
+      \strng{authorfullhash}{d2aea016c4cf52c05315d4fe0a0b7d72}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Asymptotic Formulae}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://indico.cern.ch/event/233551/contributions/493678/attachments/389871/542293/asymptotics_armbruster.pdf
+      \endverb
+      \verb{url}
+      \verb https://indico.cern.ch/event/233551/contributions/493678/attachments/389871/542293/asymptotics_armbruster.pdf
+      \endverb
+    \endentry
+    \entry{ASTIER2000138}{article}{}
+      \name{author}{6}{}{%
+        {{hash=dc811caa5426ff435d08d0ac9c95eefb}{%
+           family={Astier},
+           familyi={A\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9339091137833dd2d06fff9b72699fe8}{%
+           family={Cardini},
+           familyi={C\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=095791c8d943740bd0a65d0d1c9b7902}{%
+           family={Cousins},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=622e597db3934bc9c27f56ad23fea290}{%
+           family={Letessier-Selvon},
+           familyi={L\bibinithyphendelim S\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0556d73ed13e42d095fdd1519f64ac3}{%
+           family={Popov},
+           familyi={P\bibinitperiod},
+           given={Boris\bibnamedelima A},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7baa3125826b9576a8403a9b188cb9a3}{%
+           family={Vinogradova},
+           familyi={V\bibinitperiod},
+           given={Tatiana},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{807432b0b7651e2ca97b7bc4aaa8444c}
+      \strng{fullhash}{3d81d82297ddb92696f1c72af462b93e}
+      \strng{bibnamehash}{807432b0b7651e2ca97b7bc4aaa8444c}
+      \strng{authorbibnamehash}{807432b0b7651e2ca97b7bc4aaa8444c}
+      \strng{authornamehash}{807432b0b7651e2ca97b7bc4aaa8444c}
+      \strng{authorfullhash}{3d81d82297ddb92696f1c72af462b93e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We give an overview of track fitting using the Kalman filter method in the NOMAD detector at CERN, and emphasize how the wealth of by-product information can be used to analyze track breakpoints (discontinuities in track parameters caused by scattering, decay, etc.). After reviewing how this information has been previously exploited by others, we describe extensions which add power to breakpoint detection and characterization. We show how complete fits to the entire track, with breakpoint parameters added, can be easily obtained from the information from unbroken fits. Tests inspired by the Fisher F-test can then be used to judge breakpoints. Signed quantities (such as change in momentum at the breakpoint) can supplement unsigned quantities such as the various chisquares. We illustrate the method with electrons from real data, and with Monte Carlo simulations of pion decays.}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{1}
+      \field{title}{Kalman filter track fits and track breakpoint analysis}
+      \field{volume}{450}
+      \field{year}{2000}
+      \field{pages}{138\bibrangedash 154}
+      \range{pages}{17}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0168-9002(00)00154-6
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900200001546
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0168900200001546
+      \endverb
+      \keyw{Breakpoints,Kalman filter,Track fitting}
     \endentry
     \entry{FTAG-2018-01}{article}{}
       \name{author}{1}{}{%
@@ -688,6 +849,34 @@
       \field{year}{2020}
       \verb{eprint}
       \verb 2012.00578
+      \endverb
+    \endentry
+    \entry{DL1r-slides}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a1a363a0c733a6777afc3da51b8e6a2c}{%
+           family={ATLAS\bibnamedelima collaboration},
+           familyi={A\bibinitperiod\bibinitdelim c\bibinitperiod},
+           given={Manuel\bibnamedelima Guth},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           prefix={on\bibnamedelima behalf\bibnamedelimb of\bibnamedelima the},
+           prefixi={o\bibinitperiod\bibinitdelim b\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1a363a0c733a6777afc3da51b8e6a2c}
+      \strng{fullhash}{a1a363a0c733a6777afc3da51b8e6a2c}
+      \strng{bibnamehash}{a1a363a0c733a6777afc3da51b8e6a2c}
+      \strng{authorbibnamehash}{a1a363a0c733a6777afc3da51b8e6a2c}
+      \strng{authornamehash}{a1a363a0c733a6777afc3da51b8e6a2c}
+      \strng{authorfullhash}{a1a363a0c733a6777afc3da51b8e6a2c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep-Neural-Network-based b-Tagging as Basis for Improvements in Top Analyses}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2693088/files/ATL-PHYS-SLIDE-2019-751.pdf
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2693088/files/ATL-PHYS-SLIDE-2019-751.pdf
       \endverb
     \endentry
     \entry{twiki-elSF}{booklet}{}
@@ -930,6 +1119,49 @@
       \verb https://cds.cern.ch/record/782076
       \endverb
     \endentry
+    \entry{Cacciari:2008gp}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d38166452f9df43fc09b4da37680b482}{%
+           family={Cacciari},
+           familyi={C\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cdd9546b48e743df2da267f924c11cb4}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={Gavin\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4f0b7ca3806264505163f88e90956033}{%
+           family={Soyez},
+           familyi={S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{fullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{bibnamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{authorbibnamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{authornamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \strng{authorfullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{The anti-$k_t$ jet clustering algorithm}}
+      \field{volume}{04}
+      \field{year}{2008}
+      \field{pages}{063}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2008/04/063
+      \endverb
+      \verb{eprint}
+      \verb 0802.1189
+      \endverb
+    \endentry
     \entry{transfod-autobin}{online}{}
       \name{author}{1}{}{%
         {{hash=ac06871108486d687d7aa78fa342e02a}{%
@@ -1113,6 +1345,27 @@
       \verb{url}
       \verb https://doi.org/10.1088/1748-0221/3/08/s08003
       \endverb
+    \endentry
+    \entry{Connelly2017PerformanceAC}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=2ae21b5d90cdadedabc23e803c3acda6}{%
+           family={Connelly},
+           familyi={C\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ae21b5d90cdadedabc23e803c3acda6}
+      \strng{fullhash}{2ae21b5d90cdadedabc23e803c3acda6}
+      \strng{bibnamehash}{2ae21b5d90cdadedabc23e803c3acda6}
+      \strng{authorbibnamehash}{2ae21b5d90cdadedabc23e803c3acda6}
+      \strng{authornamehash}{2ae21b5d90cdadedabc23e803c3acda6}
+      \strng{authorfullhash}{2ae21b5d90cdadedabc23e803c3acda6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Performance and calibration of b-tagging with the ATLAS experiment at LHC Run-2}
+      \field{year}{2017}
     \endentry
     \entry{Cowan_2011}{article}{}
       \name{author}{4}{}{%
@@ -3030,6 +3283,45 @@
       \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/MCTruthClassifier
       \endverb
     \endentry
+    \entry{Meloni_2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=02c5fd57ae19fbb1ff5191880a069da2}{%
+           family={Meloni},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{fullhash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{bibnamehash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{authorbibnamehash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{authornamehash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \strng{authorfullhash}{02c5fd57ae19fbb1ff5191880a069da2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Primary vertex reconstruction with the {ATLAS} detector}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{C12060\bibrangedash C12060}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/11/12/c12060
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1748-0221/11/12/c12060
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1748-0221/11/12/c12060
+      \endverb
+    \endentry
     \entry{SM-picture}{online}{}
       \name{author}{2}{}{%
         {{hash=8b6344db03e79d70f18f50b5848d1257}{%
@@ -3276,6 +3568,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{tab:top-decay-modes}
 \endrefsection
 \endinput
 

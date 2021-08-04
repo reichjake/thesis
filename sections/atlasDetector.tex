@@ -4,13 +4,45 @@ ATLAS (A Toroidal LHC ApparatuS) is one of two general purpose detectors at CERN
 In this section, information about the LHC and the ATLAS detector are given. This includes technical aspects of the ATLAS detector and the processing of data into meaningful physics objects to be used in analyses.
 
 \subsection{Large Hadron Collider (LHC)}
-The LHC is a circular 27km particle accelerator located in an underground tunnel on the border between France and Switzerland. The accelerator consists of supercooled, superconducting magnets which accelerate and collide beams of protons at centre-of-mass energies up to $\sqrt{s} = 13$TeV at instantaneous luminosities of $\mathcal{L} \sim 10^{34}$cm$^{-2}$s$^{-1}$. The LHC mainly produces these $pp$ collisions, however heavy-ion collisions can be produced (typically lasting a month, annually) which reach centre-of-mass energies of $\sqrt{s} = 5.02$TeV$/$nucleon at instantaneous luminosities of $\mathcal{L} \sim 10^{27}$cm$^{-2}$s$^{-1}$. $pp$ beams consist of bunches of protons which collide every 25ns, corresponding to a frequency of 40MHz. \\ 
+The LHC is a circular 27 km particle accelerator located in an underground tunnel on the border between France and Switzerland. The accelerator consists of supercooled, superconducting magnets which accelerate and collide beams of protons at centre-of-mass energies up to $\sqrt{s} = 13$ TeV at instantaneous luminosities of $\mathcal{L} \sim 10^{34}$ cm$^{-2}$s$^{-1}$. The LHC mainly produces these $pp$ collisions, however heavy-ion collisions can be produced (typically lasting a month, annually) which reach centre-of-mass energies of $\sqrt{s} = 5.02$ TeV$/$nucleon at instantaneous luminosities of $\mathcal{L} \sim 10^{27}$ cm$^{-2}$s$^{-1}$. $pp$ beams consist of bunches of protons which collide every 25 ns, corresponding to a frequency of 40 MHz. \\ 
 
-Several accelerator systems are used to accelerate protons and heavy ions to such high energies. Protons are extracted from a tank of ionised hydrogen gas and are injected into the Linear Accelerator 2 (LINAC), where they are linearly accelerated to momenta of 50MeV. The proton bunches are then sequentially accelerated by a chain of circular accelerators. The chain starts with the Booster which accelerates the protons to momenta of up to 1.4GeV. The proton bunches are then fed through to the Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS) which accelerate the protons to momenta of up to 25GeV and 450GeV respectively. The protons are then transferred to two beam pipes of the LHC where they travel in opposite directions. Both proton beams are accelerated to their final momenta of 6.5TeV, resulting in a centre-of-mass energy of 13TeV. These proton beams then collide at one of the four main interaction points situated along the LHC. \\
+Several accelerator systems are used to accelerate protons and heavy ions to such high energies. Protons are extracted from a tank of ionised hydrogen gas and are injected into the Linear Accelerator 2 (LINAC), where they are linearly accelerated to momenta of 50 MeV. The proton bunches are then sequentially accelerated by a chain of circular accelerators. The chain starts with the Booster which accelerates the protons to momenta of up to 1.4 GeV. The proton bunches are then fed through to the Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS) which accelerate the protons to momenta of up to 25 GeV and 450 GeV respectively. The protons are then transferred to two beam pipes of the LHC where they travel in opposite directions. Both proton beams are accelerated to their final momenta of 6.5 TeV, resulting in a centre-of-mass energy of 13 TeV. These proton beams then collide at one of the four main interaction points situated along the LHC. \\
 
 The four main experiments located at the interaction points are ATLAS, the Compact Muon Solenoid (CMS), Large Hadron Collider Beauty (LHCb) Experiment and A Large Ion Collider Experiment (ALICE). ATLAS and CMS are general-purpose detectors which investigate a wide range of physics processes. Since both ATLAS and CMS can measure the same processes, they are able to cross-check and validate measurements taken by one another. LHCb is specifically designed to study decays of particles containing $b$-quarks. ALICE is designed to study the strongly interacting quark-gluon plasma which is formed at extremely high energy densities.\\
 
 At the interaction points, the two proton beams which consist of protons in closely packed bunches, travel in opposite directions to one another and collide. We are only able to study one $pp$ collision (event) at a time, however many hard $pp$ collisions can occur per bunch crossing. These additional collisions are referred to as \textit{pile-up}. Pileup complicates the reconstruction of the particles originating from the hard collision of interest. 
+
+\subsubsection{Luminosity}
+
+The event production rate at the LHC, $R(t)$, for a certain process of interest is given by, 
+
+\begin{equation}
+R(t) = \mathcal{L}(t)\sigma
+\end{equation}
+where $\mathcal{L}(t)$ is the instantaneous luminosity and $\sigma$ and is the cross section of the process of interest. The instantaneous luminosity, $\mathcal{L}(t)$, is independent on the process of interest, and depends on various collider and beam parameters. $\mathcal{L}(t)$ can be written in terms of these parameters as,
+
+\begin{equation}
+\mathcal{L}(t) = f \frac{N n_{1} n_{2}}{4\pi \sigma_{x} \sigma_{y}}
+\end{equation}
+
+where $f$ is the beam revolution frequency, $N$ is the number of proton bunches colliding per second, $n_{1}$ and $n_{2}$ are the number of protons in the colliding bunches, $\sigma_{x}$ and $\sigma_{y}$ are the beam spread in the $x$ and $y$ directions respectively. The total integrated luminosity, $L$, across some time interval, is given by,
+
+\begin{equation}
+L = \int \mathcal{L} dt.
+\end{equation}
+The units of $L$ are inverse area, and are given by fb$^{-1}$ at the LHC and the ATLAS detector.\\
+
+In Figure~\ref{fig:lhc-lumi}, the total integrated luminosity delivered to ATLAS, recorded by ATLAS, and certified to be good enough for physics analyses (the data passes certain quality control criteria) for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}. 
+
+\begin{figure}[h!]
+ \includegraphics[width=0.5\textwidth]{figures/theoryFigs/lhc_lumi.pdf}
+ \centering
+\caption{The total integrated luminosity delivered to ATLAS, recorded by ATLAS, and certified to be good enough for physics analyses (the data passes certain quality control criteria) for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}. The total integrated luminosity delivered by the LHC, recorded by ATLAS and certified to be good quality data are shown by the green, yellow and blue histograms respectively. The month and year of data taking is shown on the x-axis and the total integrated luminosity (in fb$^{-1}$) is shown on the y-axis.}
+\label{fig:lhc-lumi}
+\end{figure}
+
+A total integrated luminosity of 139 fb$^{-1}$ of data certified as good for physics was recorded by ATLAS between 2015 and 2018. This data taking period is referred to as Run 2, since it proceeds the Run 1 data taking period (2011 and 2012) and the Long Shutdown 1 LHC upgrade period (2013 and 2014). In this analysis, we use the Full Run 2 dataset.
+
 
 
 \section{The ATLAS Detector}
@@ -53,7 +85,7 @@ where $m$ is the invariant mass of the physics object.
 
 
 \subsection{Inner Detector}
-The inner detector is the first layer of concentric cylindrical sub-detector layers in the ATLAS detector. It is used to identify charged particles and reconstruct the trajectories of charged particles produced in the collisions via energy deposition in semiconductor material (hits) and the ionisation of gas. It consists of three complementary sub-detectors (in order from nearest to farthest from the beam pipe): the Pixel Detector, the Semiconductor Tracker (SCT) and the Transition Radiation Detector (TRT). The Pixel Detector and SCT are based on semiconductor technology and have the highest granularity of any sub-detector in ATLAS, in order to cope with the high frequency of collisions near the interaction point. The TRT consists of drift tubes (straws) containing a mixture of gas ($70\%$ Xe, $27\%$ CO$_{2}$ and $3\%$O$_{2}$), which allows measurement of the energy deposited by charged particles through the ionisation of the gas. Solenoid magnets surround the inner detector and bend the trajectories of charged particles. The charges and momenta of particles can be inferred from their bent trajectories, which are reconstructed by the hits produced via energy deposition in the Inner Detector.
+The inner detector is the first layer of concentric cylindrical sub-detector layers in the ATLAS detector. It is used to identify charged particles and reconstruct the trajectories of charged particles produced in the collisions via energy deposition in semiconductor material (hits) and the ionisation of gas. It consists of three complementary sub-detectors (in order from nearest to farthest from the beam pipe): the Pixel Detector, the Semiconductor Tracker (SCT) and the Transition Radiation Detector (TRT). The Pixel Detector and SCT are based on semiconductor technology and have the highest granularity of any sub-detector in ATLAS, in order to cope with the high frequency of collisions near the interaction point. The TRT consists of drift tubes (straws) containing a mixture of gas ($70\%$ Xe, $27\%$ CO$_{2}$ and $3\%$ O$_{2}$), which allows measurement of the energy deposited by charged particles through the ionisation of the gas. Solenoid magnets surround the inner detector and bend the trajectories of charged particles. The charges and momenta of particles can be inferred from their bent trajectories, which are reconstructed by the hits produced via energy deposition in the Inner Detector.
 
 \subsection{Electromagnetic and Hadronic Calorimeters}
 The Electromagnetic Calorimeter (ECAL) and Hadronic Calorimeter (HCAL) surround the Inner Detector, with the ECAL nearer to the beam line. The ECAL and HCAL provide accurate measurements of the energy of particles which interact electromagnetically (e.g. photons and electrons) and hadronically (e.g. jets), respectively. Particles entering the calorimeters interact with the detector material and create either a electromagnetic shower (in the ECAL) or a hadronic shower (in the HCAL), depositing all their energy in the calorimeter cells. The calorimeters consist of an active material and a passive absorber material. Active materials are used to measure the energy deposited by the particles and passive absorber materials induce the electromagnetic and hadronic showers. The ECAL uses liquid argon (LAr) as its active material and lead as its absorber material. The HCAL uses alternating steel absorber layers and plastic scintillating tile layers as its active material. The primary mechanism of energy deposition in the ECAL is through bremsstrahlung (for electrons) and pair production (photons). Hadrons usually deposit a small amount of their energy in the ECAL, and interact via inelastic scattering with the nuclei of the detector material. The hadronic showers (jets) produced in these nuclear interactions travel much further than an electromagnetic shower, and for that reason, the volume of the is designed HCAL occupies a much larger space than that of the ECAL.
@@ -84,7 +116,7 @@ A likelihood discriminant is used to identify electrons. Quantities measured in 
 \subsubsection{Muons}
 Muons leave tracks in the Inner Detector and the MS. They traverse the ECAL and HCAL with no significant energy loss. Muons are therefore reconstructed and identified from information in the Inner Detector and MS. Tracks are reconstructed in the Inner Detector and MS independently. Both tracks are combined, using a global $\chi^{2}$ fit, resulting in reconstructed muon candidates.\\
 
-Similar to electron identification, muons use a likelihood discriminant to identify prompt muons and suppress background contamination (mainly from pion and kaon decays). Four working points are defined: \textit{loose}, \textit{medium}, \textit{tight} and \textit{high-$p_{T}$}~\cite{muonIDEfficiency}.
+Similar to electron identification, muons use a likelihood discriminant to identify prompt muons and suppress background contamination (mainly from pion and kaon decays). Four working points are defined to cover needs of different physics analyses: \textit{loose}, \textit{medium}, \textit{tight} and \textit{high-$p_{T}$}~\cite{muonIDEfficiency}. 
 
 \subsubsection{Jets and $b$-tagging}
 \label{sec:jets-btagging}

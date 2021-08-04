@@ -3483,6 +3483,18 @@
       \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/TopRecoObjTwikiModel
       \endverb
     \endentry
+    \entry{LHC-lumi}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{Total Integrated Luminosity and Data Quality in 2015-2018 - LuminosityPublicResultsRun2}
+      \verb{urlraw}
+      \verb https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2
+      \endverb
+      \verb{url}
+      \verb https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2
+      \endverb
+    \endentry
     \entry{TRexfitter}{online}{}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
@@ -3568,7 +3580,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{tab:top-decay-modes}
 \endrefsection
 \endinput
 

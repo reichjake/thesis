@@ -1,30 +1,29 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[96] biber:340> INFO - === Mon Aug  2, 2021, 15:58:50
-[114] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[212] Biber.pm:952> INFO - Found 67 citekeys in bib section 0
-[234] Biber.pm:4340> INFO - Processing section 0
-[247] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
-[252] bibtex.pm:1689> INFO - LaTeX decoding ...
-[326] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[367] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'twz-theory-paper' is not an integer - this will probably not sort properly.
-[378] Utils.pm:395> WARN - legacy month field 'Oct' in entry 'quark-confinement' is not an integer - this will probably not sort properly.
-[385] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'PhysRevLett.13.321' is not an integer - this will probably not sort properly.
-[872] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'ttz-xsec-paper' is not an integer - this will probably not sort properly.
-[949] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Collaboration_2008' is not an integer - this will probably not sort properly.
-[975] Utils.pm:395> WARN - legacy month field 'dec' in entry 'Meloni_2016' is not an integer - this will probably not sort properly.
-[998] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'electronRecoAndID:paper' is not an integer - this will probably not sort properly.
-[1012] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'Aad:2138166' is not an integer - this will probably not sort properly.
-[1033] Utils.pm:395> WARN - legacy month field 'May' in entry 'muonIDEfficiency' is not an integer - this will probably not sort properly.
-[1083] Utils.pm:395> WARN - legacy month field 'May' in entry 'DL1r-paper' is not an integer - this will probably not sort properly.
-[1088] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'Marchese:2688452' is not an integer - this will probably not sort properly.
-[1178] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'Cowan_2011' is not an integer - this will probably not sort properly.
-[1182] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'asymptotic-formulae-slides' is not an integer - this will probably not sort properly.
-[1191] Utils.pm:395> WARN - I didn't find a database entry for 'tab:top-decay-modes' (section 0)
-[1302] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1302] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1303] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[1303] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1398] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[1767] bbl.pm:757> INFO - Output to thesis.bbl
-[1767] Biber.pm:128> INFO - WARNINGS: 14
+[134] biber:340> INFO - === Wed Aug  4, 2021, 11:56:12
+[158] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[290] Biber.pm:952> INFO - Found 67 citekeys in bib section 0
+[316] Biber.pm:4340> INFO - Processing section 0
+[337] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[344] bibtex.pm:1689> INFO - LaTeX decoding ...
+[456] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[509] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'twz-theory-paper' is not an integer - this will probably not sort properly.
+[524] Utils.pm:395> WARN - legacy month field 'Oct' in entry 'quark-confinement' is not an integer - this will probably not sort properly.
+[533] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'PhysRevLett.13.321' is not an integer - this will probably not sort properly.
+[1330] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'ttz-xsec-paper' is not an integer - this will probably not sort properly.
+[1470] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Collaboration_2008' is not an integer - this will probably not sort properly.
+[1519] Utils.pm:395> WARN - legacy month field 'dec' in entry 'Meloni_2016' is not an integer - this will probably not sort properly.
+[1569] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'electronRecoAndID:paper' is not an integer - this will probably not sort properly.
+[1606] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'Aad:2138166' is not an integer - this will probably not sort properly.
+[1660] Utils.pm:395> WARN - legacy month field 'May' in entry 'muonIDEfficiency' is not an integer - this will probably not sort properly.
+[1768] Utils.pm:395> WARN - legacy month field 'May' in entry 'DL1r-paper' is not an integer - this will probably not sort properly.
+[1777] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'Marchese:2688452' is not an integer - this will probably not sort properly.
+[1955] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'Cowan_2011' is not an integer - this will probably not sort properly.
+[1961] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'asymptotic-formulae-slides' is not an integer - this will probably not sort properly.
+[2177] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2178] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2178] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[2178] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[2348] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[2803] bbl.pm:757> INFO - Output to thesis.bbl
+[2803] Biber.pm:128> INFO - WARNINGS: 13

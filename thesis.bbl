@@ -1014,6 +1014,90 @@
       \verb 10.1088/1748-0221/13/07/P07017
       \endverb
     \endentry
+    \entry{Ball_2015}{article}{}
+      \name{author}{10}{}{%
+        {{hash=b8571ccdd252b9322da64848c8dd1c01}{%
+           family={Ball},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6cdff5f1cfecb4d7cce47a1b553072f4}{%
+           family={Bertone},
+           familyi={B\bibinitperiod},
+           given={Valerio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=ba52b2df4eb4eca4017ffaf23e227cb7}{%
+           family={Carrazza},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=70f33e0ab652fbf723ce2d200c3a8f51}{%
+           family={Deans},
+           familyi={D\bibinitperiod},
+           given={Christopher\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9831ef040d7a78c8c017d2fd8ebc70a2}{%
+           family={Del\bibnamedelima Debbio},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f059bfe158507db3f974228d09a512d8}{%
+           family={Forte},
+           familyi={F\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f6f0869fcb97413c4e9e591ffcd3089d}{%
+           family={Guffanti},
+           familyi={G\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=99db8e954f5c4f7a65a96d96e8e0226f}{%
+           family={Hartland},
+           familyi={H\bibinitperiod},
+           given={Nathan\bibnamedelima P.},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=13c0b438394e5d633e01caeb7e5c4879}{%
+           family={Latorre},
+           familyi={L\bibinitperiod},
+           given={José\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{b0c229ac53071d9fe7b1eee454fa8fae}
+      \strng{fullhash}{e45491ce3438f7bf7edfc8b3a9908d3e}
+      \strng{bibnamehash}{b0c229ac53071d9fe7b1eee454fa8fae}
+      \strng{authorbibnamehash}{b0c229ac53071d9fe7b1eee454fa8fae}
+      \strng{authornamehash}{b0c229ac53071d9fe7b1eee454fa8fae}
+      \strng{authorfullhash}{e45491ce3438f7bf7edfc8b3a9908d3e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Parton distributions for the LHC run II}
+      \field{volume}{2015}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1007/jhep04(2015)040
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP04(2015)040
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP04(2015)040
+      \endverb
+    \endentry
     \entry{twz-theory-paper}{report}{}
       \name{author}{1}{}{%
         {{hash=8e1a242c0c7e00bfc30407943708b3a1}{%
@@ -1050,6 +1134,50 @@
       \endverb
       \verb{url}
       \verb http://cds.cern.ch/record/2211022
+      \endverb
+    \endentry
+    \entry{Brivio_2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=044b59e76a8aaf7087c15acb5215ca53}{%
+           family={Brivio},
+           familyi={B\bibinitperiod},
+           given={Ilaria},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f0f69c3f0c83f44987ad60fafaaa0cb2}{%
+           family={Trott},
+           familyi={T\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{34f5637f28481524499686a5edf5577b}
+      \strng{fullhash}{34f5637f28481524499686a5edf5577b}
+      \strng{bibnamehash}{34f5637f28481524499686a5edf5577b}
+      \strng{authorbibnamehash}{34f5637f28481524499686a5edf5577b}
+      \strng{authornamehash}{34f5637f28481524499686a5edf5577b}
+      \strng{authorfullhash}{34f5637f28481524499686a5edf5577b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-1573}
+      \field{journaltitle}{Physics Reports}
+      \field{month}{2}
+      \field{title}{The standard model as an effective field theory}
+      \field{volume}{793}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 98}
+      \range{pages}{98}
+      \verb{doi}
+      \verb 10.1016/j.physrep.2018.11.002
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.physrep.2018.11.002
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.physrep.2018.11.002
       \endverb
     \endentry
     \entry{lhc-design-report}{book}{}
@@ -1188,6 +1316,41 @@
       \verb https://indico.cern.ch/event/455289/contributions/1953694/attachments/1209081/1762963/Calvet_binning_Htop_160108.pdf
       \endverb
     \endentry
+    \entry{CANEPA2019100033}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a635a7202892e21eddd3037874038fc2}{%
+           family={Canepa},
+           familyi={C\bibinitperiod},
+           given={Anadi},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a635a7202892e21eddd3037874038fc2}
+      \strng{fullhash}{a635a7202892e21eddd3037874038fc2}
+      \strng{bibnamehash}{a635a7202892e21eddd3037874038fc2}
+      \strng{authorbibnamehash}{a635a7202892e21eddd3037874038fc2}
+      \strng{authornamehash}{a635a7202892e21eddd3037874038fc2}
+      \strng{authorfullhash}{a635a7202892e21eddd3037874038fc2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2405-4283}
+      \field{journaltitle}{Reviews in Physics}
+      \field{title}{Searches for supersymmetry at the Large Hadron Collider}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{pages}{100033}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.revip.2019.100033
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2405428318300091
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2405428318300091
+      \endverb
+    \endentry
     \entry{summaryPlots}{online}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -1234,6 +1397,56 @@
       \verb https://e-publishing.cern.ch/index.php/CYRM/issue/view/127
       \endverb
     \endentry
+    \entry{Chaichian_1995}{article}{}
+      \name{author}{3}{}{%
+        {{hash=50461d0f8995f005c7b83ef1f9181cf2}{%
+           family={Chaichian},
+           familyi={C\bibinitperiod},
+           given={Masud},
+           giveni={M\bibinitperiod}}}%
+        {{hash=38b8e44c2de2e85f649acf4ae7e614a6}{%
+           family={Felipe},
+           familyi={F\bibinitperiod},
+           given={Ricardo\bibnamedelima Gonzalez},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=0ce8bfaea7ba297449bb4b865dd0f662}{%
+           family={Huitu},
+           familyi={H\bibinitperiod},
+           given={Katri},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{e505a6bf8f64319dd770ed18001539a0}
+      \strng{fullhash}{e505a6bf8f64319dd770ed18001539a0}
+      \strng{bibnamehash}{e505a6bf8f64319dd770ed18001539a0}
+      \strng{authorbibnamehash}{e505a6bf8f64319dd770ed18001539a0}
+      \strng{authornamehash}{e505a6bf8f64319dd770ed18001539a0}
+      \strng{authorfullhash}{e505a6bf8f64319dd770ed18001539a0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-2693}
+      \field{journaltitle}{Physics Letters B}
+      \field{month}{11}
+      \field{number}{1-2}
+      \field{title}{On quadratic divergences and the Higgs mass}
+      \field{volume}{363}
+      \field{year}{1995}
+      \field{pages}{101\bibrangedash 105}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/0370-2693(95)01191-r
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/0370-2693(95)01191-R
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/0370-2693(95)01191-R
+      \endverb
+    \endentry
     \entry{muonIsolationEfficiency}{online}{}
       \name{author}{1}{}{%
         {{hash=96e25a288d17b3af80ed6a64be714e78}{%
@@ -1260,6 +1473,44 @@
       \endverb
       \verb{url}
       \verb https://indico.cern.ch/event/854783/contributions/3595529/attachments/1926980/3190772/IFF_20191003_PflowWPs.pdf
+      \endverb
+    \endentry
+    \entry{Choi:2018mie}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f1db15a70b63ef1e2a6b5da465686d46}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={KyungEon},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0568dfa72716c5482e354d1aee370696}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhen-An},
+           giveni={Z\bibinithyphendelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1db15a70b63ef1e2a6b5da465686d46}
+      \strng{fullhash}{f1db15a70b63ef1e2a6b5da465686d46}
+      \strng{bibnamehash}{f1db15a70b63ef1e2a6b5da465686d46}
+      \strng{authorbibnamehash}{f1db15a70b63ef1e2a6b5da465686d46}
+      \strng{authornamehash}{f1db15a70b63ef1e2a6b5da465686d46}
+      \strng{authorfullhash}{f1db15a70b63ef1e2a6b5da465686d46}
+      \strng{editorbibnamehash}{0568dfa72716c5482e354d1aee370696}
+      \strng{editornamehash}{0568dfa72716c5482e354d1aee370696}
+      \strng{editorfullhash}{0568dfa72716c5482e354d1aee370696}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Springer Proc. Phys.}
+      \field{title}{{Tracking and Vertexing with the ATLAS Inner Detector in the LHC Run-2}}
+      \field{volume}{213}
+      \field{year}{2018}
+      \field{pages}{400\bibrangedash 403}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1007/978-981-13-1316-5_75
       \endverb
     \endentry
     \entry{ppToZZ:CMSpaper}{misc}{}
@@ -1541,6 +1792,51 @@
       \endverb
       \verb{url}
       \verb https://www.zeuthen.desy.de/~wischnew/amanda/discussion/wgterror/working.html
+      \endverb
+    \endentry
+    \entry{Evans_2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=29a80b4592e6086f593501c4decfbdee}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Lyndon},
+           giveni={L\bibinitperiod}}}%
+        {{hash=41f2644da40bcd4713a96eaebb76449c}{%
+           family={Bryant},
+           familyi={B\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{fullhash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{bibnamehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authorbibnamehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authornamehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authorfullhash}{7f72fc335ecb8657f6c5536563996deb}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and most powerful tool for Particle Physics research. It is designed to collide proton beams with a centre-of-mass energy of 14 TeV and an unprecedented luminosity of 1034 cm−2 s−1. It can also collide heavy (Pb) ions with an energy of 2.8 TeV per nucleon and a peak luminosity of 1027 cm−2 s−1. In this paper, the machine design is described.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{8}
+      \field{number}{08}
+      \field{title}{{LHC} Machine}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{S08001\bibrangedash S08001}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/s08001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1748-0221/3/08/s08001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1748-0221/3/08/s08001
       \endverb
     \endentry
     \entry{fantini2020formalism}{misc}{}
@@ -2969,6 +3265,96 @@
       \verb https://gitlab.cern.ch/ATLAS-IFF/IFFTruthClassifier/-/tree/master#3-details-about-the-lepton-categories
       \endverb
     \endentry
+    \entry{Jarosik_2011}{article}{}
+      \name{author}{11}{}{%
+        {{hash=7ae3e0f8327893e29ad1785b659525d7}{%
+           family={Jarosik},
+           familyi={J\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9c1d0b2a37ed050fe76e5beb20c8193f}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f5b3c817421cbe5cd13d29af8b76f0de}{%
+           family={Dunkley},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8c2f7ce9fcbb6550e8f4e5f909655833}{%
+           family={Gold},
+           familyi={G\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e6299e98be55bb66c071abbf8f55f638}{%
+           family={Greason},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=78c53b5f9ca8a9dc0fa4f7ff0bbaab1f}{%
+           family={Halpern},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=680a0d36620f9059032f4d4fa4043e65}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=df37740edb7ed3e665b5d32866f0ee59}{%
+           family={Hinshaw},
+           familyi={H\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=303380bcbc07932c204600d9da535035}{%
+           family={Kogut},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9ff835f5ace3e5bdc480da3867577f3f}{%
+           family={Komatsu},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Astronomical Society}%
+      }
+      \strng{namehash}{eacb3009a598b27c4d2516d2fdbf5771}
+      \strng{fullhash}{ec86b4882947e9179882d20769945d88}
+      \strng{bibnamehash}{eacb3009a598b27c4d2516d2fdbf5771}
+      \strng{authorbibnamehash}{eacb3009a598b27c4d2516d2fdbf5771}
+      \strng{authornamehash}{eacb3009a598b27c4d2516d2fdbf5771}
+      \strng{authorfullhash}{ec86b4882947e9179882d20769945d88}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1538-4365}
+      \field{journaltitle}{The Astrophysical Journal Supplement Series}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{SEVEN-YEAR WILKINSON MICROWAVE ANISOTROPY PROBE ( WMAP ) OBSERVATIONS: SKY MAPS, SYSTEMATIC ERRORS, AND BASIC RESULTS}
+      \field{volume}{192}
+      \field{year}{2011}
+      \field{pages}{14}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0067-0049/192/2/14
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/0067-0049/192/2/14
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/0067-0049/192/2/14
+      \endverb
+    \endentry
     \entry{hierarchy-problem-paper}{article}{}
       \name{author}{1}{}{%
         {{hash=375b62e00f0d4aeac5c40d2eb4bcad2e}{%
@@ -3176,6 +3562,83 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0370269316306256
       \endverb
     \endentry
+    \entry{kirsten2010introduction}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8bafc10b402a0484750a40f4400acf61}{%
+           family={Kirsten},
+           familyi={K\bibinitperiod},
+           given={H.\bibnamedelimi J.\bibnamedelimi W.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore Hackensack, NJ}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific}%
+      }
+      \strng{namehash}{8bafc10b402a0484750a40f4400acf61}
+      \strng{fullhash}{8bafc10b402a0484750a40f4400acf61}
+      \strng{bibnamehash}{8bafc10b402a0484750a40f4400acf61}
+      \strng{authorbibnamehash}{8bafc10b402a0484750a40f4400acf61}
+      \strng{authornamehash}{8bafc10b402a0484750a40f4400acf61}
+      \strng{authorfullhash}{8bafc10b402a0484750a40f4400acf61}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-9814293426}
+      \field{title}{Introduction to supersymmetry}
+      \field{year}{2010}
+    \endentry
+    \entry{Maltoni_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=efeb0fbcee7d0848e1c3e647ab2d5e98}{%
+           family={Maltoni},
+           familyi={M\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a17012bfcad0655ddf0656c57a096f91}{%
+           family={Mantani},
+           familyi={M\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=754205ad283d8900f722cfb00154ee52}{%
+           family={Mimasu},
+           familyi={M\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{f74f23f87ac0a90821f4311a8a0e4bed}
+      \strng{fullhash}{f74f23f87ac0a90821f4311a8a0e4bed}
+      \strng{bibnamehash}{f74f23f87ac0a90821f4311a8a0e4bed}
+      \strng{authorbibnamehash}{f74f23f87ac0a90821f4311a8a0e4bed}
+      \strng{authornamehash}{f74f23f87ac0a90821f4311a8a0e4bed}
+      \strng{authorfullhash}{f74f23f87ac0a90821f4311a8a0e4bed}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Top-quark electroweak interactions at high energy}
+      \field{volume}{2019}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1007/jhep10(2019)004
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/JHEP10(2019)004
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/JHEP10(2019)004
+      \endverb
+    \endentry
     \entry{Marchese:2688452}{report}{}
       \name{author}{1}{}{%
         {{hash=e0a1c03c06d22d98f356af2ce9b853e1}{%
@@ -3320,6 +3783,32 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1088/1748-0221/11/12/c12060
+      \endverb
+    \endentry
+    \entry{mimasu2021quark}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=754205ad283d8900f722cfb00154ee52}{%
+           family={Mimasu},
+           familyi={M\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{754205ad283d8900f722cfb00154ee52}
+      \strng{fullhash}{754205ad283d8900f722cfb00154ee52}
+      \strng{bibnamehash}{754205ad283d8900f722cfb00154ee52}
+      \strng{authorbibnamehash}{754205ad283d8900f722cfb00154ee52}
+      \strng{authornamehash}{754205ad283d8900f722cfb00154ee52}
+      \strng{authorfullhash}{754205ad283d8900f722cfb00154ee52}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Top quark electroweak interactions}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2105.10261
       \endverb
     \endentry
     \entry{SM-picture}{online}{}
@@ -3471,6 +3960,88 @@
       \verb https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
       \endverb
     \endentry
+    \entry{dasilva2016quark}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=167c022143ed2ae921f9d0614ee509d5}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Pedro\bibnamedelima Ferreira},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{167c022143ed2ae921f9d0614ee509d5}
+      \strng{fullhash}{167c022143ed2ae921f9d0614ee509d5}
+      \strng{bibnamehash}{167c022143ed2ae921f9d0614ee509d5}
+      \strng{authorbibnamehash}{167c022143ed2ae921f9d0614ee509d5}
+      \strng{authornamehash}{167c022143ed2ae921f9d0614ee509d5}
+      \strng{authorfullhash}{167c022143ed2ae921f9d0614ee509d5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{Top quark production at the LHC}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1605.05343
+      \endverb
+    \endentry
+    \entry{sonneveld2019searches}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cccb26c78db0f671e43f1707a345f7a1}{%
+           family={Sonneveld},
+           familyi={S\bibinitperiod},
+           given={Jory},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{cccb26c78db0f671e43f1707a345f7a1}
+      \strng{fullhash}{cccb26c78db0f671e43f1707a345f7a1}
+      \strng{bibnamehash}{cccb26c78db0f671e43f1707a345f7a1}
+      \strng{authorbibnamehash}{cccb26c78db0f671e43f1707a345f7a1}
+      \strng{authornamehash}{cccb26c78db0f671e43f1707a345f7a1}
+      \strng{authorfullhash}{cccb26c78db0f671e43f1707a345f7a1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{Searches for physics beyond the standard model at the LHC}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1905.06239
+      \endverb
+    \endentry
+    \entry{thomson2013modern}{book}{}
+      \name{author}{1}{}{%
+        {{hash=57f5b607cec3b22885f854f4c4baf257}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, United Kingdom New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{fullhash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{bibnamehash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{authorbibnamehash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{authornamehash}{57f5b607cec3b22885f854f4c4baf257}
+      \strng{authorfullhash}{57f5b607cec3b22885f854f4c4baf257}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781107034266}
+      \field{title}{Modern particle physics}
+      \field{year}{2013}
+    \endentry
     \entry{TopRecoObjTwikiModel}{online}{}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
@@ -3493,6 +4064,45 @@
       \endverb
       \verb{url}
       \verb https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2
+      \endverb
+    \endentry
+    \entry{Tovey_2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=13ac782eb3f91f24712c28776abe625c}{%
+           family={Tovey},
+           familyi={T\bibinitperiod},
+           given={Daniel\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{13ac782eb3f91f24712c28776abe625c}
+      \strng{fullhash}{13ac782eb3f91f24712c28776abe625c}
+      \strng{bibnamehash}{13ac782eb3f91f24712c28776abe625c}
+      \strng{authorbibnamehash}{13ac782eb3f91f24712c28776abe625c}
+      \strng{authornamehash}{13ac782eb3f91f24712c28776abe625c}
+      \strng{authorfullhash}{13ac782eb3f91f24712c28776abe625c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Transformation properties of the transverse mass under transverse Lorentz boosts at hadron colliders}
+      \field{volume}{79}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-019-6813-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-019-6813-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjc/s10052-019-6813-5
       \endverb
     \endentry
     \entry{TRexfitter}{online}{}

@@ -4,13 +4,9 @@ ATLAS (A Toroidal LHC ApparatuS) is one of two general purpose detectors at CERN
 In this section, information about the LHC and the ATLAS detector are given. This includes technical aspects of the ATLAS detector and the processing of data into meaningful physics objects to be used in analyses. The following chapter consists of information from "The LHC Design Report"~\cite{lhc-design-report}, "LHC Machine"~\cite{Evans_2008} and "The ATLAS Experiment at the CERN Large Hadron Collider"~\cite{Collaboration_2008} unless otherwise stated.
 
 \subsection{Large Hadron Collider (LHC)}
-The LHC is a circular 27 km particle accelerator located in an underground tunnel on the border between France and Switzerland. The accelerator consists of supercooled, superconducting magnets which accelerate and collide beams of protons at centre-of-mass energies up to $\sqrt{s} = 13$ TeV at instantaneous luminosities of $\mathcal{L} \sim 10^{34}$ cm$^{-2}$s$^{-1}$. The LHC mainly produces these $pp$ collisions, however heavy-ion collisions can be produced (typically lasting a month, annually) which reach centre-of-mass energies of $\sqrt{s} = 5.02$ TeV$/$nucleon at instantaneous luminosities of $\mathcal{L} \sim 10^{27}$ cm$^{-2}$s$^{-1}$. $pp$ beams consist of bunches of protons which collide every 25 ns, corresponding to a frequency of 40 MHz. \\ 
+The LHC is a circular 27 km particle accelerator located in an underground tunnel on the border between France and Switzerland. The accelerator consists of supercooled, superconducting magnets which accelerate and collide beams of protons at centre-of-mass energies up to $\sqrt{s} = 13$ TeV at instantaneous luminosities of $\mathcal{L} \sim 10^{34}$ cm$^{-2}$s$^{-1}$. In the LHC, $pp$ beams consist of bunches of protons which collide every 25 ns, corresponding to a frequency of 40 MHz. Several accelerator systems are used to accelerate protons and heavy ions to such high energies. Protons are extracted from a tank of ionised hydrogen gas and are injected into the Linear Accelerator 2 (LINAC), where they are linearly accelerated to momenta of 50 MeV. The proton bunches are then sequentially accelerated by a chain of circular accelerators. The chain starts with the Booster which accelerates the protons to momenta of up to 1.4 GeV. The proton bunches are then fed through to the Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS) which accelerate the protons to momenta of up to 25 GeV and 450 GeV respectively. The protons are then transferred to two beam pipes of the LHC where they travel in opposite directions. Both proton beams are accelerated to their final momenta of 6.5 TeV, resulting in a centre-of-mass energy of 13 TeV. These proton beams then collide at one of the four main interaction points (positions along the beam pipe where collisions occur) situated along the LHC. \\
 
-Several accelerator systems are used to accelerate protons and heavy ions to such high energies. Protons are extracted from a tank of ionised hydrogen gas and are injected into the Linear Accelerator 2 (LINAC), where they are linearly accelerated to momenta of 50 MeV. The proton bunches are then sequentially accelerated by a chain of circular accelerators. The chain starts with the Booster which accelerates the protons to momenta of up to 1.4 GeV. The proton bunches are then fed through to the Proton Synchrotron (PS) and the Super Proton Synchrotron (SPS) which accelerate the protons to momenta of up to 25 GeV and 450 GeV respectively. The protons are then transferred to two beam pipes of the LHC where they travel in opposite directions. Both proton beams are accelerated to their final momenta of 6.5 TeV, resulting in a centre-of-mass energy of 13 TeV. These proton beams then collide at one of the four main interaction points situated along the LHC. \\
-
-The four main experiments located at the interaction points are ATLAS, the Compact Muon Solenoid (CMS), Large Hadron Collider Beauty (LHCb) Experiment and A Large Ion Collider Experiment (ALICE). ATLAS and CMS are general-purpose detectors which investigate a wide range of physics processes. Since both ATLAS and CMS can measure the same processes, they are able to cross-check and validate measurements taken by one another. LHCb is specifically designed to study decays of particles containing $b$-quarks. ALICE is designed to study the strongly interacting quark-gluon plasma which is formed at extremely high energy densities.\\
-
-At the interaction points, the two proton beams which consist of protons in closely packed bunches, travel in opposite directions to one another and collide. We are only able to study one $pp$ collision (event) at a time, however many hard $pp$ collisions can occur per bunch crossing. These additional collisions are referred to as \textit{pile-up}. Pileup complicates the reconstruction of the particles originating from the hard collision of interest. 
+The four main experiments located at the interaction points are ATLAS, the Compact Muon Solenoid (CMS), Large Hadron Collider Beauty (LHCb) Experiment and A Large Ion Collider Experiment (ALICE). ATLAS and CMS are general-purpose detectors which investigate a wide range of physics processes. Since both ATLAS and CMS can measure the same processes, they are able to cross-check and validate measurements taken by one another. LHCb is specifically designed to study decays of particles containing $b$-quarks. ALICE is designed to study the strongly interacting quark-gluon plasma which is formed at extremely high energy densities. At the interaction points, the two proton beams which consist of protons in closely packed bunches, travel in opposite directions to one another and collide. We are only able to study one $pp$ collision (event) at a time, however many hard $pp$ collisions can occur per bunch crossing. These additional collisions are referred to as \textit{pile-up}. Pileup complicates the reconstruction of the particles originating from the hard collision of interest. 
 
 \subsubsection{Luminosity}
 This section consists of information from "Modern Particle Physics"~\cite{thomson2013modern}, unless otherwise stated.\\
@@ -31,9 +27,7 @@ where $f$ is the beam revolution frequency, $N$ is the number of proton bunches 
 \begin{equation}
 L = \int \mathcal{L} dt.
 \end{equation}
-The units of $L$ are inverse area, and are given by fb$^{-1}$ at the LHC and the ATLAS detector.\\
-
-In Figure~\ref{fig:lhc-lumi}, the total integrated luminosity delivered to ATLAS, recorded by ATLAS, and certified to be good enough for physics analyses (the data passes certain quality control criteria) for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}. 
+The units of $L$ are inverse area, and are given by fb$^{-1}$ at the LHC and the ATLAS detector. In Figure~\ref{fig:lhc-lumi}, the total integrated luminosity delivered to ATLAS, recorded by ATLAS, and certified to be good enough for physics analyses (the data passes certain quality control criteria) for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}. 
 
 \begin{figure}[h!]
  \includegraphics[width=0.5\textwidth]{figures/theoryFigs/lhc_lumi.pdf}
@@ -46,8 +40,7 @@ A total integrated luminosity of 139 fb$^{-1}$ of data certified as good for phy
 
 
 \section{The ATLAS Detector}
-The ATLAS detector is a general purpose particle detector, located at one of the four interaction points along the LHC beam pipe (100 m below ground). In Figure~\ref{fig:atlas-detector}, the schematic of the ATLAS detector, is shown.
-
+In Figure~\ref{fig:atlas-detector}, the schematic of the ATLAS detector, is shown.
 
 \begin{figure}[h!]
  \includegraphics[width=0.5\textwidth]{figures/theoryFigs/atlasDetector.png}
@@ -55,7 +48,6 @@ The ATLAS detector is a general purpose particle detector, located at one of the
 \caption{Schematic of the ATLAS detector~\cite{Collaboration_2008}}
 \label{fig:atlas-detector}
 \end{figure}
-
 
 The detector is cylindrically shaped which covers close to 4$\pi$ in solid angle. It has a length of 44 m, a diameter of 25 m and a mass of 7000 tons. ATLAS consists of four main sub-detectors arranged in concentric cylindrical layers around the beam pipe. These include the inner detector, the electromagnetic calorimeter, the hadronic calorimeters and the muon spectrometer. The sub-detectors record the momenta, energies and trajectories of different particles produced in the collider, allowing for the reconstruction and identification of these particles to be used in physics analyses.
 

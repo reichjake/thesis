@@ -552,6 +552,32 @@
       \verb https://indico.cern.ch/event/854783/contributions/3595486/attachments/1929380/3195230/PLV_Summary.pdf
       \endverb
     \endentry
+    \entry{altarelli2014higgs}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6349ee4a6aa6336ed3f3c3fc24787871}{%
+           family={Altarelli},
+           familyi={A\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6349ee4a6aa6336ed3f3c3fc24787871}
+      \strng{fullhash}{6349ee4a6aa6336ed3f3c3fc24787871}
+      \strng{bibnamehash}{6349ee4a6aa6336ed3f3c3fc24787871}
+      \strng{authorbibnamehash}{6349ee4a6aa6336ed3f3c3fc24787871}
+      \strng{authornamehash}{6349ee4a6aa6336ed3f3c3fc24787871}
+      \strng{authorfullhash}{6349ee4a6aa6336ed3f3c3fc24787871}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{The Higgs and the Excessive Success of the Standard Model}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1407.2122
+      \endverb
+    \endentry
     \entry{asymptotic-formulae-slides}{online}{}
       \name{author}{1}{}{%
         {{hash=d2aea016c4cf52c05315d4fe0a0b7d72}{%

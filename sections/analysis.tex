@@ -57,6 +57,32 @@ $tZq$ & \texttt{MADGRAPH5$\_$AMC@NLO 2.3.3} & NLO & \texttt{PYTHIA 8.230} \\
 \label{tab:evtgen-partshower}
 \end{table}
 
+%\subsection{Trigger Strategy}
+%\label{sec:trigger}
+
+%Events in data and simulation are selected via either single lepton or dilepton (electron or muon) triggers. To selected events, a logical \textbf{OR} between the triggers is applied. 
+
+%\begin{table}[!htb]
+%\footnotesize
+%\def\arraystretch{1.4}
+%\begin{center}
+%\begin{tabular}{ l|l }
+%\hline
+%\hline
+%\textbf{Single-muon triggers}     & \texttt{HLT\_mu20\_iloose\_L1MU15}\Star, \texttt{HLT\_mu26\_ivarmedium}, \texttt{HLT\_mu50} \\  
+%\textbf{Single-electron triggers} & \texttt{HLT\_e24\_lhmedium\_L1EM20VH}\Star, \texttt{HLT\_e26\_lhtight\_nod0\_ivarloose}, \\
+%                                  & \texttt{HLT\_e60\_lhmedium\_nod0}, %\texttt{HLT\_e120\_lhloose}\Star, \texttt{HTL\_e140\_lhloose\_nod0} \\
+%\textbf{Di-muon triggers}         & \texttt{HLT\_mu18\_mu8noL1}\Star, %\texttt{HLT\_mu22\_mu8noL1} \\ 
+%\textbf{Di-electron triggers}     & \texttt{HLT\_2e12\_lhloose\_L12EM10VH1}%\Star, \texttt{HLT\_2e17\_lhvloose\_nod0} \\
+%\textbf{Electron-muon triggers}   & \texttt{HLT\_e17\_lhloose\_nod0\_mu14} %\\
+%\hline
+%\hline
+%\end{tabular}
+%\caption{Single lepton and dilepton (electron and muon) triggers used to select events in data and MC. Triggers labelled with \Star\ are only used for 2015 data.}
+%\label{tab:triggers}
+%\end{center}
+%\end{table}
+
 
 
 \section{Objects}
@@ -110,6 +136,9 @@ The overlap removal procedure is used on pre-selected leptons and jets. It is pe
 \section{Kinematic cuts}
 
 In order to suppress potential fakes and quarkonia (low mass resonances such as $J/\psi$ and upsilon) a requirement that all OSSF lepton pairs have an invariant mass, $m_{\text{OSSF}}$, greater than $\SI{10}{\GeV}$ is applied. The final state lepton charges must sum to zero. Therefore a requirement of $\displaystyle\sum_{i=1}^{4} \text{charge}(\ell_i) = 0$ is applied. The invariant mass of the OSSF lepton pair coming from the $Z$ boson must equal the invariant mass of the $Z$ boson, and noting that $e$,$\mu$ reconstruction and identification in the ATLAS detector has a high efficiency~\cite{Marchese:2688452}, these OSSF leptons are used to reconstruct $Z$ bosons with relatively high confidence. A $Z$ candidate is defined in this analysis as an OSSF lepton pair with an invariant mass, $m_{\text{OSSF}}$, satisfying the condition, $|m_{\text{OSSF}} - m_Z| <  \SI{30}{\GeV}$, where $m(Z)$ is the nominal $Z$ boson mass ($\SI{91.1876}{\GeV}$~\cite{pdg}). This wider mass window is used in order to cover the full range of the $m(Z)$ distribution, in an attempt to increase the number of events which pass our baseline selections. Multiple $Z$ candidates can be present in certain decay channels (e.g. $eeee$, $\mu\mu ee$, $\mu \mu \mu \mu$). In these cases, the $Z$ candidate which has an invariant mass closest to the nominal $Z$ boson mass is chosen. 
+
+
+
 
 \section{Regions and Event Selection}
 \label{sec:regionsAndEventSelection}
@@ -199,7 +228,7 @@ In Figure~\ref{fig:4lep-btagWP-optimization} the expected significance ($Z_{\mu}
 
 From Figure \ref{fig:4lep-btagWP-optimization}, it can be seen that requiring that $b$-tagged jets pass the 77$\%$ DL1r WP in the \tWZ SR, $(tWZ)_{\text{fake}}$ CR and the $ZZb$ CR and that at least one $b$-tagged jet in the $t\bar{t}Z$ SR passes the 77$\%$ DL1r WP (the other jet is just required to pass the 85$\%$ DL1r WP) maximises the sensitivity overall (compared to the other investigated configurations). This configuration was chosen $b$-tagged jets.\\
 
-The $p_{T}(\text{L Lepton})$ is constrained by the single lepton triggers (Table~\ref{tab:triggersummary}). A cut was chosen to be applied on the $p_{T}(\text{NL Lepton})$ slightly tighter than the tightest single lepton $p_{T}$ cut in the trigger. The $p_{T}(\text{NL Lepton})$ cut can be optimized by comparing the expected significance and limit for a range of $p_{T}{\text{NL Lepton}}$ cuts to determine the cut which maximizes sensitivity.\\
+The $p_{T}(\text{L Lepton})$ is constrained by the single lepton triggers (Table~\ref{tab:triggersummary}). A cut was chosen to be applied on the $p_{T}(\text{NL Lepton})$ slightly tighter than the tightest single lepton $p_{T}$ cut in the trigger. The $p_{T}(\text{NL Lepton})$ cut can be optimized by comparing the expected significance and limit for a range of $p_{T}{(\text{NL Lepton})}$ cuts to determine the cut which maximizes sensitivity.\\
 
 In Figure~\ref{fig:4lep-NLlep-optimization} the expected significance ($Z_{\mu}^{exp}$) and expected upper limits ($\mu_{up}^{exp}$) for different $p_{T}(\text{NL Lepton})$ cuts is shown.
 \begin{figure}[h!]
@@ -880,7 +909,7 @@ In Figure~\ref{fig:4lep-ttZCR-objectbdt-vars}, MC predictions for the input vari
  \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png} 
  \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png} 
 
-\caption{Pre-fit distributions of variables used as input to the object-level BDT (ordered from top left to bottom right via decreasing importance), in the $t\bar{t}Z$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the blue diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} $\Delta \eta$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta \phi$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta R$ between the lepton and $b$-jet of the leading $\ell b$ system. $p_{T}$ of the leading $\ell b$ system. Mass of the leading $\ell b$ system.}
+\caption{Pre-fit distributions of variables used as input to the object-level BDT (ordered from top left to bottom right via decreasing importance), in the $t\bar{t}Z$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} $\Delta \eta$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta \phi$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta R$ between the lepton and $b$-jet of the leading $\ell b$ system. $p_{T}$ of the leading $\ell b$ system. Mass of the leading $\ell b$ system.}
   \label{fig:4lep-ttZCR-objectbdt-vars}
 \end{figure}
 
@@ -1042,7 +1071,7 @@ In Figure~\ref{fig:4lep-ttZCR-eventbdt-vars}, MC predictions for the input varia
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png} 
 
 
-\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $t\bar{t}Z$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the blue diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section~\ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate.}
+\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $t\bar{t}Z$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section~\ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate.}
   \label{fig:4lep-ttZCR-eventbdt-vars}
 \end{figure}
 
@@ -1057,7 +1086,7 @@ In Figure~\ref{fig:4lep-ZZbCR-eventbdt-vars}, MC predictions for the input varia
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png} 
     
 
-\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $ZZb$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the blue diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From left to right:} Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$.}
+\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $ZZb$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From left to right:} Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$.}
   \label{fig:4lep-ZZbCR-eventbdt-vars}
 \end{figure}
 
@@ -1073,7 +1102,7 @@ In Figure~\ref{fig:4lep-tWZfakeCR-eventbdt-vars}, MC predictions for the input v
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png} 
   
 
-\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $(tWZ)_{\text{fake}}$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the blue diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section~\ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate.}
+\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing importance), in the $(tWZ)_{\text{fake}}$ CR, are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with a $\frac{signal}{background}$ yield greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section~\ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section~\ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate.}
   \label{fig:4lep-tWZfakeCR-eventbdt-vars}
 \end{figure}
 
@@ -1444,7 +1473,7 @@ In Figure~\ref{fig:4lep-prefitPlots} pre-fit distributions for the variables use
     \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_ZZb_4T.png} \quad
      \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_tWZ_3T1L.png}
 
-        \caption{Pre-fit distributions (blinded) of variables used in the fit are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. The plots in the $tWZ$ OF SR and $tWZ$ SF SR are kept blinded by omitting the data points. \textbf{Top left:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Middle Top:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Top right:} The event-level BDT Disc. Output in the $t\bar{t}Z$ CR region is shown. \textbf{Bottom left:} $SMT = \sum p_{T} (\ell) + \sum p_{T} (jet) + E_{T}^{\text{miss}}$ in the $ZZb$ CR is shown. \textbf{Bottom right:} $p_{T}(\text{loose lepton})$ in the $(tWZ)_{\text{fake}}$ (3T1L) CR is shown.}
+        \caption{Pre-fit distributions (blinded) of variables used in the fit are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. The plots in the $tWZ$ OF SR and $tWZ$ SF SR are kept blinded by omitting the data points. \textbf{Top left:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Middle Top:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Top right:} The event-level BDT Disc. Output in the $t\bar{t}Z$ CR region is shown. \textbf{Bottom left:} $SMT = \sum p_{T} (\ell) + \sum p_{T} (jet) + E_{T}^{\text{miss}}$ in the $ZZb$ CR is shown. \textbf{Bottom right:} $p_{T}(\text{loose lepton})$ in the $(tWZ)_{\text{fake}}$ (3T1L) CR is shown.}
   \label{fig:4lep-prefitPlots}
 \end{figure}
 
@@ -1464,7 +1493,7 @@ In Figure~\ref{fig:4lep-postfitPlots} pre-fit distributions for the variables us
      \includegraphics[width=.3\textwidth]{figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png}
 
 
-        \caption{Post-fit distributions (blinded) of variables used in the fit are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the total uncertainty in the data and the diagonal lined bands represent the total MC uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. The plots in the $tWZ$ OF SR and $tWZ$ SF SR are kept blinded by omitting the data points. \textbf{Top left:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Middle Top:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Top right:} The event-level BDT Disc. Output in the $t\bar{t}Z$ CR region is shown. \textbf{Bottom left:} $SMT = \sum p_{T} (\ell) + \sum p_{T} (jet) + E_{T}^{\text{miss}}$ in the $ZZb$ CR is shown. \textbf{Bottom right:} $p_{T}(\text{loose lepton})$ in the $(tWZ)_{\text{fake}}$ (3T1L) CR is shown.}
+        \caption{Post-fit distributions (blinded) of variables used in the fit are shown. The data is given by the black points and the MC predictions for each process are given by the histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. The plots in the $tWZ$ OF SR and $tWZ$ SF SR are kept blinded by omitting the data points. \textbf{Top left:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Middle Top:} The event-level BDT Disc. Output in the $tWZ$ SF (4T) SR region is shown. \textbf{Top right:} The event-level BDT Disc. Output in the $t\bar{t}Z$ CR region is shown. \textbf{Bottom left:} $SMT = \sum p_{T} (\ell) + \sum p_{T} (jet) + E_{T}^{\text{miss}}$ in the $ZZb$ CR is shown. \textbf{Bottom right:} $p_{T}(\text{loose lepton})$ in the $(tWZ)_{\text{fake}}$ (3T1L) CR is shown.}
   \label{fig:4lep-postfitPlots}
 \end{figure}
 

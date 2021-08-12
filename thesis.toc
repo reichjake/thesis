@@ -74,7 +74,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Signal and Control Regions}{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}$tWZ$ OF SR}{28}{}%
+\contentsline {subsection}{\numberline {4.5.1}$tWZ$ OF SR}{27}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}$tWZ$ SF SR}{28}{}%
 \defcounter {refsection}{0}\relax 
@@ -82,52 +82,52 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.4}$ZZb$ CR}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}$(tWZ)_{\text {fake}}$ CR}{40}{}%
+\contentsline {subsection}{\numberline {4.5.5}$(tWZ)_{\text {fake}}$ CR}{41}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Fake Lepton Estimation}{40}{}%
+\contentsline {section}{\numberline {4.6}Fake Lepton Estimation}{41}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Machine Learning Techniques}{45}{}%
+\contentsline {section}{\numberline {4.7}Machine Learning Techniques}{46}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.1}Object-level BDT}{45}{}%
+\contentsline {subsection}{\numberline {4.7.1}Object-level BDT}{46}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.2}Event-level BDT}{51}{}%
+\contentsline {subsection}{\numberline {4.7.2}Two Neutrino Scanning Method (2$\nu $SM) Algorithm}{53}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Two Neutrino Scanning Method (2$\nu $SM) Algorithm}{57}{}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}The algorithm}{53}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.1}The algorithm}{58}{}%
+\contentsline {subsubsection}{\numberline {4.7.2.2}Calculating $w_{2\nu SM}$}{54}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.2}Calculating $w_{2\nu SM}$}{59}{}%
+\contentsline {paragraph}{$P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$}{54}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.8.2.1}$P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$}{59}{}%
+\contentsline {paragraph}{$P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$}{54}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.8.2.2}$P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$}{59}{}%
+\contentsline {subsubsection}{\numberline {4.7.2.3}Kinematic Vetoes}{55}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.3}Kinematic Vetoes}{60}{}%
+\contentsline {paragraph}{$\Delta \langle m(\ell b)\rangle $}{55}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.8.3.1}$\Delta \langle m(\ell b)\rangle $}{60}{}%
+\contentsline {paragraph}{$\eta (b\bar {b}\ell \ell )$}{56}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.8.3.2}$\eta (b\bar {b}\ell \ell )$}{61}{}%
+\contentsline {paragraph}{$L_{T}$}{56}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.8.3.3}$L_{T}$}{61}{}%
+\contentsline {subsection}{\numberline {4.7.3}Event-level BDT}{57}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}Systematics}{62}{}%
+\contentsline {section}{\numberline {4.8}Systematics}{63}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.1}Experimental uncertainties}{63}{}%
+\contentsline {subsection}{\numberline {4.8.1}Experimental uncertainties}{63}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.2}Theoretical uncertainties}{64}{}%
+\contentsline {subsection}{\numberline {4.8.2}Theoretical uncertainties}{65}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.3}Generic shape systematics}{65}{}%
+\contentsline {subsection}{\numberline {4.8.3}Generic shape systematics}{65}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.10}Analysis Pipeline and TRExFitter}{66}{}%
+\contentsline {section}{\numberline {4.9}Analysis Pipeline and TRExFitter}{66}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.10.1}Fitting Procedure}{66}{}%
+\contentsline {subsection}{\numberline {4.9.1}Fitting Procedure}{67}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.11}Results}{67}{}%
+\contentsline {section}{\numberline {4.10}Results}{67}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.11.1}Tetralepton Channel}{67}{}%
+\contentsline {subsection}{\numberline {4.10.1}Tetralepton Channel}{68}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.11.2}Trilepton and Tetralepton Channels}{70}{}%
+\contentsline {subsection}{\numberline {4.10.2}Trilepton and Tetralepton Channels}{71}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.11.2.1}Projection to Higher Luminosity}{72}{}%
+\contentsline {subsubsection}{\numberline {4.10.2.1}Projection to Higher Luminosity}{74}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusion}{75}{}%

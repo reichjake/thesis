@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.23)  11 AUG 2021 09:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.23)  12 AUG 2021 17:18
 entering extended mode
 **./analysis.tex
 (analysis.tex
@@ -3675,7 +3675,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ... `subsec:syst_theory' on page \thepage 
                                                   \space undefined\on@line .
-l.37 ...gnal (See Section~\ref{subsec:syst_theory}
+l.37 ...gnal (See Section \ref{subsec:syst_theory}
                                                   ). Diboson processes which...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4666,7 +4666,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...ab:evtgen-partshower' on page \thepage 
                                                   \space undefined\on@line .
-l.37 ...ower. In Table~\ref{tab:evtgen-partshower}
+l.37 ...ower. In Table \ref{tab:evtgen-partshower}
                                                   , the event generator and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6867,7 +6867,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ap-removal-procedure' on page \thepage 
                                                   \space undefined\on@line .
-l.92 ...ection~\ref{sec:overlap-removal-procedure}
+l.92 ...ection \ref{sec:overlap-removal-procedure}
                                                   ). Electrons are selected ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8307,7 +8307,7 @@ Missing character: There is no [ in font nullfont!
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.92 ...mmendations~\cite{recommendedIsolationWPs}
-                                                  ). In Table~\ref{tab:lepto...
+                                                  ). In Table \ref{tab:lepto...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8331,7 +8331,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...tab:lepton-selection' on page \thepage 
                                                   \space undefined\on@line .
-l.92 ...WPs}). In Table~\ref{tab:lepton-selection}
+l.92 ...WPs}). In Table \ref{tab:lepton-selection}
                                                   , a summary of the selecti...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8970,7 +8970,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ap-removal-procedure' on page \thepage 
                                                   \space undefined\on@line .
-l.103 ...tion~\ref{sec:overlap-removal-procedure}}
+l.103 ...tion \ref{sec:overlap-removal-procedure}}
                                                   \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9366,7 +9366,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...e `sec:jets-btagging' on page \thepage 
                                                   \space undefined\on@line .
-l.116 ...ithm (See Section~\ref{sec:jets-btagging}
+l.116 ...ithm (See Section \ref{sec:jets-btagging}
                                                   ). The \texttt{AntiKt4EMPF...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10026,7 +10026,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ap-removal-procedure' on page \thepage 
                                                   \space undefined\on@line .
-l.116 ...ction~\ref{sec:overlap-removal-procedure}
+l.116 ...ction \ref{sec:overlap-removal-procedure}
                                                   ). Jets are required to be...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10449,7 +10449,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...e `sec:jets-btagging' on page \thepage 
                                                   \space undefined\on@line .
-l.120 ...jets (See Section~\ref{sec:jets-btagging}
+l.120 ...jets (See Section \ref{sec:jets-btagging}
                                                   ). Different DL1r working ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10544,7 +10544,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...onsAndEventSelection' on page \thepage 
                                                   \space undefined\on@line .
-l.120 ...ection~\ref{sec:regionsAndEventSelection}
+l.120 ...ection \ref{sec:regionsAndEventSelection}
                                                   ). The working points are ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11265,7 +11265,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...zation-studies-tetra' on page \thepage 
                                                   \space undefined\on@line .
-l.122 ...tion~\ref{sec:optimization-studies-tetra}
+l.122 ...tion \ref{sec:optimization-studies-tetra}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14573,29 +14573,22 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no W in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no A in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -14610,7 +14603,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.148 ...efine a $ZZb$ region, as opposed to a \ZZ
+l.148 ...b$ region is defined, as opposed to a \ZZ
                                                    region, since the \ZZ bac...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15251,16 +15244,15 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no w in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -15269,8 +15261,6 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -15653,7 +15643,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 l.150 ...epton component contained within the \ttZ
-                                                   sample, we define a $(\tW...
+                                                   sample, a $(\tWZ)_{\text{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -15667,18 +15657,10 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.150 ...ithin the \ttZ sample, we define a $(\tWZ
-                                                  )_{\text{fake}}$ CR which ...
+l.150 ...ontained within the \ttZ sample, a $(\tWZ
+                                                  )_{\text{fake}}$ CR is def...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -15686,8 +15668,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.150 ...e \ttZ sample, we define a $(\tWZ)_{\text
-                                                  {fake}}$ CR which is as si...
+l.150 ... within the \ttZ sample, a $(\tWZ)_{\text
+                                                  {fake}}$ CR is defined whi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -15696,6 +15678,15 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no C in font nullfont!
 Missing character: There is no R in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -15875,8 +15866,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no q in font nullfont!
@@ -15884,6 +15874,12 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -16006,10 +16002,19 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no ) in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no A in font nullfont!
 ! Undefined control sequence.
-l.150 ...o tighter leptons). A $(t\bar{t}Z)_{\text
+l.150 ...eptons) is applied. A $(t\bar{t}Z)_{\text
                                                   {fake}}$ CR (requiring exa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16378,7 +16383,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 l.150 ...gion, compared to exactly one in the \tWZ
-                                                   SRs (See Table~\ref{tab:4...
+                                                   SRs (See Table \ref{tab:4...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -16400,7 +16405,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...`tab:4Lep-cutsummary' on page \thepage 
                                                   \space undefined\on@line .
-l.150 ... SRs (See Table~\ref{tab:4Lep-cutsummary}
+l.150 ... SRs (See Table \ref{tab:4Lep-cutsummary}
                                                   )) which causes suppressio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16486,7 +16491,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ap-removal-procedure' on page \thepage 
                                                   \space undefined\on@line .
-l.150 ...ction~\ref{sec:overlap-removal-procedure}
+l.150 ...ction \ref{sec:overlap-removal-procedure}
                                                   ).\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16560,7 +16565,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...`tab:4Lep-cutsummary' on page \thepage 
                                                   \space undefined\on@line .
-l.152 In Table~\ref{tab:4Lep-cutsummary}
+l.152 In Table \ref{tab:4Lep-cutsummary}
                                         , a summary of the final selection c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17853,7 +17858,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ec:fitting-procedure' on page \thepage 
                                                   \space undefined\on@line .
-l.195 ...ed in Section~\ref{sec:fitting-procedure}
+l.195 ...ed in Section \ref{sec:fitting-procedure}
                                                    was used to calculate the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17987,7 +17992,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ec:fitting-procedure' on page \thepage 
                                                   \space undefined\on@line .
-l.195 ...er in Section~\ref{sec:fitting-procedure}
+l.195 ...er in Section \ref{sec:fitting-procedure}
                                                   ). The same selection crit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18052,7 +18057,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...`tab:4Lep-cutsummary' on page \thepage 
                                                   \space undefined\on@line .
-l.195 ...efined in Table~\ref{tab:4Lep-cutsummary}
+l.195 ...efined in Table \ref{tab:4Lep-cutsummary}
                                                    was used (unless otherwis...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18197,7 +18202,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...-jetEta-optimisation' on page \thepage 
                                                   \space undefined\on@line .
-l.197 In Figure~\ref{fig:4lep-jetEta-optimisation}
+l.197 In Figure \ref{fig:4lep-jetEta-optimisation}
                                                    the expected significance...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18892,7 +18897,7 @@ Missing character: There is no e in font nullfont!
 <write> ...-jetEta-optimisation' on page \thepage 
                                                   \space undefined\on@line .
 l.207 ...Figure \ref{fig:4lep-jetEta-optimisation}
-                                                  , we can see that the $\et...
+                                                  , it can be seen that the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -18904,14 +18909,17 @@ LaTeX Warning: Reference `fig:4lep-jetEta-optimisation' on page  undefined on i
 nput line 207.
 
 Missing character: There is no , in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -19092,7 +19100,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...p-jetpt-optimisation' on page \thepage 
                                                   \space undefined\on@line .
-l.209 In Figure~\ref{fig:4lep-jetpt-optimisation}
+l.209 In Figure \ref{fig:4lep-jetpt-optimisation}
                                                   the expected significance ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19787,7 +19795,7 @@ Missing character: There is no e in font nullfont!
 <write> ...p-jetpt-optimisation' on page \thepage 
                                                   \space undefined\on@line .
 l.219 ... Figure \ref{fig:4lep-jetpt-optimisation}
-                                                  , we can see that the $p_{...
+                                                  , it can be seen that the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -19799,14 +19807,17 @@ LaTeX Warning: Reference `fig:4lep-jetpt-optimisation' on page  undefined on in
 put line 219.
 
 Missing character: There is no , in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -19967,7 +19978,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...-btagWP-optimization' on page \thepage 
                                                   \space undefined\on@line .
-l.221 In Figure~\ref{fig:4lep-btagWP-optimization}
+l.221 In Figure \ref{fig:4lep-btagWP-optimization}
                                                    the expected significance...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -21116,7 +21127,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ... `tab:triggersummary' on page \thepage 
                                                   \space undefined\on@line .
-l.231 ... triggers (Table~\ref{tab:triggersummary}
+l.231 ... triggers (Table \ref{tab:triggersummary}
                                                   ). A cut was chosen to be ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -21410,7 +21421,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...p-NLlep-optimization' on page \thepage 
                                                   \space undefined\on@line .
-l.233 In Figure~\ref{fig:4lep-NLlep-optimization}
+l.233 In Figure \ref{fig:4lep-NLlep-optimization}
                                                   the expected significance ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -22097,7 +22108,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
 l.241 ...Lepton})$ cuts on the sensitivity of \tWZ
-                                                  , we choose to apply a $p_...
+                                                  , a $p_{T}(\text{NL Lepton...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -22105,25 +22116,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no , in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no y in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.241 ...f \tWZ, we choose to apply a $p_{T}(\text
-                                                  {NL Lepton})$ cut at 18 Ge...
+l.241 ...n the sensitivity of \tWZ, a $p_{T}(\text
+                                                  {NL Lepton})$ cut is appli...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -22133,6 +22129,15 @@ and I'll forget about whatever was undefined.
 Missing character: There is no c in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no 1 in font nullfont!
@@ -22410,25 +22415,27 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -22565,6 +22572,12 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -23051,8 +23064,8 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...b:4Lep-PreFit-Yields' on page \thepage 
                                                   \space undefined\on@line .
-l.247 In Table~\ref{tab:4Lep-PreFit-Yields}
-                                           , the pre-fit yields for each sam...
+l.247 In Table \ref{tab:4Lep-PreFit-Yields}
+                                           , the expected number of events f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -23067,18 +23080,27 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
 Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -24393,25 +24415,35 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.270 \caption
-              {The pre-fit yields for each sample in each region is shown.}
+              {The expected number of events for each sample in each region ...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
 Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -25189,8 +25221,8 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...ference `tab:N-equiv' on page \thepage 
                                                   \space undefined\on@line .
-l.279 In Table ~\ref{tab:N-equiv}
-                                 , the number of equivalent events, $N_{equi...
+l.279 In Table \ref{tab:N-equiv}
+                                , the number of equivalent events, $N_{equiv...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -25229,7 +25261,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no ( in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -25257,6 +25288,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
+Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -25911,7 +25943,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.296 \caption
-              {The number of equivalent events, $N_{equiv}$ (and its percent...
+              {The number of equivalent events, $N_{equiv}$ and its percenta...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -25944,7 +25976,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no ( in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -25972,6 +26003,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
+Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -26019,6 +26051,51 @@ l.298 \end{table}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 279--299
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 279--299
+[]
+ []
+
+
+Overfull \hbox (28.0537pt too wide) in paragraph at lines 279--299
+\OML/cmm/m/it/10 N[]$
+ []
+
+
+Overfull \hbox (45.53777pt too wide) in paragraph at lines 279--299
+[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 279--299
+\OT1/cmr/m/n/10 100$
+ []
+
+
+Overfull \hbox (215.03444pt too wide) in paragraph at lines 279--299
+[]
+ []
+
+
+Overfull \hbox (28.0537pt too wide) in paragraph at lines 279--299
+\OML/cmm/m/it/10 N[]$
+ []
+
+
+Overfull \hbox (45.53777pt too wide) in paragraph at lines 279--299
+[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 279--299
+\OT1/cmr/m/n/10 100$
+ []
 
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -26258,7 +26335,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...`sec:event-level-bdt' on page \thepage 
                                                   \space undefined\on@line .
-l.299 ...DT (See Section~\ref{sec:event-level-bdt}
+l.302 ...DT (See Section \ref{sec:event-level-bdt}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -26268,62 +26345,37 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sec:event-level-bdt' on page  undefined on input line
- 299.
+ 302.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 279--300
-[]
+Overfull \hbox (48.0537pt too wide) in paragraph at lines 302--303
+[]$\OML/cmm/m/it/10 N[]$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 279--300
-[]
- []
-
-
-Overfull \hbox (28.0537pt too wide) in paragraph at lines 279--300
-\OML/cmm/m/it/10 N[]$
- []
-
-
-Overfull \hbox (215.03444pt too wide) in paragraph at lines 279--300
-[]
- []
-
-
-Overfull \hbox (28.0537pt too wide) in paragraph at lines 279--300
-\OML/cmm/m/it/10 N[]$
- []
-
-
-Overfull \hbox (28.0537pt too wide) in paragraph at lines 279--300
-\OML/cmm/m/it/10 N[]$
- []
-
-
-Overfull \hbox (21.98613pt too wide) in paragraph at lines 279--300
+Overfull \hbox (21.98613pt too wide) in paragraph at lines 302--303
 \OML/cmm/m/it/10 tWZ$
  []
 
 
-Overfull \hbox (21.98613pt too wide) in paragraph at lines 279--300
+Overfull \hbox (21.98613pt too wide) in paragraph at lines 302--303
 \OML/cmm/m/it/10 tWZ$
  []
 
 
-Overfull \hbox (21.98613pt too wide) in paragraph at lines 279--300
+Overfull \hbox (21.98613pt too wide) in paragraph at lines 302--303
 \OML/cmm/m/it/10 tWZ$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 279--300
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 302--303
 [] 
  []
 
 ! Undefined control sequence.
-l.303 \subsection
+l.306 \subsection
                  {$tWZ$ OF SR}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -26336,7 +26388,7 @@ Missing character: There is no F in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no R in font nullfont!
 
-Overfull \hbox (41.98613pt too wide) in paragraph at lines 303--305
+Overfull \hbox (41.98613pt too wide) in paragraph at lines 306--308
 []$\OML/cmm/m/it/10 tWZ$
  []
 
@@ -26354,25 +26406,27 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -26404,12 +26458,12 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 312--313
+Overfull \hbox (20.0pt too wide) in paragraph at lines 315--316
 []
  []
 
 
-Overfull \hbox (21.98613pt too wide) in paragraph at lines 312--313
+Overfull \hbox (21.98613pt too wide) in paragraph at lines 315--316
 \OML/cmm/m/it/10 tWZ$
  []
 
@@ -26424,7 +26478,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...ep-OF-SR-leptonPlots' on page \thepage 
                                                   \space undefined\on@line .
-l.314 In Figure~\ref{fig:4lep-OF-SR-leptonPlots}
+l.317 In Figure \ref{fig:4lep-OF-SR-leptonPlots}
                                                  MC predictions for $p_{T}$,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -26434,7 +26488,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:4lep-OF-SR-leptonPlots' on page  undefined on inp
-ut line 314.
+ut line 317.
 
 Missing character: There is no M in font nullfont!
 Missing character: There is no C in font nullfont!
@@ -26529,32 +26583,32 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 314--315
+Overfull \hbox (20.0pt too wide) in paragraph at lines 317--318
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 314--315
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 317--318
 []
  []
 
 
-Overfull \hbox (11.3309pt too wide) in paragraph at lines 314--315
+Overfull \hbox (11.3309pt too wide) in paragraph at lines 317--318
 \OML/cmm/m/it/10 p[]$
  []
 
 
-Overfull \hbox (5.32408pt too wide) in paragraph at lines 314--315
+Overfull \hbox (5.32408pt too wide) in paragraph at lines 317--318
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (5.95834pt too wide) in paragraph at lines 314--315
+Overfull \hbox (5.95834pt too wide) in paragraph at lines 317--318
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (21.98613pt too wide) in paragraph at lines 314--315
+Overfull \hbox (21.98613pt too wide) in paragraph at lines 317--318
 \OML/cmm/m/it/10 tWZ$
  []
 
@@ -26565,7 +26619,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.316 \begin{figure}
+l.319 \begin{figure}
                     [htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -26578,7 +26632,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.323     \includegraphics
+l.326     \includegraphics
                           [width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -26598,7 +26652,7 @@ Missing character: There is no 3 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.323     \includegraphics[width=.3\textwidth]
+l.326     \includegraphics[width=.3\textwidth]
                                               {figures/PreFitPlots/lep4_tWZ_...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -26607,7 +26661,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.323     \includegraphics[width=.3\textwidth]
+l.326     \includegraphics[width=.3\textwidth]
                                               {figures/PreFitPlots/lep4_tWZ_...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -26644,18 +26698,18 @@ Missing character: There is no 4 in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.323 ...h=.3\textwidth]{figures/PreFitPlots/lep4_
+l.326 ...h=.3\textwidth]{figures/PreFitPlots/lep4_
                                                   tWZ_4T_OF_L_lepton_pt.png} &
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Double subscript.
-l.323 ...th]{figures/PreFitPlots/lep4_tWZ_4T_OF_L_
+l.326 ...th]{figures/PreFitPlots/lep4_tWZ_4T_OF_L_
                                                   lepton_pt.png} &
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Extra }, or forgotten $.
-l.323 ...eFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png}
+l.326 ...eFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png}
                                                    &
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26666,7 +26720,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26675,7 +26729,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26686,7 +26740,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26695,7 +26749,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26706,7 +26760,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26715,7 +26769,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26726,7 +26780,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26735,7 +26789,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26746,7 +26800,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26755,7 +26809,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26766,7 +26820,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26775,7 +26829,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26786,7 +26840,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26795,7 +26849,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26806,7 +26860,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26815,7 +26869,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26826,7 +26880,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26835,7 +26889,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26846,7 +26900,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26855,7 +26909,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26866,7 +26920,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26875,7 +26929,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26886,7 +26940,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26895,7 +26949,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26906,7 +26960,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26915,7 +26969,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26926,7 +26980,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26935,7 +26989,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26946,7 +27000,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26955,7 +27009,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26966,7 +27020,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26975,7 +27029,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -26986,7 +27040,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -26995,7 +27049,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27006,7 +27060,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27015,7 +27069,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27026,7 +27080,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27035,7 +27089,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27046,7 +27100,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27055,7 +27109,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27066,7 +27120,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27075,7 +27129,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27086,7 +27140,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27095,7 +27149,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27106,7 +27160,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27115,7 +27169,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27126,7 +27180,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27135,7 +27189,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27146,7 +27200,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27155,7 +27209,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27166,7 +27220,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27175,7 +27229,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27186,7 +27240,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27195,7 +27249,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27206,7 +27260,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27215,7 +27269,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27226,7 +27280,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27235,7 +27289,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27246,7 +27300,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27255,7 +27309,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27266,7 +27320,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27275,7 +27329,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27286,7 +27340,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27295,7 +27349,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27306,7 +27360,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27315,7 +27369,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27326,7 +27380,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27335,7 +27389,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27346,7 +27400,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27355,7 +27409,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27366,7 +27420,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27375,7 +27429,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27386,7 +27440,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27395,7 +27449,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27406,7 +27460,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27415,7 +27469,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27426,7 +27480,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27435,7 +27489,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27446,7 +27500,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27455,7 +27509,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27466,7 +27520,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27475,7 +27529,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27486,7 +27540,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27495,7 +27549,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27506,7 +27560,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27515,7 +27569,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27526,7 +27580,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27535,7 +27589,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27546,7 +27600,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27555,7 +27609,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27566,7 +27620,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27575,7 +27629,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -27586,7 +27640,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -27595,13 +27649,13 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.323 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+l.326 ...itPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
                                                   
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
  70 strings out of 478839
  1154 string characters out of 2853269
- 333510 words of memory out of 3000000
+ 334510 words of memory out of 3000000
  18114 multiletter control sequences out of 15000+600000
  404871 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

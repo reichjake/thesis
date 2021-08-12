@@ -981,7 +981,7 @@ The output of the object-level BDT is converted to an event-level variable to be
     \label{fig:bdtscore-bestover2ndbest}
 \end{figure}
 
-There doesn't seem to be a large amount of discrimination between signal and background for BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ in either of the above regions. We do however see some discrimination in bins near a value of 1, where the number of background events exceed the number of signal events, which is what we expect. This effect is slightly more exaggerated in the $t\bar{t}Z$ CR than the $tWZ$ SRs. This can be explained since we expect to have a larger proportion of $t\bar{t}Z$ events (events with two $\ell b$ systems) in the $t\bar{t}Z$ CR. An excess of signal events (compared to background) are observed at larger values. This is to be expected, since these events correspond to a lower score by the $\ell b$ classifier on the 2nd best scoring $\ell b$ system in the event. Despite the apparent lack of discrimination between signal and background events from this variable, when used as input to training in the event-level BDT (see Section \ref{sec:event-level-bdt}), improves the mean accuracy of the classifier. The tells us that the event-level BDT is taking advantage of the discrimination between signal and background present in the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable.\\
+The amount of discrimination can be quantified by the separation metric, which gives the percentage of the total area of the distributions which do not overlap. A value of 1 indicates that the distributions are fully separated (no overlap) and a value of 0 indicates that the distributions have no separation (fully overlapped). The separation between signal and background for BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are 0.609$\%$, 2.96$\%$ and 4.84$\%$ respectively. The larger separation in the $t\bar{t}Z$ CR, compared to the $tWZ$ SRs, can be explained since there is a larger proportion of $t\bar{t}Z$ events (events with two $\ell b$ systems) in this region, due to the baseline selection requirement of exactly two $b$-tagged jets. In a similar way, the smaller separation in the two $tWZ$ SRs can be explained by the tighter selection on the number of $b$-tagged jets (exactly one) leading to regions which are enriched in only one $\ell b$ system which originates from a top quark. Using the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in training in the event-level BDT (see Section \ref{sec:event-level-bdt}) improves the mean accuracy of the BDT. This tells us that the event-level BDT is taking advantage of the discrimination between signal and background present in the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable.\\
 
 In an attempt to optimise the performance of the object-level BDT, we aim to train on signal events which are as pure in $\ell b$ systems originating from top quarks, as possible. Similarly, we aim to train on background events which are as pure in $\ell b$ systems not originating from top quarks, as possible. This is done by studying the distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$), and excluding $\ell b$ systems from training which are moderately matched in $\Delta R$ to their truth counterparts, leaving well matched $\ell b$ systems being labelled as signal and badly matched $\ell b$ systems labelled as background. We call the $\Delta R$ range where $\ell b$ systems are excluded from training, the exclusion region. In Figure \ref{fig:exclusionRegion}, the distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$) in the alternative $t\bar{t}$ sample, along with the exclusion region, is shown.
 
@@ -1006,12 +1006,152 @@ The performance of the object-level BDT with and without the exclusion region ca
     \label{fig:exclusionRegion-normplots}
 \end{figure}
 
-The amount of discrimination can be quantified by the separation metric, which gives the percentage of the total area of the distributions which do not overlap. A value of 1 indicates that the distributions are fully separated (no overlap) and a value of 0 indicates that the distributions have no separation (fully overlapped). We can compare the separation metrics between the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR for the $\ell b$ classifier with (Figure \ref{fig:bdtscore-bestover2ndbest}) and without (Figure \ref{fig:exclusionRegion-normplots}) the exclusion region by taking the absolute difference between the two values in each region. The differences are $0.31\%$, $0.37\%$ and $0.36\%$ for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, respectively. These differences are minimal and the object-level BDT with the exclusion region outperforms the object-level BDT without the exclusion region in the $tWZ$ SF SR. Due to the small differences in performance between the two BDTs, we chose to keep the BDT with the exclusion region.
+We can compare the separation metrics between the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR for the $\ell b$ classifier with (Figure \ref{fig:bdtscore-bestover2ndbest}) and without (Figure \ref{fig:exclusionRegion-normplots}) the exclusion region by taking the absolute difference between the two values in each region. The differences are $0.31\%$, $0.37\%$ and $0.36\%$ for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, respectively. These differences are minimal and the object-level BDT with the exclusion region outperforms the object-level BDT without the exclusion region in the $tWZ$ SF SR. Due to the small differences in performance between the two BDTs, we chose to keep the BDT with the exclusion region.
+
+\subsection{Two Neutrino Scanning Method (2$\nu$SM) Algorithm}
+\label{sec:2vsm}
+The Two Neutrino Scanning Method (2$\nu$SM) algorithm\footnote{software tool and weights provided by Thomas McCarthy (\ttZ analysis group - Max Planck Institute)}~\cite{2vSM-ref1,2vSM-ref2} aims to reconstruct $t\bar{t}$ systems in the 2$\ell$, 3$\ell$ and 4$\ell$ final states (e.g. 2$\ell$ case: $t\bar{t}\rightarrow \ell^{+}\nu_{\ell}b\ell^{-}\bar{\nu}_{\ell}\bar{b}$). This was initially designed to suppress the $t\bar{t}$ background in the \ttZ analysis. We can re-purpose this algorithm to distinguish between \tWZ and \ttZ by removing the easily-identifiable $Z$ boson.\\
+
+The 2$\nu$SM algorithm reconstructs a $t\bar{t}$ system by scanning through the components of two possible neutrino 4-vectors ($\nu_{1}$ and $\nu_{2}$). It then aims to determine which $\nu_{1}$ and $\nu_{2}$ correspond to the two neutrinos which originate from the decay of a $t\bar{t}$ system the best (quantified by an output weight, $w_{2\nu SM}$). $w_{2\nu SM}$ is the likelihood under the $t\bar{t}$ dilpeton final state hypothesis. We are able to use this algorithm in our analysis to discriminate between \tWZ and \ttZ since we can easily reconstruct the OSSF leptons which decay from the $Z$ boson and remove it before inputting the event into the algorithm. We would then expect that the 2$\nu$SM algorithm returns a higher score from a \ttZ event ($\sim$ 1, i.e. it looks like a $t\bar{t}$ event after removal of the $Z$ boson) and a lower score from a \tWZ event ($\sim$ 0, i.e. it does not look like a $t\bar{t}$ event after removal of the $Z$ boson).
+\subsubsection{The algorithm}
+The 2$\nu$SM algorithm starts off by writing down four equations which correspond to the invariant masses of the top quark ($m(t)$) and $W$ boson ($m(W)$) for the two top decays (i.e. $t\rightarrow W^{+}b \rightarrow \ell^{+} \nu_{\ell}$) in a dileptonic $t\bar{t}$ event. These can be written as,
+
+\begin{align}
+    (\ell_{1} + \nu_{1})^{2} &= m(W)^{2} = (\SI{80.385}{GeV})^2\\
+    (\ell_{1} + \nu_{1} + b_{1,2})^{2} &= m(t)^{2} = (\SI{172.5}{GeV})^{2}\\
+    (\ell_{2} + \nu_{2})^{2} &= m(W)^{2} = (\SI{80.385}{GeV})^2\\
+       (\ell_{2} + \nu_{2} + b_{2,1})^{2} &= m(t)^{2} = (\SI{172.5}{GeV})^{2}
+\end{align}
+where the subscripts indicate that these particles originate from the decay of two different top quarks in a $t\bar{t}$ system. We assume that the mass of the neutrinos ($\nu_{1}$ and $nu_{2}$) are close to zero, which leaves us with 6 unknowns, $p_{{T}_{\nu_{1}}}$, $\phi_{\nu_{1}}$, $\eta_{\nu_{1}}$, $p_{{T}_{\nu_{2}}}$, $\phi_{\nu_{2}}$ and $\eta_{\nu_{2}}$ (components of the two neutrino's 4-vectors).\\
+
+The 2$\nu$SM algorithm takes the 4-vectors of the two reconstructed leptons (not from the $Z$ boson) and the two jets with the highest DL1r $b$-tagger score as input. For each neutrino ($\nu_{1}$ and $\nu_{2}$), we scan over a range of possible $\eta$ and $\phi$ values. These values were chosen to be $\phi_{\nu_{1}}$, $\phi_{\nu_{2}} \in [-\pi,\pi]$ with a step size of $\approx$ 0.25 and $\eta_{\nu_{1}}$, $\eta_{\nu_{2}} \in [-5,5]$ with a step size of $\approx$ 0.31. These ranges were chosen to maximize accuracy and minimize computation time. For each of these possible $\eta$ and $\phi$ values, we calculate the corresponding $p_{T}$ for each neutrino. The transverse momentum of a neutrino, $p_{{T}_{\nu}}$, can be calculated via (*******referecne somewhere here******),
+
+\begin{equation}
+    p_{{T}_{\nu}} = \frac{\frac{1}{2} (m(W)^{2} - m(\ell)^{2})}{E_{\ell}\cosh{\eta_{\nu}} - p_{\ell,z}\sinh{\eta_{\nu}} - p_{\ell,x}\cos{\phi_{\nu}} - p_{\ell,y}\sin{\phi_{\nu}} }
+\end{equation}
+where $E_{\ell}$ is the energy of the lepton and $p_{\ell, z}$, $p_{\ell, x}$, $p_{\ell, y}$ are the $z$, $x$ and $y$ components of lepton's momentum. At this stage, we have possible 4-vectors for $\nu_{1}$ and $\nu_{2}$. Using these possible neutrino 4-vectors, we reconstruct the two possible $t\bar{t}$ systems,
+
+\begin{align}
+    t_{1} = \ell_{1} + b_{1} + \nu_{1} &\text{ and } t_{2} = \ell_{2} + b_{2} + \nu_{2} \label{eq:top1-2vSM}\\
+    &\textbf{OR}\nonumber\\ 
+     t_{1} = \ell_{1} + b_{2} + \nu_{1} &\text{ and } t_{2} = \ell_{2} + b_{1} + \nu_{2} \label{eq:top2-2vSM}
+\end{align}
+These reconstructed $t\bar{t}$ systems are then used to calculate a weight, $w_{2\nu SM}$. The $w_{2\nu SM}$ weight (a value ranging from 0 to 1) is defined as a product of four probabilities (described below) and can be written as,
+
+\begin{equation}
+    w_{2\nu SM} = P_{m_{t_{1}}} \times P_{m_{t_{2}}} \times P_{\Delta E_{x}} \times P_{\Delta E_{y}}
+\end{equation}
+The $w_{2\nu SM}$ is calculated for each pair of reconstructed neutrinos (or reconstructed $t\bar{t}$ systems), with the maximum value being chosen as the final value for the event.
+
+\subsubsection{Calculating $w_{2\nu SM}$}
+We use distributions of well modelled observables ($m_{b\ell\nu}$ and $\Delta E_{x}$) from simulated $t\bar{t}$ events in order to determine how well our reconstructed neutrinos (and in turn top quarks) resemble neutrinos (and top quarks) present in a $t\bar{t}$ event.
+\myparagraph{$P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$}
+
+A normalised distribution of the mass of reconstructed top quarks ($m_{b\ell\nu}$) from a $t\bar{t}$ sample is generated to determine the probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution is generated from reco-level leptons, generator-level neutrinos and reoc-level jets matched in $\Delta R$ to generator-level $b$-quarks, therefore only filling the distribution with correct detector-level objects. We then use the distribution to interpolate our two reconstructed top quarks, which returns a weight value from 0 to 1, with higher values corresponding to a reconstructed top quark which has a mass close to that of a top quark from a $t\bar{t}$ system. This interpolation is done for both reconstructed tops, $t_{1}$ and $t_{2}$, corresponding to probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution used is shown in Figure \ref{fig:2vSM-mass-dist}.\\
+
+In Figure \ref{fig:2vSM-mass-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
+
+\begin{figure}[h!]
+	\includegraphics[width=0.45\linewidth]{figures/mtop_2vSM.png}
+	\centering
+	\caption{$m_{b\ell\nu}$ distribution generated from simulated $t\bar{t}$ events, used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown. The $m_{b\ell\nu}$ distribution is shown by the black lined histogram. The mass of the $b\ell\nu$ system is shown on the x-axis. The corresponding weight of the $m_{b\ell\nu}$ distribution is shown on the y-axis.}
+	\label{fig:2vSM-mass-dist}
+\end{figure}
+\myparagraph{$P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$}
+
+A similar method is used to determine $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$. In this case we generate a weight distribution of $\Delta E_{x} = (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x} - (E_{T}^{\text{miss}})_{x}$ based off simulated $t\bar{t}$ events. In particular, this distribution is generated using reco-level $E_{T}^{\text{miss}}$ and generator-level neutrinos. The use of this distribution lies under the assumption that neutrinos are the dominant source of $E_{T}^{\text{miss}}$, and therefore, $(E_{T}^{\text{miss}})_{x} \approx (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x}$ and $(E_{T}^{\text{miss}})_{y} \approx (p_{T,\nu_{1}})_{y} + (p_{T,\nu_{2}})_{y}$. We then use the distribution to interpolate the value of $\Delta E_{x}$ and $\Delta E_{y}$ from our reconstructed neutrinos. This returns a weight value from 0 to 1, with higher values corresponding to $\Delta E_{x}$ and $\Delta E_{y}$ (and in turn our reconstructed neutrino's $p_{T}$) closer to those observed in a $t\bar{t}$ event. We expect the $\Delta E_{x}$ and $\Delta E_{y}$ distributions to have the same shapes, therefore we only need to generate one (we have chosen $\Delta E_{x}$). In Figure \ref{fig:2vSM-deltaE-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
+
+\begin{figure}[h!]
+	\includegraphics[width=0.45\linewidth]{figures/dExy_2vSM.png}
+	\centering
+	\caption{$\Delta E_{x}$ distribution generated from simulated $t\bar{t}$ events, used to calculate $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$ is shown. The $\Delta E_{x}$ distribution is shown by the black lined histogram. $\Delta E_{x}$ is shown on the x-axis. The corresponding weight of $\Delta E_{x}$ distribution is shown on the y-axis. }
+	\label{fig:2vSM-deltaE-dist}
+\end{figure}
+
+\subsubsection{Kinematic Vetoes}
+The 2$\nu$SM algorithm is extremely computationally intensive. The computation time depends on the number step size of the $\phi$ and $\eta$ ranges which we scan over to reconstruct the neutrinos. For example, consider the step sizes chosen in this analysis, $\Delta \eta \approx$ 0.31 and $\Delta \phi \approx$ 0.25 which corresponds to 32 values for $\eta$ and 25 values for $\phi$. There will be $(32)(32)(25)(25) = $ 640 000 possible pairs of neutrinos ($\nu_{1}$ and $\nu_{2}$) to consider \textbf{per event}. Since we have to consider two possible $t\bar{t}$ systems (See Equations \ref{eq:top1-2vSM} and \ref{eq:top2-2vSM}), this number effectively increases to $(2)(640000) = $ 128 000 0 iterations \textbf{per event}. In order to reduce the number of $t\bar{t}$ systems we need to consider, therefore decreasing computation time, we look at distributions of well modelled observables from $t\bar{t}$ events and veto (discard) a possible reconstructed $t\bar{t}$ system if the observable in question is improbable or unlikely to be observed in a $t\bar{t}$ event. To achieve this, we define a threshold range for these observables (See Figure \ref{fig:eta-bbll-vetoes} and Figure \ref{fig:lt-vetoes}), and if the possible reconstructed $t\bar{t}$ system's corresponding value for this observable lies outside this range, it is vetoed and the algorithm continues with the next iteration.
+
+\myparagraph{$\Delta \langle m(\ell b)\rangle$}
+
+The first observable which we consider is the difference between average mass of the two possible $\ell b$ system combinations, $\Delta \langle m(\ell b)\rangle$. The two possible $\ell b$ system combinations are,
+
+\begin{align}
+    (\ell b)_{1} = \ell_{1} + b_{1} &\text{ and }  (\ell b)_{2}  = \ell_{2} + b_{2} \\
+    &\textbf{OR}\nonumber\\ 
+     (\ell b)_{1} = \ell_{1} + b_{2} &\text{ and }  (\ell b)_{2}  = \ell_{2} + b_{1} \\
+\end{align}
+
+$\Delta \langle m(\ell b) \rangle$ is therefore defined as,
+
+\begin{equation}
+    \Delta \langle m(\ell b) \rangle = \frac{1}{2} \abs{[( m(\ell_{1} b_{1}) + m(\ell_{1} b_{1}) ) - ( m(\ell_{1} b_{2}) + m(\ell_{2} b_{1}) ]}
+\end{equation}
+
+ The idea here is that, if $\Delta \langle m(\ell b) \rangle$ is large, it's more likely that we can simply select the $\ell b$ combination with the smaller (minimum) average mass. To illustrate this, we look at the distribution (constructed from $t\bar{t}$ events) of $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$ for $b$-tagged jets in the same ($\eta(b_{1}) \times \eta(b_{2}) \geq 0$) and opposite hemispheres ($\eta(b_{1}) \times \eta(b_{2}) < 0$).\\
+ In Figure \ref{fig:lb-assoc} the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$, for $b$-tagged jets in the same and opposite hemispheres, constructed from $t\bar{t}$ events is shown.
+ \begin{figure}[h!]
+	\includegraphics[width=0.6\linewidth]{figures/lbassoc_2vSM.pdf}
+	\centering
+	\caption{$P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$, for $b$-tagged jets in the same and opposite hemispheres, constructed from $t\bar{t}$ events is shown. The horizontal red lines represent the distribution in the case when the two $b$-jets are in opposite hemispheres. The dot in the middle of the line represents the midpoint of the line. The horizontal black lines represent the distribution in the case when the two $b$-jets are in the same hemispheres. The dot in the middle of the line represents the midpoint of the line. The average $m(\ell b)$ is shown on the x-axis. The $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ is shown on the y-axis.}
+	\label{fig:lb-assoc}
+\end{figure}
+
+From Figure \ref{fig:lb-assoc}, for both cases where the $b$-tagged jets are in the same and opposite hemispheres, the probability for a correct $\ell b$ system being chosen given that we are considering the $\ell b$ system with minimum average mass is an increasing function which plateaus to 1 at $\sim$ \SI{90}{\GeV}. We use these two distributions to interpolate the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ from $\Delta \langle m(\ell b) \rangle$. We require that $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) > 0.8$, before vetoing any $\ell b$ combination, such that we have are at least 80$\%$ certain that we know the correct $\ell b$ combination. In this case, the $\ell b$ combination with the maximum $\Delta \langle m(\ell b) \rangle$ is vetoed. If $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) < 0.8$ we need to consider both possible $\ell b$ system combinations. 
+
+\myparagraph{$\eta(b\bar{b}\ell\ell)$}
+\label{sec:eta-llbb-subsection}
+
+We consider $\eta$ of the $b\bar{b}\ell\ell$ system, $\eta(b\bar{b}\ell\ell)$ to veto improbable $\eta(\nu_{1})$ and $\eta(\nu_{2}$) values.\\
+
+In the same way as for $\Delta \langle m(\ell b)\rangle$, we generate a distribution to determine values $\eta(\nu)$ which are improbable for a $t\bar{t}$ event. In this case, we generate a 2D histogram from simulated $t\bar{t}$ events (dileptonic final state) at generator-level of $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$.\\
+
+In Figure \ref{fig:eta-bbll-heatmap}, a heatmap of occupancy for $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$ (produced from simulated $t\bar{t}$ events) is shown. 
+
+ \begin{figure}[h!]
+	\includegraphics[width=0.6\linewidth]{figures/bbll_occ_2vSM.pdf}
+	\centering
+	\caption{Heatmap of occupancy for $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$ produced from simulated $t\bar{t}$ events (dileptonic final state) at generator-level is shown. $\eta$ of the $b\bar{b}\ell\ell$ system is shown on the x-axis. $\eta$ of the neutrino is shown on the y-axis. The colorbar on the right represents the occupancy (normalised) in the phase space.}
+	\label{fig:eta-bbll-heatmap}
+\end{figure}
+
+Using the above heatmap, we define a veto region (where a $t\bar{t}$ event is extremely unlikely to occur) based off double-sided 95$\%$ limits (**something here on confidence limit??**). We apply a veto if either possible neutrino lies within this region. The veto region is shown in Figure \ref{fig:eta-bbll-vetoes}.\\
+
+In Figure \ref{fig:eta-bbll-vetoes}, the veto region (extracted from Figure \ref{fig:eta-bbll-heatmap}) for vetoing improbable neutrinos is shown.
+
+\begin{figure}[h!]
+	\includegraphics[width=0.6\linewidth]{figures/bbll_veto_2vSM.pdf}
+	\centering
+	\caption{The regions where vetoes are applied for the $\eta(b_{1}b_{2}\ell_{1}\ell_{2})$ constraint is shown. $\eta$ of the $b\bar{b}\ell\ell$ system is shown on the x-axis. $\eta$ of the neutrino is shown on the y-axis. The red band shows the region where the neutrino would not be vetoed. The white areas (above and below the red band) are regions where the neutrino is vetoed.}
+	\label{fig:eta-bbll-vetoes}
+\end{figure}
+
+\myparagraph{$L_{T}$}
+
+The final kinematic constraint which we consider is the scalar sum of lepton $p_{T}$, $L_{T} = p_{T}(\ell_{1}) + p_{T}(\ell_{2})$ which we use to veto certain possible neutrinos, $\nu_{1}$ and $\nu_{2}$.\\
+
+Again, we generate a distribution to determine (and veto) improbable possible neutrinos in simulated $t\bar{t}$ events (dilepton final state).\\
+In Figure \ref{fig:lt-heatmap}, a heatmap of occupancy for $\Delta R (\ell, \nu)$ vs $L_{T}$ (produced from simulated $t\bar{t}$ events) is shown. 
 
 
+ \begin{figure}[h!]
+	\includegraphics[width=0.6\linewidth]{figures/lt_occ_2vSM.pdf}
+	\centering
+	\caption{A heatmap of occupancy for $\Delta R (\ell, \nu)$ vs $L_{T}$ produced from simulated $t\bar{t}$ events (dileptonic final state) at generator-level is shown. $\Delta R$ between leptons and neutrinos is shown on the x-axis. $L_{T}$ (scalar sum of lepton $p_{T}$) is shown on the y-axis. The colorbar on the right represents the occupancy (normalised) in the phase space. }
+	\label{fig:lt-heatmap}
+\end{figure}
+
+Using the same method as described in Section \ref{sec:eta-llbb-subsection}, we define a veto region where a veto is applied if either possible neutrino lies within this region. In Figure \ref{fig:eta-bbll-vetoes}, the veto region (extracted from Figure \ref{fig:lt-heatmap}) for vetoing improbable neutrinos values is shown.
+\begin{figure}[h!]
+	\includegraphics[scale=0.6]{figures/lt_veto_2vSM.pdf}
+	\centering
+	\caption{The regions where vetoes are applied for the $L_{T}$ constraint is shown. $\Delta R$ between leptons and neutrinos is shown on the x-axis. $L_{T}$ (scalar sum of lepton $p_{T}$) is shown on the y-axis. The red band shows the region where the neutrino would not be vetoed. The white areas (above and below the red band) are regions where the neutrino is vetoed.}
+	\label{fig:lt-vetoes}
+\end{figure}
 
 \subsection{Event-level BDT}
 \label{sec:event-level-bdt}
+The event-level BDT is used to distinguish between signal and its major background events, $t\bar{t}Z$ and $ZZ$. The key difference between the object-level BDT and the event-level BDT is that while the former exploits information associated with $\ell b$ systems and thus distinguishes between $\ell b$ systems, the event-level BDT exploits information based on the entirety of the event and thus distinguishes between events.\\
+
 The event-level BDT was trained on 50$\%$ of the \tWZ MC sample's events for the signal class and similarly, 50$\%$ of the \ttZ and $ZZ$ MC sample's events were used for the background class. The samples we train on are individual events, with the features being carefully chosen observables. These observables are chosen on the basis that they are somewhat uncorrelated from one another and show a relatively large amount of separation power between \tWZ and \ttZ. Similarly to the object-level BDT, the optimum values for the hyper-parameters used were determined via hyper-parameter optimisation.  After hyperparameter optimisation, the mean accuracy of each fold (determined from 5 fold kfold cross validation) increased from 0.72 to 0.74 ($\sim 3\%$ increase). The variable importance of each variable was computed in the same way as described for the object-level BDT (See Section \ref{sec:object-level-bdt}).\\
 
 In Table \ref{tab:event-bdt-variables}, the variables used in training the event-level BDT are shown.
@@ -1053,7 +1193,7 @@ In Figure \ref{fig:norm-event-bdt-vars}, normalised distributions of the variabl
     \label{fig:norm-event-bdt-vars}
 \end{figure}
 
-Overall the BDT input variables show a reasonable amount of discrimination. In particular the output weight from the 2$\nu$SM algorithm shows the most discrimination. When determining which variables to use in training the event-level BDT, the output weight from 2$\nu$SM was shown to provide the most sizeable boost in performance of the BDT. Surprisingly, the least important variable, $\Delta \phi$ between the non-$Z$ lepton system (leptons not originating from a $Z$-candidate) and the leading $b$-tagged jet, seem to discriminate well between signal and background. A possible explanation for its low ranking variable importance is due to it being relatively highly correlated with many of the other input variables.\\
+Overall the variables used in the BDT show a reasonable amount of discrimination. In particular the output weight from the 2$\nu$SM algorithm shows the most discrimination. When determining which variables to use in training the event-level BDT, the output weight from 2$\nu$SM was shown to provide the most sizeable boost in performance of the BDT. Surprisingly, the least important variable, $\Delta \phi$ between the non-$Z$ lepton system (leptons not originating from a $Z$-candidate) and the leading $b$-tagged jet, seem to discriminate well between signal and background. A possible explanation for its low ranking variable importance is due to it being relatively highly correlated with many of the other input variables.\\
 
 We can check the modelling of the input variables to the event-level BDT by referring to the expected number of events of data and simulation in control regions where they are defined. Note that certain variables which are ill-defined in certain regions (e.g. $\Delta \eta (\ell_{1,non-Z}, \ell_{2,non-Z})$ in the $ZZb$ CR, as all leptons originate from a $b$-jet in this region) will not be shown.\\
 
@@ -1161,143 +1301,7 @@ We can see that the shapes of the training and test sets for both signal and bac
 The event-level BDT discriminates well between signal and background events in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, with separations of 8.98$\%$, 10.6$\%$ and 20.6$\%$, respectively.
 
 
-\section{Two Neutrino Scanning Method (2$\nu$SM) Algorithm}
-\label{sec:2vsm}
-The Two Neutrino Scanning Method (2$\nu$SM) algorithm\footnote{software tool and weights provided by Thomas McCarthy (\ttZ analysis group - Max Planck Institute)}~\cite{2vSM-ref1,2vSM-ref2} aims to reconstruct $t\bar{t}$ systems in the 2$\ell$, 3$\ell$ and 4$\ell$ final states (e.g. 2$\ell$ case: $t\bar{t}\rightarrow \ell^{+}\nu_{\ell}b\ell^{-}\bar{\nu}_{\ell}\bar{b}$). This was initially designed to suppress the $t\bar{t}$ background in the \ttZ analysis. We can re-purpose this algorithm to distinguish between \tWZ and \ttZ by removing the easily-identifiable $Z$ boson.\\
 
-The 2$\nu$SM algorithm reconstructs a $t\bar{t}$ system by scanning through the components of two possible neutrino 4-vectors ($\nu_{1}$ and $\nu_{2}$). It then aims to determine which $\nu_{1}$ and $\nu_{2}$ correspond to the two neutrinos which originate from the decay of a $t\bar{t}$ system the best (quantified by an output weight, $w_{2\nu SM}$). $w_{2\nu SM}$ is the likelihood under the $t\bar{t}$ dilpeton final state hypothesis. We are able to use this algorithm in our analysis to discriminate between \tWZ and \ttZ since we can easily reconstruct the OSSF leptons which decay from the $Z$ boson and remove it before inputting the event into the algorithm. We would then expect that the 2$\nu$SM algorithm returns a higher score from a \ttZ event ($\sim$ 1, i.e. it looks like a $t\bar{t}$ event after removal of the $Z$ boson) and a lower score from a \tWZ event ($\sim$ 0, i.e. it does not look like a $t\bar{t}$ event after removal of the $Z$ boson).
-\subsection{The algorithm}
-The 2$\nu$SM algorithm starts off by writing down four equations which correspond to the invariant masses of the top quark ($m(t)$) and $W$ boson ($m(W)$) for the two top decays (i.e. $t\rightarrow W^{+}b \rightarrow \ell^{+} \nu_{\ell}$) in a dileptonic $t\bar{t}$ event. These can be written as,
-
-\begin{align}
-    (\ell_{1} + \nu_{1})^{2} &= m(W)^{2} = (\SI{80.385}{GeV})^2\\
-    (\ell_{1} + \nu_{1} + b_{1,2})^{2} &= m(t)^{2} = (\SI{172.5}{GeV})^{2}\\
-    (\ell_{2} + \nu_{2})^{2} &= m(W)^{2} = (\SI{80.385}{GeV})^2\\
-       (\ell_{2} + \nu_{2} + b_{2,1})^{2} &= m(t)^{2} = (\SI{172.5}{GeV})^{2}
-\end{align}
-where the subscripts indicate that these particles originate from the decay of two different top quarks in a $t\bar{t}$ system. We assume that the mass of the neutrinos ($\nu_{1}$ and $nu_{2}$) are close to zero, which leaves us with 6 unknowns, $p_{{T}_{\nu_{1}}}$, $\phi_{\nu_{1}}$, $\eta_{\nu_{1}}$, $p_{{T}_{\nu_{2}}}$, $\phi_{\nu_{2}}$ and $\eta_{\nu_{2}}$ (components of the two neutrino's 4-vectors).\\
-
-The 2$\nu$SM algorithm takes the 4-vectors of the two reconstructed leptons (not from the $Z$ boson) and the two jets with the highest DL1r $b$-tagger score as input. For each neutrino ($\nu_{1}$ and $\nu_{2}$), we scan over a range of possible $\eta$ and $\phi$ values. These values were chosen to be $\phi_{\nu_{1}}$, $\phi_{\nu_{2}} \in [-\pi,\pi]$ with a step size of $\approx$ 0.25 and $\eta_{\nu_{1}}$, $\eta_{\nu_{2}} \in [-5,5]$ with a step size of $\approx$ 0.31. These ranges were chosen to maximize accuracy and minimize computation time. For each of these possible $\eta$ and $\phi$ values, we calculate the corresponding $p_{T}$ for each neutrino. The transverse momentum of a neutrino, $p_{{T}_{\nu}}$, can be calculated via (*******referecne somewhere here******),
-
-\begin{equation}
-    p_{{T}_{\nu}} = \frac{\frac{1}{2} (m(W)^{2} - m(\ell)^{2})}{E_{\ell}\cosh{\eta_{\nu}} - p_{\ell,z}\sinh{\eta_{\nu}} - p_{\ell,x}\cos{\phi_{\nu}} - p_{\ell,y}\sin{\phi_{\nu}} }
-\end{equation}
-where $E_{\ell}$ is the energy of the lepton and $p_{\ell, z}$, $p_{\ell, x}$, $p_{\ell, y}$ are the $z$, $x$ and $y$ components of lepton's momentum. At this stage, we have possible 4-vectors for $\nu_{1}$ and $\nu_{2}$. Using these possible neutrino 4-vectors, we reconstruct the two possible $t\bar{t}$ systems,
-
-\begin{align}
-    t_{1} = \ell_{1} + b_{1} + \nu_{1} &\text{ and } t_{2} = \ell_{2} + b_{2} + \nu_{2} \label{eq:top1-2vSM}\\
-    &\textbf{OR}\nonumber\\ 
-     t_{1} = \ell_{1} + b_{2} + \nu_{1} &\text{ and } t_{2} = \ell_{2} + b_{1} + \nu_{2} \label{eq:top2-2vSM}
-\end{align}
-These reconstructed $t\bar{t}$ systems are then used to calculate a weight, $w_{2\nu SM}$. The $w_{2\nu SM}$ weight (a value ranging from 0 to 1) is defined as a product of four probabilities (described below) and can be written as,
-
-\begin{equation}
-    w_{2\nu SM} = P_{m_{t_{1}}} \times P_{m_{t_{2}}} \times P_{\Delta E_{x}} \times P_{\Delta E_{y}}
-\end{equation}
-The $w_{2\nu SM}$ is calculated for each pair of reconstructed neutrinos (or reconstructed $t\bar{t}$ systems), with the maximum value being chosen as the final value for the event.
-
-\subsection{Calculating $w_{2\nu SM}$}
-We use distributions of well modelled observables ($m_{b\ell\nu}$ and $\Delta E_{x}$) from simulated $t\bar{t}$ events in order to determine how well our reconstructed neutrinos (and in turn top quarks) resemble neutrinos (and top quarks) present in a $t\bar{t}$ event.
-\subsubsection{$P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$}
-A normalised distribution of the mass of reconstructed top quarks ($m_{b\ell\nu}$) from a $t\bar{t}$ sample is generated to determine the probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution is generated from reco-level leptons, generator-level neutrinos and reoc-level jets matched in $\Delta R$ to generator-level $b$-quarks, therefore only filling the distribution with correct detector-level objects. We then use the distribution to interpolate our two reconstructed top quarks, which returns a weight value from 0 to 1, with higher values corresponding to a reconstructed top quark which has a mass close to that of a top quark from a $t\bar{t}$ system. This interpolation is done for both reconstructed tops, $t_{1}$ and $t_{2}$, corresponding to probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution used is shown in Figure \ref{fig:2vSM-mass-dist}.\\
-
-In Figure \ref{fig:2vSM-mass-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
-
-\begin{figure}[h!]
-	\includegraphics[width=0.45\linewidth]{figures/mtop_2vSM.png}
-	\centering
-	\caption{$m_{b\ell\nu}$ distribution generated from simulated $t\bar{t}$ events, used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown. The $m_{b\ell\nu}$ distribution is shown by the black lined histogram. The mass of the $b\ell\nu$ system is shown on the x-axis. The corresponding weight of the $m_{b\ell\nu}$ distribution is shown on the y-axis.}
-	\label{fig:2vSM-mass-dist}
-\end{figure}
-\subsubsection{$P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$}
-A similar method is used to determine $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$. In this case we generate a weight distribution of $\Delta E_{x} = (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x} - (E_{T}^{\text{miss}})_{x}$ based off simulated $t\bar{t}$ events. In particular, this distribution is generated using reco-level $E_{T}^{\text{miss}}$ and generator-level neutrinos. The use of this distribution lies under the assumption that neutrinos are the dominant source of $E_{T}^{\text{miss}}$, and therefore, $(E_{T}^{\text{miss}})_{x} \approx (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x}$ and $(E_{T}^{\text{miss}})_{y} \approx (p_{T,\nu_{1}})_{y} + (p_{T,\nu_{2}})_{y}$. We then use the distribution to interpolate the value of $\Delta E_{x}$ and $\Delta E_{y}$ from our reconstructed neutrinos. This returns a weight value from 0 to 1, with higher values corresponding to $\Delta E_{x}$ and $\Delta E_{y}$ (and in turn our reconstructed neutrino's $p_{T}$) closer to those observed in a $t\bar{t}$ event. We expect the $\Delta E_{x}$ and $\Delta E_{y}$ distributions to have the same shapes, therefore we only need to generate one (we have chosen $\Delta E_{x}$). In Figure \ref{fig:2vSM-deltaE-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
-
-\begin{figure}[h!]
-	\includegraphics[width=0.45\linewidth]{figures/dExy_2vSM.png}
-	\centering
-	\caption{$\Delta E_{x}$ distribution generated from simulated $t\bar{t}$ events, used to calculate $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$ is shown. The $\Delta E_{x}$ distribution is shown by the black lined histogram. $\Delta E_{x}$ is shown on the x-axis. The corresponding weight of $\Delta E_{x}$ distribution is shown on the y-axis. }
-	\label{fig:2vSM-deltaE-dist}
-\end{figure}
-
-\subsection{Kinematic Vetoes}
-The 2$\nu$SM algorithm is extremely computationally intensive. The computation time depends on the number step size of the $\phi$ and $\eta$ ranges which we scan over to reconstruct the neutrinos. For example, consider the step sizes chosen in this analysis, $\Delta \eta \approx$ 0.31 and $\Delta \phi \approx$ 0.25 which corresponds to 32 values for $\eta$ and 25 values for $\phi$. There will be $(32)(32)(25)(25) = $ 640 000 possible pairs of neutrinos ($\nu_{1}$ and $\nu_{2}$) to consider \textbf{per event}. Since we have to consider two possible $t\bar{t}$ systems (See Equations \ref{eq:top1-2vSM} and \ref{eq:top2-2vSM}), this number effectively increases to $(2)(640000) = $ 128 000 0 iterations \textbf{per event}. In order to reduce the number of $t\bar{t}$ systems we need to consider, therefore decreasing computation time, we look at distributions of well modelled observables from $t\bar{t}$ events and veto (discard) a possible reconstructed $t\bar{t}$ system if the observable in question is improbable or unlikely to be observed in a $t\bar{t}$ event. To achieve this, we define a threshold range for these observables (See Figure \ref{fig:eta-bbll-vetoes} and Figure \ref{fig:lt-vetoes}), and if the possible reconstructed $t\bar{t}$ system's corresponding value for this observable lies outside this range, it is vetoed and the algorithm continues with the next iteration.
-
-\subsubsection{$\Delta \langle m(\ell b)\rangle$}
-
-The first observable which we consider is the difference between average mass of the two possible $\ell b$ system combinations, $\Delta \langle m(\ell b)\rangle$. The two possible $\ell b$ system combinations are,
-
-\begin{align}
-    (\ell b)_{1} = \ell_{1} + b_{1} &\text{ and }  (\ell b)_{2}  = \ell_{2} + b_{2} \\
-    &\textbf{OR}\nonumber\\ 
-     (\ell b)_{1} = \ell_{1} + b_{2} &\text{ and }  (\ell b)_{2}  = \ell_{2} + b_{1} \\
-\end{align}
-
-$\Delta \langle m(\ell b) \rangle$ is therefore defined as,
-
-\begin{equation}
-    \Delta \langle m(\ell b) \rangle = \frac{1}{2} \abs{[( m(\ell_{1} b_{1}) + m(\ell_{1} b_{1}) ) - ( m(\ell_{1} b_{2}) + m(\ell_{2} b_{1}) ]}
-\end{equation}
-
- The idea here is that, if $\Delta \langle m(\ell b) \rangle$ is large, it's more likely that we can simply select the $\ell b$ combination with the smaller (minimum) average mass. To illustrate this, we look at the distribution (constructed from $t\bar{t}$ events) of $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$ for $b$-tagged jets in the same ($\eta(b_{1}) \times \eta(b_{2}) \geq 0$) and opposite hemispheres ($\eta(b_{1}) \times \eta(b_{2}) < 0$).\\
- In Figure \ref{fig:lb-assoc} the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$, for $b$-tagged jets in the same and opposite hemispheres, constructed from $t\bar{t}$ events is shown.
- \begin{figure}[h!]
-	\includegraphics[width=0.6\linewidth]{figures/lbassoc_2vSM.pdf}
-	\centering
-	\caption{$P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$, for $b$-tagged jets in the same and opposite hemispheres, constructed from $t\bar{t}$ events is shown. The horizontal red lines represent the distribution in the case when the two $b$-jets are in opposite hemispheres. The dot in the middle of the line represents the midpoint of the line. The horizontal black lines represent the distribution in the case when the two $b$-jets are in the same hemispheres. The dot in the middle of the line represents the midpoint of the line. The average $m(\ell b)$ is shown on the x-axis. The $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ is shown on the y-axis.}
-	\label{fig:lb-assoc}
-\end{figure}
-
-From Figure \ref{fig:lb-assoc}, for both cases where the $b$-tagged jets are in the same and opposite hemispheres, the probability for a correct $\ell b$ system being chosen given that we are considering the $\ell b$ system with minimum average mass is an increasing function which plateaus to 1 at $\sim$ \SI{90}{\GeV}. We use these two distributions to interpolate the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ from $\Delta \langle m(\ell b) \rangle$. We require that $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) > 0.8$, before vetoing any $\ell b$ combination, such that we have are at least 80$\%$ certain that we know the correct $\ell b$ combination. In this case, the $\ell b$ combination with the maximum $\Delta \langle m(\ell b) \rangle$ is vetoed. If $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) < 0.8$ we need to consider both possible $\ell b$ system combinations. 
-
-\subsubsection{$\eta(b\bar{b}\ell\ell)$}
-\label{sec:eta-llbb-subsection}
-
-We consider $\eta$ of the $b\bar{b}\ell\ell$ system, $\eta(b\bar{b}\ell\ell)$ to veto improbable $\eta(\nu_{1})$ and $\eta(\nu_{2}$) values.\\
-
-In the same way as for $\Delta \langle m(\ell b)\rangle$, we generate a distribution to determine values $\eta(\nu)$ which are improbable for a $t\bar{t}$ event. In this case, we generate a 2D histogram from simulated $t\bar{t}$ events (dileptonic final state) at generator-level of $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$.\\
-
-In Figure \ref{fig:eta-bbll-heatmap}, a heatmap of occupancy for $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$ (produced from simulated $t\bar{t}$ events) is shown. 
-
- \begin{figure}[h!]
-	\includegraphics[width=0.6\linewidth]{figures/bbll_occ_2vSM.pdf}
-	\centering
-	\caption{Heatmap of occupancy for $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$ produced from simulated $t\bar{t}$ events (dileptonic final state) at generator-level is shown. $\eta$ of the $b\bar{b}\ell\ell$ system is shown on the x-axis. $\eta$ of the neutrino is shown on the y-axis. The colorbar on the right represents the occupancy (normalised) in the phase space.}
-	\label{fig:eta-bbll-heatmap}
-\end{figure}
-
-Using the above heatmap, we define a veto region (where a $t\bar{t}$ event is extremely unlikely to occur) based off double-sided 95$\%$ limits (**something here on confidence limit??**). We apply a veto if either possible neutrino lies within this region. The veto region is shown in Figure \ref{fig:eta-bbll-vetoes}.\\
-
-In Figure \ref{fig:eta-bbll-vetoes}, the veto region (extracted from Figure \ref{fig:eta-bbll-heatmap}) for vetoing improbable neutrinos is shown.
-
-\begin{figure}[h!]
-	\includegraphics[width=0.6\linewidth]{figures/bbll_veto_2vSM.pdf}
-	\centering
-	\caption{The regions where vetoes are applied for the $\eta(b_{1}b_{2}\ell_{1}\ell_{2})$ constraint is shown. $\eta$ of the $b\bar{b}\ell\ell$ system is shown on the x-axis. $\eta$ of the neutrino is shown on the y-axis. The red band shows the region where the neutrino would not be vetoed. The white areas (above and below the red band) are regions where the neutrino is vetoed.}
-	\label{fig:eta-bbll-vetoes}
-\end{figure}
-
-\subsubsection{$L_{T}$}
-
-The final kinematic constraint which we consider is the scalar sum of lepton $p_{T}$, $L_{T} = p_{T}(\ell_{1}) + p_{T}(\ell_{2})$ which we use to veto certain possible neutrinos, $\nu_{1}$ and $\nu_{2}$.\\
-
-Again, we generate a distribution to determine (and veto) improbable possible neutrinos in simulated $t\bar{t}$ events (dilepton final state).\\
-In Figure \ref{fig:lt-heatmap}, a heatmap of occupancy for $\Delta R (\ell, \nu)$ vs $L_{T}$ (produced from simulated $t\bar{t}$ events) is shown. 
-
-
- \begin{figure}[h!]
-	\includegraphics[width=0.6\linewidth]{figures/lt_occ_2vSM.pdf}
-	\centering
-	\caption{A heatmap of occupancy for $\Delta R (\ell, \nu)$ vs $L_{T}$ produced from simulated $t\bar{t}$ events (dileptonic final state) at generator-level is shown. $\Delta R$ between leptons and neutrinos is shown on the x-axis. $L_{T}$ (scalar sum of lepton $p_{T}$) is shown on the y-axis. The colorbar on the right represents the occupancy (normalised) in the phase space. }
-	\label{fig:lt-heatmap}
-\end{figure}
-
-Using the same method as described in Section \ref{sec:eta-llbb-subsection}, we define a veto region where a veto is applied if either possible neutrino lies within this region. In Figure \ref{fig:eta-bbll-vetoes}, the veto region (extracted from Figure \ref{fig:lt-heatmap}) for vetoing improbable neutrinos values is shown.
-\begin{figure}[h!]
-	\includegraphics[scale=0.6]{figures/lt_veto_2vSM.pdf}
-	\centering
-	\caption{The regions where vetoes are applied for the $L_{T}$ constraint is shown. $\Delta R$ between leptons and neutrinos is shown on the x-axis. $L_{T}$ (scalar sum of lepton $p_{T}$) is shown on the y-axis. The red band shows the region where the neutrino would not be vetoed. The white areas (above and below the red band) are regions where the neutrino is vetoed.}
-	\label{fig:lt-vetoes}
-\end{figure}
 
 
 \section{Systematics}

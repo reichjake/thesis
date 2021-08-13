@@ -1,0 +1,962 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\fswiss\fprq2\fcharset0 Liberation Sans{\*\falt Arial};}{\f5\froman\fprq2\fcharset0 Helvetica{\*\falt Arial};}{\f6\froman\fprq2\fcharset0 Helvetica-Bold;}{\f7\froman\fprq2\fcharset0 Times-Roman{\*\falt Times New Roman};}{\f8\froman\fprq2\fcharset0 Times-Bold;}{\f9\fnil\fprq2\fcharset0 Noto Sans CJK SC;}{\f10\fnil\fprq2\fcharset0 Lohit Devanagari;}{\f11\fnil\fprq0\fcharset128 Lohit Devanagari;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red251\green2\blue7;\red0\green255\blue53;\red255\green242\blue0;\red245\green130\blue32;\red114\green191\blue68;\red0\green255\blue15;\red255\green162\blue0;\red4\green255\blue0;}
+{\stylesheet{\s0\snext0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177 Normal;}
+{\s15\sbasedon0\snext16\sb240\sa120\keepn\dbch\af9\dbch\af10\afs28\loch\f4\fs28 Heading;}
+{\s16\sbasedon0\snext16\sl276\slmult1\sb0\sa140 Text Body;}
+{\s17\sbasedon16\snext17\sl276\slmult1\sb0\sa140\dbch\af11 List;}
+{\s18\sbasedon0\snext18\sb120\sa120\noline\i\dbch\af11\afs24\ai\fs24 Caption;}
+{\s19\sbasedon0\snext19\noline\dbch\af11 Index;}
+}{\*\generator LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/00m0$Build-3}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2021\mo8\dy13\hr13\min40}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab720
+\viewscale90
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn11906\pghsxn16838\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh16838\paperw11906\margl1440\margr1440\margt1440\margb1440\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\rtlch \ltrch\loch\fs28\loch\f5\hich\af5
+The thesis is in good shape. I\u8217\'92ll give one \u8220\'93quick\u8221\'94 set of comments to get some broad things fixed, get a next version}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\rtlch \ltrch\loch\fs28\loch\f5\hich\af5
+back to me quick. I\u8217\'92ll go into detail on that version.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\b\rtlch \ltrch\loch\fs28\loch\f6\hich\af6
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b\rtlch \ltrch\loch\fs28\loch\f6\hich\af6
+Important: Add line numbers to the draft version from now on so I can give easy-to-find comments on specific lines. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b\rtlch \ltrch\loch\fs28\loch\f6\hich\af6
+I will only give quick-to-implement comments on this version.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\b0\rtlch \ltrch\loch\fs28\loch\f5\hich\af5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b\rtlch \ltrch\loch\fs28\loch\f6\hich\af6
+Overall comments:}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b0\rtlch \ltrch\loch\fs28\loch\f5\hich\af5
+The thesis is too long. Remove the appendix. If there are plots there that you want to talk about, include 1-2 or two in the main text body.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b0\rtlch \ltrch\loch\fs28\loch\f5\hich\af5
+There are multiple instances in the main body where plots are included and described but not further commented on so the reader wonders}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b0\rtlch \ltrch\loch\fs28\loch\f5\hich\af5
+Why these plots have been included. A plot has to be included for a reason so if you can\u8217\'92t write a sentence around a plot telling the reader}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b0\rtlch \ltrch\loch\fs28\loch\f5\hich\af5
+what the message of the plot is, perhaps the plot shouldn\u8217\'92t be there.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\b0\rtlch \ltrch\loch\fs28\loch\f5\hich\af5
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b0\rtlch \ltrch\loch\fs28\loch\f5\hich\af5
+Remove the explicit ref. to Ben\u8217\'92s thesis in the abstract, minimally by removing \u8220\'93\u8221\'94}{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+by Benjamin Warren (UCT) [65]\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+I\u8217\'92m not sure about the usage of \u8220\'93we\u8221\'94. I\u8217\'92m a bit old school and prefer the passive voice, e.g,  \u8220\'93In this analysis, a kinematic reconstruction technique is used\u8230\'85\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+If that\u8217\'92s too sterile, you can say \u8220\'93I\u8221\'94 it is your thesis.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b\kerning0\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+Intro}{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+ }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+It would be nice to start a new paragraph when you start to discuss experimental points, with something like:  \u8220\'93The latest datasets\u8230\'85\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Perhaps be a bit more specific than just \u8220\'93new physics\u8221\'94. Something like \u8220\'93signs of new physics that could offer a resolution to the Hierarchy Problem\u8221\'94 You need}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Some references for descriptions of the Hierarchy problems, new physics, the top-Higgs interplay etc and briefly mention them rather than getting into too much detail}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+yourself.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You say again \u8220\'93\u8230\'85the production of a top quark together with a W}{\cf1{\*\updnprop10000}\up10\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+\u177\'b1 }{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+and Z boson\u8221\'94 but you have already defined the tWZ symbol.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Similarly, why not define the \u8220\'93tetralepton channel\u8221\'94 so you can use it throughout the thesis.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+I think you can delete unneeded forward referencing detail like \u8220\'93(Boosted Decision Trees)\u8221\'94 as you will specify that later, not crucial here.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+The sentence starting \u8220\'93\u8221\'94The dominant source of\u8230\'85\u8221\'94 is completely out of context. You haven\u8217\'92t mentioned the concepts of backgrounds, how they arise, what a fake lepton is}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+But you jump into a detail on the fake lepton background. As this is the intro you can leave some things unexplained or without detail but you can\u8217\'92t skip crucial steps. I suggest}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Something like \u8220\'93Backgrounds from standard model processes including those in which one or more leptons originate from the semileptonic decay of a heavy hadron or a photon conversion are estimated by fitting predictions from simulation to simulation in dedicated control regions.\u8221\'94 }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Why do you include \u8220\'93(blinded)\u8221\'94 when you previously said only blinded results are included?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Rather than putting this detail in a footnote, explain clearly that your thesis is concerned with the tetra lepton channel only but you also include the results of combined fit that includes the results of an entirely independently analysis of the trilepton channel. Mention that there is no overlap between the regions in the tr- and tetra lepton channel. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b\kerning0\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+Theory}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b\kerning0\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+I wouldn\u8217\'92t say the SM is a QFT theory, rather it is a model based on QFT.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b\kerning0\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+Comments from here are on the version with line numbers}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L113 you need citations for the statement the SM, is well-tested\u8230\'85 you could add representative number for the top quark sector, e.g, the tt bar cross section predictions have been confirmed to the % level wit citations to ATLAS and CMS experiments etc.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L116 better not include mass as an example of a quantum number here.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L119 what you write here implies the quarks, charged lepton and neutrino in the same generation have the same electric charge and spin.. fix.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L123 specify that \u8220\'93red, green and blue\u8221\'94 are just labels for the states}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L129 and onwards, I think you have excessive number of paragraphs and you should start new paragraphs when there is a real change of subject, especially on L142, no need to detach this from the main body of text.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L147 cite}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L154 \u8220\'93Unable to be\u8221\'94 -> \u8220\'93\u8221\'94not}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L164 specify that this strong coupling between the top and Higgs is according to the SM, no necessarily physics reality.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L164 typo \u8220\'93involving\u8221\'94  \u8212\'97>>> Run a spell/grammar check.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L167 the point about not being able to measure the top directly because it\u8217\'92s decay time is specifically shorter than the had. Time doesn\u8217\'92t work. We don\u8217\'92t measure the top directly just because the decay time is short, }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Not specifically because it\u8217\'92s shorter than the had. time. That is a separate point that explains why we do not observe top hadrons.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L167 don\u8217\'92t start a sentence with a symbol like this,.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L173 no comma after quark}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L173 why a new line here?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L178 \u8220\'93since }{\cf1\expnd0\expndtw0\b0\kerning1\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+gluons are }{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+most dominant particles produced in pp collisions in the LHC\u8221\'94 doesn\u8217\'92t make much sense, remove.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+The way you have explained the different production mechanisms of single top productions is a bit strange, rather take the description of t channel, s channel and Wt directly from }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Review paper and cite it.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L187 strange. you have taken a lot of time and space (probably a bit too much) to describe tt and single top production in general but you don\u8217\'92t describe the tWZ process at all\u8230\'85. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+This needs to be fixed with high priority, there is a lot of description in the INT, it can be one page. You also need to describe why tWZ is interesting, why now is the time to measure it, }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+How it relates to EFT\u8230\'85.this is crucial.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You don\u8217\'92t mention the branching fraction of tWZ in tetra lepton\u8230\'85}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L204 cross section refers to the production probability which is of course the same regardless of the decay channel. Branching fraction refers to the fraction of events decaying a certain way\u8230\'85 so}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Ois the large difference in branching fraction that accounts for the different in statistics.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L206\u8212\'97 again the cross section is the same.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L212 would you really say the ZZ background is relatively large (relative to what?)  even before the reconstruction of the two Z bosons.?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Ah ok. Here we see the physics motivation for tWZ, this should come earlier, before the nitty gritty on experimental choices of decay channel etc.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L222 not quite correct, try something like \u8220\'93corrections to the Higgs diverge in the SM,  due to the top quark\u8217\'92s large coupling to the Higgs boson, the top quark\u8217\'92s couplings are modified in many scenarios of new physics that aim to resolve the Hierarchy problem\u8221\'94 have a look at  http://www.cbpf.br/~maciel/evjas/a08_hierarchy.pdf}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L223 But why is tWZ important? Don\u8217\'92t start a sentence with a symbol.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L226 poor sentence, rewrite.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L228  Don\u8217\'92t start a sentence with a symbol/acronym.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L231 \u8220\'93scalars\u8221\'94?? Sounds like you are talking about scalar particles Maybe you mean \u8220\'93coefficients\u8221\'94 or at a push, \u8220\'93scalar coefficients\u8221\'94?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L235 \u8220\'93done\u8221\'94 -> \u8220\'93performed\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L236 \u8220\'93take advantage\u8221\'94 -> \u8220\'93utilise\u8221\'94\u8230\'85 why not mention  the CMS analysis (Tschida). I think it uses 4l events but the results are very strange so you might need a qualifying comment}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Or don\u8217\'92t mention the results directly.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L236 remove comma}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L239 remove \u8220\'93Full Run 2\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L240 \u8220\'93the sensitivity of tWZ.\u8221\'94 makes no sense.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L244  Don\u8217\'92t start a sentence with a symbol/acronym, Ill stop adding this comment now, please apply everywhere.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Section 3.1.1 }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Far too many paragraphs.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L255 why do we care how much heavy ion data is recorded per year for indeed anything about the HI program?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L256  Don\u8217\'92t start a sentence with a symbol/acronym.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L276 this is not a question of ability, we choose to study the most energetic collision and try to reject others as we are most interested in high energies for discoveries.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L288 again needless paragraphs}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L297 you already specified this earlier}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L305 has \u8220\'93interaction point\u8221\'94 been previously defined?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L307 but there are two beam directions, be clearer here.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L320 has \u8220\'93physics object\u8221\'94 been defined?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L328 too much detail on gases here, shorten.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+sec. 3.2.3 too much detail on calorimeters, shorten by ~ 20% if you can.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L366 a lot of detail on the tracking. This is nice and very well written, but try to shorten it\u8230\'85 by ~ 20% if you can. its just a bit  too much for msc and not super relevant ad this level.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+A good thing to chop would be the fitting of the vertex position\u8230\'85 this is not needed, could be once sentence.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+For the subsequestion section, aim for a reduction of text by a about 20%, try to get the essence of what the detector does across.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L415 you already said this. Too much detail on seeds etc, shorten.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L434 you need a couple of sentences to introduce this chapter.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L442 mc16a, b etc refers to the simulation, not the data.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L468 -> L503 this can be all one paragraph.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+For the generator specify that when you say NLO you are talking about NLO in QCD.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L478 you should mention that comparison to the DR2 scheme is used to estimate part of then theoretical systematic uncertainty on signal modelling.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L484 \u8220\'93Fully leptonic processes\u8221\'94 is poor wording\u8230\'85 the decays are fully leptonic.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L494 typo \u8220\'93are\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L506 to L548 this can be all one paragraph.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L535 working point is jargon, you can just simply explain that this is a certain algorithm with a certain cut}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Table 4.2 you cannot just say \u8220\'93recommended\u8221\'94 you don\u8217\'92t seem to explain the overlap removal anywhere\u8230\'85}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\fs28\loch\f7\hich\af7
+ }{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+No one can be expected to know what Analysis Base is, you cant use this jargon.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L575 you are just expressing the principle of conservation of momentum here it seems, that\u8217\'92s fine but it seems to come out of the blue.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Why not rather start with the basic kinematics requirements you apply on the leptons jet etc.?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L589 why do you need to say \u8220\'93\u8221\'94as opposed to one tWZ SR\u8221\'94??}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L592, don\u8217\'92t capitalise \u8220\'93Non\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L594 \u8220\'93rich\u8221\'94 -> \u8220\'93enriched\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L598 \u8220\'93tW Z \u8217\'92s Z Z background events\u8220\'93 bizarre wording.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L601\u8230\'85 you don\u8217\'92t modify the previous selections\u8230\'85you just define new selctions for these control regions.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L610 Have you specified what a fake lepton is?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L637 space before units.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Section. 4.4.1 one or tow more sentences explain that the  statistical procedure used to calculate the expected significance (which is the figure of merit to be optimised in this anaysis) will be fully described later but you include here the results of studies to optimise the exp. sig. by varying the cuts.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Figure 4.3 you can make the plot smaller but the font sizes much larger.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L646 broken ref to table.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L647 strange to say \u8220\'93we can try\u8221\'94\u8230\'85 did you do it or not?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L653 remove new line}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L661 \u8221\'94total uncertainty\u8221\'94  -> \u8220\'93statistical uncertainty\u8221\'94 ,   \u8220\'93diagonally-lined\u8221\'94 , \u8220\'93total (statistical and systematic added in quadrature) uncertainty\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L663 rather use plain language, \u8220\'93in order to suppress a biases towards large signal observations in the development of the analysis, data has not been analysed in bins where the expected S/B exceeds\u8230\'85\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L665 \u8220\'93is shown\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L666 how is one to understand \u8220\'93raw\u8221\'94 here? Rephrase into something explicit: e.g, \u8220\'93Predictions based on MC simulation carry uncertainties due to the finite number of simulated events utilised.\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You could also distinguish this from the statistical uncertainty associated with the finite number of events expected to be observed in data. This kind of explicitly crisp insights }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Really show that you know the material and have not just regulated stuff you read elsewhere\u8230\'85. You have worked hard to understand this stuff, this is a way of showing that.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Then once you have clarified what this uncertainty is, it\u8217\'92s easier to explain how it is calculated.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Do you have a reference for this N_equiv treatment? I recall you pulled it from somewhere.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf17\expnd0\expndtw0\b\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+Table 4.4 and other tables - a non-sensical number of digits after the decimal point!!}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf17\expnd0\expndtw0\b\kerning0\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+I don\u8217\'92t think \u8220\'93Yields\u8221\'94 has been introduced or defined before\u8230\'85 just stick with \u8220\'93expected number of events\u8221\'94 the less terms for the same thing, the better. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+It\u8217\'92s better to not say \u8220\'93pre-fit\u8221\'94 here: you haven\u8217\'92t introduced the fit, and you don\u8217\'92t need to say this is pref-fit, this is just the expected numbers of events.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+^^^should I also change \u8220\'93yields\u8221\'94 and \u8220\'93pre-fit/post-fit\u8221\'94 when talking about nuisance parameter pulls in the results section? I could define pre and post fit in the Fitting procedure section.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Including a table like  4.5 is nice, but slightly unusual so you need to explicitly say why you are showing it - to check that the number of events you simulate for a given process is large in comparison to the number of events expected for that process in data - thereby ensuring that uncertainties from MC statistics will be small/sub-leading. You need a summarising sentence expressing that conclusion.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L672 \u8220\'93percentage uncertainty\u8221\'94 but is this the MC uncertainty just described, or is the passion uncertainty also included\u8230\'85it\u8217\'92s crucial to make clear}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+what the uncertainty means.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L674 the point about specifically tWZ needs to be rephrased\u8230\'85 see point above about table 4.5}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L677 I think the \u8220\'93pre-fit\u8221\'94 wording only confuses. If you want to keep it, explicitly say that maximum likelihood fit will be described later and these}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\fs28\loch\f7\hich\af7
+ }{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+plots were studied to ensure that the default modelling provided by the simulation agrees with data within assumed uncertainties thus giving confidence}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+That the expectations from simulation and the associated uncertainties can form a reasonable basis for the model to be used in the max. likeli. Fit later.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+^^ chilled not keeping}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L682 the figure references don\u8217\'92t make sense: figure 4.5 is never mentioned. A commentary on the plots is missing, why are you showing them and what are we learning?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L690 As discussed the appendix with lots of plots can be dropped. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf17\expnd0\expndtw0\b\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+You need to comment on ALL the plots you include\u8230\'85why are you showing them and what are we learning?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Pg 29, 30 does this figure need to occupy an entire page?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Pgs 29-37 there are far too many control plots without any discussion or introduction, a small number of plots for each region with some commentary would be much more useful.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L739 this sentence does not read well. rewrite.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L740 I don\u8217\'92t know what you mean \u8220\'93irreducible (prompt)\u8221\'94 means here\u8230\'85 I don\u8217\'92t see why fakes not arising from non-prompt sources are \u8220\'93irreducible\u8221\'94?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+This is impossible to understand\u8230\'85}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L741 Again you need to clean up the terminology\u8230\'85it reads like fakes are true and I would have thought the \u8220\'93process of interest\u8221\'94 is tWZ production but here it means something else\u8230\'85}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+After reading this I\u8217\'92m still not sure what an irreducible fake is and I think it is not \u8220\'93irreducible.\u8221\'94 I think simply listing the sources of fake leptons (e.g. heavy hadron decays, light hadron decays, photon conversions) all under the umbrella of \u8220\'93fake leptons\u8221\'94 that come up in this analysis is a far more efficient and clear way to proceed. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+What you have written is in any case incorrect, e.g. a lepton from a heavy-hadron decay is a genuine lepton but in L742 you say this component are not genuine leptons\u8230\'85}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L747 poor wording, it reads like ttz will have relatively more fakes because it is a large background. I think you are trying to say something like \u8220\'93As ttz is the dominant background process, we assume it will also dominate the events containing at least one fake lepton\u8221\'94.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L751\u8230\'85 no this is incorrect. The P(2 fake) is }{\cf17\expnd0\expndtw0\b\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+not}{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+ equal to the P(1 fake)^2\u8230\'85. Would only be true if you had exactly 2 tracks per event and the fake efficiencies are totally uncorrelated.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You need \u8220\'93<<\u8220\'93 to emphasise that the efficiency is much smaller than 1, you need to cite some ATLAS performance paper to justify that.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L759 No need for a new paragraph here.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Again the plots in 39 -> 43 are excessive and need to be reduced.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L733 you need to make the physics link between the lack of isolation/ID criteria in the loose lepton definition and the physics of leptons from heavy hadron decays. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Some version of \u8221\'94the loose definition relaxes isolation requirement, as leptons from heavy decays are produced in jets, they are typically surrounded by other energetic}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Particles, therefore leptons satisfying the loose criteria are more enhanced in this fake leptons.\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L778 onwards, no need for separate paragraphs.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L795 Starting \u8220\'93Now that\u8230\'85\u8221\'94 is a bit informal bit not a big deal though.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L794 It\u8217\'92s odd that this section is titles \u8220\'93Machine Learning Techniques\u8221\'94 when you don\u8217\'92t describe machine leaning techniques in this section. You should start with the physics, that is the important thing and what you are focusing on: the presence of different number of top quarks is a key discriminator between signal and the dominant background. Therefore you aim to exploit this by reconstruction l-b systems as a proxy for the top quarks. The fact that you use ML/BDT for this is not nearly as interesting, there are many ways to exploit the same information, but what is interesting is what feature(s) you have targeted.   }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Same comment for the event-level BDT -> discuss the features of the signal and background that allow for sig vs. Background discrimination. Only then introduce the particular ML method you use to exploit this info.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L797 meaning of \u8220\'93stable\u8221\'94 here?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L801 You should introduce the two BDTs in the opposite order as one feeds into the other and that is how they are ordered subsequently.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L805 typo \u8220\'93as input\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L807 You should mention the same details for th tt sample as you have done previously - what generator, shower, order of QCD?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L808 don\u8217\'92t start sentence with a symbol}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L809 \u8220\'93disjoint tt sample\u8221\'94 don\u8217\'92t mean anything here, say explicitly what you mean}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L811 poor language \u8220\'93limited on statistics\u8221\'94, \u8220\'93resorting to use our MC\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L812 it\u8217\'92s a common error but you write \u8220\'93statistics\u8221\'94 when you mean \u8220\'93number of generated events\u8221\'94\u8232\'0aThe \u8220\'93fitting procedure\u8221\'94 has no meaning yet.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L814 you don\u8217\'92t mention how the l-b systems are selected for input to the training. Are all combinations of l and b }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+selected from the events? Are any requirements applied? Does \u8216\'91b\u8217\'92 mean b-tagged jet? If so, what algorithms, what WP?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Rather say methodically and explicitly what is done.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L820 different wording for exactly the same thing: you \u8220\'93from tops\u8221\'94 but later \u8220\'93from a top decay\u8221\'94.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L823 again this sentence could be more explicit and clear, why say \u8220\'93different\u8221\'94?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L824 briefly explain what a hyper-parameter is, you could include a quick description of BDT to make this easier}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L825 A lot of seemingly unexplained concepts coming in here: hyper-parameter, cross-validation, mean accuracy, tuning}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+fold, k-fold, usefulness\u8230\'85. Each of these need a brief but precise explanation\u8230\'85 It\u8217\'92s hard to see how you can avoid a half-page}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+explanation of how BDTs work.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L827 You bring in \u8220\'93input features\u8221\'94, here but previously you called the same thing \u8220\'93observables\u8221\'94 then \u8220\'93input\u8221\'94, later they are \u8220\'93input variables\u8221\'94, but in the table 4.6 it is \u8220\'93variables\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+I could go on but the point is clear: introduce one term for a complicated concept and re-use it again and again while you are talking about the same thing.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+In the table caption it is now \u8220\'93importance\u8221\'94 but earlier \u8220\'93variable importance\u8221\'94. }{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You should quote the variable importances in the table to give a sense how much it varies.}{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+ This would work better if you had mathematically define variable importance with an equation. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L840 \u8220\'93large amount\u8221\'94?! Quantify this. And no newline needed here.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Fig 4.28 Normalised how? . . . I see you throw it in at the end in brackets\u8230\'85 this is confusing. Explain the normalisations in the main body of the text.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Poorly constructed: \u8220\'93}{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs26\loch\f7\hich\af7
+Normalised distributions of the signal and background classes for the training set of all variables used in the object-level BDT (ordered from top left to bottom right via decreasing importance) are shown.\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs26\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs26\loch\f7\hich\af7
+Rather say what variables/features/ are plotted and then what classes are included and what the colour mean.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs26\loch\f7\hich\af7
+Thicker lines for the histograms and larger text for the legends.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You introduce and describe Fig. 4.28 but you do not include the third crucial part: a commentary on what is supposed to be learned from the figure. - }{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+i do, it has just been moved above the fig}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L839 Typo \u8220\'93are show\u8220\'93}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L844 mention why you only show the ttZ CR for this comparison of data and simulation. - }{\cf1\expnd0\expndtw0\b0\kerning0\highlight7\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+I\u8217\'92m not entirely sure the reason why we are able to do this...}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L849 why do you suddenly call it the \u8220\'93alternative\u8221\'94 sample?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L851 you don\u8217\'92t get across why this check was done, ie, what does \u8220\'93similar enough\u8221\'94 mean here? Or \u8217\'92sufficient\u8217\'92\u8230\'85. In what sense?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+A quick description of \u8220\'93overtraining\u8221\'94 needed.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Figure 4.29, say \u8220\'93filled histograms\u8221\'94 for the simulation as they are all histograms.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Figure 4.30 Thicker lines, larger fonts for the legend and much larger for the axis titles}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You do see a large deviation in the delta phi lb distribution. You need comment that this suggests that using the tt sample to train may }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+be sub-optimal but still represents the best option available due to the arguments around statistics you presented already.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L869 \u8220\'93substantially small\u8221\'94  is oxymoronic}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L869 you give a definition of overtraining }{\cf1\expnd0\expndtw0\b\kerning0\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+after}{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+ you have been discussing tests for it.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L870 can you give more context on how to interpret this variance\u8230\'85 why does this variance suggest overtraining effect are negligible?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L873 in what sense was it \u8220\'93constructed\u8221\'94? You just use the output of one as an input to the next. - }{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+no I don\u8217\'92t}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L874\u8230\'85 repeating the same info twice\u8230\'85}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L876 this contextual info about the different numbers of tops in two and tty should come }{\cf1\expnd0\expndtw0\b\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+before}{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+  all the nitty gritty details on the algorithm itself.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Write it in a way that you can use it to introduce the 2vSM method also.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L882 can you explain why you didn\u8217\'92t see discrimination in the tWZ SRs? I think it because you require exactly one b you are enriched in events where only}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+one}{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+ of the tops has the b jet and leptons reconstructed and selected by the analysis\u8230\'85. Theses events will of course look similar for tt and tWZ w.r.t this variable.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You use similar reasoning to explain why you do see the discrimination in the tty region, but use it for the former case above too.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Looking at the plots\u8230\'85 it\u8217\'92s not the case at all that the discrimination looks better in the tty region\u8230\'85.  It\u8217\'92s very similar to that of tWZ SF so you have to revise your commentary above.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L890 The sentence \u8220\'93The second best\u8230\'85\u8221\'94 should be part of the introduction of the variable and why we expect it to help, not buried in the discussion of how the output}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Looks in simulation.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You say \u8220\'93apparent lack of discrimination\u8221\'94 but there is discrimination evident in the plot\u8230\'85}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L916 You described the \u8220\'93separation metric\u8221\'94 here but you needed this much earlier around L884 when you are comparing discrimination between regions.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L924 you can delete \u8220\'93for simplicity\u8221\'94 and \u8220\'93ultimately\u8221\'94}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L926 you jump straight in here with zero context\u8230\'85. Step back, what is the event-level BDT for? What will it help with? What kind of information will it exploit?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Technical details on the training come after.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Poor language \u8220\'93The samples we train on are individual events, with the features being carefully chosen observables. \u8220\'93\u8232\'0a}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Sample usually means a group on simulated or data events. Here you seem to mean an \u8220\'93event\u8221\'94 but why \u8220\'93individual\u8221\'94?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Carefully chosen on what basis?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You are back to saying \u8220\'93observables\u8221\'94\u8230\'85 }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You don\u8217\'92t highlight the key difference between the object level BDT and the event-level BDT -> that while the former exploits info associated with l-b system only and thus distinguished between l-b systems}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+only, the event-level BDT exploits info based on the entirety of the event and thus distinguishes between events.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L931 you don\u8217\'92t give any details on how the HP opt. was performed?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L938 Again words like \u8220\'93reasonable\u8221\'94 have no meaning here. }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+How can you mention discuss 2vSM before it has been introduced and described???}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f8\hich\af8
+The section on the 2vSM alg needs to come before the event level BDT descriptions.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L950-952 merge these three sentence into one coherent, efficient sentence.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L953 \u8220\'93good\u8221\'94?? Give a quantitative summary of the agreement. Are the deviations within expected uncertainties?}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Fig 4.39 this plot can be smaller}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L947 oxymoron}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L975 \u8220\'93classifier\u8221\'94? Not been previously introduced.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L977 broken ref, remove newlines.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs24\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Section 4.8 as previously mentioned this section comes in the wrong place and should be much earlier. I think a general physics intro on the fact that}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+Signal tWZ and dominant background ttZ are very similar but differ in the number of resonant tops they contain.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+You can then introduce the l-b classifier and the 2vSM as two approaches try exploiting this same feature.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L984 again you are jumping in details like removing the Z boson without giving the proper context so that the reader can see why}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+that makes sense.}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\highlight4\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+L994 Strange way of describing how the algorithm works: it doesn\u8217\'92t \u8220\'93write down\u8221\'94 anything}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\fs28\loch\f7\hich\af7
+ }
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\fs28\loch\f7\hich\af7
+\u8232\'0a}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\fs28\loch\f7\hich\af7
+\u8232\'0a}
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\expnd0\expndtw0\b0\kerning0\rtlch \ltrch\loch\fs28\loch\f7\hich\af7
+
+\par \pard\plain \s0\nowidctlpar\hyphpar0\cf0\kerning1\dbch\af9\langfe2052\dbch\af10\afs24\alang1081\loch\f3\hich\af3\fs24\lang7177\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\rtlch \ltrch\loch
+
+\par }

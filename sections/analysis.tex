@@ -16,7 +16,7 @@ Simulated MC samples were generated and used to model the SM \tWZ signal and its
 
 The following background processes are considered:
 \begin{itemize}
-	\item $\mathbf{t \bar{t} Z}$: $t \bar{t} $  with an associated $Z$-boson, in the tetralepton final state. Therefore, both top-quarks decay leptonically (e.g. $t \rightarrow W^+ b \rightarrow \ell^+ \nu b$) and of these top-quarks emits a $Z$-boson which decays leptonically ($Z \rightarrow \ell^\pm \ell^\mp$ (OSSF lepton pair) ). This results in a final state with 4 leptons and 2 b-quarks.
+	\item $\mathbf{t \bar{t} Z}$: $t \bar{t} $  with an associated $Z$-boson, in the tetralepton final state. Therefore, both top quarks decay leptonically (e.g. $t \rightarrow W^+ b \rightarrow \ell^+ \nu b$) and of these top quarks emits a $Z$-boson which decays leptonically ($Z \rightarrow \ell^\pm \ell^\mp$ (OSSF lepton pair) ). This results in a final state with 4 leptons and 2 b-quarks.
 	\item $\mathbf{ZZ}$: Diboson production with a tetralepton final state, therefore both $Z$-bosons decay leptonically ($Z \rightarrow \ell^\pm \ell^\mp$ (OSSF lepton pair) ).
 	\item \textbf{other}: Processes with a relatively minimal, but non-negligible background contribution
 	\begin{itemize}
@@ -113,7 +113,7 @@ In this analysis only $e$ and $\mu$ leptons are considered, since $\tau$ leptons
 
 
 \subsection{Jets}
-Jets are reconstructed using the anti-$k_{t}$ algorithm (See Section \ref{sec:jets-btagging}). The \texttt{AntiKt4EMPFlowjets} ($\sim$ 97$\%$ average efficiency with JVT (outlined in the subsequent paragraph) $>$ 0.2~\cite{TopRecoObjTwikiModel}) algorithm (which has a certain cut applied) is used, following the current recommendations~\cite{TopRecoObjTwikiModel}. The jet-vertex-tagger (JVT) and the forward jet-vertex-tagger (fJVT) are likelihood discriminant which aim to suppress pile-up jets. The \texttt{Medium} algorithm (which has a certain cut applied) is used for the JVT and the fJVT (following the current recommendations~\cite{JVTandfJVT-Recommendations}). Additionally, a requirement that jets have a JVT value greater than $\SI{0.5}{}$ is applied. In the same way as with leptons, ambiguities are removed where one detector signal can result in multiple different reconstructed objects, via overlap removal (See Section \ref{sec:overlap-removal-procedure}). Jets are required to be within $p_{T}(\text{jet}) > \SI{20}{\GeV}$. Looser $p_T$ cuts are applied in an attempt to increase our limited signal statistics. A forward jet is a signature of single top production, jets are therefore required to have $|\eta| < 4.5$ in order to include these forward jets.
+Jets are reconstructed using the anti-$k_{t}$ algorithm (See Section \ref{sec:jets-btagging}). The \texttt{AntiKt4EMPFlowjets} ($\sim$ 97$\%$ average efficiency with JVT (outlined in the subsequent paragraph) $>$ 0.2~\cite{TopRecoObjTwikiModel}) algorithm (which has a certain cut applied) is used, following the current recommendations~\cite{TopRecoObjTwikiModel}. The jet-vertex-tagger (JVT) and the forward jet-vertex-tagger (fJVT) are likelihood discriminant which aim to suppress pile-up jets. The \texttt{Medium} algorithm (which has a certain cut applied) is used for the JVT and the fJVT (following the current recommendations~\cite{JVTandfJVT-Recommendations}). Additionally, a requirement that jets have a JVT value greater than $\SI{0.5}{}$ is applied. In the same way as with leptons, ambiguities are removed where one detector signal can result in multiple different reconstructed objects, via overlap removal (See Section \ref{sec:overlap-removal-procedure}). Jets are required to be within $p_{T}(\text{jet}) > \SI{20}{\GeV}$. Looser $p_T$ cuts are applied in an attempt to increase our limited signal statistics. A forward jet is a signature of single top quark production, jets are therefore required to have $|\eta| < 4.5$ in order to include these forward jets.
 
 
 \subsection{$b$-tagging}
@@ -145,7 +145,7 @@ In order to suppress potential fakes and quarkonia (low mass resonances such as 
 
 Two \tWZ SRs are defined in an attempt to suppress and constrain the \ZZ background. Both \tWZ SRs are required to have exactly four tight leptons, exactly one $Z$-boson candidate, exactly one tight $b$-tagged jet (from the decay of the top quark) and greater than or equal to one jet. The two \tWZ SR's differ by the flavours of their leptons which don't originate from the decay of a $Z$-boson (non-$Z$ leptons). The \ZZ background has two $Z$-bosons which decay into a pair of OSSF lepton pairs, in order to mimic the \tWZ signal. This is taken advantage of, to define a \tWZ region enrich in \ZZ background and one with a minimal \ZZ background component. This is done by requiring that one of the \tWZ SRs has its two non-$Z$ leptons to have opposite flavour and the other \tWZ SR is required to have its non-$Z$ leptons to have the same flavour. These two disjoint \tWZ SRs are named \tWZ OF SR and \tWZ SF SR respectively. It is  therefore expected that the \tWZ SF SR contains the majority of the \ZZ background events across both \tWZ SRs. \\
 
-In order to check the modelling of the most dominant background components in our signal region, \ttZ and $ZZb$ control regions are defined. The \ttZ control region has the same requirement on the number of reconstructed $Z$ boson candidates in the signal region (due to a commonality on the number of $Z$ bosons present in both processes), however it is required that there are at least two jets and that exactly two of these jets are $b$-tagged (corresponding to the $b$-quark jets originating from the two top-quark decays). A $ZZb$ region is defined, as opposed to a \ZZ region, since the \ZZ background present in the $tWZ$ signal region contains exactly one b-tagged jet. Therefore defining a region with \ZZ plus exactly one $b$-jet more closely resembles the $ZZ$ background present in the signal region. In addition to this, mis-modelling of \ZZ has been seen in other analyses~\cite{Aaboud:2019, ppToZZ:CMSpaper}, further motivating the use of a $ZZb$ control region over a \ZZ CR. The $ZZb$ CR requires exactly two $Z$ boson candidates and exactly one b-tagged jet, resulting in an implicit requirement on the number of jets ($N_{jet} \geq 1$).\\
+In order to check the modelling of the most dominant background components in our signal region, \ttZ and $ZZb$ control regions are defined. The \ttZ control region has the same requirement on the number of reconstructed $Z$ boson candidates in the signal region (due to a commonality on the number of $Z$ bosons present in both processes), however it is required that there are at least two jets and that exactly two of these jets are $b$-tagged (corresponding to the $b$-quark jets originating from the two top quark decays). A $ZZb$ region is defined, as opposed to a \ZZ region, since the \ZZ background present in the $tWZ$ signal region contains exactly one b-tagged jet. Therefore defining a region with \ZZ plus exactly one $b$-jet more closely resembles the $ZZ$ background present in the signal region. In addition to this, mis-modelling of \ZZ has been seen in other analyses~\cite{Aaboud:2019, ppToZZ:CMSpaper}, further motivating the use of a $ZZb$ control region over a \ZZ CR. The $ZZb$ CR requires exactly two $Z$ boson candidates and exactly one b-tagged jet, resulting in an implicit requirement on the number of jets ($N_{jet} \geq 1$).\\
 
 Fake leptons are objects reconstructed as leptons, but do not correspond to the leptons that are of interest in our analysis. Fake leptons can be split up into two main categories, irreducible (prompt) fakes and reducible (non-prompt) fakes. Irreducible fakes are true leptons which do not come from the process of interest. Reducible fakes are objects which are mis-identified or incorrectly reconstructed as leptons. In the ATLAS detector, the probability for a fake to occur is very low. In order to constrain the fake lepton component contained within the \ttZ sample, a $(\tWZ)_{\text{fake}}$ CR is defined which is as similar as possible to the \tWZ CR but is enhanced in fakes. This is achieved by defining the $(\tWZ)_{\text{fake}}$ CR to inherit the same selection criteria as the \tWZ SRs however, in this case, a requirement of exactly 3 tight leptons and exactly 1 loose (and NOT tight) lepton (since looser leptons are more likely to be fakes, compared to tighter leptons) is applied. A $(t\bar{t}Z)_{\text{fake}}$ CR (requiring exactly 3 tight leptons and exactly 1 loose (and NOT tight) lepton) was tried as an alternative to the $(\tWZ)_{\text{fake}}$ CR, however a much larger suppression of fakes were observed in this region (compared to the $(\tWZ)_{\text{fake}}$ CR). This suppression of fakes can be explained by the extra $b$-tagged jet requirement (exactly two $b$-tagged jets are required in the \ttZ region, compared to exactly one in the \tWZ SRs (See Table \ref{tab:4Lep-cutsummary})) which causes suppression of fakes via the overlap removal procedure (See Section \ref{sec:overlap-removal-procedure}).\\
 
@@ -274,13 +274,11 @@ The finite number of events expected to be observed in data (MC simulation) carr
 \begin{equation}
 N_{equiv} = \frac{ (\sum_{i}^{N} w_{i})^2  }{\sum_{i}^{N} w_i^2 }
 \end{equation}
-where $w_i$ is the MC event weight for event $i$. The standard uncertainty of $N_{equiv}$ is given by $u(N_{equiv}) = \sqrt{N_{equiv}}$.\\
-
-In Table \ref{tab:N-equiv}, the number of equivalent events, $N_{equiv}$ and its percentage uncertainty ($\frac{u(N_{equiv})}{N_{equiv}}\times 100$), is shown for each sample in each region. 
+where $w_i$ is the MC event weight for event $i$. The standard uncertainty of $N_{equiv}$ is given by $u(N_{equiv}) = \sqrt{N_{equiv}}$. The Number of Equivalent Events for each sample in each region can be studied in order to ensure that the number of events simulated for a given process is large in comparison to the number of events expected for that process in data, thereby ensuring that uncertainties from MC statistics will be small (or sub-leading). In Table \ref{tab:N-equiv}, the number of equivalent events, $N_{equiv}$ and its percentage uncertainty ($\frac{u(N_{equiv})}{N_{equiv}}\times 100$), is shown for each sample in each region. 
 \begin{table}[h!]
 \huge
  \resizebox{1\textwidth}{!}{%
-\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l}
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
 \hline
          & \multicolumn{2}{l|}{$tWZ$ OF SR}                   & \multicolumn{2}{l|}{$tWZ$ SF SR}                   & \multicolumn{2}{l|}{$t\bar{t}Z$ CR}               & \multicolumn{2}{l|}{$ZZb$ CR}                & \multicolumn{2}{l}{$(tWZ)_{\text{fake}}$ CR}             \\ \hline
          & $N_{equiv}$         & Uncertainty {[}$\%${]} & $N_{equiv}$         & Uncertainty {[}$\%${]} & $N_{equiv}$         & Uncertainty {[}$\%${]} & $N_{equiv}$          & Uncertainty {[}$\%${]} & $N_{equiv}$           & Uncertainty {[}$\%${]} \\ \hline
@@ -299,9 +297,7 @@ Total    & 8632.77 $\pm$ 92.91 & 1.08                   & 6163.44 $\pm$ 78.51 & 
 
 %The number of simulated events for a given process is large in comparison to the number of events expected for that process in data, thereby ensuring that uncertainties from MC statistics will be small (or sub-leading).
 
-$N_{equiv}$ is relatively large, compared to the background processes, for the $tWZ$ signal in all regions. This tells us that we have a large number of raw MC events for the $tWZ$ sample. An extended $tWZ$ sample was generated to increase the number of signal events used to train the event-level BDT (See Section \ref{sec:event-level-bdt}).
-
-
+$N_{equiv}$ is much larger compared to the number of expected events (See Table \ref{tab:4Lep-PreFit-Yields}) for the signal and background processes in all regions. This tells us that there is a large number of simulated events for these samples. Therefore ensuring that uncertainties resulting from MC statistics will be small (or sub-leading).
 
 \subsection{$tWZ$ OF SR}
 \label{sec:controlplotstetralepton-tWZ-OF-SR}
@@ -314,48 +310,29 @@ $N_{equiv}$ is relatively large, compared to the background processes, for the $
 
 In this section, expected number of events of variables in the $tWZ$ OF SR are shown.\\
 
-In Figure \ref{fig:4lep-OF-SR-leptonPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and next-to-leading (NL) leptons in the $tWZ$ OF SR region is shown.
+In Figure \ref{fig:4lep-OF-SR-leptonPlots}, comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and leading (NL) jets in the $tWZ$ OF SR are shown.
 
 \begin{figure}[htbp]
+\centering
   \begin{tabular}{ccc}
 
     %%%%%%%%%%%%%%%
     %%% Leptons %%%
     %%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_NL_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_NL_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_NL_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png} \\
 
   \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and next-to-leading (NL) leptons (bottom row) in the $tWZ$ OF SR region  is shown.}
-  \label{fig:4lep-OF-SR-leptonPlots}
+    \caption{Comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and leading (NL) jets (bottom row) in the $tWZ$ OF SR are shown.}\label{fig:4lep-OF-SR-leptonPlots}
 \end{figure}
+All bins for each plot in Figure \ref{fig:4lep-OF-SR-leptonPlots} have $\frac{signal}{background}$ exceeding 0.1 and are therefore blinded. This region is therefore enriched in $tWZ$ signal events.\\
 
-In Figure \ref{fig:4lep-OF-SR-LandNjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets and next-to-leading (NL) jets in the $tWZ$ OF SR region is shown.
-
-\begin{figure}[htbp]
-  \begin{tabular}{ccc}
-    %%%%%%%%%%%%%%%%%
-    %%%%% jets %%%%%
-    %%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_NLJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_NLJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_NLJet_phi.png} \\
-
-  \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets (top row) and next-to-leading (NL) jets (bottom row) in the $tWZ$ OF SR region  is shown.}
-    \label{fig:4lep-OF-SR-LandNjetPlots} 
-\end{figure}
-
-In Figure \ref{fig:4lep-OF-SR-NNLjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the next-to-next-to-leading (NNL) jets, $H_{T}$ (scalar sum of Jet $p_{T}$) and the Number of jets in the $tWZ$ OF SR region is shown.
+In Figure \ref{fig:4lep-OF-SR-jets-bjet}, comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets in the $tWZ$ OF SR are shown.
 
 
 \begin{figure}[htbp]
@@ -365,40 +342,15 @@ In Figure \ref{fig:4lep-OF-SR-NNLjetPlots} MC predictions for $p_{T}$, $\eta$ an
     %%%%% jets %%%%%
     %%%%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_NNLJet_pt.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_NNLJet_eta.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_NNLJet_phi.png}
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png}   \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png}
+	
+	\includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png}  \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png}
 
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for next-to-next-to-leading (NNL) jets in the $tWZ$ OF SR region  is shown. \textbf{Bottom row:} MC predictions for $H_{T}$ (scalar sum of Jet $p_{T}$) (left) and the Number of jets (right) in the $tWZ$ OF SR region  is shown.}
-    \label{fig:4lep-OF-SR-NNLjetPlots} 
+\caption{Comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets (top left to bottom right) in the $tWZ$ OF SR are shown.}\label{fig:4lep-OF-SR-jets-bjet} 
 \end{figure}
-
-
-
-In Figure \ref{fig:4lep-OF-SR-bjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the leading b-tagged jets, the scalar sum of b-tagged jet $p_{T}$ and the Number of b-tagged jets in the $tWZ$ OF SR region is shown.
-\begin{figure}[htbp]
-\centering
-    %%%%%%%%%%%%%%%%%%
-    %%%%% b jets %%%%%
-    %%%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_0_bJet_pt.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_0_bJet_eta.png}    \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_0_bJet_phi.png}
-
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png}  \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading b-tagged jets in the $tWZ$ OF SR region  is shown. \textbf{Bottom row:} MC predictions for the scalar sum of b-tagged jet $p_{T}$ (left) and the Number of b-tagged jets (right) in the $tWZ$ OF SR region  is shown.}
-  \label{fig:4lep-OF-SR-bjetPlots}
-\end{figure}
+All bins for each plot in Figure \ref{fig:4lep-OF-SR-jets-bjet} have $\frac{signal}{background}$ exceeding 0.1 and are therefore blinded. This region is therefore enriched in $tWZ$ signal events.
 
 
 \subsection{$tWZ$ SF SR}
@@ -412,48 +364,30 @@ In Figure \ref{fig:4lep-OF-SR-bjetPlots} MC predictions for $p_{T}$, $\eta$ and 
 
 In this section, expected number of events of variables in the $tWZ$ SF SR are shown.\\
 
-In Figure \ref{fig:4lep-SF-SR-leptonPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and next-to-leading (NL) leptons in the $tWZ$ SF SR region is shown.
+In Figure \ref{fig:4lep-SF-SR-leptonPlots}, comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and leading (NL) jets in the $tWZ$ SF SR are shown.
 
 \begin{figure}[htbp]
+\centering
   \begin{tabular}{ccc}
 
     %%%%%%%%%%%%%%%
     %%% Leptons %%%
     %%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_NL_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_NL_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_NL_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png} \\
 
   \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and next-to-leading (NL) leptons (bottom row) in the $tWZ$ SF SR region  is shown.}
+    \caption{Comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and leading (NL) jets (bottom row) in the $tWZ$ SF SR are shown.}
   \label{fig:4lep-SF-SR-leptonPlots}
 \end{figure}
+All bins for each plot in Figure \ref{fig:4lep-SF-SR-leptonPlots} have $\frac{signal}{background}$ exceeding 0.1 and are therefore blinded. This region is therefore enriched in $tWZ$ signal events.\\
 
-In Figure \ref{fig:4lep-SF-SR-LandNjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets and next-to-leading (NL) jets in the $tWZ$ SF SR region is shown.
-
-\begin{figure}[htbp]
-  \begin{tabular}{ccc}
-    %%%%%%%%%%%%%%%%%
-    %%%%% jets %%%%%
-    %%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_NLJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_NLJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_NLJet_phi.png} \\
-
-  \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets (top row) and next-to-leading (NL) jets (bottom row) in the $tWZ$ SF SR region  is shown.}
-    \label{fig:4lep-SF-SR-LandNjetPlots} 
-\end{figure}
-
-In Figure \ref{fig:4lep-SF-SR-NNLjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the next-to-next-to-leading (NNL) jets, $H_{T}$ (scalar sum of Jet $p_{T}$) and the Number of jets in the $tWZ$ SF SR region is shown.
+In Figure \ref{fig:4lep-SF-SR-jets-bjet}, comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets in the $tWZ$ SF SR are shown.
 
 
 \begin{figure}[htbp]
@@ -463,40 +397,17 @@ In Figure \ref{fig:4lep-SF-SR-NNLjetPlots} MC predictions for $p_{T}$, $\eta$ an
     %%%%% jets %%%%%
     %%%%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_NNLJet_pt.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_NNLJet_eta.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_NNLJet_phi.png}
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png}   \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png}
+	
+	\includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png}  \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png}
 
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for next-to-next-to-leading (NNL) jets in the $tWZ$ SF SR region  is shown. \textbf{Bottom row:} MC predictions for $H_{T}$ (scalar sum of Jet $p_{T}$) (left) and the Number of jets (right) in the $tWZ$ SF SR region  is shown.}
-    \label{fig:4lep-SF-SR-NNLjetPlots} 
+\caption{Comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets (top left to bottom right) in the $tWZ$ SF SR are shown.}\label{fig:4lep-SF-SR-jets-bjet} 
 \end{figure}
 
+The vast majority of bins for each plot in Figure \ref{fig:4lep-SF-SR-jets-bjet} have $\frac{signal}{background}$ exceeding 0.1 and are therefore blinded. This region is therefore enriched in $tWZ$ signal events. The deviations in data and simulation in the two bins (in the $HT$ and $\sigma b$ jet $p_{T}$ distributions) which are not blinded, are within the expected uncertainties.
 
-
-In Figure \ref{fig:4lep-SF-SR-bjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the leading b-tagged jets, the scalar sum of b-tagged jet $p_{T}$ and the Number of b-tagged jets in the $tWZ$ SF SR region is shown.
-\begin{figure}[htbp]
-\centering
-    %%%%%%%%%%%%%%%%%%
-    %%%%% b jets %%%%%
-    %%%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_0_bJet_pt.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_0_bJet_eta.png}    \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_0_bJet_phi.png}
-
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png}  \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading b-tagged jets in the $tWZ$ SF SR region  is shown. \textbf{Bottom row:} MC predictions for the scalar sum of b-tagged jet $p_{T}$ (left) and the Number of b-tagged jets (right) in the $tWZ$ SF SR region  is shown.}
-  \label{fig:4lep-SF-SR-bjetPlots}
-\end{figure}
 
 \subsection{$t\bar{t}Z$ CR}
 \label{sec:controlplotstetralepton-ttZ-CR}
@@ -509,93 +420,48 @@ In Figure \ref{fig:4lep-SF-SR-bjetPlots} MC predictions for $p_{T}$, $\eta$ and 
 
 In this section, expected number of events of variables in the $t\bar{t}Z$ CR are shown.\\
 
-In Figure \ref{fig:4lep-ttZ-CR-leptonPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and next-to-leading (NL) leptons in the $t\bar{t}Z$ CR region is shown.
+In Figure \ref{fig:4lep-ttZ-CR-leptonPlots}, comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and leading (NL) jets in the $t\bar{t}Z$ CR are shown.
 
 \begin{figure}[htbp]
+\centering
   \begin{tabular}{ccc}
 
     %%%%%%%%%%%%%%%
     %%% Leptons %%%
     %%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_NL_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_NL_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_NL_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png} \\
 
   \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and next-to-leading (NL) leptons (bottom row) in the $t\bar{t}Z$ CR region  is shown.}
-  \label{fig:4lep-ttZ-CR-leptonPlots}
+    \caption{Comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and leading (NL) jets (bottom row) in the $t\bar{t}Z$ CR are shown.}\label{fig:4lep-ttZ-CR-leptonPlots}
 \end{figure}
+The majority of the deviations in data and simulation for each plot in Figure \ref{fig:4lep-ttZ-CR-leptonPlots} are within the expected uncertainties. The few plots which have bins where there is a disagreement between data and simulation are either within 2$\sigma$ (L Jet $\phi$) or 3$\sigma$ (L Jet $\eta$) standard uncertainties from one another, or are show more than a 3$\sigma$ (L Lepton $p_{T}$) disagreement. The disagreement in the L Lepton $p_{T}$ distribution could be due to statistical fluctuations in data or simulation, since there are so few events in these bins.\\
 
-In Figure \ref{fig:4lep-ttZ-CR-LandNjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets and next-to-leading (NL) jets in the $t\bar{t}Z$ CR region is shown.
-
-\begin{figure}[htbp]
-  \begin{tabular}{ccc}
-    %%%%%%%%%%%%%%%%%
-    %%%%% jets %%%%%
-    %%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_NLJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_NLJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_NLJet_phi.png} \\
-
-  \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets (top row) and next-to-leading (NL) jets (bottom row) in the $t\bar{t}Z$ CR region  is shown.}
-    \label{fig:4lep-ttZ-CR-LandNjetPlots} 
-\end{figure}
-
-In Figure \ref{fig:4lep-ttZ-CR-NNLjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the next-to-next-to-leading (NNL) jets, $H_{T}$ (scalar sum of Jet $p_{T}$) and the Number of jets in the $t\bar{t}Z$ CR region is shown.
+In Figure \ref{fig:4lep-ttZ-CR-jets-bjet}, comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets in the $t\bar{t}Z$ CR are shown.
 
 
-\begin{figure}[htbp]
- \centering
-
-    %%%%%%%%%%%%%%%%%
-    %%%%% jets %%%%%
-    %%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_NNLJet_pt.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_NNLJet_eta.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_NNLJet_phi.png}
-
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_HT.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for next-to-next-to-leading (NNL) jets in the $t\bar{t}Z$ CR region  is shown. \textbf{Bottom row:} MC predictions for $H_{T}$ (scalar sum of Jet $p_{T}$) (left) and the Number of jets (right) in the $t\bar{t}Z$ CR region  is shown.}
-    \label{fig:4lep-ttZ-CR-NNLjetPlots} 
-\end{figure}
-
-
-
-In Figure \ref{fig:4lep-ttZ-CR-bjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the leading b-tagged jets, the scalar sum of b-tagged jet $p_{T}$ and the Number of b-tagged jets in the $t\bar{t}Z$ CR region is shown.
 \begin{figure}[htbp]
 \centering
-    %%%%%%%%%%%%%%%%%%
-    %%%%% b jets %%%%%
-    %%%%%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_0_bJet_pt.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_0_bJet_eta.png}    \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_0_bJet_phi.png}
+    %%%%%%%%%%%%%%%%%
+    %%%%% jets %%%%%
+    %%%%%%%%%%%%%%%%%
 
-    \medskip
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_HT.png}   \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png}
+	
+	\includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png}  \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png}
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png}  \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading b-tagged jets in the $t\bar{t}Z$ CR region  is shown. \textbf{Bottom row:} MC predictions for the scalar sum of b-tagged jet $p_{T}$ (left) and the Number of b-tagged jets (right) in the $t\bar{t}Z$ CR region  is shown.}
-  \label{fig:4lep-ttZ-CR-bjetPlots}
+\caption{Comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets (top left to bottom right) in the $t\bar{t}Z$ CR are shown.}\label{fig:4lep-ttZ-CR-jets-bjet} 
 \end{figure}
 
-
+Almost all of the deviations in data and simulation for each plot in Figure \ref{fig:4lep-ttZ-CR-jets-bjet} are within the expected uncertainties. There is a 2$\sigma$ disagreement in one of the bins in the nJets distribution and a large disagreement ($> 5\sigma$) in one of the bins in the $HT$ distribution. The large disagreement between data and simulation in the $HT$ distribution is surprising since all other bins in the distribution agree within 1$\sigma$ uncertainties, and it is therefore not fully understood.   
 
 
 \subsection{$ZZb$ CR}
@@ -609,48 +475,30 @@ In Figure \ref{fig:4lep-ttZ-CR-bjetPlots} MC predictions for $p_{T}$, $\eta$ and
 
 In this section, expected number of events of variables in the $ZZb$ CR are shown.\\
 
-In Figure \ref{fig:4lep-ZZb-CR-leptonPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and next-to-leading (NL) leptons in the $ZZb$ CR region is shown.
+In Figure \ref{fig:4lep-ZZb-CR-leptonPlots}, comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and leading (NL) jets in the $ZZb$ CR are shown.
 
 \begin{figure}[htbp]
+\centering
   \begin{tabular}{ccc}
 
     %%%%%%%%%%%%%%%
     %%% Leptons %%%
     %%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_NL_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_NL_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_NL_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png} \\
 
   \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and next-to-leading (NL) leptons (bottom row) in the $ZZb$ CR region  is shown.}
+    \caption{Comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and leading (NL) jets (bottom row) in the $ZZb$ CR are shown.}
   \label{fig:4lep-ZZb-CR-leptonPlots}
 \end{figure}
+Most of the deviations in data and simulation for each plot in Figure \ref{fig:4lep-ZZb-CR-leptonPlots} are within the expected uncertainties. There are a few bins with 2$\sigma$ and $> 2\sigma$ disagreements between data and simulation in the L Lepton $p_{T}$, L Lepton $\eta$ and L Jet $p_{T}$ distributions, with the disagreement being much more noticeable in the L Lepton distributions. This could suggest some mis-modelling for L Leptons in this region.\\
 
-In Figure \ref{fig:4lep-ZZb-CR-LandNjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets and next-to-leading (NL) jets in the $ZZb$ CR region is shown.
-
-\begin{figure}[htbp]
-  \begin{tabular}{ccc}
-    %%%%%%%%%%%%%%%%%
-    %%%%% jets %%%%%
-    %%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_NLJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_NLJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_NLJet_phi.png} \\
-
-  \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets (top row) and next-to-leading (NL) jets (bottom row) in the $ZZb$ CR region  is shown.}
-    \label{fig:4lep-ZZb-CR-LandNjetPlots} 
-\end{figure}
-
-In Figure \ref{fig:4lep-ZZb-CR-NNLjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the next-to-next-to-leading (NNL) jets, $H_{T}$ (scalar sum of Jet $p_{T}$) and the Number of jets in the $ZZb$ CR region is shown.
+In Figure \ref{fig:4lep-ZZb-CR-jets-bjet}, comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets in the $ZZb$ CR are shown.
 
 
 \begin{figure}[htbp]
@@ -660,41 +508,17 @@ In Figure \ref{fig:4lep-ZZb-CR-NNLjetPlots} MC predictions for $p_{T}$, $\eta$ a
     %%%%% jets %%%%%
     %%%%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_NNLJet_pt.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_NNLJet_eta.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_NNLJet_phi.png}
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_HT.png}   \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png}
+	
+	\includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png}  \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png}
 
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_HT.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for next-to-next-to-leading (NNL) jets in the $ZZb$ CR region  is shown. \textbf{Bottom row:} MC predictions for $H_{T}$ (scalar sum of Jet $p_{T}$) (left) and the Number of jets (right) in the $ZZb$ CR region  is shown.}
-    \label{fig:4lep-ZZb-CR-NNLjetPlots} 
+\caption{Comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets (top left to bottom right) in the $ZZb$ CR are shown.}
+\label{fig:4lep-ZZb-CR-jets-bjet} 
 \end{figure}
 
-
-
-In Figure \ref{fig:4lep-ZZb-CR-bjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the leading b-tagged jets, the scalar sum of b-tagged jet $p_{T}$ and the Number of b-tagged jets in the $ZZb$ CR region is shown.
-\begin{figure}[htbp]
-\centering
-    %%%%%%%%%%%%%%%%%%
-    %%%%% b jets %%%%%
-    %%%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_bJet_pt.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_0_bJet_eta.png}    \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_0_bJet_phi.png}
-
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png}  \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading b-tagged jets in the $ZZb$ CR region  is shown. \textbf{Bottom row:} MC predictions for the scalar sum of b-tagged jet $p_{T}$ (left) and the Number of b-tagged jets (right) in the $ZZb$ CR region  is shown.}
-  \label{fig:4lep-ZZb-CR-bjetPlots}
-\end{figure}
-
+Most of the deviations in data and simulation for each plot in Figure \ref{fig:4lep-ZZb-CR-leptonPlots} are within the expected uncertainties.
 
 
 \subsection{$(tWZ)_{\text{fake}}$ CR}
@@ -702,54 +526,36 @@ In Figure \ref{fig:4lep-ZZb-CR-bjetPlots} MC predictions for $p_{T}$, $\eta$ and
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%      ZZb CR   %%%%%%%%%%
+%%%%%%%      tWZ fake CR   %%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In this section, expected number of events of variables in the $(tWZ)_{\text{fake}}$ CR are shown.\\
+In this section, expected number of events of variables in the \tWZfake CR are shown.\\
 
-In Figure \ref{fig:4lep-tWZ-fake-CR-leptonPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and next-to-leading (NL) leptons in the $(tWZ)_{\text{fake}}$ CR region is shown.
+In Figure \ref{fig:4lep-tWZ-fake-CR-leptonPlots}, comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons and leading (NL) jets in the \tWZfake CR are shown.
 
 \begin{figure}[htbp]
+\centering
   \begin{tabular}{ccc}
 
     %%%%%%%%%%%%%%%
     %%% Leptons %%%
     %%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_NL_lepton_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_NL_lepton_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_NL_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png} \\
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png} &
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png} \\
 
-  \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and next-to-leading (NL) leptons (bottom row) in the $(tWZ)_{\text{fake}}$ CR region  is shown.}
-  \label{fig:4lep-tWZ-fake-CR-leptonPlots}
+\end{tabular}
+\caption{Comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and leading (NL) jets (bottom row) in the \tWZfake CR are shown.}
+\label{fig:4lep-tWZ-fake-CR-leptonPlots}
 \end{figure}
+The vast majority of bins for each plot in Figure \ref{fig:4lep-tWZ-fake-CR-leptonPlots} have $\frac{signal}{background}$ exceeding 0.1 and are therefore blinded. This region is therefore enriched in $tWZ$ signal events. Most deviations in data and simulation in the bins which are not blinded, are within the expected uncertainties. Only two out of seven unblinded bins are not within expected uncertainties and are within a 2$\sigma$ uncertainty.\\
 
-In Figure \ref{fig:4lep-tWZ-fake-CR-LandNjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets and next-to-leading (NL) jets in the $(tWZ)_{\text{fake}}$ CR region is shown.
-
-\begin{figure}[htbp]
-  \begin{tabular}{ccc}
-    %%%%%%%%%%%%%%%%%
-    %%%%% jets %%%%%
-    %%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png} \\
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_NLJet_pt.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_NLJet_eta.png} &
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_NLJet_phi.png} \\
-
-  \end{tabular}
-    \caption{MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading (L) jets (top row) and next-to-leading (NL) jets (bottom row) in the $(tWZ)_{\text{fake}}$ CR region  is shown.}
-    \label{fig:4lep-tWZ-fake-CR-LandNjetPlots} 
-\end{figure}
-
-In Figure \ref{fig:4lep-tWZ-fake-CR-NNLjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the next-to-next-to-leading (NNL) jets, $H_{T}$ (scalar sum of Jet $p_{T}$) and the Number of jets in the $(tWZ)_{\text{fake}}$ CR region is shown.
+In Figure \ref{fig:4lep-tWZ-fake-CR-jets-bjet}, comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets in the \tWZfake CR are shown.
 
 
 \begin{figure}[htbp]
@@ -759,43 +565,16 @@ In Figure \ref{fig:4lep-tWZ-fake-CR-NNLjetPlots} MC predictions for $p_{T}$, $\e
     %%%%% jets %%%%%
     %%%%%%%%%%%%%%%%%
 
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_NNLJet_pt.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_NNLJet_eta.png} \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_NNLJet_phi.png}
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_HT.png}   \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png}
+	
+	\includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png}  \quad
+    \includegraphics[width=.25\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png}
 
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_HT.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for next-to-next-to-leading (NNL) jets in the $(tWZ)_{\text{fake}}$ CR region  is shown. \textbf{Bottom row:} MC predictions for $H_{T}$ (scalar sum of Jet $p_{T}$) (left) and the Number of jets (right) in the $(tWZ)_{\text{fake}}$ CR region  is shown.}
-    \label{fig:4lep-tWZ-fake-CR-NNLjetPlots} 
+\caption{Comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets (top left to bottom right) in the \tWZfake CR are shown.}
+\label{fig:4lep-tWZ-fake-CR-jets-bjet} 
 \end{figure}
-
-
-
-In Figure \ref{fig:4lep-tWZ-fake-CR-bjetPlots} MC predictions for $p_{T}$, $\eta$ and $\phi$ of the leading b-tagged jets, the scalar sum of b-tagged jet $p_{T}$ and the Number of b-tagged jets in the $(tWZ)_{\text{fake}}$ CR region is shown.
-\begin{figure}[htbp]
-\centering
-    %%%%%%%%%%%%%%%%%%
-    %%%%% b jets %%%%%
-    %%%%%%%%%%%%%%%%%%
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_0_bJet_pt.png}   \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_0_bJet_eta.png}    \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_0_bJet_phi.png}
-
-    \medskip
-
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png}  \quad
-    \includegraphics[width=.3\textwidth]{figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png}
-
-    \caption{\textbf{Top row:} MC predictions for $p_{T}$, $\eta$ and $\phi$ for leading b-tagged jets in the $(tWZ)_{\text{fake}}$ CR region  is shown. \textbf{Bottom row:} MC predictions for the scalar sum of b-tagged jet $p_{T}$ (left) and the Number of b-tagged jets (right) in the $(tWZ)_{\text{fake}}$ CR region  is shown.}
-  \label{fig:4lep-tWZ-fake-CR-bjetPlots}
-\end{figure}
-
-
-Despite the limited statistics present in the tetralepton channel, overall relatively good agreement is observed between data and simulation.
+The majority of bins for each plot in Figure \ref{fig:4lep-tWZ-fake-CR-jets-bjet} have $\frac{signal}{background}$ exceeding 0.1 and are therefore blinded. This region is therefore enriched in $tWZ$ signal events. Most deviations in data and simulation in the bins which are not blinded, are within the expected uncertainties. Only two out of seven unblinded bins are not within expected uncertainties and are within a 2$\sigma$ uncertainty.
 
 \section{Fake Lepton Estimation}
 \label{sec:fakelepest}
@@ -843,37 +622,43 @@ Around 20$\%$ of all $t\bar{t}Z$ events are classified as fake events (having on
 
 
 \section{Machine Learning Techniques}
-The presence of different numbers of top quarks is a key discriminator between signal and the dominant background process, $t\bar{t}Z$. This information is aimed to be exploited by reconstructing $\ell b$ systems as a proxy for top quarks (since, $t\rightarrow W(\rightarrow \ell \nu) b$). This is done in two ways, firstly by implementing a Boosted Decision Tree (BDT) which is used to classify $\ell b$ systems originating from top quarks, and secondly, by implementation of a kinematic reconstruction algorithm (Two Neutrino Scanning Method) which aims to determine the likelihood of an event containing two top quarks. In this thesis, this BDT is referred to as an \textit{object-level} classifier. 
+The presence of different numbers of top quarks is a key discriminator between signal and the dominant background process, $t\bar{t}Z$. This information is aimed to be exploited by reconstructing $\ell b$ systems as a proxy for top quarks (since, $t\rightarrow W(\rightarrow \ell \nu) b$). This is done in two ways, firstly by implementing a Boosted Decision Tree (BDT) which is used to classify $\ell b$ systems originating from top quarks, and secondly, by implementation of a kinematic reconstruction algorithm (Two Neutrino Scanning Method) which aims to determine the likelihood of an event containing two top quarks. In this thesis, this BDT is referred to as an \textit{object-level} BDT. 
 
-Certain variables constructed from event information show discrimination between signal and background events. This information can be exploited to discriminate between signal and background events by constructing an algorithm which takes advantage of these discriminating variables. A BDT is implemented and is used to discriminate between \tWZ events and its major backgrounds, \ttZ and \ZZ. In this thesis, this BDT is referred to as an \textit{event-level} classifier. The discriminator output from the object-level BDT can be converted to a variable which can then be used as an input to the event-level BDT.\\
+Certain variables constructed from event information show discrimination between signal and background events. This information can be exploited to discriminate between signal and background events by constructing an algorithm which takes advantage of these discriminating variables. A BDT is implemented and is used to discriminate between \tWZ events and its major backgrounds, \ttZ and \ZZ. In this thesis, this BDT is referred to as an \textit{event-level} BDT. The discriminator output from the object-level BDT can be converted to a variable which can then be used as an input to the event-level BDT.\\
 
-BDTs are chosen, as opposed to another ML algorithm, since they are not very sensitive to overtraining and perform well with minimal/no optimisation or tweaking of the hyper parameters. A multi-layered sequential neutral network was tried, however, it was out-performed by a BDT. More specifically, Scikit-Learn's \texttt{GradientBoostingClassifier}~\cite{scikit-bdt} was used.
+BDTs are chosen, as opposed to another ML algorithm, since they are not very sensitive to overtraining and perform well with minimal/no optimisation or tweaking of the hyper-parameters. A multi-layered sequential neutral network was tried, however, it was out-performed by a BDT. More specifically, Scikit-Learn's \texttt{GradientBoostingClassifier}~\cite{scikit-bdt} was used.
+
+\subsection{Boosted Decision Trees}
+
+Machine learning tools are used to build multivariate classifiers 
+
+
 \subsection{Object-level BDT}
 \label{sec:object-level-bdt}
-The object-level BDT was trained on a $t\bar{t}$ sample (simulated using the same generator, parton shower and to the same order of QCD as the $t\bar{t}$ sample described in Section \ref{sec:mcsamples}) with a baseline selection of exactly 1 tight lepton with $p_{T} > 28$ GeV. Additionally, jets in this sample are required to have $p_{T} > 20$ GeV. Jets are identified as $b$-tagged jets by the $77\%$ DL1r working point. These baseline selections were chosen to mimic those used in the event selection of the analysis (outlined in Table \ref{tab:4Lep-cutsummary}). The leptons and $b$-jets used in training the object-level BDT are required to pass the aforementioned baseline selections. This $t\bar{t}$ sample was utilised in training the BDT to avoid using a subset of events from the MC samples used in the rest of the analysis, therefore maximizing the amount of generated events available to use in other parts of the analysis.\\
+The object-level BDT was trained on an alternative $t\bar{t}$ sample (simulated using the same generator, parton shower and to the same order of QCD as the $t\bar{t}$ sample described in Section \ref{sec:mcsamples}) with a baseline selection of exactly 1 tight lepton with $p_{T} > 28$ GeV. Additionally, jets in this sample are required to have $p_{T} > 20$ GeV. Jets are identified as $b$-tagged jets by the $77\%$ DL1r working point. These baseline selections were chosen to mimic those used in the event selection of the analysis (outlined in Table \ref{tab:4Lep-cutsummary}). The leptons and $b$-jets used in training the object-level BDT are required to pass the aforementioned baseline selections. This alternative $t\bar{t}$ sample was utilised in training the BDT to avoid using a subset of events from the MC samples used in the rest of the analysis, therefore maximizing the amount of generated events available to use in other parts of the analysis.\\
 
-The signal class is defined to consist of reconstructed $\ell b$ systems (defined as the sum of the 4-vectors of a lepton and a $b$-tagged jet) originating from top quarks which are well matched to their truth counterparts. All possible combinations of $\ell$ and $b$-tagged jets are selected from the events. In particular, we require that $\Delta R$ between the reconstructed and truth $\ell b$ system is less than 0.05. We additionally require that the reconstructed lepton and the truth top have charges with the same sign (since $t\rightarrow b\ell^{+}\bar{\nu_{\ell}}$ and $\bar{t}\rightarrow \bar{b}\ell^{-}\nu_{\ell}$). The background class is defined to consist of all reconstructed $\ell b$ systems which fail to pass the criteria for $\ell b$ systems which are labelled as signal. These definitions for the signal and background classes ensure that the signal class consists of mostly $\ell b$ systems originating from top quarks and the background class consists of mostly $\ell b$ systems which do not originate from top quarks.\\
+The signal class is defined to consist of reconstructed $\ell b$ systems (defined as the sum of the 4-vectors of a lepton and a $b$-tagged jet) originating from top quarks which are well matched to their truth counterparts. All possible combinations of $\ell$ and $b$-tagged jets are selected from the events. In particular, it is required that $\Delta R$ between the reconstructed and truth $\ell b$ system is less than 0.05. An additional requirement is implemented such that the reconstructed lepton and the truth top quark have charges with the same sign (since $t\rightarrow b\ell^{+}\bar{\nu_{\ell}}$ and $\bar{t}\rightarrow \bar{b}\ell^{-}\nu_{\ell}$). The background class is defined to consist of all reconstructed $\ell b$ systems which fail to pass the criteria for $\ell b$ systems which are labelled as signal. These definitions for the signal and background classes ensure that the signal class consists of mostly $\ell b$ systems originating from top quarks and the background class consists of mostly $\ell b$ systems which do not originate from top quarks.\\
 
-Different observables corresponding to an $\ell b$ system were used as input to training. The optimum values for the hyper-parameters used were determined by training the BDT with a range of different values for the hyper-parameters and choosing the set of values which maximized the mean accuracy (based off 5 fold kfold cross-validation). This method is more commonly referred to as hyper-parameter optimisation or tuning. After hyper-parameter optimisation, the mean accuracy of each fold increased from 0.76 to 0.77 ($\sim 1\%$ increase). Variables can be assigned a score called \textit{variable importance}, based on their usefulness on predicting a target variable (in this case, a signal or background event). The variable importance for any given variable was obtained by computing the mean accuracy of the model, removing the variable from training, retraining the model and computing the mean accuracy of this new model. The difference between mean accuracies of the unaltered model and the retrained model (after removal of the variable) gives us the variable importance of the variable of interest. This method returns positive values for variables which increase the mean accuracy of the model and negative values for variables which decrease the mean accuracy of the model. Variables with negative variable importances were completely removed from training.\\
+Different variables corresponding to an $\ell b$ system were used as input to training. The optimum values for the hyper-parameters used were determined by training the BDT with a range of different values for the hyper-parameters and choosing the set of values which maximized the mean accuracy (based off 5 fold kfold cross-validation). This method is more commonly referred to as hyper-parameter optimisation or tuning. After hyper-parameter optimisation, the mean accuracy of each fold increased from 0.76 to 0.77 ($\sim 1\%$ increase). Variables can be assigned a score called \textit{variable importance}, based on their usefulness on predicting a target variable (in this case, a signal or background event). The variable importance for any given variable was obtained by computing the mean accuracy of the model, removing the variable from training, retraining the model and computing the mean accuracy of this new model. The difference between mean accuracies of the unaltered model and the retrained model (after removal of the variable) gives us the variable importance of the variable of interest. This method returns positive values for variables which increase the mean accuracy of the model and negative values for variables which decrease the mean accuracy of the model. Variables with negative variable importances were completely removed from training.\\
 
 In Table \ref{tab:object-bdt-variables}, the variables used in training the object-level BDT are shown.
 \begin{table}[htbp!]
 \captionsetup{width=0.6\textwidth}
 \centering
 	\resizebox{0.6\textwidth}{!}{%
-	\begin{tabular}{c|c}
+	\begin{tabular}{c|c|c}
 \toprule
-	Observable	& Description   \\
+	Variable 	& Description  & Variable Importance \\
 	\hline
-    $m(\ell b)$ & Invariant mass of the $\ell b$ system \\
-     $p_{T}(\ell b)$ & $p_{T}$ of the $\ell b$ system \\
-    $\Delta \eta (\ell,b)$ & $\Delta \eta$ between the $\ell$ and $b$-tagged jet \\
-   $\Delta \phi (\ell, b)$ & $\Delta \phi$ between the $\ell$ and $b$-tagged jet \\
-    $\Delta R (\ell, b)$ & $\Delta R$ between the $\ell$ and $b$-tagged jet \\
+    $m(\ell b)$ & Invariant mass of the $\ell b$ system & 0.0025\\
+     $p_{T}(\ell b)$ & $p_{T}$ of the $\ell b$ system & 0.0005\\
+    $\Delta \eta (\ell,b)$ & $\Delta \eta$ between the $\ell$ and $b$-tagged jet & 0.0003\\
+   $\Delta \phi (\ell, b)$ & $\Delta \phi$ between the $\ell$ and $b$-tagged jet & 0.0003\\
+    $\Delta R (\ell, b)$ & $\Delta R$ between the $\ell$ and $b$-tagged jet & 0.0001\\
     
 \bottomrule
 	\end{tabular}}
-\caption{A list of the observables used in the object-level BDT, ordered by variable importance (descending, top to bottom) is shown.}
+\caption{A list of the variables used in the object-level BDT, ordered by variable importance (descending, top to bottom) is shown.}
 
 	\label{tab:object-bdt-variables}
 \end{table}
@@ -897,7 +682,7 @@ In Figure \ref{fig:norm-object-bdt-vars}, normalised distributions of the variab
 
 Overall the BDT input variables show a large amount of discrimination. \\
 
-We can check the modelling of the input variables to the object-level BDT by studying the agreement between data and simulation in the $t\bar{t}Z$ CR. In Figure \ref{fig:4lep-ttZCR-objectbdt-vars}, MC predictions for the input variables to the object-level BDT in the $t\bar{t}Z$ CR are shown.
+The modelling of the variables used in the object-level BDT can be checked by studying the agreement between data and simulation in the $t\bar{t}Z$ CR. In Figure \ref{fig:4lep-ttZCR-objectbdt-vars}, MC predictions for the variables used in the object-level BDT in the $t\bar{t}Z$ CR are shown.
 \begin{figure}[htbp]
 \centering
 
@@ -907,13 +692,13 @@ We can check the modelling of the input variables to the object-level BDT by stu
  \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png} 
  \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png} 
 
-\caption{Pre-fit distributions of variables used as input to the object-level BDT (ordered from top left to bottom right via decreasing variable importance), in the $t\bar{t}Z$ CR, are shown. \textbf{From top left to bottom right:} $\Delta \eta$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta \phi$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta R$ between the lepton and $b$-jet of the leading $\ell b$ system. $p_{T}$ of the leading $\ell b$ system. Mass of the leading $\ell b$ system. The data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with $\frac{signal}{background}$ greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. }
+\caption{The expected number of events of variables used as input to the object-level BDT (ordered from top left to bottom right via decreasing variable importance), in the $t\bar{t}Z$ CR, are shown. \textbf{From top left to bottom right:} $\Delta \eta$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta \phi$ between the lepton and $b$-jet of the leading $\ell b$ system. $\Delta R$ between the lepton and $b$-jet of the leading $\ell b$ system. $p_{T}$ of the leading $\ell b$ system. Mass of the leading $\ell b$ system. The data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with $\frac{signal}{background}$ greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted. }
   \label{fig:4lep-ttZCR-objectbdt-vars}
 \end{figure}
 
 Overall, there is good agreement between data and simulation for the variables used in the object-level BDT, in the $t\bar{t}Z$ CR. This suggests that the variables use in the object-level BDT are well-modelled and are reasonable to include as inputs to the object-level BDT. \\
 
-A final check can be done to study the similarity of the $\ell b$ systems present in the $t\bar{t}$ sample which we use for training the object-level BDT, and the $\ell b$ systems which we aim to identify using the object-level BDT. More specifically, we want to ensure that the modelling of the $\ell b$ systems in the $t\bar{t}$ sample are sufficiently similar to those in the $tWZ$ and $t\bar{t}Z$ samples (see Table \ref{tab:evtgen-partshower}). This is done to understand how well the BDT (trained on $\ell b$ systems in the $t\bar{t}$ sample) generalises to classifying $\ell b$ systems in the analysis ($tWZ$ and $t\bar{t}Z$ samples). In Figure \ref{fig:lb-vars-compare}, normalised distributions of the variables used in the object-level BDT for the $t\bar{t}$, $tWZ$ and $t\bar{t}Z$ samples, are shown.
+A final check can be done to study the similarity of the $\ell b$ systems present in the alternative $t\bar{t}$ sample which are used for training the object-level BDT, and the $\ell b$ systems which are aimed to be identified using the object-level BDT. More specifically, the study is done to ensure that the modelling of the $\ell b$ systems in the alternative $t\bar{t}$ sample are sufficiently similar to those in the $tWZ$ and $t\bar{t}Z$ samples (see Table \ref{tab:evtgen-partshower}). This is done to understand how well the BDT (trained on $\ell b$ systems in the alternative $t\bar{t}$ sample) generalises to classifying $\ell b$ systems in the analysis ($tWZ$ and $t\bar{t}Z$ samples). In Figure \ref{fig:lb-vars-compare}, normalised distributions of the variables used in the object-level BDT for the alternative $t\bar{t}$, $tWZ$ and $t\bar{t}Z$ samples, are shown.
 
 
 \begin{figure}
@@ -926,11 +711,11 @@ A final check can be done to study the similarity of the $\ell b$ systems presen
     \includegraphics[width=.3\textwidth]{figures/normPlot_compare_delPhi_lb.png} 
     \includegraphics[width=.3\textwidth]{figures/normPlot_compare_delR_lb.png} 
 
-    \caption{Normalised distributions of the variables (ordered from top left to bottom right via decreasing variable importance) used in the object-level BDT for the $t\bar{t}$, $tWZ$ and $t\bar{t}Z$ samples, are shown. \textbf{From top left to bottom right:} Invariant mass of the $\ell b$ system. $\Delta R$ between the $\ell$ and $b$-tagged jet. The $p_{T}$ of the $\ell b$ system. $\Delta \eta$ between the $\ell$ and $b$-tagged jet. $\Delta \phi$ between the $\ell$ and $b$-tagged jet. The green, blue and orange dotted lined histograms represent events from the $t\bar{t}$, $tWZ$ and $t\bar{t}Z$ samples, respectively. These histograms are normalised to an area of 1. The variable used in training is shown on the x-axis. The y-axis shows the relative number of events (in arbitrary units). }
+    \caption{Normalised distributions of the variables (ordered from top left to bottom right via decreasing variable importance) used in the object-level BDT for the alternative $t\bar{t}$, $tWZ$ and $t\bar{t}Z$ samples, are shown. \textbf{From top left to bottom right:} Invariant mass of the $\ell b$ system. $\Delta R$ between the $\ell$ and $b$-tagged jet. The $p_{T}$ of the $\ell b$ system. $\Delta \eta$ between the $\ell$ and $b$-tagged jet. $\Delta \phi$ between the $\ell$ and $b$-tagged jet. The green, blue and orange dotted lined histograms represent events from the alternative $t\bar{t}$, $tWZ$ and $t\bar{t}Z$ samples, respectively. These histograms are normalised to an area of 1. The variable used in training is shown on the x-axis. The y-axis shows the relative number of events (in arbitrary units). }
     \label{fig:lb-vars-compare}
 \end{figure}
 
-The $m(\ell b)$, $p_{T}(\ell b)$ and $\Delta \eta (\ell, b)$ distributions show little discrimination between the samples. However, the $\Delta \phi (\ell, b)$ and $\Delta R (\ell, b)$ distributions show a large amount of discrimination between the three samples. This suggests that the use of the $t\bar{t}$ sample in training the object-level BDT may be sub-optimal. However, it still represents the best option available, since our other options involve utilising of a subset of generated events used in the other parts of the analysis. This would result in a smaller number of generated events used in the background prediction, leading to larger statistical uncertainties, in an already statistically limited analysis.
+The $m(\ell b)$, $p_{T}(\ell b)$ and $\Delta \eta (\ell, b)$ distributions show little discrimination between the samples. However, the $\Delta \phi (\ell, b)$ and $\Delta R (\ell, b)$ distributions show a large amount of discrimination between the three samples. This suggests that the use of the alternative $t\bar{t}$ sample in training the object-level BDT may be sub-optimal. However, it still represents the best option available, since our other options involve utilising of a subset of generated events used in the other parts of the analysis. This would result in a smaller number of generated events used in the background prediction, leading to larger statistical uncertainties, in an already statistically limited analysis.
 \\
 
 In Table \ref{tab:object-bdt-hyperParams}, the hyper-parameters used in the object-level BDT is shown.
@@ -954,12 +739,11 @@ In Table \ref{tab:object-bdt-hyperParams}, the hyper-parameters used in the obje
 			\bottomrule
 			
 		\end{tabular}}
-		\caption{A list of the hyper-parameters used in the object-level BDT is shown. Hyperparameters not listed in this table use the default values as stated in the Scikit-learn Documentation\cite{skLearnGBClassifierDocs}.}
+		\caption{A list of the hyper-parameters used in the object-level BDT is shown. Hyper-parameters not listed in this table use the default values as stated in the Scikit-learn Documentation\cite{skLearnGBClassifierDocs}.}
 	\label{tab:object-bdt-hyperParams}
 \end{table}
 
-The number of events used in training for the signal and background classes were 49871 and 384152 respectively. Imbalanced datasets can cause ML classifiers to ignore small classes while concentrating on classifying large classes more accurately, which may result in the trained classifier performing sub-optimally. In order to correct this dataset imbalance, we ensure that the relative weighting of each event is such that the sum of the signal weights is equal to the sum of the background weights.
-In Figure \ref{fig:object-bdt-overtrain-check} the normalised histograms of the training and test sets (extracted from fold 5 from a 5 fold kfold cross validation) for signal and background is shown.
+The number of events used in training for the signal and background classes were 49871 and 384152 respectively. Imbalanced datasets can cause ML classifiers to ignore small classes while concentrating on classifying large classes more accurately, which may result in the trained BDT performing sub-optimally. In order to correct this dataset imbalance, it is ensured that the relative weighting of each event is such that the sum of the signal weights is equal to the sum of the background weights. In Figure \ref{fig:object-bdt-overtrain-check} the normalised histograms of the training and test sets (extracted from fold 5 from a 5 fold kfold cross validation) for signal and background is shown.
 
 
 \begin{figure}[h!]
@@ -969,9 +753,9 @@ In Figure \ref{fig:object-bdt-overtrain-check} the normalised histograms of the 
 	\label{fig:object-bdt-overtrain-check}
 \end{figure}
 
-We can see that the shapes of the training and test sets for both signal and background are very similar. This is a good indicator that no over-training occurred. Another over-training check is performed using 5 fold kfold cross validation. We ensure that the variance of the mean accuracy of each folds' test set in cross validation is substantially small. This indicates that fluctuations in features from different training sets are not learnt by the classifier. For the object-level classifier, a variance of 3.24$\times 10^{-7}$ was calculated for the mean accuracies of each folds' test set in cross validation. This tells us that the BDT does not perform better on one subset of a dataset over another and it is therefore not prone to learning statistical fluctuations of a subset, which would result in a BDT which does not generalise well to unseen datasets. This small variance therefore provides further evidence that no over-training occurred.\\
+The shapes of the training and test sets for both signal and background are very similar. This is a good indicator that no over-training occurred. Another over-training check is performed using 5 fold kfold cross validation. It is ensured that the variance of the mean accuracy of each folds' test set in cross validation is substantially small. This indicates that fluctuations in features from different training sets are not learnt by the BDT. For the object-level BDT, a variance of 3.24$\times 10^{-7}$ was calculated for the mean accuracies of each folds' test set in cross validation. This tells us that the BDT does not perform better on one subset of a dataset over another and it is therefore not prone to learning statistical fluctuations of a subset, which would result in a BDT which does not generalise well to unseen datasets. This small variance therefore provides further evidence that no over-training occurred.\\
 
-The output of the object-level BDT is converted to an event-level variable to be used in the event-level BDT. This variable, BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$, takes the ratio of the scores of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system. The 2nd best scoring $\ell b$ system in a $tWZ$ event is expected to be low, since there is only one $\ell b$ system originating from a top. Thus BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ is expected to be large for \tWZ events and closer to one for \ttZ events, therefore providing discrimination between \tWZ and \ttZ. In Figure \ref{fig:bdtscore-bestover2ndbest}, normalised distributions of the signal and total background of the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown.
+The output of the object-level BDT is converted to an event-level variable to be used in the event-level BDT. This variable, BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$, takes the ratio of the scores of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system. The 2nd best scoring $\ell b$ system in a $tWZ$ event is expected to be low, since there is only one $\ell b$ system originating from a top quark. Thus BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ is expected to be large for \tWZ events and closer to one for \ttZ events, therefore providing discrimination between \tWZ and \ttZ. In Figure \ref{fig:bdtscore-bestover2ndbest}, normalised distributions of the signal and total background of the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown.
 \begin{figure}
     \centering
     \includegraphics[width=0.3\textwidth]{figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.png}
@@ -983,7 +767,7 @@ The output of the object-level BDT is converted to an event-level variable to be
 
 The amount of discrimination can be quantified by the separation metric, which gives the percentage of the total area of the distributions which do not overlap. A value of 1 indicates that the distributions are fully separated (no overlap) and a value of 0 indicates that the distributions have no separation (fully overlapped). The separation between signal and background for BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are 0.609$\%$, 2.96$\%$ and 4.84$\%$ respectively. The larger separation in the $t\bar{t}Z$ CR, compared to the $tWZ$ SRs, can be explained since there is a larger proportion of $t\bar{t}Z$ events (events with two $\ell b$ systems) in this region, due to the baseline selection requirement of exactly two $b$-tagged jets. In a similar way, the smaller separation in the two $tWZ$ SRs can be explained by the tighter selection on the number of $b$-tagged jets (exactly one) leading to regions which are enriched in only one $\ell b$ system which originates from a top quark. Using the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in training in the event-level BDT (see Section \ref{sec:event-level-bdt}) improves the mean accuracy of the BDT. This tells us that the event-level BDT is taking advantage of the discrimination between signal and background present in the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable.\\
 
-In an attempt to optimise the performance of the object-level BDT, we aim to train on signal events which are as pure in $\ell b$ systems originating from top quarks, as possible. Similarly, we aim to train on background events which are as pure in $\ell b$ systems not originating from top quarks, as possible. This is done by studying the distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$), and excluding $\ell b$ systems from training which are moderately matched in $\Delta R$ to their truth counterparts, leaving well matched $\ell b$ systems being labelled as signal and badly matched $\ell b$ systems labelled as background. We call the $\Delta R$ range where $\ell b$ systems are excluded from training, the exclusion region. In Figure \ref{fig:exclusionRegion}, the distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$) in the alternative $t\bar{t}$ sample, along with the exclusion region, is shown.
+In an attempt to optimise the performance of the object-level BDT, signal events which are pure in $\ell b$ systems originating from top quarks are targeted for training the BDT. Similarly, background events which are pure in $\ell b$ systems which do not originate from top quarks are targeted for training the BDT. This is done by studying the distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$), and excluding $\ell b$ systems from training which are moderately matched in $\Delta R$ to their truth counterparts, leaving well matched $\ell b$ systems being labelled as signal and badly matched $\ell b$ systems labelled as background. The $\Delta R$ range where $\ell b$ systems are excluded from training is referred to as the exclusion region. In Figure \ref{fig:exclusionRegion}, the distribution of $\Delta R$ between the reconstructed $\ell b$ system and the truth $\ell b$ system ($\Delta R((lb)_{reco}$, $(lb)_{truth})$) in the alternative $t\bar{t}$ sample, along with the exclusion region, is shown.
 
 \begin{figure}
     \centering
@@ -992,7 +776,7 @@ In an attempt to optimise the performance of the object-level BDT, we aim to tra
     \label{fig:exclusionRegion}
 \end{figure}
 
-A large number of reconstructed $\ell b$ systems have $\Delta R((lb)_{reco}$, $(lb)_{truth})$ at values near $0$. These are matched (in $\Delta R$) extremely well to truth $\ell b$ systems originating from top quarks. We therefore define our exclusion region to be between $0.05 < \Delta R((lb)_{reco}$, $(lb)_{truth}) < 3.0$, such that all reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \leq 0.05$ are labelled as signal and reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \geq 3.0$ are labelled as background. All reconstructed $\ell b$ systems with $0.05 < \Delta R((lb)_{reco}$, $(lb)_{truth}) < 3.0$ are excluded from training.\\
+A large number of reconstructed $\ell b$ systems have $\Delta R((lb)_{reco}$, $(lb)_{truth})$ at values near $0$. These are matched (in $\Delta R$) extremely well to truth $\ell b$ systems originating from top quarks. Therefore our exclusion region is defined to be between $0.05 < \Delta R((lb)_{reco}$, $(lb)_{truth}) < 3.0$, such that all reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \leq 0.05$ are labelled as signal and reconstructed $\ell b$ systems with $\Delta R((lb)_{reco}$, $(lb)_{truth}) \geq 3.0$ are labelled as background. All reconstructed $\ell b$ systems with $0.05 < \Delta R((lb)_{reco}$, $(lb)_{truth}) < 3.0$ are excluded from training.\\
 
 The performance of the object-level BDT with and without the exclusion region can be compared by studying the discrimination between signal and background events in the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable (object-level output converted to an event-level variable to be used in the event-level BDT) for both object-level BDTs. In Figure \ref{fig:exclusionRegion-normplots}, normalised distributions of BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ using the object-level BDT without the exclusion region (see Figure \ref{fig:exclusionRegion}) for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR are shown.
 
@@ -1006,15 +790,17 @@ The performance of the object-level BDT with and without the exclusion region ca
     \label{fig:exclusionRegion-normplots}
 \end{figure}
 
-We can compare the separation metrics between the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR for the $\ell b$ classifier with (Figure \ref{fig:bdtscore-bestover2ndbest}) and without (Figure \ref{fig:exclusionRegion-normplots}) the exclusion region by taking the absolute difference between the two values in each region. The differences are $0.31\%$, $0.37\%$ and $0.36\%$ for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, respectively. These differences are minimal and the object-level BDT with the exclusion region outperforms the object-level BDT without the exclusion region in the $tWZ$ SF SR. Due to the small differences in performance between the two BDTs, we chose to keep the BDT with the exclusion region.
+The separation metrics can be compared between the BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ variable in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR for the object-level BDT with (Figure \ref{fig:bdtscore-bestover2ndbest}) and without (Figure \ref{fig:exclusionRegion-normplots}) the exclusion region by taking the absolute difference between the two values in each region. The differences are $0.31\%$, $0.37\%$ and $0.36\%$ for the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, respectively. These differences are minimal and the object-level BDT with the exclusion region outperforms the object-level BDT without the exclusion region in the $tWZ$ SF SR. Due to the small differences in performance between the two BDTs, the BDT with the exclusion region was chosen to be kept.
 
 \subsection{Two Neutrino Scanning Method (2$\nu$SM) Algorithm}
 \label{sec:2vsm}
-The Two Neutrino Scanning Method (2$\nu$SM) algorithm\footnote{software tool and weights provided by Thomas McCarthy (\ttZ analysis group - Max Planck Institute)}~\cite{2vSM-ref1,2vSM-ref2} aims to reconstruct $t\bar{t}$ systems in the 2$\ell$, 3$\ell$ and 4$\ell$ final states (e.g. 2$\ell$ case: $t\bar{t}\rightarrow \ell^{+}\nu_{\ell}b\ell^{-}\bar{\nu}_{\ell}\bar{b}$). This was initially designed to suppress the $t\bar{t}$ background in the \ttZ analysis. We can re-purpose this algorithm to distinguish between \tWZ and \ttZ by removing the easily-identifiable $Z$ boson.\\
+The difference in the number of resonant top quarks in the $tWZ$ signal and the dominant background, $t\bar{t}Z$, is a key feature which can be exploited in order to discriminate between these two processes. In Section \ref{sec:object-level-bdt}, an BDT implemented which exploits this information by aiming to identify $\ell b$ systems originating from top quarks. In this section, a kinematic reconstruction algorithm (Two Neutrino Scanning Method) is implemented which exploits the same feature.\\
 
-The 2$\nu$SM algorithm reconstructs a $t\bar{t}$ system by scanning through the components of two possible neutrino 4-vectors ($\nu_{1}$ and $\nu_{2}$). It then aims to determine which $\nu_{1}$ and $\nu_{2}$ correspond to the two neutrinos which originate from the decay of a $t\bar{t}$ system the best (quantified by an output weight, $w_{2\nu SM}$). $w_{2\nu SM}$ is the likelihood under the $t\bar{t}$ dilpeton final state hypothesis. We are able to use this algorithm in our analysis to discriminate between \tWZ and \ttZ since we can easily reconstruct the OSSF leptons which decay from the $Z$ boson and remove it before inputting the event into the algorithm. We would then expect that the 2$\nu$SM algorithm returns a higher score from a \ttZ event ($\sim$ 1, i.e. it looks like a $t\bar{t}$ event after removal of the $Z$ boson) and a lower score from a \tWZ event ($\sim$ 0, i.e. it does not look like a $t\bar{t}$ event after removal of the $Z$ boson).
+The Two Neutrino Scanning Method (2$\nu$SM) algorithm\footnote{software tool and weights provided by Thomas McCarthy (\ttZ analysis group - Max Planck Institute)}~\cite{2vSM-ref1,2vSM-ref2} aims to reconstruct $t\bar{t}$ systems in the 2$\ell$, 3$\ell$ and 4$\ell$ final states (e.g. 2$\ell$ case: $t\bar{t}\rightarrow \ell^{+}\nu_{\ell}b\ell^{-}\bar{\nu}_{\ell}\bar{b}$). This was initially designed to suppress the $t\bar{t}$ background in the \ttZ analysis. This algorithm can be re-purposed for our analysis, to distinguish between \tWZ and \ttZ, by removing the easily-identifiable $Z$ boson.\\
+
+The 2$\nu$SM algorithm reconstructs a $t\bar{t}$ system by scanning through the components of two possible neutrino 4-vectors ($\nu_{1}$ and $\nu_{2}$). It then aims to determine which $\nu_{1}$ and $\nu_{2}$ correspond to the two neutrinos which originate from the decay of a $t\bar{t}$ system the best (quantified by an output weight, $w_{2\nu SM}$). $w_{2\nu SM}$ is the likelihood under the $t\bar{t}$ dilpeton final state hypothesis. This algorithm can be used in our analysis to discriminate between \tWZ and \ttZ, since we can easily reconstruct the OSSF leptons which decay from the $Z$ boson and remove it before inputting the event into the algorithm. It would then be expected that the 2$\nu$SM algorithm returns a higher score from a \ttZ event ($\sim$ 1, i.e. it looks like a $t\bar{t}$ event after removal of the $Z$ boson) and a lower score from a \tWZ event ($\sim$ 0, i.e. it does not look like a $t\bar{t}$ event after removal of the $Z$ boson).
 \subsubsection{The algorithm}
-The 2$\nu$SM algorithm starts off by writing down four equations which correspond to the invariant masses of the top quark ($m(t)$) and $W$ boson ($m(W)$) for the two top decays (i.e. $t\rightarrow W^{+}b \rightarrow \ell^{+} \nu_{\ell}$) in a dileptonic $t\bar{t}$ event. These can be written as,
+The first step in the $2\nu$SM algorithm involves stating four equations which correspond to the invariant masses of the top quark ($m(t)$) and $W$ boson ($m(W)$) for the two top quark decays (i.e. $t\rightarrow W^{+}b \rightarrow \ell^{+} \nu_{\ell}$) in a dileptonic $t\bar{t}$ event. These can be written as,
 
 \begin{align}
     (\ell_{1} + \nu_{1})^{2} &= m(W)^{2} = (\SI{80.385}{GeV})^2\\
@@ -1022,14 +808,14 @@ The 2$\nu$SM algorithm starts off by writing down four equations which correspon
     (\ell_{2} + \nu_{2})^{2} &= m(W)^{2} = (\SI{80.385}{GeV})^2\\
        (\ell_{2} + \nu_{2} + b_{2,1})^{2} &= m(t)^{2} = (\SI{172.5}{GeV})^{2}
 \end{align}
-where the subscripts indicate that these particles originate from the decay of two different top quarks in a $t\bar{t}$ system. We assume that the mass of the neutrinos ($\nu_{1}$ and $nu_{2}$) are close to zero, which leaves us with 6 unknowns, $p_{{T}_{\nu_{1}}}$, $\phi_{\nu_{1}}$, $\eta_{\nu_{1}}$, $p_{{T}_{\nu_{2}}}$, $\phi_{\nu_{2}}$ and $\eta_{\nu_{2}}$ (components of the two neutrino's 4-vectors).\\
+where the subscripts indicate that these particles originate from the decay of two different top quarks in a $t\bar{t}$ system. A assumption is made such that the mass of the neutrinos ($\nu_{1}$ and $nu_{2}$) are close to zero, which leaves us with 6 unknowns, $p_{{T}_{\nu_{1}}}$, $\phi_{\nu_{1}}$, $\eta_{\nu_{1}}$, $p_{{T}_{\nu_{2}}}$, $\phi_{\nu_{2}}$ and $\eta_{\nu_{2}}$ (components of the two neutrino's 4-vectors).\\
 
-The 2$\nu$SM algorithm takes the 4-vectors of the two reconstructed leptons (not from the $Z$ boson) and the two jets with the highest DL1r $b$-tagger score as input. For each neutrino ($\nu_{1}$ and $\nu_{2}$), we scan over a range of possible $\eta$ and $\phi$ values. These values were chosen to be $\phi_{\nu_{1}}$, $\phi_{\nu_{2}} \in [-\pi,\pi]$ with a step size of $\approx$ 0.25 and $\eta_{\nu_{1}}$, $\eta_{\nu_{2}} \in [-5,5]$ with a step size of $\approx$ 0.31. These ranges were chosen to maximize accuracy and minimize computation time. For each of these possible $\eta$ and $\phi$ values, we calculate the corresponding $p_{T}$ for each neutrino. The transverse momentum of a neutrino, $p_{{T}_{\nu}}$, can be calculated via (*******referecne somewhere here******),
+The 2$\nu$SM algorithm takes the 4-vectors of the two reconstructed leptons (not from the $Z$ boson) and the two jets with the highest DL1r $b$-tagger score as input. For each neutrino ($\nu_{1}$ and $\nu_{2}$), a scan over a range of possible $\eta$ and $\phi$ values is performed. These values were chosen to be $\phi_{\nu_{1}}$, $\phi_{\nu_{2}} \in [-\pi,\pi]$ with a step size of $\approx$ 0.25 and $\eta_{\nu_{1}}$, $\eta_{\nu_{2}} \in [-5,5]$ with a step size of $\approx$ 0.31. These ranges were chosen to maximize accuracy and minimize computation time. For each of these possible $\eta$ and $\phi$ values, the corresponding $p_{T}$ for each neutrino is calculated. The transverse momentum of a neutrino, $p_{{T}_{\nu}}$, can be calculated via (*******referecne somewhere here******),
 
 \begin{equation}
     p_{{T}_{\nu}} = \frac{\frac{1}{2} (m(W)^{2} - m(\ell)^{2})}{E_{\ell}\cosh{\eta_{\nu}} - p_{\ell,z}\sinh{\eta_{\nu}} - p_{\ell,x}\cos{\phi_{\nu}} - p_{\ell,y}\sin{\phi_{\nu}} }
 \end{equation}
-where $E_{\ell}$ is the energy of the lepton and $p_{\ell, z}$, $p_{\ell, x}$, $p_{\ell, y}$ are the $z$, $x$ and $y$ components of lepton's momentum. At this stage, we have possible 4-vectors for $\nu_{1}$ and $\nu_{2}$. Using these possible neutrino 4-vectors, we reconstruct the two possible $t\bar{t}$ systems,
+where $E_{\ell}$ is the energy of the lepton and $p_{\ell, z}$, $p_{\ell, x}$, $p_{\ell, y}$ are the $z$, $x$ and $y$ components of lepton's momentum. At this stage, possible 4-vectors for $\nu_{1}$ and $\nu_{2}$ are defined. Using these possible neutrino 4-vectors, two possible $t\bar{t}$ systems are reconstructed,
 
 \begin{align}
     t_{1} = \ell_{1} + b_{1} + \nu_{1} &\text{ and } t_{2} = \ell_{2} + b_{2} + \nu_{2} \label{eq:top1-2vSM}\\
@@ -1044,10 +830,10 @@ These reconstructed $t\bar{t}$ systems are then used to calculate a weight, $w_{
 The $w_{2\nu SM}$ is calculated for each pair of reconstructed neutrinos (or reconstructed $t\bar{t}$ systems), with the maximum value being chosen as the final value for the event.
 
 \subsubsection{Calculating $w_{2\nu SM}$}
-We use distributions of well modelled observables ($m_{b\ell\nu}$ and $\Delta E_{x}$) from simulated $t\bar{t}$ events in order to determine how well our reconstructed neutrinos (and in turn top quarks) resemble neutrinos (and top quarks) present in a $t\bar{t}$ event.
+Distributions of well modelled variables ($m_{b\ell\nu}$ and $\Delta E_{x}$) from simulated $t\bar{t}$ events are used in order to determine how well our reconstructed neutrinos (and in turn top quarks) resemble neutrinos (and top quarks) present in a $t\bar{t}$ event.
 \myparagraph{$P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$}
 
-A normalised distribution of the mass of reconstructed top quarks ($m_{b\ell\nu}$) from a $t\bar{t}$ sample is generated to determine the probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution is generated from reco-level leptons, generator-level neutrinos and reoc-level jets matched in $\Delta R$ to generator-level $b$-quarks, therefore only filling the distribution with correct detector-level objects. We then use the distribution to interpolate our two reconstructed top quarks, which returns a weight value from 0 to 1, with higher values corresponding to a reconstructed top quark which has a mass close to that of a top quark from a $t\bar{t}$ system. This interpolation is done for both reconstructed tops, $t_{1}$ and $t_{2}$, corresponding to probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution used is shown in Figure \ref{fig:2vSM-mass-dist}.\\
+A normalised distribution of the mass of reconstructed top quarks ($m_{b\ell\nu}$) from a $t\bar{t}$ sample is generated to determine the probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution is generated from reco-level leptons, generator-level neutrinos and reoc-level jets matched in $\Delta R$ to generator-level $b$-quarks, therefore only filling the distribution with correct detector-level objects. The distribution is then used to interpolate our two reconstructed top quarks, which returns a weight value from 0 to 1, with higher values corresponding to a reconstructed top quark which has a mass close to that of a top quark from a $t\bar{t}$ system. This interpolation is done for both reconstructed top quarks, $t_{1}$ and $t_{2}$, corresponding to probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution used is shown in Figure \ref{fig:2vSM-mass-dist}.\\
 
 In Figure \ref{fig:2vSM-mass-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
 
@@ -1059,7 +845,7 @@ In Figure \ref{fig:2vSM-mass-dist}, the $m_{b\ell\nu}$ distribution (generated f
 \end{figure}
 \myparagraph{$P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$}
 
-A similar method is used to determine $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$. In this case we generate a weight distribution of $\Delta E_{x} = (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x} - (E_{T}^{\text{miss}})_{x}$ based off simulated $t\bar{t}$ events. In particular, this distribution is generated using reco-level $E_{T}^{\text{miss}}$ and generator-level neutrinos. The use of this distribution lies under the assumption that neutrinos are the dominant source of $E_{T}^{\text{miss}}$, and therefore, $(E_{T}^{\text{miss}})_{x} \approx (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x}$ and $(E_{T}^{\text{miss}})_{y} \approx (p_{T,\nu_{1}})_{y} + (p_{T,\nu_{2}})_{y}$. We then use the distribution to interpolate the value of $\Delta E_{x}$ and $\Delta E_{y}$ from our reconstructed neutrinos. This returns a weight value from 0 to 1, with higher values corresponding to $\Delta E_{x}$ and $\Delta E_{y}$ (and in turn our reconstructed neutrino's $p_{T}$) closer to those observed in a $t\bar{t}$ event. We expect the $\Delta E_{x}$ and $\Delta E_{y}$ distributions to have the same shapes, therefore we only need to generate one (we have chosen $\Delta E_{x}$). In Figure \ref{fig:2vSM-deltaE-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
+A similar method is used to determine $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$. In this case, a weight distribution of $\Delta E_{x} = (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x} - (E_{T}^{\text{miss}})_{x}$ based off simulated $t\bar{t}$ events is generated. In particular, this distribution is generated using reco-level $E_{T}^{\text{miss}}$ and generator-level neutrinos. The use of this distribution lies under the assumption that neutrinos are the dominant source of $E_{T}^{\text{miss}}$, and therefore, $(E_{T}^{\text{miss}})_{x} \approx (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x}$ and $(E_{T}^{\text{miss}})_{y} \approx (p_{T,\nu_{1}})_{y} + (p_{T,\nu_{2}})_{y}$. This distribution is then used to interpolate the value of $\Delta E_{x}$ and $\Delta E_{y}$ from our reconstructed neutrinos. This returns a weight value from 0 to 1, with higher values corresponding to $\Delta E_{x}$ and $\Delta E_{y}$ (and in turn our reconstructed neutrino's $p_{T}$) closer to those observed in a $t\bar{t}$ event. It is expected that the $\Delta E_{x}$ and $\Delta E_{y}$ distributions have the same shapes, therefore we only need to generate one (the $\Delta E_{x}$ distribution was chosen). In Figure \ref{fig:2vSM-deltaE-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
 
 \begin{figure}[h!]
 	\includegraphics[width=0.45\linewidth]{figures/dExy_2vSM.png}
@@ -1069,11 +855,11 @@ A similar method is used to determine $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$.
 \end{figure}
 
 \subsubsection{Kinematic Vetoes}
-The 2$\nu$SM algorithm is extremely computationally intensive. The computation time depends on the number step size of the $\phi$ and $\eta$ ranges which we scan over to reconstruct the neutrinos. For example, consider the step sizes chosen in this analysis, $\Delta \eta \approx$ 0.31 and $\Delta \phi \approx$ 0.25 which corresponds to 32 values for $\eta$ and 25 values for $\phi$. There will be $(32)(32)(25)(25) = $ 640 000 possible pairs of neutrinos ($\nu_{1}$ and $\nu_{2}$) to consider \textbf{per event}. Since we have to consider two possible $t\bar{t}$ systems (See Equations \ref{eq:top1-2vSM} and \ref{eq:top2-2vSM}), this number effectively increases to $(2)(640000) = $ 128 000 0 iterations \textbf{per event}. In order to reduce the number of $t\bar{t}$ systems we need to consider, therefore decreasing computation time, we look at distributions of well modelled observables from $t\bar{t}$ events and veto (discard) a possible reconstructed $t\bar{t}$ system if the observable in question is improbable or unlikely to be observed in a $t\bar{t}$ event. To achieve this, we define a threshold range for these observables (See Figure \ref{fig:eta-bbll-vetoes} and Figure \ref{fig:lt-vetoes}), and if the possible reconstructed $t\bar{t}$ system's corresponding value for this observable lies outside this range, it is vetoed and the algorithm continues with the next iteration.
+The 2$\nu$SM algorithm is extremely computationally intensive. The computation time depends on the number step size of the $\phi$ and $\eta$ ranges which are scanned over to reconstruct the neutrinos. For example, consider the step sizes chosen in this analysis, $\Delta \eta \approx$ 0.31 and $\Delta \phi \approx$ 0.25 which corresponds to 32 values for $\eta$ and 25 values for $\phi$. There will be $(32)(32)(25)(25) = $ 640 000 possible pairs of neutrinos ($\nu_{1}$ and $\nu_{2}$) to consider \textbf{per event}. Since two possible $t\bar{t}$ systems (See Equations \ref{eq:top1-2vSM} and \ref{eq:top2-2vSM}) are considered, this number effectively increases to $(2)(640000) = $ 128 000 0 iterations \textbf{per event}. In order to reduce the number of $t\bar{t}$ systems needed to be considered, therefore decreasing computation time, distributions of well modelled variables from $t\bar{t}$ events are studied to apply a veto (discard) a possible reconstructed $t\bar{t}$ system if the variable in question is improbable or unlikely to be observed in a $t\bar{t}$ event. To achieve this, a threshold range is defined for these variables (See Figure \ref{fig:eta-bbll-vetoes} and Figure \ref{fig:lt-vetoes}), and if the possible reconstructed $t\bar{t}$ system's corresponding value for this variable lies outside this range, it is vetoed and the algorithm continues with the next iteration.
 
 \myparagraph{$\Delta \langle m(\ell b)\rangle$}
 
-The first observable which we consider is the difference between average mass of the two possible $\ell b$ system combinations, $\Delta \langle m(\ell b)\rangle$. The two possible $\ell b$ system combinations are,
+The first variable which is considered, is the difference between average mass of the two possible $\ell b$ system combinations, $\Delta \langle m(\ell b)\rangle$. The two possible $\ell b$ system combinations are,
 
 \begin{align}
     (\ell b)_{1} = \ell_{1} + b_{1} &\text{ and }  (\ell b)_{2}  = \ell_{2} + b_{2} \\
@@ -1087,8 +873,7 @@ $\Delta \langle m(\ell b) \rangle$ is therefore defined as,
     \Delta \langle m(\ell b) \rangle = \frac{1}{2} \abs{[( m(\ell_{1} b_{1}) + m(\ell_{1} b_{1}) ) - ( m(\ell_{1} b_{2}) + m(\ell_{2} b_{1}) ]}
 \end{equation}
 
- The idea here is that, if $\Delta \langle m(\ell b) \rangle$ is large, it's more likely that we can simply select the $\ell b$ combination with the smaller (minimum) average mass. To illustrate this, we look at the distribution (constructed from $t\bar{t}$ events) of $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$ for $b$-tagged jets in the same ($\eta(b_{1}) \times \eta(b_{2}) \geq 0$) and opposite hemispheres ($\eta(b_{1}) \times \eta(b_{2}) < 0$).\\
- In Figure \ref{fig:lb-assoc} the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$, for $b$-tagged jets in the same and opposite hemispheres, constructed from $t\bar{t}$ events is shown.
+ The idea here is that, if $\Delta \langle m(\ell b) \rangle$ is large, it's more likely that one can simply select the $\ell b$ combination with the smaller (minimum) average mass. To illustrate this, the distributions (constructed from $t\bar{t}$ events) of $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$ for $b$-tagged jets in the same ($\eta(b_{1}) \times \eta(b_{2}) \geq 0$) and opposite hemispheres ($\eta(b_{1}) \times \eta(b_{2}) < 0$) are investigated. In Figure \ref{fig:lb-assoc} the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$, for $b$-tagged jets in the same and opposite hemispheres, constructed from $t\bar{t}$ events is shown.
  \begin{figure}[h!]
 	\includegraphics[width=0.6\linewidth]{figures/lbassoc_2vSM.pdf}
 	\centering
@@ -1096,7 +881,7 @@ $\Delta \langle m(\ell b) \rangle$ is therefore defined as,
 	\label{fig:lb-assoc}
 \end{figure}
 
-From Figure \ref{fig:lb-assoc}, for both cases where the $b$-tagged jets are in the same and opposite hemispheres, the probability for a correct $\ell b$ system being chosen given that we are considering the $\ell b$ system with minimum average mass is an increasing function which plateaus to 1 at $\sim$ \SI{90}{\GeV}. We use these two distributions to interpolate the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ from $\Delta \langle m(\ell b) \rangle$. We require that $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) > 0.8$, before vetoing any $\ell b$ combination, such that we have are at least 80$\%$ certain that we know the correct $\ell b$ combination. In this case, the $\ell b$ combination with the maximum $\Delta \langle m(\ell b) \rangle$ is vetoed. If $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) < 0.8$ we need to consider both possible $\ell b$ system combinations. 
+From Figure \ref{fig:lb-assoc}, for both cases where the $b$-tagged jets are in the same and opposite hemispheres, the probability for a correct $\ell b$ system being chosen, given that the $\ell b$ system with the minimum average mass is under consideration, is an increasing function which plateaus to 1 at $\sim$ \SI{90}{\GeV}. These two distributions are used to interpolate the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ from $\Delta \langle m(\ell b) \rangle$. It is required that $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) > 0.8$, before vetoing any $\ell b$ combination, such that we have are at least 80$\%$ certain that we know the correct $\ell b$ combination. In this case, the $\ell b$ combination with the maximum $\Delta \langle m(\ell b) \rangle$ is vetoed. If $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) < 0.8$ we need to consider both possible $\ell b$ system combinations. 
 
 \myparagraph{$\eta(b\bar{b}\ell\ell)$}
 \label{sec:eta-llbb-subsection}
@@ -1152,26 +937,27 @@ Using the same method as described in Section \ref{sec:eta-llbb-subsection}, we 
 \label{sec:event-level-bdt}
 The event-level BDT is used to distinguish between signal and its major background events, $t\bar{t}Z$ and $ZZ$. The key difference between the object-level BDT and the event-level BDT is that while the former exploits information associated with $\ell b$ systems and thus distinguishes between $\ell b$ systems, the event-level BDT exploits information based on the entirety of the event and thus distinguishes between events.\\
 
-The event-level BDT was trained on 50$\%$ of the \tWZ MC sample's events for the signal class and similarly, 50$\%$ of the \ttZ and $ZZ$ MC sample's events were used for the background class. The samples we train on are individual events, with the features being carefully chosen observables. These observables are chosen on the basis that they are somewhat uncorrelated from one another and show a relatively large amount of separation power between \tWZ and \ttZ. Similarly to the object-level BDT, the optimum values for the hyper-parameters used were determined via hyper-parameter optimisation.  After hyperparameter optimisation, the mean accuracy of each fold (determined from 5 fold kfold cross validation) increased from 0.72 to 0.74 ($\sim 3\%$ increase). The variable importance of each variable was computed in the same way as described for the object-level BDT (See Section \ref{sec:object-level-bdt}).\\
+The event-level BDT was trained on 50$\%$ of the \tWZ MC sample's events for the signal class and similarly, 50$\%$ of the \ttZ and $ZZ$ MC sample's events were used for the background class. The variables used to train the BDT are chosen on the basis that they are somewhat uncorrelated from one another and show some discrimination between \tWZ and \ttZ. Similarly to the object-level BDT, the optimum values for the hyper-parameters used were determined via hyper-parameter optimisation.  After hyper-parameter optimisation, the mean accuracy of each fold (determined from 5 fold kfold cross validation) increased from 0.72 to 0.74 ($\sim 3\%$ increase). The variable importance of each variable was computed in the same way as described for the object-level BDT (See Section \ref{sec:object-level-bdt}).\\
 
 In Table \ref{tab:event-bdt-variables}, the variables used in training the event-level BDT are shown.
 \begin{table}[htbp!]
 
 	\resizebox{\textwidth}{!}{%
-	\begin{tabular}{c|c}
+	\begin{tabular}{c|c|c}
     \toprule
-	Observable	& Description   \\
+	Variable 	& Description & Variable Importance  \\
 	\hline
-	2$\nu$SM	& Maximum weight from the 2$\nu$SM algorithm  (See Section \ref{sec:2vsm})\\
-	$HT$	&  Scalar sum of jet $p_{T}$  \\
-    $LT$ & Scalar sum of lepton $p_{T}$\\
-	$\sum p_{T}(b-jet)$	& Scalar sum of $b$-tagged jet $p_{T}$  \\
-	BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ & Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT ($\ell b$ classifier)\\
-		 $\Delta \eta (\ell_{1,non-Z}, \ell_{2,non-Z})$ & $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate\\
+	2$\nu$SM	& Maximum weight from the 2$\nu$SM algorithm  (See Section \ref{sec:2vsm}) & 0.029\\
+	$HT$	&  Scalar sum of jet $p_{T}$ & 0.016 \\
+    $LT$ & Scalar sum of lepton $p_{T}$ & 0.011\\
+	 $\Delta \eta (\ell_{1,non-Z}, \ell_{2,non-Z})$ & $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate & 0.006\\
+	BDTScore$(\frac{\text{Best}}{\text{2nd Best}})$ & Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (object-level BDT) & 0.006\\
+		
+		 $\sum p_{T}(b-jet)$	& Scalar sum of $b$-tagged jet $p_{T}$ & 0.005 \\
 
     \bottomrule
 \end{tabular}}
-\caption{A list of the observables used in the event-level BDT, ordered by variable importance (descending, top to bottom) is shown.}
+\caption{A list of the variables used in the event-level BDT, ordered by variable importance (descending, top to bottom) is shown.}
 	\label{tab:event-bdt-variables}
 \end{table}
 
@@ -1185,37 +971,34 @@ In Figure \ref{fig:norm-event-bdt-vars}, normalised distributions of the variabl
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_max_2vSM_weight.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_HT.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_LT.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_sum_bJet_pt.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png} 
+    \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png} 
+     \includegraphics[width=.3\textwidth]{figures/bdtPlots/normPlot_sum_bJet_pt.png} 
     
-    \caption{Normalised distributions of the variables used in the event-level BDT (ordered from top left to bottom right via decreasing variable importance), for the signal and background classes are shown. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section \ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section \ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate. The red and blue dotted lined histograms represent the signal and background classes events, respectively. These histograms are normalised to an area of 1. The variable used in training is shown on the x-axis. The y-axis shows the relative number of events for the signal and background classes (in arbitrary units). }
+    \caption{Normalised distributions of the variables used in the event-level BDT (ordered from top left to bottom right via decreasing variable importance), for the signal and background classes are shown. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section \ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section \ref{sec:object-level-bdt}). Sum of $b$-tagged jet $p_{T}$. The red and blue dotted lined histograms represent the signal and background classes events, respectively. These histograms are normalised to an area of 1. The variable used in training is shown on the x-axis. The y-axis shows the relative number of events for the signal and background classes (in arbitrary units). }
     \label{fig:norm-event-bdt-vars}
 \end{figure}
 
-Overall the variables used in the BDT show a reasonable amount of discrimination. In particular the output weight from the 2$\nu$SM algorithm shows the most discrimination. When determining which variables to use in training the event-level BDT, the output weight from 2$\nu$SM was shown to provide the most sizeable boost in performance of the BDT. Surprisingly, the least important variable, $\Delta \phi$ between the non-$Z$ lepton system (leptons not originating from a $Z$-candidate) and the leading $b$-tagged jet, seem to discriminate well between signal and background. A possible explanation for its low ranking variable importance is due to it being relatively highly correlated with many of the other input variables.\\
+Overall the variables used in the BDT show a reasonable amount of discrimination. In particular the output weight from the 2$\nu$SM algorithm shows the most discrimination. When determining which variables to use in training the event-level BDT, the output weight from 2$\nu$SM was shown to provide the most sizeable boost in performance of the BDT. Surprisingly, the least important variable, $\Delta \phi$ between the non-$Z$ lepton system (leptons not originating from a $Z$-candidate) and the leading $b$-tagged jet, seem to discriminate well between signal and background. A possible explanation for its low ranking variable importance is due to it being relatively highly correlated with many of the other variables used in the BDT.\\
 
-We can check the modelling of the input variables to the event-level BDT by referring to the expected number of events of data and simulation in control regions where they are defined. Note that certain variables which are ill-defined in certain regions (e.g. $\Delta \eta (\ell_{1,non-Z}, \ell_{2,non-Z})$ in the $ZZb$ CR, as all leptons originate from a $b$-jet in this region) will not be shown.\\
+The modelling of the variables used in the event-level BDT can be check by referring to the expected number of events of data and simulation in control regions where they are defined. Note that certain variables which are ill-defined in certain regions (e.g. $\Delta \eta (\ell_{1,non-Z}, \ell_{2,non-Z})$ in the $ZZb$ CR, as all leptons originate from a $b$-jet in this region) will not be shown.\\
 
-In Figure \ref{fig:4lep-ttZCR-eventbdt-vars}, MC predictions for the input variables to the event-level BDT in the $t\bar{t}Z$ CR are shown.
+In Figure \ref{fig:4lep-ttZCR-eventbdt-vars}, MC predictions for the variables used in the event-level BDT in the $t\bar{t}Z$ CR are shown.
 \begin{figure}[htbp]
 \centering
 
      \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_HT.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_LT.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png} 
+     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png} 
+   
+\includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png} 
 
-
-\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing variable importance), in the $t\bar{t}Z$ CR, are shown. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section \ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section \ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate. The data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with $\frac{signal}{background}$ greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted.}
+\caption{The expected number of events of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing variable importance), in the $t\bar{t}Z$ CR, are shown. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section \ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section \ref{sec:object-level-bdt}). Sum of $b$-tagged jet $p_{T}$. The data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with $\frac{signal}{background}$ greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted.}
   \label{fig:4lep-ttZCR-eventbdt-vars}
 \end{figure}
-
-
-
-In Figure \ref{fig:4lep-ZZbCR-eventbdt-vars}, MC predictions for the input variables to the event-level BDT in the $ZZb$ CR are shown.
+The deviations between data and simulation, across all variables used in the $t\bar{t}Z$ CR, in all but three bins are within expected uncertainties. In Figure \ref{fig:4lep-ZZbCR-eventbdt-vars}, MC predictions for the variables used in the event-level BDT in the $ZZb$ CR are shown.
 \begin{figure}[htbp]
 \centering
 
@@ -1224,27 +1007,27 @@ In Figure \ref{fig:4lep-ZZbCR-eventbdt-vars}, MC predictions for the input varia
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png} 
     
 
-\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing variable importance), in the $ZZb$ CR, are shown. \textbf{From left to right:} Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. The data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with $\frac{signal}{background}$ greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted.}
+\caption{The expected number of events of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing variable importance), in the $ZZb$ CR, are shown. \textbf{From left to right:} Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. The data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with $\frac{signal}{background}$ greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted.}
   \label{fig:4lep-ZZbCR-eventbdt-vars}
 \end{figure}
+The deviations between data and simulation, across all variables used in the $ZZb$ CR, are within expected uncertainties. 
 
-
-In Figure \ref{fig:4lep-tWZfakeCR-eventbdt-vars}, MC predictions for the input variables to the event-level BDT in the $(tWZ)_{\text{fake}}$ CR are shown.
+In Figure \ref{fig:4lep-tWZfakeCR-eventbdt-vars}, MC predictions for the variables used in the event-level BDT in the $(tWZ)_{\text{fake}}$ CR are shown.
 \begin{figure}[htbp]
 \centering
 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_HT.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_LT.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png} 
-    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png} 
     \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png} 
+    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png} 
+    \includegraphics[width=.3\textwidth]{figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png}     
   
 
-\caption{Pre-fit distributions of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing variable importance), in the $(tWZ)_{\text{fake}}$ CR, are shown. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section \ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. Sum of $b$-tagged jet $p_{T}$. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section \ref{sec:object-level-bdt}). $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate. The data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with $\frac{signal}{background}$ greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted.}
+\caption{The expected number of events of variables used as input to the event-level BDT (ordered from top left to bottom right via decreasing variable importance), in the $(tWZ)_{\text{fake}}$ CR, are shown. \textbf{From top left to bottom right:} Output weight from the 2$\nu$SM algorithm (See Section \ref{sec:2vsm}). Scalar sum of jet $p_{T}$. Scalar sum of lepton $p_{T}$. $\Delta \eta$ between the two leptons, not coming from a $Z$ candidate. Ratio of the top scoring $\ell b$ system to the 2nd best scoring $\ell b$ system from the output of the object-level BDT (See Section \ref{sec:object-level-bdt}). Sum of $b$-tagged jet $p_{T}$. The data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the blue diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. Bins with $\frac{signal}{background}$ greater than 0.1 are kept blinded. Blinded bins are shaded with black diagonal lines and their data points are omitted.}
   \label{fig:4lep-tWZfakeCR-eventbdt-vars}
 \end{figure}
 
-Overall, the agreement between data and simulation for the input variables to the event-level BDT is good. Therefore, these variables are well-modelled and reasonable to include as inputs to the event-level BDT.\\
+The deviations between data and simulation, across all variables used in the \tWZfake CR, in all but one bin are within expected uncertainties. Overall, the vast majority of predictions between data and simulation in the bins of the event-level BDT distributions in the $t\bar{t}Z$ CR, $ZZb$ CR and \tWZfake CR, are within the expected uncertainties. Therefore, these variables are well-modelled and reasonable to include as inputs to the event-level BDT.\\
 
 In Table \ref{tab:event-bdt-hyperParams}, the hyper-parameters used in the event-level BDT are shown.
 \begin{table}[htbp!]
@@ -1267,7 +1050,7 @@ In Table \ref{tab:event-bdt-hyperParams}, the hyper-parameters used in the event
 			\bottomrule
 			
 		\end{tabular}}
-		\caption{A list of the hyper-parameters used in the event-level BDT is shown. Hyperparameters not listed in this table use the default values as stated in the Scikit-learn Documentation\cite{skLearnGBClassifierDocs}.}
+		\caption{A list of the hyper-parameters used in the event-level BDT is shown. Hyper-parameters not listed in this table use the default values as stated in the Scikit-learn Documentation\cite{skLearnGBClassifierDocs}.}
 	\label{tab:event-bdt-hyperParams}
 \end{table}
 
@@ -1287,7 +1070,7 @@ In Figure \ref{fig:event-bdt-overtrain-check} the normalised histograms of the t
 	\label{fig:event-bdt-overtrain-check}
 \end{figure}
 
-We can see that the shapes of the training and test sets for both signal and background are very similar. This is a good indicator that no over-training occurred. As with the object-level BDT, we perform another over-training check, by ensuring that the variance of the mean accuracy of each folds' test set in a 5 fold kfold cross validation is sufficiently small. This indicates that fluctuations in features from different training sets are not learnt by the BDT. For the event-level classifier, a variance of 0.00026 was calculated for the mean accuracies of each folds' test set in cross validation, providing further evidence that no over-training occurred. In Figure \ref{fig:2vsm-normdists}, normalised distributions of the signal and total background of the event-level BDT discriminator output in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, are shown. 
+We can see that the shapes of the training and test sets for both signal and background are very similar. This is a good indicator that no over-training occurred. As with the object-level BDT, we perform another over-training check, by ensuring that the variance of the mean accuracy of each folds' test set in a 5 fold kfold cross validation is sufficiently small. This indicates that fluctuations in features from different training sets are not learnt by the BDT. For the event-level BDT, a variance of 0.00026 was calculated for the mean accuracies of each folds' test set in cross validation, providing further evidence that no over-training occurred. In Figure \ref{fig:2vsm-normdists}, normalised distributions of the signal and total background of the event-level BDT discriminator output in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, are shown. 
 
 \begin{figure}[h!]
 	\includegraphics[scale=0.27]{figures/lep4_tWZ_4T_OF.png}
@@ -1436,13 +1219,13 @@ We make use of industry standard \texttt{ROOT}\footnote{CERN's HEP data analysis
 
 \texttt{TRExFitter} is a framework for binned template profile likelihood fits\cite{TRexfitter}. In this analysis, we used TRExFitter (tag: \texttt{TRExFitter-00-04-13}) to produce all plots (including fit statistics, e.g. limit, significance, $\mu_{best-fit}$).\\
 
-The analysis pipeline starts with sample derivations (derived dataset) being submitted to the grid for ntuple production. This applies cuts and selections to the already reduced derivations and produces ntuples with trees containing variables (e.g. scale factors, observables, MC truth flags) that will be used at future stages in the analysis. These ntuples are then read by \texttt{PyROOT} where the events are looped over, before being written to \texttt{ROOT} files as input to \texttt{TRExFitter}. The \texttt{Python} scripts are used to define the different regions and apply the final cuts and selections outlined in Table \ref{tab:4Lep-cutsummary}. In addition to this purpose, they are used to train the two BDTs and to produce the output from these trained BDTs. As each event is looped over, the cuts and selection criteria are checked for the given event and is either thrown away (if the event does not pass the selection criteria), or gets written to a \texttt{ROOT} file (if the event passes the selection criteria) corresponding to the MC sample and Run 2 data-set which it belongs to. These \texttt{ROOT} files contain all observables, weights and scale factors (corresponding to an event) which we wish to use in \texttt{TRExFitter}. \texttt{TRExFitter} then takes these files as input, runs a maximum likelihood fit and produces relevant plots (e.g. expected number of events, pull plots) and statistical parameters (e.g. limit, significance, $\mu_{best-fit}$).
+The analysis pipeline starts with sample derivations (derived dataset) being submitted to the grid for ntuple production. This applies cuts and selections to the already reduced derivations and produces ntuples with trees containing variables (e.g. scale factors, variables, MC truth flags) that will be used at future stages in the analysis. These ntuples are then read by \texttt{PyROOT} where the events are looped over, before being written to \texttt{ROOT} files as input to \texttt{TRExFitter}. The \texttt{Python} scripts are used to define the different regions and apply the final cuts and selections outlined in Table \ref{tab:4Lep-cutsummary}. In addition to this purpose, they are used to train the two BDTs and to produce the output from these trained BDTs. As each event is looped over, the cuts and selection criteria are checked for the given event and is either thrown away (if the event does not pass the selection criteria), or gets written to a \texttt{ROOT} file (if the event passes the selection criteria) corresponding to the MC sample and Run 2 data-set which it belongs to. These \texttt{ROOT} files contain all variables, weights and scale factors (corresponding to an event) which we wish to use in \texttt{TRExFitter}. \texttt{TRExFitter} then takes these files as input, runs a maximum likelihood fit and produces relevant plots (e.g. expected number of events, pull plots) and statistical parameters (e.g. limit, significance, $\mu_{best-fit}$).
 
 
 \subsection{Fitting Procedure}
 \label{sec:fitting-procedure}
 
-Using the TRExFitter framework, binned profile-likelihood fits are performed to determine the signal strength, $\mu_{tWZ} = \frac{\sigma_{obs}(tWZ)}{\sigma_{SM}(tWZ)}$, of $tWZ$ production. A fit across all regions in the tetralepton channel is performed to determine the sensitivity $tWZ$ in this channel. In Section \ref{sec:combined-results}, a combined fit is performed across all regions in the trilepton and tetralepton channels to take advantage of the sensitivity of $tWZ$ in both channels in order to further boost the sensitivity of $tWZ$.\\
+Using the TRExFitter framework, binned profile-likelihood fits are performed to determine the signal strength, $\mu_{tWZ} = \frac{\sigma_{obs}(tWZ)}{\sigma_{SM}(tWZ)}$, of $tWZ$ production. A fit across all regions in the tetralepton channel is performed to determine the sensitivity $tWZ$ in this channel. In Section \ref{sec:combined-results}, a combined fit is performed across all regions in the trilepton and tetralepton channels to take advantage of the sensitivity of $tWZ$ in both channels in order to further boost the sensitivity of $tWZ$. Plots shown prior to the fit are referred to as \textit{pre-fit} and those shown after the fit are referred to as \textit{post-fit}.
 
 To characterise the sensitivity and associated uncertainty of our measurement of $\mu (tWZ)$, we compute two metrics: the expected significance ($Z_{\mu}^{exp}$) and the expected upper limit ($\mu_{up}^{exp}$). In this context, the expected significance can be interpreted as, the probability that the measured signal is due to a background fluctuation. Larger values indicate lower probabilities and smaller values indicate higher probabilities. Particles physicists have adopted a standard to define the sensitivity necessary for evidence and discovery of a particular particle or phenomena. A 3$\sigma$ (corresponding to a background fluctuation probability of $\approx 10^{-3}$) significance is considered to be evidence for observation and a 5$\sigma$ (corresponding to a background fluctuation probability of $\approx 10^{-7}$) is considered to be a discovery. The expected upper limit is a single-sided intervaled test statistic, associated with the POI in the maximum-likelihood fit ($\mu (tWZ)$, in our case). In this context, the expected upper limit can be understood in the following way: consider running an ensemble of MC toy experiments, each with their own confidence interval (a range of possible values for $\mu (tWZ)$). An expected upper limit, at some fixed percentage $x\%$ (or \textit{confidence level}), can be determined from this ensemble. The expected upper limit tells us that, $x\%$ of the toy MC experiment's confidence intervals will contain the true value of $\mu (tWZ)$. A commonly used percentage in particle physics is 95$\%$, which we adopt for this analysis. In particle physics, this is referred to as the \textit{CLs Method}~\cite{Cowan_2011}. The CLs test statistic can be calculated 'brute force' by running these MC toy experiments, however this is very CPU intensive. Asymptotic formulae are able to describe the underlining CLs test statistic distributions under certain approximations~\cite{asymptotic-formulae-slides}. Instead of running toy MC experiments, we use asymptotic formulae to perform the CLs method, which reduces computation time from several millions of CPU hours to several CPU minutes. The significance and upper limits which are calculated in this analysis are given a prefix of 'expected' to indicate that these are results from a blinded analysis. \\
 

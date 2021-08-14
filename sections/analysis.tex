@@ -630,7 +630,20 @@ BDTs are chosen, as opposed to another ML algorithm, since they are not very sen
 
 \subsection{Boosted Decision Trees}
 
-Machine Learning techniques can be used to build multivariate algorithms that exploit information from many weak discriminators (a model that is used to classify data in a dataset) to form one strong discriminator. A BDT is a Machine Learning technique which classifies data in a dataset into different categories by iteratively applying binary cuts on features of the data (variables, in the context of this analysis) to segregate the data. The method in which a BDT combines weak discriminators to build a single strong discriminator is called \textit{boosting}. In boosting, weak discriminators are sequentially combined, where each model iteration is fitted to the residuals from the previous step, such that the model performance improves.
+Machine Learning techniques can be used to build multivariate algorithms that exploit information from many weak discriminators (a model that is used to classify data in a dataset) to form one strong discriminator. A BDT is a Machine Learning technique which classifies data in a dataset into different categories by iteratively applying binary cuts on features of the data (variables, in the context of this analysis) to segregate the data. The method in which a BDT combines weak discriminators to build a single strong discriminator is called \textit{boosting}. In boosting, weak discriminators are sequentially combined, where each model iteration is fitted to the residuals from the previous step, such that the model performance improves.\\
+
+There are a few concepts related to Machine Learning and BDTs that are used in this analysis. These concepts are described briefly in the proceeding text.
+
+\myparagraph{Hyper-parameter optimisation}
+
+Hyper-parameters are user-defined parameters of a model that are govern the entire training process. Typical examples of hyper-parameters include the learning rate, the number of discriminators and the type of loss function used to be optimised. The learning rate determines the step size at each iteration in determining the minimum of the loss function. Hyper-parameter optimisation is a process which aims to determine the best hyper-parameters for a model, based off some performance metric. In this analysis hyper-parameter optimisation is performed using a \textit{grid search}. In a grid search, a user-defined list of hyper-parameter values are chosen for each hyper-parameter that one aims to optimise. The model is then trained using each permutation of hyper-parameters and determines the set of hyper-parameters in which the performance metric is maximised.
+
+\myparagraph{Cross Validation}
+
+Cross Validation is a procedure used to evaluate a Machine Learning algorithm. Cross validation gives an estimate on how the model is expected to perform on unseen data. In this analysis we use a type of cross validation called, \textit{k-fold} cross validation. In k-fold cross validation, the training dataset is randomly split up into k subsets, or folds of approximately equal size. A fold is defined as a test set and the remaining k-1 folds are used to train the model. The model is then evaluated on the test set and a performance metric (or multiple) is evaluated. This procedure is performed once on each fold. 
+
+\myparagraph{Overtraining}
+
 
 \subsection{Object-level BDT}
 \label{sec:object-level-bdt}

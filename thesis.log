@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.23)  13 AUG 2021 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.23)  14 AUG 2021 11:10
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1982,17 +1982,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 627--628
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--641
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 
  []
 
 [36 <./figures/iff_bar_3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 642--643
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--651
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
 
  []
 
@@ -2000,34 +2015,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 642--643
 File: figures/bdtPlots/normPlot_m_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_m_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_m_lb.png  used on input line
- 672.
+ 682.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
 <figures/bdtPlots/normPlot_delR_lb.png, id=265, 505.89pt x 433.62pt>
 File: figures/bdtPlots/normPlot_delR_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_delR_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_delR_lb.png  used on input l
-ine 673.
+ine 683.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
 <figures/bdtPlots/normPlot_pt_lb.png, id=266, 505.89pt x 433.62pt>
 File: figures/bdtPlots/normPlot_pt_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_pt_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_pt_lb.png  used on input lin
-e 674.
+e 684.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
 <figures/bdtPlots/normPlot_delEta_lb.png, id=267, 505.89pt x 433.62pt>
 File: figures/bdtPlots/normPlot_delEta_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_delEta_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_delEta_lb.png  used on input
- line 675.
+ line 685.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
 <figures/bdtPlots/normPlot_delPhi_lb.png, id=268, 505.89pt x 433.62pt>
 File: figures/bdtPlots/normPlot_delPhi_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_delPhi_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_delPhi_lb.png  used on input
- line 676.
+ line 686.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--684
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
 
  []
 
@@ -2035,69 +2050,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 683--684
 File: figures/bdtPlots/lep4_ttZ_4T_delEta_l0b0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_delEta_l0b0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_delEta_l0b0.png  used on 
-input line 689.
+input line 699.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
 <figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png, id=270, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png  used on 
-input line 690.
+input line 700.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
 <figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png, id=271, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png  used on in
-put line 691.
+put line 701.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
 <figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png, id=272, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png  used on inpu
-t line 692.
+t line 702.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
 <figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png, id=273, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png  used on input
- line 693.
+ line 703.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 699--700
-
- []
-
-<figures/normPlot_compare_m_lb.png, id=274, 462.528pt x 346.896pt>
-File: figures/normPlot_compare_m_lb.png Graphic file (type png)
-<use figures/normPlot_compare_m_lb.png>
-Package pdftex.def Info: figures/normPlot_compare_m_lb.png  used on input line 
-708.
-(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
-<figures/normPlot_compare_pt_lb.png, id=275, 462.528pt x 346.896pt>
-File: figures/normPlot_compare_pt_lb.png Graphic file (type png)
-<use figures/normPlot_compare_pt_lb.png>
-Package pdftex.def Info: figures/normPlot_compare_pt_lb.png  used on input line
- 709.
-(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
-<figures/normPlot_compare_delEta_lb.png, id=276, 462.528pt x 346.896pt>
-File: figures/normPlot_compare_delEta_lb.png Graphic file (type png)
-<use figures/normPlot_compare_delEta_lb.png>
-Package pdftex.def Info: figures/normPlot_compare_delEta_lb.png  used on input 
-line 710.
-(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
-<figures/normPlot_compare_delPhi_lb.png, id=277, 462.528pt x 346.896pt>
-File: figures/normPlot_compare_delPhi_lb.png Graphic file (type png)
-<use figures/normPlot_compare_delPhi_lb.png>
-Package pdftex.def Info: figures/normPlot_compare_delPhi_lb.png  used on input 
-line 711.
-(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
-<figures/normPlot_compare_delR_lb.png, id=278, 462.528pt x 346.896pt>
-File: figures/normPlot_compare_delR_lb.png Graphic file (type png)
-<use figures/normPlot_compare_delR_lb.png>
-Package pdftex.def Info: figures/normPlot_compare_delR_lb.png  used on input li
-ne 712.
-(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 718--720
+Underfull \hbox (badness 10000) in paragraph at lines 709--710
 
  []
 
@@ -2107,24 +2087,55 @@ _delEta_lb.png> <./figures/bdtPlots/normPlot_delPhi_lb.png>] [39 <./figures/bdt
 Plots/lep4_ttZ_4T_delEta_l0b0.png> <./figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.
 png> <./figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png> <./figures/bdtPlots/lep4_tt
 Z_4T_Pt_lb_0.png> <./figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png>]
-<figures/overtrainingCheck_4lep_lb.png, id=294, 462.528pt x 346.896pt>
-File: figures/overtrainingCheck_4lep_lb.png Graphic file (type png)
-<use figures/overtrainingCheck_4lep_lb.png>
-Package pdftex.def Info: figures/overtrainingCheck_4lep_lb.png  used on input l
-ine 750.
-(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<figures/normPlot_compare_m_lb.png, id=289, 462.528pt x 346.896pt>
+File: figures/normPlot_compare_m_lb.png Graphic file (type png)
+<use figures/normPlot_compare_m_lb.png>
+Package pdftex.def Info: figures/normPlot_compare_m_lb.png  used on input line 
+718.
+(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
+<figures/normPlot_compare_pt_lb.png, id=290, 462.528pt x 346.896pt>
+File: figures/normPlot_compare_pt_lb.png Graphic file (type png)
+<use figures/normPlot_compare_pt_lb.png>
+Package pdftex.def Info: figures/normPlot_compare_pt_lb.png  used on input line
+ 719.
+(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
+<figures/normPlot_compare_delEta_lb.png, id=291, 462.528pt x 346.896pt>
+File: figures/normPlot_compare_delEta_lb.png Graphic file (type png)
+<use figures/normPlot_compare_delEta_lb.png>
+Package pdftex.def Info: figures/normPlot_compare_delEta_lb.png  used on input 
+line 720.
+(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
+<figures/normPlot_compare_delPhi_lb.png, id=292, 462.528pt x 346.896pt>
+File: figures/normPlot_compare_delPhi_lb.png Graphic file (type png)
+<use figures/normPlot_compare_delPhi_lb.png>
+Package pdftex.def Info: figures/normPlot_compare_delPhi_lb.png  used on input 
+line 721.
+(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
+<figures/normPlot_compare_delR_lb.png, id=293, 462.528pt x 346.896pt>
+File: figures/normPlot_compare_delR_lb.png Graphic file (type png)
+<use figures/normPlot_compare_delR_lb.png>
+Package pdftex.def Info: figures/normPlot_compare_delR_lb.png  used on input li
+ne 722.
+(pdftex.def)             Requested size: 150.14671pt x 112.60753pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
+Underfull \hbox (badness 10000) in paragraph at lines 728--730
 
  []
 
 [40 <./figures/normPlot_compare_m_lb.png> <./figures/normPlot_compare_pt_lb.png
 > <./figures/normPlot_compare_delEta_lb.png> <./figures/normPlot_compare_delPhi
 _lb.png> <./figures/normPlot_compare_delR_lb.png>]
+<figures/overtrainingCheck_4lep_lb.png, id=303, 462.528pt x 346.896pt>
+File: figures/overtrainingCheck_4lep_lb.png Graphic file (type png)
+<use figures/overtrainingCheck_4lep_lb.png>
+Package pdftex.def Info: figures/overtrainingCheck_4lep_lb.png  used on input l
+ine 760.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
+
+ []
+
 <figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.png, id=
 304, 598.235pt x 574.145pt>
 File: figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.png
@@ -2132,7 +2143,7 @@ File: figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.png
 <use figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.png>
 
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndB
-est_noExclusion.png  used on input line 761.
+est_noExclusion.png  used on input line 771.
 (pdftex.def)             Requested size: 150.14671pt x 144.09657pt.
 <figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_noExclusion.png, id=
 305, 598.235pt x 574.145pt>
@@ -2141,7 +2152,7 @@ File: figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_noExclusion.png
 <use figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_noExclusion.png>
 
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndB
-est_noExclusion.png  used on input line 762.
+est_noExclusion.png  used on input line 772.
 (pdftex.def)             Requested size: 150.14671pt x 144.09657pt.
 <figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_noExclusion.png, id=306
 , 598.235pt x 574.145pt>
@@ -2149,24 +2160,21 @@ File: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_noExclusion.png Gr
 aphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_noExclusion.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest
-_noExclusion.png  used on input line 763.
+_noExclusion.png  used on input line 773.
 (pdftex.def)             Requested size: 150.14671pt x 144.09657pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 768--769
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 
  []
 
-[41 <./figures/overtrainingCheck_4lep_lb.png> <./figures/bdtPlots/lep4_tWZ_4T_O
-F_BDT_Score_bestOver2ndBest_noExclusion.png> <./figures/bdtPlots/lep4_tWZ_4T_SF
-_BDT_Score_bestOver2ndBest_noExclusion.png> <./figures/bdtPlots/lep4_ttZ_4T_BDT
-_Score_bestOver2ndBest_noExclusion.png>]
+[41 <./figures/overtrainingCheck_4lep_lb.png>]
 <figures/DeltaR_lb_bdt.png, id=311, 614.295pt x 346.896pt>
 File: figures/DeltaR_lb_bdt.png Graphic file (type png)
 <use figures/DeltaR_lb_bdt.png>
-Package pdftex.def Info: figures/DeltaR_lb_bdt.png  used on input line 774.
+Package pdftex.def Info: figures/DeltaR_lb_bdt.png  used on input line 784.
 (pdftex.def)             Requested size: 350.33727pt x 197.83862pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 779--780
+Underfull \hbox (badness 10000) in paragraph at lines 789--790
 
  []
 
@@ -2176,7 +2184,7 @@ File: figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_sep.png Graphic
  file (type png)
 <use figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_sep.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndB
-est_sep.png  used on input line 786.
+est_sep.png  used on input line 796.
 (pdftex.def)             Requested size: 150.14671pt x 144.09657pt.
 <figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_sep.png, id=313, 598
 .235pt x 574.145pt>
@@ -2184,7 +2192,7 @@ File: figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_sep.png Graphic
  file (type png)
 <use figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_sep.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndB
-est_sep.png  used on input line 787.
+est_sep.png  used on input line 797.
 (pdftex.def)             Requested size: 150.14671pt x 144.09657pt.
 <figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.png, id=314, 598.23
 5pt x 574.145pt>
@@ -2192,272 +2200,170 @@ File: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.png Graphic fi
 le (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest
-_sep.png  used on input line 788.
+_sep.png  used on input line 798.
 (pdftex.def)             Requested size: 150.14671pt x 144.09657pt.
-[42 <./figures/DeltaR_lb_bdt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
+
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--812
-
- []
-
-[43 <./figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_sep.png> <./fi
-gures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_sep.png> <./figures/bdt
-Plots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 836--837
+[42 <./figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.pn
+g> <./figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_noExclusion.png
+> <./figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_noExclusion.png>]
+[43 <./figures/DeltaR_lb_bdt.png> <./figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_
+bestOver2ndBest_sep.png> <./figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2
+ndBest_sep.png> <./figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.p
+ng>]
+Underfull \hbox (badness 10000) in paragraph at lines 820--822
 
  []
 
-<figures/mtop_2vSM.png, id=323, 647.41875pt x 436.63126pt>
-File: figures/mtop_2vSM.png Graphic file (type png)
-<use figures/mtop_2vSM.png>
-Package pdftex.def Info: figures/mtop_2vSM.png  used on input line 841.
-(pdftex.def)             Requested size: 225.21626pt x 151.89049pt.
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 844--845
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 846--847
 
  []
 
-<figures/dExy_2vSM.png, id=324, 655.44875pt x 437.635pt>
+<figures/mtop_2vSM.png, id=326, 647.41875pt x 436.63126pt>
+File: figures/mtop_2vSM.png Graphic file (type png)
+<use figures/mtop_2vSM.png>
+Package pdftex.def Info: figures/mtop_2vSM.png  used on input line 851.
+(pdftex.def)             Requested size: 225.21626pt x 151.89049pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
+
+ []
+
+<figures/dExy_2vSM.png, id=327, 655.44875pt x 437.635pt>
 File: figures/dExy_2vSM.png Graphic file (type png)
 <use figures/dExy_2vSM.png>
-Package pdftex.def Info: figures/dExy_2vSM.png  used on input line 851.
+Package pdftex.def Info: figures/dExy_2vSM.png  used on input line 861.
 (pdftex.def)             Requested size: 225.21626pt x 150.36987pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 860--861
+[45 <./figures/mtop_2vSM.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
 
  []
 
-[45 <./figures/mtop_2vSM.png> <./figures/dExy_2vSM.png>]
-<figures/lbassoc_2vSM.pdf, id=333, 569.12625pt x 385.44pt>
+<figures/lbassoc_2vSM.pdf, id=332, 569.12625pt x 385.44pt>
 File: figures/lbassoc_2vSM.pdf Graphic file (type pdf)
 <use figures/lbassoc_2vSM.pdf>
-Package pdftex.def Info: figures/lbassoc_2vSM.pdf  used on input line 878.
+Package pdftex.def Info: figures/lbassoc_2vSM.pdf  used on input line 888.
 (pdftex.def)             Requested size: 300.29344pt x 203.38239pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 889--890
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 891--892
-
- []
-
-[46 <./figures/lbassoc_2vSM.pdf, page is rotated 90 degrees>]
-<figures/bbll_occ_2vSM.pdf, id=380, 569.12625pt x 385.44pt>
-File: figures/bbll_occ_2vSM.pdf Graphic file (type pdf)
-<use figures/bbll_occ_2vSM.pdf>
-Package pdftex.def Info: figures/bbll_occ_2vSM.pdf  used on input line 896.
-(pdftex.def)             Requested size: 300.29344pt x 203.38239pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 902--903
-
- []
-
-<figures/bbll_veto_2vSM.pdf, id=381, 569.12625pt x 385.44pt>
-File: figures/bbll_veto_2vSM.pdf Graphic file (type pdf)
-<use figures/bbll_veto_2vSM.pdf>
-Package pdftex.def Info: figures/bbll_veto_2vSM.pdf  used on input line 907.
-(pdftex.def)             Requested size: 300.29344pt x 203.38239pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 913--914
-
- []
-
-[47 <./figures/bbll_occ_2vSM.pdf, page is rotated 90 degrees> <./figures/bbll_v
-eto_2vSM.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 915--916
-
- []
-
-<figures/lt_occ_2vSM.pdf, id=471, 569.12625pt x 385.44pt>
-File: figures/lt_occ_2vSM.pdf Graphic file (type pdf)
-<use figures/lt_occ_2vSM.pdf>
-Package pdftex.def Info: figures/lt_occ_2vSM.pdf  used on input line 922.
-(pdftex.def)             Requested size: 300.29344pt x 203.38239pt.
-<figures/lt_veto_2vSM.pdf, id=472, 569.12625pt x 385.44pt>
-File: figures/lt_veto_2vSM.pdf Graphic file (type pdf)
-<use figures/lt_veto_2vSM.pdf>
-Package pdftex.def Info: figures/lt_veto_2vSM.pdf  used on input line 930.
-(pdftex.def)             Requested size: 341.47838pt x 231.26578pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 938--939
+Underfull \hbox (badness 10000) in paragraph at lines 899--900
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 940--941
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
-<figures/bdtPlots/normPlot_max_2vSM_weight.png, id=473, 505.89pt x 433.62pt>
+[46 <./figures/dExy_2vSM.png>]
+<figures/bbll_occ_2vSM.pdf, id=337, 569.12625pt x 385.44pt>
+File: figures/bbll_occ_2vSM.pdf Graphic file (type pdf)
+<use figures/bbll_occ_2vSM.pdf>
+Package pdftex.def Info: figures/bbll_occ_2vSM.pdf  used on input line 906.
+(pdftex.def)             Requested size: 300.29344pt x 203.38239pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 912--913
+
+ []
+
+[47 <./figures/lbassoc_2vSM.pdf, page is rotated 90 degrees> <./figures/bbll_oc
+c_2vSM.pdf, page is rotated 90 degrees>]
+<figures/bbll_veto_2vSM.pdf, id=427, 569.12625pt x 385.44pt>
+File: figures/bbll_veto_2vSM.pdf Graphic file (type pdf)
+<use figures/bbll_veto_2vSM.pdf>
+Package pdftex.def Info: figures/bbll_veto_2vSM.pdf  used on input line 917.
+(pdftex.def)             Requested size: 300.29344pt x 203.38239pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--924
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 925--926
+
+ []
+
+<figures/lt_occ_2vSM.pdf, id=428, 569.12625pt x 385.44pt>
+File: figures/lt_occ_2vSM.pdf Graphic file (type pdf)
+<use figures/lt_occ_2vSM.pdf>
+Package pdftex.def Info: figures/lt_occ_2vSM.pdf  used on input line 932.
+(pdftex.def)             Requested size: 300.29344pt x 203.38239pt.
+<figures/lt_veto_2vSM.pdf, id=429, 569.12625pt x 385.44pt>
+File: figures/lt_veto_2vSM.pdf Graphic file (type pdf)
+<use figures/lt_veto_2vSM.pdf>
+Package pdftex.def Info: figures/lt_veto_2vSM.pdf  used on input line 940.
+(pdftex.def)             Requested size: 341.47838pt x 231.26578pt.
+[48 <./figures/bbll_veto_2vSM.pdf, page is rotated 90 degrees> <./figures/lt_oc
+c_2vSM.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 950--951
+
+ []
+
+<figures/bdtPlots/normPlot_max_2vSM_weight.png, id=519, 505.89pt x 433.62pt>
 File: figures/bdtPlots/normPlot_max_2vSM_weight.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_max_2vSM_weight.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_max_2vSM_weight.png  used on
- input line 971.
+ input line 981.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
-<figures/bdtPlots/normPlot_HT.png, id=474, 505.89pt x 433.62pt>
+<figures/bdtPlots/normPlot_HT.png, id=520, 505.89pt x 433.62pt>
 File: figures/bdtPlots/normPlot_HT.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_HT.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_HT.png  used on input line 9
-72.
+82.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
-<figures/bdtPlots/normPlot_LT.png, id=475, 505.89pt x 433.62pt>
+<figures/bdtPlots/normPlot_LT.png, id=521, 505.89pt x 433.62pt>
 File: figures/bdtPlots/normPlot_LT.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_LT.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_LT.png  used on input line 9
-73.
+83.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
-<figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png, id=476, 505.89pt x 433.62pt>
+<figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png, id=522, 505.89pt x 433.62pt>
 
 File: figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png  used
- on input line 974.
+ on input line 984.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
-<figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png, id=477, 505.89pt x 43
+<figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png, id=523, 505.89pt x 43
 3.62pt>
 File: figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png Graphic file (typ
 e png)
 <use figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.pn
-g  used on input line 975.
+g  used on input line 985.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
-<figures/bdtPlots/normPlot_sum_bJet_pt.png, id=478, 505.89pt x 433.62pt>
+<figures/bdtPlots/normPlot_sum_bJet_pt.png, id=524, 505.89pt x 433.62pt>
 File: figures/bdtPlots/normPlot_sum_bJet_pt.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_sum_bJet_pt.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_sum_bJet_pt.png  used on inp
-ut line 976.
+ut line 986.
 (pdftex.def)             Requested size: 150.14671pt x 128.69754pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 982--983
-
- []
-
-[48 <./figures/lt_occ_2vSM.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 984--985
-
- []
-
-<figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png, id=525, 798.985pt x 774.895p
-t>
-File: figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png Graphic file (type png)
-<use figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png  used
- on input line 990.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_HT.png, id=526, 798.985pt x 774.895pt>
-File: figures/bdtPlots/lep4_ttZ_4T_HT.png Graphic file (type png)
-<use figures/bdtPlots/lep4_ttZ_4T_HT.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_HT.png  used on input lin
-e 991.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_LT.png, id=527, 798.985pt x 774.895pt>
-File: figures/bdtPlots/lep4_ttZ_4T_LT.png Graphic file (type png)
-<use figures/bdtPlots/lep4_ttZ_4T_LT.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_LT.png  used on input lin
-e 992.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png, id=528, 798.985pt x 774.8
-95pt>
-File: figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png Graphic file (type pn
-g)
-<use figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png  u
-sed on input line 993.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png, id=529, 798.985pt 
-x 774.895pt>
-File: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png Graphic file (
-type png)
-<use figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest
-.png  used on input line 994.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png, id=530, 798.985pt x 774.895pt>
-File: figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png Graphic file (type png)
-<use figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png  used on 
-input line 996.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ZZb_4T_HT.png, id=531, 798.985pt x 774.895pt>
-File: figures/bdtPlots/lep4_ZZb_4T_HT.png Graphic file (type png)
-<use figures/bdtPlots/lep4_ZZb_4T_HT.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_ZZb_4T_HT.png  used on input lin
-e 1005.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ZZb_4T_LT.png, id=532, 798.985pt x 774.895pt>
-File: figures/bdtPlots/lep4_ZZb_4T_LT.png Graphic file (type png)
-<use figures/bdtPlots/lep4_ZZb_4T_LT.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_ZZb_4T_LT.png  used on input lin
-e 1006.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png, id=533, 798.985pt x 774.895pt>
-File: figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png Graphic file (type png)
-<use figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png  used on 
-input line 1007.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_HT.png, id=534, 798.985pt x 774.895pt>
-File: figures/bdtPlots/lep4_tWZ_3T1L_HT.png Graphic file (type png)
-<use figures/bdtPlots/lep4_tWZ_3T1L_HT.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_HT.png  used on input l
-ine 1019.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_LT.png, id=535, 798.985pt x 774.895pt>
-File: figures/bdtPlots/lep4_tWZ_3T1L_LT.png Graphic file (type png)
-<use figures/bdtPlots/lep4_tWZ_3T1L_LT.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_LT.png  used on input l
-ine 1020.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png, id=536, 798.985pt x 774
-.895pt>
-File: figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png Graphic file (type 
-png)
-<use figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png 
- used on input line 1021.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png, id=537, 798.985p
-t x 774.895pt>
-File: figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png Graphic file
- (type png)
-<use figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBe
-st.png  used on input line 1022.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png, id=538, 798.985pt x 774.895pt>
-
-File: figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png Graphic file (type png)
-<use figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png>
-Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png  used o
-n input line 1023.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
+Underfull \hbox (badness 10000) in paragraph at lines 992--993
 
  []
 
@@ -2465,97 +2371,197 @@ Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
 tPlots/normPlot_max_2vSM_weight.png> <./figures/bdtPlots/normPlot_HT.png> <./fi
 gures/bdtPlots/normPlot_LT.png> <./figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ
 .png> <./figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png> <./figures/bd
-tPlots/normPlot_sum_bJet_pt.png>] [51 <./figures/bdtPlots/lep4_ttZ_4T_max_2vSM_
-weight.png> <./figures/bdtPlots/lep4_ttZ_4T_HT.png> <./figures/bdtPlots/lep4_tt
-Z_4T_LT.png> <./figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png> <./figures
-/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png> <./figures/bdtPlots/lep4_t
-tZ_4T_sum_bJet_Pt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1062
+tPlots/normPlot_sum_bJet_pt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 994--995
+
+ []
+
+<figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png, id=581, 798.985pt x 774.895p
+t>
+File: figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png Graphic file (type png)
+<use figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png  used
+ on input line 1000.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_ttZ_4T_HT.png, id=582, 798.985pt x 774.895pt>
+File: figures/bdtPlots/lep4_ttZ_4T_HT.png Graphic file (type png)
+<use figures/bdtPlots/lep4_ttZ_4T_HT.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_HT.png  used on input lin
+e 1001.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_ttZ_4T_LT.png, id=583, 798.985pt x 774.895pt>
+File: figures/bdtPlots/lep4_ttZ_4T_LT.png Graphic file (type png)
+<use figures/bdtPlots/lep4_ttZ_4T_LT.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_LT.png  used on input lin
+e 1002.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png, id=584, 798.985pt x 774.8
+95pt>
+File: figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png Graphic file (type pn
+g)
+<use figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png  u
+sed on input line 1003.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png, id=585, 798.985pt 
+x 774.895pt>
+File: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png Graphic file (
+type png)
+<use figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest
+.png  used on input line 1004.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png, id=586, 798.985pt x 774.895pt>
+File: figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png Graphic file (type png)
+<use figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png  used on 
+input line 1006.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_ZZb_4T_HT.png, id=587, 798.985pt x 774.895pt>
+File: figures/bdtPlots/lep4_ZZb_4T_HT.png Graphic file (type png)
+<use figures/bdtPlots/lep4_ZZb_4T_HT.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_ZZb_4T_HT.png  used on input lin
+e 1015.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_ZZb_4T_LT.png, id=588, 798.985pt x 774.895pt>
+File: figures/bdtPlots/lep4_ZZb_4T_LT.png Graphic file (type png)
+<use figures/bdtPlots/lep4_ZZb_4T_LT.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_ZZb_4T_LT.png  used on input lin
+e 1016.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png, id=589, 798.985pt x 774.895pt>
+File: figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png Graphic file (type png)
+<use figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png  used on 
+input line 1017.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_tWZ_3T1L_HT.png, id=590, 798.985pt x 774.895pt>
+File: figures/bdtPlots/lep4_tWZ_3T1L_HT.png Graphic file (type png)
+<use figures/bdtPlots/lep4_tWZ_3T1L_HT.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_HT.png  used on input l
+ine 1029.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_tWZ_3T1L_LT.png, id=591, 798.985pt x 774.895pt>
+File: figures/bdtPlots/lep4_tWZ_3T1L_LT.png Graphic file (type png)
+<use figures/bdtPlots/lep4_tWZ_3T1L_LT.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_LT.png  used on input l
+ine 1030.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png, id=592, 798.985pt x 774
+.895pt>
+File: figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png Graphic file (type 
+png)
+<use figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png 
+ used on input line 1031.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png, id=593, 798.985p
+t x 774.895pt>
+File: figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png Graphic file
+ (type png)
+<use figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBe
+st.png  used on input line 1032.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+<figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png, id=594, 798.985pt x 774.895pt>
+
+File: figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png Graphic file (type png)
+<use figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png>
+Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png  used o
+n input line 1033.
+(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+Underfull \hbox (badness 10000) in paragraph at lines 1070--1072
 
  []
 
-<figures/overtrainingCheck_4lep_event.png, id=598, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
+
+ []
+
+<figures/overtrainingCheck_4lep_event.png, id=595, 462.528pt x 346.896pt>
 File: figures/overtrainingCheck_4lep_event.png Graphic file (type png)
 <use figures/overtrainingCheck_4lep_event.png>
 Package pdftex.def Info: figures/overtrainingCheck_4lep_event.png  used on inpu
-t line 1067.
+t line 1077.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/lep4_tWZ_4T_OF.png, id=599, 598.235pt x 574.145pt>
+[51] [52 <./figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png> <./figures/bdtPlo
+ts/lep4_ttZ_4T_HT.png> <./figures/bdtPlots/lep4_ttZ_4T_LT.png> <./figures/bdtPl
+ots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png> <./figures/bdtPlots/lep4_ttZ_4T_BDT_Sco
+re_bestOver2ndBest.png> <./figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png>]
+<figures/lep4_tWZ_4T_OF.png, id=602, 598.235pt x 574.145pt>
 File: figures/lep4_tWZ_4T_OF.png Graphic file (type png)
 <use figures/lep4_tWZ_4T_OF.png>
-Package pdftex.def Info: figures/lep4_tWZ_4T_OF.png  used on input line 1076.
+Package pdftex.def Info: figures/lep4_tWZ_4T_OF.png  used on input line 1086.
 (pdftex.def)             Requested size: 161.5256pt x 155.02122pt.
-<figures/lep4_tWZ_4T_SF.png, id=600, 598.235pt x 574.145pt>
+<figures/lep4_tWZ_4T_SF.png, id=603, 598.235pt x 574.145pt>
 File: figures/lep4_tWZ_4T_SF.png Graphic file (type png)
 <use figures/lep4_tWZ_4T_SF.png>
-Package pdftex.def Info: figures/lep4_tWZ_4T_SF.png  used on input line 1077.
+Package pdftex.def Info: figures/lep4_tWZ_4T_SF.png  used on input line 1087.
 (pdftex.def)             Requested size: 161.5256pt x 155.02122pt.
-<figures/lep4_ttZ_4T.png, id=601, 598.235pt x 574.145pt>
+<figures/lep4_ttZ_4T.png, id=604, 598.235pt x 574.145pt>
 File: figures/lep4_ttZ_4T.png Graphic file (type png)
 <use figures/lep4_ttZ_4T.png>
-Package pdftex.def Info: figures/lep4_ttZ_4T.png  used on input line 1078.
+Package pdftex.def Info: figures/lep4_ttZ_4T.png  used on input line 1088.
 (pdftex.def)             Requested size: 161.5256pt x 155.02122pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[52 <./figures/bdtPlots/lep4_ZZb_4T_HT.png> <./figures/bdtPlots/lep4_ZZb_4T_LT.
-png> <./figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png>] [53 <./figures/bdtPlots/
+[53 <./figures/bdtPlots/lep4_ZZb_4T_HT.png> <./figures/bdtPlots/lep4_ZZb_4T_LT.
+png> <./figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png>] [54 <./figures/bdtPlots/
 lep4_tWZ_3T1L_HT.png> <./figures/bdtPlots/lep4_tWZ_3T1L_LT.png> <./figures/bdtP
 lots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png> <./figures/bdtPlots/lep4_tWZ_3T1L_BD
 T_Score_bestOver2ndBest.png> <./figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png>
-] [54 <./figures/overtrainingCheck_4lep_event.png> <./figures/lep4_tWZ_4T_OF.pn
-g> <./figures/lep4_tWZ_4T_SF.png> <./figures/lep4_ttZ_4T.png>] [55]
-Underfull \hbox (badness 10000) in paragraph at lines 1194--1195
+] [55 <./figures/overtrainingCheck_4lep_event.png> <./figures/lep4_tWZ_4T_OF.pn
+g> <./figures/lep4_tWZ_4T_SF.png> <./figures/lep4_ttZ_4T.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1198--1199
+Underfull \hbox (badness 10000) in paragraph at lines 1208--1209
 
  []
 
-<figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png, id=616, 798.985pt x 574.14
+[56]
+<figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png, id=619, 798.985pt x 574.14
 5pt>
 File: figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png Graphic file (type png
 )
 <use figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png>
 Package pdftex.def Info: figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png  us
-ed on input line 1203.
+ed on input line 1213.
 (pdftex.def)             Requested size: 200.19054pt x 143.85127pt.
-<figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png, id=617, 798.985pt x 57
+<figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png, id=620, 798.985pt x 57
 4.145pt>
 File: figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png Graphic file (type
  png)
 <use figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png>
 Package pdftex.def Info: figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png
-  used on input line 1204.
+  used on input line 1214.
 (pdftex.def)             Requested size: 200.19054pt x 143.85127pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1216--1217
-
- []
-
-[56 <./figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png> <./figures/lep4_ttZ_
-4T_ttz_shape_20percent_triangular.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
+Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1220--1221
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1229
 
  []
 
@@ -2564,175 +2570,184 @@ Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
-
- []
-
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+[57 <./figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png> <./figures/lep4_ttZ_
+4T_ttz_shape_20percent_triangular.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1240--1241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
+Underfull \hbox (badness 10000) in paragraph at lines 1242--1243
 
  []
 
-<figures/PostFitPlots/lep4_tWZ_4T_SF.png, id=625, 798.985pt x 774.895pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1247
+
+ []
+
+[58]
+<figures/PostFitPlots/lep4_tWZ_4T_SF.png, id=628, 798.985pt x 774.895pt>
 File: figures/PostFitPlots/lep4_tWZ_4T_SF.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_4T_SF.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_4T_SF.png  used on input
- line 1251.
+ line 1261.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_4T_OF.png, id=626, 798.985pt x 774.895pt>
+<figures/PostFitPlots/lep4_tWZ_4T_OF.png, id=629, 798.985pt x 774.895pt>
 File: figures/PostFitPlots/lep4_tWZ_4T_OF.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_4T_OF.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_4T_OF.png  used on input
- line 1252.
+ line 1262.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_ttZ_4T.png, id=627, 798.985pt x 774.895pt>
+<figures/PostFitPlots/lep4_ttZ_4T.png, id=630, 798.985pt x 774.895pt>
 File: figures/PostFitPlots/lep4_ttZ_4T.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_ttZ_4T.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_ttZ_4T.png  used on input li
-ne 1253.
+ne 1263.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_ZZb_4T.png, id=628, 798.985pt x 774.895pt>
+<figures/PostFitPlots/lep4_ZZb_4T.png, id=631, 798.985pt x 774.895pt>
 File: figures/PostFitPlots/lep4_ZZb_4T.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_ZZb_4T.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_ZZb_4T.png  used on input li
-ne 1257.
+ne 1267.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_3T1L.png, id=629, 798.985pt x 774.895pt>
+<figures/PostFitPlots/lep4_tWZ_3T1L.png, id=632, 798.985pt x 774.895pt>
 File: figures/PostFitPlots/lep4_tWZ_3T1L.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_3T1L.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_3T1L.png  used on input 
-line 1258.
+line 1268.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png, id=630, 798.985pt x 774.895pt
+<figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png, id=633, 798.985pt x 774.895pt
 >
 File: figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png  used 
-on input line 1270.
+on input line 1280.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png, id=631, 798.985pt x 774.895pt
+<figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png, id=634, 798.985pt x 774.895pt
 >
 File: figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png  used 
-on input line 1271.
+on input line 1281.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_ttZ_4T_postFit.png, id=632, 798.985pt x 774.895pt>
+<figures/PostFitPlots/lep4_ttZ_4T_postFit.png, id=635, 798.985pt x 774.895pt>
 File: figures/PostFitPlots/lep4_ttZ_4T_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_ttZ_4T_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_ttZ_4T_postFit.png  used on 
-input line 1272.
+input line 1282.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_ZZb_4T_postFit.png, id=633, 798.985pt x 774.895pt>
+<figures/PostFitPlots/lep4_ZZb_4T_postFit.png, id=636, 798.985pt x 774.895pt>
 File: figures/PostFitPlots/lep4_ZZb_4T_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_ZZb_4T_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_ZZb_4T_postFit.png  used on 
-input line 1276.
+input line 1286.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png, id=634, 798.985pt x 774.895pt>
+<figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png, id=637, 798.985pt x 774.895pt>
 
 File: figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png  used o
-n input line 1277.
+n input line 1287.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1327
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1337
 
  []
 
-[58] [59 <./figures/PostFitPlots/lep4_tWZ_4T_SF.png> <./figures/PostFitPlots/le
-p4_tWZ_4T_OF.png> <./figures/PostFitPlots/lep4_ttZ_4T.png> <./figures/PostFitPl
-ots/lep4_ZZb_4T.png> <./figures/PostFitPlots/lep4_tWZ_3T1L.png>] [60 <./figures
-/PostFitPlots/lep4_tWZ_4T_SF_postFit.png> <./figures/PostFitPlots/lep4_tWZ_4T_O
-F_postFit.png> <./figures/PostFitPlots/lep4_ttZ_4T_postFit.png> <./figures/Post
-FitPlots/lep4_ZZb_4T_postFit.png> <./figures/PostFitPlots/lep4_tWZ_3T1L_postFit
-.png>]
+[59 <./figures/PostFitPlots/lep4_tWZ_4T_SF.png> <./figures/PostFitPlots/lep4_tW
+Z_4T_OF.png> <./figures/PostFitPlots/lep4_ttZ_4T.png> <./figures/PostFitPlots/l
+ep4_ZZb_4T.png> <./figures/PostFitPlots/lep4_tWZ_3T1L.png>] [60 <./figures/Post
+FitPlots/lep4_tWZ_4T_SF_postFit.png> <./figures/PostFitPlots/lep4_tWZ_4T_OF_pos
+tFit.png> <./figures/PostFitPlots/lep4_ttZ_4T_postFit.png> <./figures/PostFitPl
+ots/lep4_ZZb_4T_postFit.png> <./figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png>
+]
 <figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.png, id=644, 598.235pt x
  508.90125pt>
 File: figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.png Graphic file (t
 ype png)
 <use figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.png>
 Package pdftex.def Info: figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.
-png  used on input line 1332.
+png  used on input line 1342.
 (pdftex.def)             Requested size: 325.31154pt x 276.73611pt.
+ [61 <./figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1352
 
-Underfull \hbox (badness 10000) in paragraph at lines 1341--1342
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1354
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1343--1344
-
- []
-
-[61 <./figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1360--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1370--1371
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1363.
+               Default added (so using `tbp') on input line 1373.
 
 <figures/combined/Limits.png, id=649, 576.1525pt x 417.56pt>
 File: figures/combined/Limits.png Graphic file (type png)
 <use figures/combined/Limits.png>
-Package pdftex.def Info: figures/combined/Limits.png  used on input line 1424.
+Package pdftex.def Info: figures/combined/Limits.png  used on input line 1434.
 (pdftex.def)             Requested size: 300.29344pt x 217.64215pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1429--1430
+Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
 
  []
 
-[62]
-<figures/combined/POI_SigXsecOverSM_.png, id=656, 698.61pt x 473.77pt>
+<figures/combined/POI_SigXsecOverSM_.png, id=650, 698.61pt x 473.77pt>
 File: figures/combined/POI_SigXsecOverSM_.png Graphic file (type png)
 <use figures/combined/POI_SigXsecOverSM_.png>
 Package pdftex.def Info: figures/combined/POI_SigXsecOverSM_.png  used on input
- line 1436.
+ line 1446.
 (pdftex.def)             Requested size: 300.29344pt x 203.64484pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1440--1441
-
- []
-
-<figures/combined/RankingSysts_SigXsecOverSM_systs.png, id=657, 598.235pt x 508
-.90125pt>
-File: figures/combined/RankingSysts_SigXsecOverSM_systs.png Graphic file (type 
-png)
-<use figures/combined/RankingSysts_SigXsecOverSM_systs.png>
-Package pdftex.def Info: figures/combined/RankingSysts_SigXsecOverSM_systs.png 
- used on input line 1445.
-(pdftex.def)             Requested size: 300.29344pt x 255.4517pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1450--1451
 
  []
 
+<figures/combined/RankingSysts_SigXsecOverSM_systs.png, id=651, 598.235pt x 508
+.90125pt>
+File: figures/combined/RankingSysts_SigXsecOverSM_systs.png Graphic file (type 
+png)
+<use figures/combined/RankingSysts_SigXsecOverSM_systs.png>
+Package pdftex.def Info: figures/combined/RankingSysts_SigXsecOverSM_systs.png 
+ used on input line 1455.
+(pdftex.def)             Requested size: 300.29344pt x 255.4517pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1457--1458
+Underfull \hbox (badness 10000) in paragraph at lines 1460--1461
 
  []
 
-[63 <./figures/combined/Limits.png>] [64 <./figures/combined/POI_SigXsecOverSM_
-.png> <./figures/combined/RankingSysts_SigXsecOverSM_systs.png>]
+[62] [63 <./figures/combined/Limits.png>] [64 <./figures/combined/POI_SigXsecOv
+erSM_.png> <./figures/combined/RankingSysts_SigXsecOverSM_systs.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1467--1468
+
+ []
+
 <figures/combined/exp_upper.png, id=665, 462.528pt x 346.896pt>
 File: figures/combined/exp_upper.png Graphic file (type png)
 <use figures/combined/exp_upper.png>
-Package pdftex.def Info: figures/combined/exp_upper.png  used on input line 146
+Package pdftex.def Info: figures/combined/exp_upper.png  used on input line 147
 3.
 (pdftex.def)             Requested size: 165.16063pt x 123.87146pt.
 <figures/combined/signif.png, id=666, 462.528pt x 346.896pt>
 File: figures/combined/signif.png Graphic file (type png)
 <use figures/combined/signif.png>
-Package pdftex.def Info: figures/combined/signif.png  used on input line 1464.
+Package pdftex.def Info: figures/combined/signif.png  used on input line 1474.
 (pdftex.def)             Requested size: 165.16063pt x 123.87146pt.
 ) [65 <./figures/combined/exp_upper.png> <./figures/combined/signif.png>]
 Chapter 5.
@@ -2826,7 +2841,7 @@ m/cmti10.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
 cmtt10.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt
 8.pfb></home/jake/.miktex/texmfs/install/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on thesis.pdf (71 pages, 4283500 bytes).
+Output written on thesis.pdf (71 pages, 4285196 bytes).
 PDF statistics:
  817 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

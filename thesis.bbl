@@ -449,76 +449,6 @@
       \verb http://dx.doi.org/10.1140/epjc/s10052-016-4120-y
       \endverb
     \endentry
-    \entry{Aad:2138166}{article}{}
-      \name{author}{7}{}{%
-        {{hash=ec1463e7fbfc553eca7d18cd31454ab6}{%
-           family={Aad},
-           familyi={A\bibinitperiod},
-           given={Georges},
-           giveni={G\bibinitperiod}}}%
-        {{hash=a85e0445e4a031167b7ad6b520dae94a}{%
-           family={Abbott},
-           familyi={A\bibinitperiod},
-           given={Brad},
-           giveni={B\bibinitperiod}}}%
-        {{hash=d263845b67b3cf08c04d8847294e29ab}{%
-           family={Abdallah},
-           familyi={A\bibinitperiod},
-           given={Jalal},
-           giveni={J\bibinitperiod}}}%
-        {{hash=ad5443c72817de4c2db7d8ff29cc2a23}{%
-           family={Abdinov},
-           familyi={A\bibinitperiod},
-           given={Ovsat},
-           giveni={O\bibinitperiod}}}%
-        {{hash=9b1e873a439ded148ae790e26b267174}{%
-           family={Aben},
-           familyi={A\bibinitperiod},
-           given={Rosemarie},
-           giveni={R\bibinitperiod}}}%
-        {{hash=aad77416e9979b5094d8da966252b733}{%
-           family={Abolins},
-           familyi={A\bibinitperiod},
-           given={Maris},
-           giveni={M\bibinitperiod}}}%
-        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{f0806a61a21762c45bb17c53a0517ffd}
-      \strng{fullhash}{92232e560b4bfc3759c0dba88753c38e}
-      \strng{bibnamehash}{f0806a61a21762c45bb17c53a0517ffd}
-      \strng{authorbibnamehash}{f0806a61a21762c45bb17c53a0517ffd}
-      \strng{authornamehash}{f0806a61a21762c45bb17c53a0517ffd}
-      \strng{authorfullhash}{92232e560b4bfc3759c0dba88753c38e}
-      \field{extraname}{3}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Eur. Phys. J. C}
-      \field{month}{3}
-      \field{title}{{Topological cell clustering in the ATLAS calorimeters and its performance in LHC Run 1. Topological cell clustering in the ATLAS calorimeters and its performance in LHC Run 1}}
-      \field{volume}{77}
-      \field{year}{2016}
-      \field{pages}{490. 87 p}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1140/epjc/s10052-017-5004-5
-      \endverb
-      \verb{eprint}
-      \verb 1603.02934
-      \endverb
-      \verb{urlraw}
-      \verb https://cds.cern.ch/record/2138166
-      \endverb
-      \verb{url}
-      \verb https://cds.cern.ch/record/2138166
-      \endverb
-    \endentry
     \entry{elecIsolationEfficiency}{online}{}
       \name{author}{2}{}{%
         {{hash=d715d97d0fc00a7af592ed0e5ea39055}{%
@@ -552,6 +482,56 @@
       \verb https://indico.cern.ch/event/854783/contributions/3595486/attachments/1929380/3195230/PLV_Summary.pdf
       \endverb
     \endentry
+    \entry{ALTARELLI_1998}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cb1a8f5441c822175f46427e0a0bcd4c}{%
+           family={ALTARELLI},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d6a0b92e4dabaa3551662fae6d7ad7dc}{%
+           family={BARBIERI},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6bc90089524ee545c4100c46cacb4428}{%
+           family={CARAVAGLIOS},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific Pub Co Pte Lt}%
+      }
+      \strng{namehash}{7b082386fac7adcc356196c7d30a9531}
+      \strng{fullhash}{7b082386fac7adcc356196c7d30a9531}
+      \strng{bibnamehash}{7b082386fac7adcc356196c7d30a9531}
+      \strng{authorbibnamehash}{7b082386fac7adcc356196c7d30a9531}
+      \strng{authornamehash}{7b082386fac7adcc356196c7d30a9531}
+      \strng{authorfullhash}{7b082386fac7adcc356196c7d30a9531}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1793-656X}
+      \field{journaltitle}{International Journal of Modern Physics A}
+      \field{month}{3}
+      \field{number}{07}
+      \field{title}{ELECTROWEAK PRECISION TEST: A CONCISE REVIEW}
+      \field{volume}{13}
+      \field{year}{1998}
+      \field{pages}{1031\bibrangedash 1058}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1142/s0217751x98000469
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1142/S0217751X98000469
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1142/S0217751X98000469
+      \endverb
+    \endentry
     \entry{altarelli2014higgs}{misc}{}
       \name{author}{1}{}{%
         {{hash=6349ee4a6aa6336ed3f3c3fc24787871}{%
@@ -576,6 +556,84 @@
       \field{year}{2014}
       \verb{eprint}
       \verb 1407.2122
+      \endverb
+    \endentry
+    \entry{Alwall:2014hca}{article}{}
+      \name{author}{10}{}{%
+        {{hash=db770a0dfc4628a7437bedbd56f940d4}{%
+           family={Alwall},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=87f8432b90fa1363547627dd900ac62d}{%
+           family={Frederix},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=36ec2b0a28a3159dd489a8e0ce4c5e16}{%
+           family={Frixione},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=da2920448eb87fb33798abb131da464b}{%
+           family={Hirschi},
+           familyi={H\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=146d5a62e8ec749ce3c087e42804f0a6}{%
+           family={Maltoni},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d6305f4a2bb37c97934d4f0cae42109e}{%
+           family={Mattelaer},
+           familyi={M\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=adaa785c52340ddac5dc9fa29ef75f05}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=86e07bd86b6c081d973cbedd27c360ab}{%
+           family={Stelzer},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9ef6ecb08c2c6e622eec344decdbb82c}{%
+           family={Torrielli},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=97b1b02748b4a359125a674e12ece48b}{%
+           family={Zaro},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{fullhash}{4dca187eec78198538fc054760944ebc}
+      \strng{bibnamehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{authorbibnamehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{authornamehash}{98c22186c090664cd0aa787235a12e76}
+      \strng{authorfullhash}{4dca187eec78198538fc054760944ebc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations}}
+      \field{volume}{07}
+      \field{year}{2014}
+      \field{pages}{079}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP07(2014)079
+      \endverb
+      \verb{eprint}
+      \verb 1405.0301
       \endverb
     \endentry
     \entry{asymptotic-formulae-slides}{online}{}
@@ -1162,6 +1220,94 @@
       \verb http://cds.cern.ch/record/2211022
       \endverb
     \endentry
+    \entry{Bothmann_2019}{article}{}
+      \name{author}{11}{}{%
+        {{hash=6359b195678b1fc5be1e46577c8df8e4}{%
+           family={Bothmann},
+           familyi={B\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5e011c31f8068abfb4f84a13d6bf4438}{%
+           family={Singh\bibnamedelima Chahal},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Gurpreet},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4ea5ba95fe0317569bdcdff6d61d9623}{%
+           family={Höche},
+           familyi={H\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b4b2b91d171d7820623f0976b7dbf301}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7f3652b92bc33cd3874bc96547311d99}{%
+           family={Krauss},
+           familyi={K\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=cf0bda21d71e73730b7e2d7f95c6b3fa}{%
+           family={Kuttimalai},
+           familyi={K\bibinitperiod},
+           given={Silvan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2d152fa9bd53376d415fa244da26282d}{%
+           family={Liebschner},
+           familyi={L\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d45e58c0e8e7ac37a3a1aa74627909f6}{%
+           family={Napoletano},
+           familyi={N\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1392cb975fdf232bac1caf7c826723f8}{%
+           family={Schönherr},
+           familyi={S\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod}}}%
+        {{hash=186dbdf4630336848c61e708669d5d3d}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Stichting SciPost}%
+      }
+      \strng{namehash}{a82c421b76dd0d179ec5f11da0c16516}
+      \strng{fullhash}{df4f6dabd3e2d31d77171da54a96d3a5}
+      \strng{bibnamehash}{a82c421b76dd0d179ec5f11da0c16516}
+      \strng{authorbibnamehash}{a82c421b76dd0d179ec5f11da0c16516}
+      \strng{authornamehash}{a82c421b76dd0d179ec5f11da0c16516}
+      \strng{authorfullhash}{df4f6dabd3e2d31d77171da54a96d3a5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2542-4653}
+      \field{journaltitle}{SciPost Physics}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Event generation with Sherpa 2.2}
+      \field{volume}{7}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.21468/scipostphys.7.3.034
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.21468/SciPostPhys.7.3.034
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.21468/SciPostPhys.7.3.034
+      \endverb
+    \endentry
     \entry{Brivio_2019}{article}{}
       \name{author}{2}{}{%
         {{hash=044b59e76a8aaf7087c15acb5215ca53}{%
@@ -1204,6 +1350,32 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1016/j.physrep.2018.11.002
+      \endverb
+    \endentry
+    \entry{overfitting-blog}{online}{}
+      \name{author}{1}{}{%
+        {{hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Overfitting and Underfitting With Machine Learning Algorithms}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/
       \endverb
     \endentry
     \entry{lhc-design-report}{book}{}
@@ -1271,6 +1443,66 @@
       \endverb
       \verb{url}
       \verb https://cds.cern.ch/record/782076
+      \endverb
+    \endentry
+    \entry{Burdman_2015}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d421e249dca12f649fab5135da8c0e20}{%
+           family={Burdman},
+           familyi={B\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3b932903e92f8b6a3e9a88465f4f660c}{%
+           family={Chacko},
+           familyi={C\bibinitperiod},
+           given={Zackaria},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7f6462e8b730917f61d3dd9278662dcc}{%
+           family={Harnik},
+           familyi={H\bibinitperiod},
+           given={Roni},
+           giveni={R\bibinitperiod}}}%
+        {{hash=38169cc070d2dba6a9d175e0bfe3448d}{%
+           family={Lima},
+           familyi={L\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=5531e08903db957c4a20da0d764a8889}{%
+           family={Verhaaren},
+           familyi={V\bibinitperiod},
+           given={Christopher\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{6ce7d1e498754d2c78e10a77f4501b2b}
+      \strng{fullhash}{4d32c4f5051446ec97ff1d3356ecf0df}
+      \strng{bibnamehash}{6ce7d1e498754d2c78e10a77f4501b2b}
+      \strng{authorbibnamehash}{6ce7d1e498754d2c78e10a77f4501b2b}
+      \strng{authornamehash}{6ce7d1e498754d2c78e10a77f4501b2b}
+      \strng{authorfullhash}{4d32c4f5051446ec97ff1d3356ecf0df}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1550-2368}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{3}
+      \field{number}{5}
+      \field{title}{Colorless top partners, a 125 GeV Higgs boson, and the limits on naturalness}
+      \field{volume}{91}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1103/physrevd.91.055007
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevD.91.055007
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevD.91.055007
       \endverb
     \endentry
     \entry{Cacciari:2008gp}{article}{}
@@ -1423,56 +1655,6 @@
       \verb https://e-publishing.cern.ch/index.php/CYRM/issue/view/127
       \endverb
     \endentry
-    \entry{Chaichian_1995}{article}{}
-      \name{author}{3}{}{%
-        {{hash=50461d0f8995f005c7b83ef1f9181cf2}{%
-           family={Chaichian},
-           familyi={C\bibinitperiod},
-           given={Masud},
-           giveni={M\bibinitperiod}}}%
-        {{hash=38b8e44c2de2e85f649acf4ae7e614a6}{%
-           family={Felipe},
-           familyi={F\bibinitperiod},
-           given={Ricardo\bibnamedelima Gonzalez},
-           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=0ce8bfaea7ba297449bb4b865dd0f662}{%
-           family={Huitu},
-           familyi={H\bibinitperiod},
-           given={Katri},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier BV}%
-      }
-      \strng{namehash}{e505a6bf8f64319dd770ed18001539a0}
-      \strng{fullhash}{e505a6bf8f64319dd770ed18001539a0}
-      \strng{bibnamehash}{e505a6bf8f64319dd770ed18001539a0}
-      \strng{authorbibnamehash}{e505a6bf8f64319dd770ed18001539a0}
-      \strng{authornamehash}{e505a6bf8f64319dd770ed18001539a0}
-      \strng{authorfullhash}{e505a6bf8f64319dd770ed18001539a0}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0370-2693}
-      \field{journaltitle}{Physics Letters B}
-      \field{month}{11}
-      \field{number}{1-2}
-      \field{title}{On quadratic divergences and the Higgs mass}
-      \field{volume}{363}
-      \field{year}{1995}
-      \field{pages}{101\bibrangedash 105}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1016/0370-2693(95)01191-r
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1016/0370-2693(95)01191-R
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1016/0370-2693(95)01191-R
-      \endverb
-    \endentry
     \entry{muonIsolationEfficiency}{online}{}
       \name{author}{1}{}{%
         {{hash=96e25a288d17b3af80ed6a64be714e78}{%
@@ -1562,6 +1744,28 @@
       \verb{eprint}
       \verb {2009.01186}
       \endverb
+    \endentry
+    \entry{cms-ttbar}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Measurement of the ttbar production cross section using events with one lepton and at least one jet in pp collisions at sqrt(s)=13 TeV}
+      \field{year}{2017}
     \endentry
     \entry{Collaboration_2008}{article}{}
       \name{author}{5}{}{%
@@ -1906,30 +2110,110 @@
       \verb 1802.05781
       \endverb
     \endentry
-    \entry{Overlap-removal-slides}{online}{}
-      \name{author}{1}{}{%
-        {{hash=5c643a28b0353973325eb537c53b7ba2}{%
-           family={Farrell},
-           familyi={F\bibinitperiod},
-           given={Steve},
-           giveni={S\bibinitperiod}}}%
+    \entry{ATL-PHYS-PUB-2015-034}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
       }
-      \strng{namehash}{5c643a28b0353973325eb537c53b7ba2}
-      \strng{fullhash}{5c643a28b0353973325eb537c53b7ba2}
-      \strng{bibnamehash}{5c643a28b0353973325eb537c53b7ba2}
-      \strng{authorbibnamehash}{5c643a28b0353973325eb537c53b7ba2}
-      \strng{authornamehash}{5c643a28b0353973325eb537c53b7ba2}
-      \strng{authorfullhash}{5c643a28b0353973325eb537c53b7ba2}
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{All figures including auxiliary figures are available at https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2015-034}
+      \field{title}{{Forward Jet Vertex Tagging: A new technique for the identification and rejection of forward pileup jets}}
+      \field{type}{techreport}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2042098
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2042098
+      \endverb
+    \endentry
+    \entry{Frixione:2007vw}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ff1219d2389730607629a5d0e08f7429}{%
+           family={Frixione},
+           familyi={F\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=08565706058718b454be32b190e67d73}{%
+           family={Nason},
+           familyi={N\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=72698ca93b5d232340312b35d62b6362}{%
+           family={Oleari},
+           familyi={O\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{fullhash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{bibnamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{authorbibnamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{authornamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
+      \strng{authorfullhash}{9a0fcbd16f305691a517c5a5cc0bcc06}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Overlap Removal Tools, FTAG/Hbb Workshop}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Matching NLO QCD computations with parton shower simulations: the POWHEG method}}
+      \field{volume}{11}
+      \field{year}{2007}
+      \field{pages}{070}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2007/11/070
+      \endverb
+      \verb{eprint}
+      \verb 0709.2092
+      \endverb
+    \endentry
+    \entry{top-a-tool-for-disc}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e87e16bf9b88ef3618d7c350ec1f5748}{%
+           family={Gallinaro},
+           familyi={G\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e87e16bf9b88ef3618d7c350ec1f5748}
+      \strng{fullhash}{e87e16bf9b88ef3618d7c350ec1f5748}
+      \strng{bibnamehash}{e87e16bf9b88ef3618d7c350ec1f5748}
+      \strng{authorbibnamehash}{e87e16bf9b88ef3618d7c350ec1f5748}
+      \strng{authornamehash}{e87e16bf9b88ef3618d7c350ec1f5748}
+      \strng{authorfullhash}{e87e16bf9b88ef3618d7c350ec1f5748}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics Conference Series}
+      \field{month}{07}
+      \field{title}{Top quark physics: A tool for discoveries}
+      \field{volume}{447}
+      \field{year}{2013}
+      \field{pages}{2012\bibrangedash}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/447/1/012012
+      \endverb
+    \endentry
+    \entry{goodrunslist}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{title}{Good Run Lists for Analysis Run 2 - ATLAS Twiki}
       \verb{urlraw}
-      \verb https://indico.cern.ch/event/631313/contributions/2683959/attachments/1518878/2373377/Farrell_ORTools_ftaghbb.pdf
+      \verb https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/GoodRunListsForAnalysisRun2
       \endverb
       \verb{url}
-      \verb https://indico.cern.ch/event/631313/contributions/2683959/attachments/1518878/2373377/Farrell_ORTools_ftaghbb.pdf
+      \verb https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/GoodRunListsForAnalysisRun2
       \endverb
     \endentry
     \entry{GoodRunLists}{online}{}
@@ -3199,6 +3483,34 @@
       \verb https://doi.org/10.1093/ptep/ptaa104
       \endverb
     \endentry
+    \entry{hastie2009the}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
+           family={Hastie},
+           familyi={H\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0cb8fe4210baa81c4b0e67913b4d2768}
+      \strng{fullhash}{0cb8fe4210baa81c4b0e67913b4d2768}
+      \strng{bibnamehash}{0cb8fe4210baa81c4b0e67913b4d2768}
+      \strng{authorbibnamehash}{0cb8fe4210baa81c4b0e67913b4d2768}
+      \strng{authornamehash}{0cb8fe4210baa81c4b0e67913b4d2768}
+      \strng{authorfullhash}{0cb8fe4210baa81c4b0e67913b4d2768}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-387-84858-7}
+      \field{title}{The elements of statistical learning : data mining, inference, and prediction}
+      \field{year}{2009}
+    \endentry
     \entry{Higgs:1964pj}{article}{}
       \name{author}{1}{}{%
         {{hash=3e19a08b8763d812b642d1d6654aa521}{%
@@ -3616,6 +3928,32 @@
       \field{title}{Introduction to supersymmetry}
       \field{year}{2010}
     \endentry
+    \entry{lesage2017lepton}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2856acbe767ad319f9e9a0a7f5708a3e}{%
+           family={Lesage},
+           familyi={L\bibinitperiod},
+           given={Arthur\bibnamedelimb Alexis\bibnamedelima Jules},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2856acbe767ad319f9e9a0a7f5708a3e}
+      \strng{fullhash}{2856acbe767ad319f9e9a0a7f5708a3e}
+      \strng{bibnamehash}{2856acbe767ad319f9e9a0a7f5708a3e}
+      \strng{authorbibnamehash}{2856acbe767ad319f9e9a0a7f5708a3e}
+      \strng{authornamehash}{2856acbe767ad319f9e9a0a7f5708a3e}
+      \strng{authorfullhash}{2856acbe767ad319f9e9a0a7f5708a3e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{title}{Lepton and photon performance at ATLAS and CMS}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1709.02598
+      \endverb
+    \endentry
     \entry{Maltoni_2019}{article}{}
       \name{author}{3}{}{%
         {{hash=efeb0fbcee7d0848e1c3e647ab2d5e98}{%
@@ -3772,6 +4110,28 @@
       \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/MCTruthClassifier
       \endverb
     \endentry
+    \entry{ATLAS-CONF-2019-041}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{All figures including auxiliary figures are available at https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2019-041}
+      \field{title}{{Measurement of the $t\bar{t}$ production cross-section and lepton differential distributions in $e\mu$ dilepton events from $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector}}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2686255
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2686255
+      \endverb
+    \endentry
     \entry{Meloni_2016}{article}{}
       \name{author}{1}{}{%
         {{hash=02c5fd57ae19fbb1ff5191880a069da2}{%
@@ -3837,6 +4197,32 @@
       \verb 2105.10261
       \endverb
     \endentry
+    \entry{ML-metrics}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a9097cfddbfd8854e2aa89fa5f47b0c7}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9097cfddbfd8854e2aa89fa5f47b0c7}
+      \strng{fullhash}{a9097cfddbfd8854e2aa89fa5f47b0c7}
+      \strng{bibnamehash}{a9097cfddbfd8854e2aa89fa5f47b0c7}
+      \strng{authorbibnamehash}{a9097cfddbfd8854e2aa89fa5f47b0c7}
+      \strng{authornamehash}{a9097cfddbfd8854e2aa89fa5f47b0c7}
+      \strng{authorfullhash}{a9097cfddbfd8854e2aa89fa5f47b0c7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Metrics to Evaluate your Machine Learning Algorithm}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234
+      \endverb
+    \endentry
     \entry{SM-picture}{online}{}
       \name{author}{2}{}{%
         {{hash=8b6344db03e79d70f18f50b5848d1257}{%
@@ -3888,6 +4274,32 @@
       \verb https://cds.cern.ch/record/2718610
       \endverb
     \endentry
+    \entry{cv-blog}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5c8b60d10e21a39537cd773990506ece}{%
+           family={Mujtaba},
+           familyi={M\bibinitperiod},
+           given={Hussain},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c8b60d10e21a39537cd773990506ece}
+      \strng{fullhash}{5c8b60d10e21a39537cd773990506ece}
+      \strng{bibnamehash}{5c8b60d10e21a39537cd773990506ece}
+      \strng{authorbibnamehash}{5c8b60d10e21a39537cd773990506ece}
+      \strng{authornamehash}{5c8b60d10e21a39537cd773990506ece}
+      \strng{authorfullhash}{5c8b60d10e21a39537cd773990506ece}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Cross Validation in Machine learning? Types of Cross Validation}
+      \verb{urlraw}
+      \verb https://www.mygreatlearning.com/blog/cross-validation/
+      \endverb
+      \verb{url}
+      \verb https://www.mygreatlearning.com/blog/cross-validation/
+      \endverb
+    \endentry
     \entry{muon-selection-tool}{online}{}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
@@ -3926,6 +4338,35 @@
       \verb https://cds.cern.ch/record/2625170
       \endverb
     \endentry
+    \entry{TopQuarkCouplings-searchNewPhysics}{article}{}
+      \name{author}{1}{}{%
+        {{hash=37e5211686d49a328c19df6395b9f7f1}{%
+           family={Onofre},
+           familyi={O\bibinitperiod},
+           given={António},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{37e5211686d49a328c19df6395b9f7f1}
+      \strng{fullhash}{37e5211686d49a328c19df6395b9f7f1}
+      \strng{bibnamehash}{37e5211686d49a328c19df6395b9f7f1}
+      \strng{authorbibnamehash}{37e5211686d49a328c19df6395b9f7f1}
+      \strng{authornamehash}{37e5211686d49a328c19df6395b9f7f1}
+      \strng{authorfullhash}{37e5211686d49a328c19df6395b9f7f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics Conference Series}
+      \field{month}{07}
+      \field{title}{Top Quark Couplings and Search for New Physics at the LHC}
+      \field{volume}{447}
+      \field{year}{2013}
+      \field{pages}{2030\bibrangedash}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/447/1/012030
+      \endverb
+    \endentry
     \entry{TRF-ForceShape}{online}{}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
@@ -3936,6 +4377,28 @@
       \endverb
       \verb{url}
       \verb https://trexfitter-docs.web.cern.ch/trexfitter-docs/model_building/shape/
+      \endverb
+    \endentry
+    \entry{ATLAS-CONF-2012-048}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{note}{All figures including auxiliary figures are available at https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2012-048}
+      \field{title}{{Performance of the ATLAS Electron and Photon Trigger in p-p Collisions at sqrt{s} = 7 TeV in 2011}}
+      \field{type}{techreport}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1450089
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1450089
       \endverb
     \endentry
     \entry{JVTandfJVT-Recommendations}{online}{}
@@ -4012,6 +4475,127 @@
       \field{year}{2016}
       \verb{eprint}
       \verb 1605.05343
+      \endverb
+    \endentry
+    \entry{Sjostrand:2007gs}{article}{}
+      \name{author}{3}{}{%
+        {{hash=752fe8f3c71a7747a7f369453fd286ae}{%
+           family={Sjöstrand},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ef5879c7764a057f679b00c2368277f8}{%
+           family={Mrenna},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5750c61b7f22ed45d42d4a9a72bfcbad}{%
+           family={Skands},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f4fdaf5de25eb4e2e719e4cfa59152}
+      \strng{fullhash}{10f4fdaf5de25eb4e2e719e4cfa59152}
+      \strng{bibnamehash}{10f4fdaf5de25eb4e2e719e4cfa59152}
+      \strng{authorbibnamehash}{10f4fdaf5de25eb4e2e719e4cfa59152}
+      \strng{authornamehash}{10f4fdaf5de25eb4e2e719e4cfa59152}
+      \strng{authorfullhash}{10f4fdaf5de25eb4e2e719e4cfa59152}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Comput. Phys. Commun.}
+      \field{title}{{A brief introduction to PYTHIA 8.1}}
+      \field{volume}{178}
+      \field{year}{2008}
+      \field{pages}{852\bibrangedash 867}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.cpc.2008.01.036
+      \endverb
+      \verb{eprint}
+      \verb 0710.3820
+      \endverb
+    \endentry
+    \entry{Sjostrand:2014zea}{article}{}
+      \name{author}{10}{}{%
+        {{hash=1f7e99224e14002bdface802b6379512}{%
+           family={Sjöstrand},
+           familyi={S\bibinitperiod},
+           given={Torbjörn},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ff13235d93756d3379349e38f8229395}{%
+           family={Ask},
+           familyi={A\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5581c0413dd7fd5c57d2334c00de1162}{%
+           family={Christiansen},
+           familyi={C\bibinitperiod},
+           given={Jesper\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=39433ee7fe060cb02937e1d447218ce3}{%
+           family={Corke},
+           familyi={C\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d9ede315d9535d79d63b9d64a2307cfd}{%
+           family={Desai},
+           familyi={D\bibinitperiod},
+           given={Nishita},
+           giveni={N\bibinitperiod}}}%
+        {{hash=516a0cd8376e1ba0a0bcf1284dd920c9}{%
+           family={Ilten},
+           familyi={I\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b2f5b287eab22155743b6f6e452539c9}{%
+           family={Mrenna},
+           familyi={M\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=312a31f430cf1ba02b15944e08cd63f6}{%
+           family={Prestel},
+           familyi={P\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=370f72a19eab82f125bce3ca2006e12b}{%
+           family={Rasmussen},
+           familyi={R\bibinitperiod},
+           given={Christine\bibnamedelima O.},
+           giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=d07ecde30a48771685fd69b1eb4960d6}{%
+           family={Skands},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima Z.},
+           giveni={P\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
+      \strng{fullhash}{db2e81669ff3f7c57ff54f1b12c3f5e2}
+      \strng{bibnamehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
+      \strng{authorbibnamehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
+      \strng{authornamehash}{214de42c5c16a2b9c81a3d1b9ef923cf}
+      \strng{authorfullhash}{db2e81669ff3f7c57ff54f1b12c3f5e2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Comput. Phys. Commun.}
+      \field{title}{{An introduction to PYTHIA 8.2}}
+      \field{volume}{191}
+      \field{year}{2015}
+      \field{pages}{159}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cpc.2015.01.024
+      \endverb
+      \verb{eprint}
+      \verb 1410.3012
       \endverb
     \endentry
     \entry{sonneveld2019searches}{misc}{}
@@ -4155,6 +4739,34 @@
       \verb https://trexfitter-docs.web.cern.ch/trexfitter-docs/AdvancedTutorial2020/Mixed/
       \endverb
     \endentry
+    \entry{Tschida:2020ftz}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=847ef999af5582549f0970474d7b05c9}{%
+           family={Tschida},
+           familyi={T\bibinitperiod},
+           given={Tommy},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Vienna, Tech. U.}%
+      }
+      \strng{namehash}{847ef999af5582549f0970474d7b05c9}
+      \strng{fullhash}{847ef999af5582549f0970474d7b05c9}
+      \strng{bibnamehash}{847ef999af5582549f0970474d7b05c9}
+      \strng{authorbibnamehash}{847ef999af5582549f0970474d7b05c9}
+      \strng{authornamehash}{847ef999af5582549f0970474d7b05c9}
+      \strng{authorfullhash}{847ef999af5582549f0970474d7b05c9}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Cross section measurements of processes with a single top quark and two vector bosons with the CMS experiment}}
+      \field{type}{mathesis}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.34726/hss.2020.79420
+      \endverb
+    \endentry
     \entry{ben-thesis}{article}{}
       \name{author}{1}{}{%
         {{hash=c3261dd870dd1bfb651bbdfe9112fb66}{%
@@ -4213,6 +4825,32 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevD.10.2445
+      \endverb
+    \endentry
+    \entry{intro-bdt}{online}{}
+      \name{author}{1}{}{%
+        {{hash=369b1809912989c65018c02969f5eb24}{%
+           family={Woodruff},
+           familyi={W\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{369b1809912989c65018c02969f5eb24}
+      \strng{fullhash}{369b1809912989c65018c02969f5eb24}
+      \strng{bibnamehash}{369b1809912989c65018c02969f5eb24}
+      \strng{authorbibnamehash}{369b1809912989c65018c02969f5eb24}
+      \strng{authornamehash}{369b1809912989c65018c02969f5eb24}
+      \strng{authorfullhash}{369b1809912989c65018c02969f5eb24}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to boosted decision trees}
+      \verb{urlraw}
+      \verb https://indico.fnal.gov/event/15356/contributions/31377/attachments/19671/24560/DecisionTrees.pdf
+      \endverb
+      \verb{url}
+      \verb https://indico.fnal.gov/event/15356/contributions/31377/attachments/19671/24560/DecisionTrees.pdf
       \endverb
     \endentry
   \enddatalist

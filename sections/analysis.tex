@@ -115,9 +115,9 @@ In this analysis only $e$ and $\mu$ leptons are considered, since $\tau$ leptons
 \subsection{Jets}
 Jets are reconstructed using the anti-$k_{t}$ algorithm (See Section \ref{sec:jets-btagging}). The \texttt{AntiKt4EMPFlowjets} ($\sim$ 97$\%$ average efficiency with JVT (outlined in the subsequent paragraph) $>$ 0.2~\cite{TopRecoObjTwikiModel}) algorithm (which has a certain cut applied) is used, following the current recommendations~\cite{TopRecoObjTwikiModel}. The jet-vertex-tagger (JVT) and the forward jet-vertex-tagger (fJVT)~\cite{ATL-PHYS-PUB-2015-034} are likelihood discriminant which aim to suppress pile-up jets. The \texttt{Medium} algorithm (which has a certain cut applied) is used for the JVT and the fJVT (following the current recommendations~\cite{JVTandfJVT-Recommendations}). Additionally, a requirement that jets have a JVT value greater than $\SI{0.5}{}$ is applied. In the same way as with leptons, ambiguities are removed where one detector signal can result in multiple different reconstructed objects, via overlap removal (See Section \ref{sec:overlap-removal-procedure}). Jets are required to be within $p_{T}(\text{jet}) > \SI{20}{\GeV}$. These relatively loose $p_T$ cuts are applied in an attempt to increase our limited signal statistics. A forward jet is a signature of single top quark production, jets are therefore required to have $|\eta| < 4.5$ in order to include these forward jets.
 
-
 \subsection{$b$-tagging}
-The DL1r $b$-tagger~\cite{DL1r-paper} was used to identify jets as $b$-jets (See Section \ref{sec:jets-btagging}). Different DL1r working points are used to identify $b$-jets in our event selection (See Section \ref{sec:regionsAndEventSelection}). The working points are defined based off a cut on the DL1r score corresponding to a $b$-jet tagging efficiency of 60$\%$, 70$\%$, 77$\%$ and 85$\%$. \\
+The DL1r $b$-tagger~\cite{DL1r-paper} was used to identify jets as $b$-jets (See Section \ref{sec:jets-btagging}). Different DL1r working points are used to identify $b$-jets in our event selection (See Section \ref{sec:regionsAndEventSelection}). The working points are defined based off a cut on the DL1r score corresponding to a $b$-jet tagging efficiency of 60$\%$, 70$\%$, 77$\%$ and 85$\%$. The efficiency of the DL1r $b$-tagger is measured using control samples in data and in simulation. From these measurements, correction factors are derived to correct the tagging rates in the simulation. In the case of $b$-tagged jets, the correction factors and
+their uncertainties are estimated from data using dileptonic $t\bar{t}$ events~\cite{PERF-2016-05,FTAG-2018-01}. Sources of uncertainty affecting the $b$-tagging efficiencies are evaluated as a function of jet $p_{T}$, including bin-to-bin correlations.
 
 Since this analysis is heavily statistically limited, the amount of statistics in our regions are aimed to be maximized. In an attempt to achieve this goal in the $t\bar{t}Z$ CR, $b$-tagged jets were placed under \textit{tight} and \textit{loose} definitions. A tight $b$-tagged jet is defined as a jet which passes the 77$\%$, 70$\%$, 65$\%$ or 60$\%$ DL1r $b$-tagger working point. A loose $b$-tagged jet is defined as a jet which passes 85$\%$ DL1r $b$-tagger working point, but not the 77$\%$, 70$\%$, 65$\%$ or 60$\%$ DL1r $b$-tagger working points. Different numbers (and definitions) of tight and loose $b$-tagged jets were tried in each region, with the final selection criteria being chosen which maximised the expected significance of $\sigma(tWZ)$ (See Section \ref{sec:optimization-studies-tetra}).
 
@@ -232,7 +232,7 @@ From Figure \ref{fig:4lep-btagWP-optimization}, it can be seen that requiring th
 Since there is a very small change between the different $p_{T}(\text{NL Lepton})$ cuts on the sensitivity of \tWZ, a $p_{T}(\text{NL Lepton})$ cut is applied at 18 GeV (avoiding a $p_{T}$ cut near the sharp drop in expected significance after 28 GeV), therefore applying a cut above the tightest, looser dilepton trigger $p_{T}$ cut (17 GeV) to suppress any systematic from the modelling of the trigger efficiency.
 
 \section{Signal and Control Regions}
-
+\label{sec:sig-and-control-regions}
 In this section, expected number of events of variables in each region are shown. For each figure in this section, the data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. In order to suppress a bias towards large signal observations in the development of the analysis, data has not been analysed in the SRs and in bins (in the CRs) where the expected $\frac{signal}{background}$ exceeds 0.1. Blinded bins in the CRs are shaded with black diagonal lines and their data points are omitted. All data points are omitted in the SRs.\\
 
 In Table \ref{tab:4Lep-PreFit-Yields}, the expected number of events for each sample in each region are shown.
@@ -792,10 +792,10 @@ The separation metrics can be compared between the BDTScore$(\frac{\text{Best}}{
 \label{sec:2vsm}
 The difference in the number of resonant top quarks in the $tWZ$ signal and the dominant background, $t\bar{t}Z$, is a key feature which can be exploited in order to discriminate between these two processes. In Section \ref{sec:object-level-bdt}, an BDT implemented which exploits this information by aiming to identify $\ell b$ systems originating from top quarks. In this section, a kinematic reconstruction algorithm (Two Neutrino Scanning Method) is implemented which exploits the same feature.\\
 
-The Two Neutrino Scanning Method (2$\nu$SM) algorithm\footnote{software tool and weights provided by Thomas McCarthy (\ttZ analysis group - Max Planck Institute)}~\cite{2vSM-ref1,2vSM-ref2} aims to reconstruct $t\bar{t}$ systems in the 2$\ell$, 3$\ell$ and 4$\ell$ final states (e.g. 2$\ell$ case: $t\bar{t}\rightarrow \ell^{+}\nu_{\ell}b\ell^{-}\bar{\nu}_{\ell}\bar{b}$). This was initially designed to suppress the $t\bar{t}$ background in the \ttZ analysis. This algorithm can be re-purposed for our analysis, to distinguish between \tWZ and \ttZ, by removing the easily-identifiable $Z$ boson.\\
+The Two Neutrino Scanning Method (2$\nu$SM) algorithm\footnote{software tool and weights provided by Thomas McCarthy (\ttZ analysis group - Max Planck Institute)}~\cite{2vSM-ref1,2vSM-ref2} aims to reconstruct $t\bar{t}$ systems in the 2$\ell$, 3$\ell$ and 4$\ell$ final states (e.g. 2$\ell$ case: $t\bar{t}\rightarrow \ell^{+}\nu_{\ell}b\ell^{-}\bar{\nu}_{\ell}\bar{b}$). This algorithm can be re-purposed for our analysis, to distinguish between \tWZ and \ttZ, by removing the easily-identifiable $Z$ boson.\\
 
-The 2$\nu$SM algorithm reconstructs a $t\bar{t}$ system by scanning through the components of two possible neutrino 4-vectors ($\nu_{1}$ and $\nu_{2}$). It then aims to determine which $\nu_{1}$ and $\nu_{2}$ correspond to the two neutrinos which originate from the decay of a $t\bar{t}$ system the best (quantified by an output weight, $w_{2\nu SM}$). $w_{2\nu SM}$ is the likelihood under the $t\bar{t}$ dilpeton final state hypothesis. This algorithm can be used in our analysis to discriminate between \tWZ and \ttZ, since the OSSF leptons which decay from the $Z$ boson can be easily reconstructed and removed before inputting the event into the algorithm. It would then be expected that the 2$\nu$SM algorithm returns a higher score from a \ttZ event ($\sim$ 1, i.e. it looks like a $t\bar{t}$ event after removal of the $Z$ boson) and a lower score from a \tWZ event ($\sim$ 0, i.e. it does not look like a $t\bar{t}$ event after removal of the $Z$ boson).
-\subsubsection{The algorithm}
+The 2$\nu$SM algorithm reconstructs a $t\bar{t}$ system by finding two neutrinos ($\nu_{1}$ and $\nu_{2}$) which are most likely to correspond to the neutrinos that originate from the decay of a $t\bar{t}$ system. This algorithm can be used in our analysis to discriminate between \tWZ and \ttZ, since the OSSF leptons which decay from the $Z$ boson can be easily reconstructed and removed before inputting the event into the algorithm. It would then be expected that the 2$\nu$SM algorithm returns a higher score from a \ttZ event ($\sim$ 1, i.e. it looks like a $t\bar{t}$ event after removal of the $Z$ boson) and a lower score from a \tWZ event ($\sim$ 0, i.e. it does not look like a $t\bar{t}$ event after removal of the $Z$ boson).\\
+%\subsubsection{The algorithm}
 The first step in the $2\nu$SM algorithm involves stating four equations which correspond to the invariant masses of the top quark ($m(t)$) and $W$ boson ($m(W)$) for the two top quark decays (i.e. $t\rightarrow W^{+}b \rightarrow \ell^{+} \nu_{\ell}$) in a dileptonic $t\bar{t}$ event. These can be written as,
 
 \begin{align}
@@ -804,9 +804,9 @@ The first step in the $2\nu$SM algorithm involves stating four equations which c
     (\ell_{2} + \nu_{2})^{2} &= m(W)^{2} = (\SI{80.385}{GeV})^2\\
        (\ell_{2} + \nu_{2} + b_{2,1})^{2} &= m(t)^{2} = (\SI{172.5}{GeV})^{2}
 \end{align}
-where the subscripts indicate that these particles originate from the decay of two different top quarks in a $t\bar{t}$ system. A assumption is made such that the mass of the neutrinos ($\nu_{1}$ and $nu_{2}$) are close to zero, which leaves us with 6 unknowns, $p_{{T}_{\nu_{1}}}$, $\phi_{\nu_{1}}$, $\eta_{\nu_{1}}$, $p_{{T}_{\nu_{2}}}$, $\phi_{\nu_{2}}$ and $\eta_{\nu_{2}}$ (components of the two neutrino's 4-vectors).\\
+where the subscripts indicate that these particles originate from the decay of two different top quarks in a $t\bar{t}$ system. An assumption is made such that the mass of the neutrinos ($\nu_{1}$ and $nu_{2}$) are exactly zero, which leaves us with 6 unknowns, $p_{{T}_{\nu_{1}}}$, $\phi_{\nu_{1}}$, $\eta_{\nu_{1}}$, $p_{{T}_{\nu_{2}}}$, $\phi_{\nu_{2}}$ and $\eta_{\nu_{2}}$ (components of the two neutrino's 4-vectors).\\
 
-The 2$\nu$SM algorithm takes the 4-vectors of the two reconstructed leptons (not from the $Z$ boson) and the two jets with the highest DL1r $b$-tagger score as input. For each neutrino ($\nu_{1}$ and $\nu_{2}$), a scan over a range of possible $\eta$ and $\phi$ values is performed. These values were chosen to be $\phi_{\nu_{1}}$, $\phi_{\nu_{2}} \in [-\pi,\pi]$ with a step size of $\approx$ 0.25 and $\eta_{\nu_{1}}$, $\eta_{\nu_{2}} \in [-5,5]$ with a step size of $\approx$ 0.31. These ranges were chosen to maximize accuracy and minimize computation time. For each of these possible $\eta$ and $\phi$ values, the corresponding $p_{T}$ for each neutrino is calculated. The transverse momentum of a neutrino, $p_{{T}_{\nu}}$, can be calculated via (*******referecne somewhere here******),
+The 2$\nu$SM algorithm takes the 4-vectors of the two reconstructed leptons (not from the $Z$ boson) and the two jets with the highest DL1r $b$-tagger score as input. For each neutrino ($\nu_{1}$ and $\nu_{2}$), a scan over a range of possible $\eta$ and $\phi$ values is performed. These values were chosen to be $\phi_{\nu_{1}}$, $\phi_{\nu_{2}} \in [-\pi,\pi]$ with a step size of $\approx$ 0.25 and $\eta_{\nu_{1}}$, $\eta_{\nu_{2}} \in [-5,5]$ with a step size of $\approx$ 0.31. These ranges were chosen to maximize accuracy and minimize computation time. For each of these possible $\eta$ and $\phi$ values, the corresponding $p_{T}$ for each neutrino is calculated ($p_{{T}_{\nu_{1}}}$ and $p_{{T}_{\nu_{2}}}$) via (*******referecne somewhere here******),
 
 \begin{equation}
     p_{{T}_{\nu}} = \frac{\frac{1}{2} (m(W)^{2} - m(\ell)^{2})}{E_{\ell}\cosh{\eta_{\nu}} - p_{\ell,z}\sinh{\eta_{\nu}} - p_{\ell,x}\cos{\phi_{\nu}} - p_{\ell,y}\sin{\phi_{\nu}} }
@@ -818,30 +818,26 @@ where $E_{\ell}$ is the energy of the lepton and $p_{\ell, z}$, $p_{\ell, x}$, $
     &\textbf{OR}\nonumber\\ 
      t_{1} = \ell_{1} + b_{2} + \nu_{1} &\text{ and } t_{2} = \ell_{2} + b_{1} + \nu_{2} \label{eq:top2-2vSM}
 \end{align}
-These reconstructed $t\bar{t}$ systems are then used to calculate a weight, $w_{2\nu SM}$. The $w_{2\nu SM}$ weight (a value ranging from 0 to 1) is defined as a product of four probabilities (described below) and can be written as,
 
-\begin{equation}
-    w_{2\nu SM} = P_{m_{t_{1}}} \times P_{m_{t_{2}}} \times P_{\Delta E_{x}} \times P_{\Delta E_{y}}
-\end{equation}
-The $w_{2\nu SM}$ is calculated for each pair of reconstructed neutrinos (or reconstructed $t\bar{t}$ systems), with the maximum value being chosen as the final value for the event.
+%\subsubsection{Calculating $w_{2\nu SM}$}
+In order to choose the solution which best represents the two top quarks in a $t\bar{t}$ system, the likelihood of each solution is evaluated in the SM $t\bar{t}$ hypothesis. This is performed using the product of probabilities for 
 
-\subsubsection{Calculating $w_{2\nu SM}$}
+
 Distributions of well modelled variables ($m_{b\ell\nu}$ and $\Delta E_{x}$) from simulated $t\bar{t}$ events are used in order to determine how well our reconstructed neutrinos (and in turn top quarks) resemble neutrinos (and top quarks) present in a $t\bar{t}$ event.
-\myparagraph{$P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$}
+%\myparagraph{$P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$}
 
-A normalised distribution of the mass of reconstructed top quarks ($m_{b\ell\nu}$) from a $t\bar{t}$ sample is generated to determine the probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution is generated from reco-level leptons, generator-level neutrinos and reoc-level jets matched in $\Delta R$ to generator-level $b$-quarks, therefore only filling the distribution with correct detector-level objects. The distribution is then used to interpolate our two reconstructed top quarks, which returns a weight value from 0 to 1, with higher values corresponding to a reconstructed top quark which has a mass close to that of a top quark from a $t\bar{t}$ system. This interpolation is done for both reconstructed top quarks, $t_{1}$ and $t_{2}$, corresponding to probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution used is shown in Figure \ref{fig:2vSM-mass-dist}.\\
-
-In Figure \ref{fig:2vSM-mass-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
+A normalised distribution of the mass of reconstructed top quarks ($m_{b\ell\nu}$) from a $t\bar{t}$ sample is generated to determine the probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. The distribution is generated from reco-level leptons, generator-level neutrinos and reco-level jets matched in $\Delta R$ to generator-level $b$-quarks, therefore only filling the distribution with correct detector-level objects. For both reconstructed top quarks, $m(b\ell\nu)$ is calculated and interpolated\footnote{performed via linear interpolation based on the two nearest bin centres~\cite{ROOTTH1C87:online}} (i.e. estimate the value of the distribution for some value of the independent variable) against the $m_{b\ell\nu}$ distribution which returns a weight value from 0 to 1, with higher values corresponding to a reconstructed top quark which has a mass close to that of a top quark from a $t\bar{t}$ system. This interpolation is done for both reconstructed top quarks, $t_{1}$ and $t_{2}$, corresponding to probabilities $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$. In Figure \ref{fig:2vSM-mass-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
 
 \begin{figure}[h!]
 	\includegraphics[width=0.45\linewidth]{figures/mtop_2vSM.png}
 	\centering
 	\caption{$m_{b\ell\nu}$ distribution generated from simulated $t\bar{t}$ events, used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown. The $m_{b\ell\nu}$ distribution is shown by the black lined histogram. The mass of the $b\ell\nu$ system is shown on the x-axis. The corresponding weight of the $m_{b\ell\nu}$ distribution is shown on the y-axis.}
 	\label{fig:2vSM-mass-dist}
-\end{figure}
-\myparagraph{$P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$}
+\end{figure}\\
 
-A similar method is used to determine $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$. In this case, a weight distribution of $\Delta E_{x} = (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x} - (E_{T}^{\text{miss}})_{x}$ based off simulated $t\bar{t}$ events is generated. In particular, this distribution is generated using reco-level $E_{T}^{\text{miss}}$ and generator-level neutrinos. The use of this distribution lies under the assumption that neutrinos are the dominant source of $E_{T}^{\text{miss}}$, and therefore, $(E_{T}^{\text{miss}})_{x} \approx (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x}$ and $(E_{T}^{\text{miss}})_{y} \approx (p_{T,\nu_{1}})_{y} + (p_{T,\nu_{2}})_{y}$. This distribution is then used to interpolate the value of $\Delta E_{x}$ and $\Delta E_{y}$ from our reconstructed neutrinos. This returns a weight value from 0 to 1, with higher values corresponding to $\Delta E_{x}$ and $\Delta E_{y}$ (and in turn our reconstructed neutrino's $p_{T}$) closer to those observed in a $t\bar{t}$ event. It is expected that the $\Delta E_{x}$ and $\Delta E_{y}$ distributions have the same shapes, therefore we only need to generate one (the $\Delta E_{x}$ distribution was chosen). In Figure \ref{fig:2vSM-deltaE-dist}, the $m_{b\ell\nu}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{m_{t_{1}}}$ and $P_{m_{t_{2}}}$ is shown.
+%\myparagraph{$P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$}
+
+A similar method is used to determine $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$. In this case, a weight distribution of $\Delta E_{x} = (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x} - (E_{T}^{\text{miss}})_{x}$ based off simulated $t\bar{t}$ events is generated. In particular, this distribution is generated using reco-level $E_{T}^{\text{miss}}$ and generator-level neutrinos. The use of this distribution lies under the assumption that neutrinos are the dominant source of $E_{T}^{\text{miss}}$, and therefore, $(E_{T}^{\text{miss}})_{x} \approx (p_{T,\nu_{1}})_{x} + (p_{T,\nu_{2}})_{x}$ and $(E_{T}^{\text{miss}})_{y} \approx (p_{T,\nu_{1}})_{y} + (p_{T,\nu_{2}})_{y}$. This distribution is then used to interpolate the value of $\Delta E_{x}$ and $\Delta E_{y}$ from our reconstructed neutrinos. This returns a weight value from 0 to 1, with higher values corresponding to $\Delta E_{x}$ and $\Delta E_{y}$ (and in turn our reconstructed neutrino's $p_{T}$) closer to those observed in a $t\bar{t}$ event. It is expected that the $\Delta E_{x}$ and $\Delta E_{y}$ distributions have the same shapes, therefore we only need to generate one (the $\Delta E_{x}$ distribution was chosen). In Figure \ref{fig:2vSM-deltaE-dist}, the $\Delta E_{x}$ distribution (generated from simulated $t\bar{t}$ events), used to calculate $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$ is shown.
 
 \begin{figure}[h!]
 	\includegraphics[width=0.45\linewidth]{figures/dExy_2vSM.png}
@@ -850,8 +846,19 @@ A similar method is used to determine $P_{\Delta E_{x}}$ and $P_{\Delta E_{y}}$.
 	\label{fig:2vSM-deltaE-dist}
 \end{figure}
 
-\subsubsection{Kinematic Vetoes}
-The 2$\nu$SM algorithm is extremely computationally intensive. The computation time depends on the number step size of the $\phi$ and $\eta$ ranges which are scanned over to reconstruct the neutrinos. For example, consider the step sizes chosen in this analysis, $\Delta \eta \approx$ 0.31 and $\Delta \phi \approx$ 0.25 which corresponds to 32 values for $\eta$ and 25 values for $\phi$. There will be $(32)(32)(25)(25) = $ 640 000 possible pairs of neutrinos ($\nu_{1}$ and $\nu_{2}$) to consider \textbf{per event}. Since two possible $t\bar{t}$ systems (See Equations \ref{eq:top1-2vSM} and \ref{eq:top2-2vSM}) are considered, this number effectively increases to $(2)(640000) = $ 128 000 0 iterations \textbf{per event}. In order to reduce the number of $t\bar{t}$ systems needed to be considered, therefore decreasing computation time, distributions of well modelled variables from $t\bar{t}$ events are studied to apply a veto (discard) a possible reconstructed $t\bar{t}$ system if the variable in question is improbable or unlikely to be observed in a $t\bar{t}$ event. To achieve this, a threshold range is defined for these variables (See Figure \ref{fig:eta-bbll-vetoes} and Figure \ref{fig:lt-vetoes}), and if the possible reconstructed $t\bar{t}$ system's corresponding value for this variable lies outside this range, it is vetoed and the algorithm continues with the next iteration.
+
+
+These reconstructed $t\bar{t}$ systems are then used to calculate a weight, $w_{2\nu SM}$. The $w_{2\nu SM}$ weight (a value ranging from 0 to 1) is defined as a product of four probabilities (described below) and can be written as,
+
+\begin{equation}
+    w_{2\nu SM} = P_{m_{t_{1}}} \times P_{m_{t_{2}}} \times P_{\Delta E_{x}} \times P_{\Delta E_{y}}
+\end{equation}
+The $w_{2\nu SM}$ is calculated for each pair of reconstructed neutrinos (or reconstructed $t\bar{t}$ systems), with the maximum value being chosen as the final value for the event.
+
+
+
+%\subsubsection{Kinematic Vetoes}
+The 2$\nu$SM algorithm is extremely computationally intensive. The computation time depends on the number step size of the $\phi$ and $\eta$ ranges which are scanned over to reconstruct the neutrinos. For example, consider the step sizes chosen in this analysis, $\Delta \eta \approx$ 0.31 and $\Delta \phi \approx$ 0.25 which corresponds to 32 values for $\eta$ and 25 values for $\phi$. There will be $(32)(32)(25)(25) = $ 640 000 possible pairs of neutrinos ($\nu_{1}$ and $\nu_{2}$) to consider per event. Since two possible $t\bar{t}$ systems (See Equations \ref{eq:top1-2vSM} and \ref{eq:top2-2vSM}) are considered, this number effectively increases to $(2)(640000) = $ 128 000 0 iterations per event. In order to reduce the number of $t\bar{t}$ systems needed to be considered, therefore decreasing computation time, distributions of variables from $t\bar{t}$ events are studied to apply a veto to a possible reconstructed $t\bar{t}$ system if the variable in question is improbable or unlikely to be observed in a $t\bar{t}$ event. To achieve this, a allowed range is defined for these variables (See Figure \ref{fig:eta-bbll-vetoes} and Figure \ref{fig:lt-vetoes}), and if the possible reconstructed $t\bar{t}$ system's corresponding value for this variable lies outside this range, it is vetoed and the algorithm continues with the next iteration.
 
 \myparagraph{$\Delta \langle m(\ell b)\rangle$}
 
@@ -866,10 +873,9 @@ The first variable which is considered, is the difference between average mass o
 $\Delta \langle m(\ell b) \rangle$ is therefore defined as,
 
 \begin{equation}
-    \Delta \langle m(\ell b) \rangle = \frac{1}{2} \abs{[( m(\ell_{1} b_{1}) + m(\ell_{1} b_{1}) ) - ( m(\ell_{1} b_{2}) + m(\ell_{2} b_{1}) ]}
+    \Delta \langle m(\ell b) \rangle = \frac{1}{2} \abs{[( m(\ell_{1} b_{1}) + m(\ell_{2} b_{2}) ) - ( m(\ell_{1} b_{2}) + m(\ell_{2} b_{1}) ]}
 \end{equation}
-
- The idea here is that, if $\Delta \langle m(\ell b) \rangle$ is large, it's more likely that one can simply select the $\ell b$ combination with the smaller (minimum) average mass. To illustrate this, the distributions (constructed from $t\bar{t}$ events) of $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$ for $b$-tagged jets in the same ($\eta(b_{1}) \times \eta(b_{2}) \geq 0$) and opposite hemispheres ($\eta(b_{1}) \times \eta(b_{2}) < 0$) are investigated. In Figure \ref{fig:lb-assoc} the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$, for $b$-tagged jets in the same and opposite hemispheres, constructed from $t\bar{t}$ events is shown.
+The idea here is that, in events where the average masses of the two possible $\ell b$ system combinations differ greatly, the correct combination is usually given by the combination with the smaller average mass. Furthermore, it was shown in Ref.~\cite{2vSM-ref1} that reconstructed top quarks in a $t\bar{t}$ system that contain $b$-tagged jets in opposite hemispheres\footnote{The ATLAS detector can be split into two regions or \textit{hemispheres}, defined where $z > 0$ and $z < 0$} ($\eta(b_{1}) \times \eta(b_{2}) < 0$) of the ATLAS detector are easier to determine the correct $\ell b$ system combination than reconstructed $t\bar{t}$ systems that contain $b$-tagged jets in the same hemispheres ($\eta(b_{1}) \times \eta(b_{2}$). To illustrate this, the distributions (constructed from $t\bar{t}$ events) of the probability of choosing the correct $\ell b$ system combination, given that the one with the minimum $\langle m(\ell b) \rangle)$ chosen ($P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$) vs $\Delta \langle m(\ell b) \rangle$ for $b$-tagged jets in the same and opposite hemispheres are investigated. In Figure \ref{fig:lb-assoc}, the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ vs $\Delta \langle m(\ell b) \rangle$, for $b$-tagged jets in the same and opposite hemispheres, constructed from $t\bar{t}$ events is shown.
  \begin{figure}[h!]
 	\includegraphics[width=0.6\linewidth]{figures/lbassoc_2vSM.pdf}
 	\centering
@@ -877,16 +883,12 @@ $\Delta \langle m(\ell b) \rangle$ is therefore defined as,
 	\label{fig:lb-assoc}
 \end{figure}
 
-From Figure \ref{fig:lb-assoc}, for both cases where the $b$-tagged jets are in the same and opposite hemispheres, the probability for a correct $\ell b$ system being chosen, given that the $\ell b$ system with the minimum average mass is under consideration, is an increasing function which plateaus to 1 at $\sim$ \SI{90}{\GeV}. These two distributions are used to interpolate the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ from $\Delta \langle m(\ell b) \rangle$. It is required that $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) > 0.8$, before vetoing any $\ell b$ combination, such that we have are at least 80$\%$ certain that we know the correct $\ell b$ combination. In this case, the $\ell b$ combination with the maximum $\Delta \langle m(\ell b) \rangle$ is vetoed. If $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) < 0.8$ we need to consider both possible $\ell b$ system combinations. 
+From Figure \ref{fig:lb-assoc}, for both cases where the $b$-tagged jets are in the same and opposite hemispheres, the probability for a correct $\ell b$ system being chosen, given that the $\ell b$ system with the minimum average mass is under consideration, is an increasing function which plateaus to 1 at $\sim$ \SI{90}{\GeV}. One of these two distributions are used (depending on whether or not the two $b$-tagged jets are in the same or opposite hemispheres) to interpolate the $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle)$ from $\Delta \langle m(\ell b) \rangle$. A veto is applied to the $\ell b$ combination with the maximum $\Delta \langle m(\ell b) \rangle$ if $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) > 0.8$, indicating that there is at least an 80$\%$ certainty that the $\ell b$ combination with the minimum $\langle m(\ell b) \rangle$ is the correct combination. If $P(\text{Correct combination of } \ell b \text{ systems} | \text{minimum} \langle m(\ell b) \rangle) < 0.8$, both possible $\ell b$ system combinations need to be considered. 
 
-\myparagraph{$\eta(b\bar{b}\ell\ell)$}
-\label{sec:eta-llbb-subsection}
+%\myparagraph{$\eta(b\bar{b}\ell\ell)$}
+%\label{sec:eta-llbb-subsection}
 
-We consider $\eta$ of the $b\bar{b}\ell\ell$ system, $\eta(b\bar{b}\ell\ell)$ to veto improbable $\eta(\nu_{1})$ and $\eta(\nu_{2}$) values.\\
-
-In the same way as for $\Delta \langle m(\ell b)\rangle$, we generate a distribution to determine values $\eta(\nu)$ which are improbable for a $t\bar{t}$ event. In this case, we generate a 2D histogram from simulated $t\bar{t}$ events (dileptonic final state) at generator-level of $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$.\\
-
-In Figure \ref{fig:eta-bbll-heatmap}, a heatmap of occupancy for $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$ (produced from simulated $t\bar{t}$ events) is shown. 
+We consider $\eta$ of the $b\bar{b}\ell\ell$ system, $\eta(b\bar{b}\ell\ell)$ to veto improbable $\eta(\nu_{1})$ and $\eta(\nu_{2}$) values. In the same way as for $\Delta \langle m(\ell b)\rangle$, we generate a distribution to determine values $\eta(\nu)$ which are improbable for a $t\bar{t}$ event. In this case, we generate a 2D histogram from simulated $t\bar{t}$ events (dileptonic final state) at generator-level of $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$. In Figure \ref{fig:eta-bbll-heatmap}, a heatmap of occupancy for $\eta (\nu)$ vs $\eta(b\bar{b}\ell\ell)$ (produced from simulated $t\bar{t}$ events) is shown. 
 
  \begin{figure}[h!]
 	\includegraphics[width=0.6\linewidth]{figures/bbll_occ_2vSM.pdf}
@@ -895,9 +897,7 @@ In Figure \ref{fig:eta-bbll-heatmap}, a heatmap of occupancy for $\eta (\nu)$ vs
 	\label{fig:eta-bbll-heatmap}
 \end{figure}
 
-Using the above heatmap, we define a veto region (where a $t\bar{t}$ event is extremely unlikely to occur) based off double-sided 95$\%$ limits (**something here on confidence limit??**). We apply a veto if either possible neutrino lies within this region. The veto region is shown in Figure \ref{fig:eta-bbll-vetoes}.\\
-
-In Figure \ref{fig:eta-bbll-vetoes}, the veto region (extracted from Figure \ref{fig:eta-bbll-heatmap}) for vetoing improbable neutrinos is shown.
+Using the above heatmap, we define a veto region (where a $t\bar{t}$ event is extremely unlikely to occur) containing 95$\%$ of events. We apply a veto if either possible neutrino lies within this region. The veto region is shown in Figure \ref{fig:eta-bbll-vetoes}. In Figure \ref{fig:eta-bbll-vetoes}, the veto region (extracted from Figure \ref{fig:eta-bbll-heatmap}) for vetoing improbable neutrinos is shown.
 
 \begin{figure}[h!]
 	\includegraphics[width=0.6\linewidth]{figures/bbll_veto_2vSM.pdf}
@@ -908,10 +908,7 @@ In Figure \ref{fig:eta-bbll-vetoes}, the veto region (extracted from Figure \ref
 
 \myparagraph{$L_{T}$}
 
-The final kinematic constraint which we consider is the scalar sum of lepton $p_{T}$, $L_{T} = p_{T}(\ell_{1}) + p_{T}(\ell_{2})$ which we use to veto certain possible neutrinos, $\nu_{1}$ and $\nu_{2}$.\\
-
-Again, we generate a distribution to determine (and veto) improbable possible neutrinos in simulated $t\bar{t}$ events (dilepton final state).\\
-In Figure \ref{fig:lt-heatmap}, a heatmap of occupancy for $\Delta R (\ell, \nu)$ vs $L_{T}$ (produced from simulated $t\bar{t}$ events) is shown. 
+The final kinematic constraint which we consider is the scalar sum of lepton $p_{T}$, $L_{T} = p_{T}(\ell_{1}) + p_{T}(\ell_{2})$ which we use to veto certain possible neutrinos, $\nu_{1}$ and $\nu_{2}$. Again, we generate a distribution to determine (and veto) improbable possible neutrinos in simulated $t\bar{t}$ events (dilepton final state). In Figure \ref{fig:lt-heatmap}, a heatmap of occupancy for $\Delta R (\ell, \nu)$ vs $L_{T}$ (produced from simulated $t\bar{t}$ events) is shown. 
 
 
  \begin{figure}[h!]
@@ -1081,11 +1078,10 @@ The event-level BDT discriminates well between signal and background events in t
 
 
 
-\section{Systematics}
+\section{Systematic Uncertainties}
 \label{sec:systematics}
 %-------------------------------------------------------------------------------
-
-The systematic uncertainties can be separated into experimental~(detector) systematics, which are related to the reconstruction of physics objects in the detector and theoretical uncertainties related to the modelling of the different processes background.
+The systematic uncertainties can be separated into experimental systematics, which are related to the reconstruction of physics objects in the detector and theoretical uncertainties related to the modelling of the different processes background.
 
 \subsection{Experimental uncertainties}
 \label{subsec:syst_exp}
@@ -1095,14 +1091,12 @@ In this section, the experimental systematics are outlined.
 \begin{itemize}
 \item \textbf{Luminosity:}
 
-The 2015--2018 luminosity estimate of 139fb$^{-1}$ has a relative uncertainty of 3$\%$. This uncertainty is obtained using
-the LUCID-2 detector~\cite{Avoni:2018} for the primary luminosity measurements. This systematic uncertainty affects all processes modelled using MC simulations.
+The 2015-2018 luminosity estimate of 139fb$^{-1}$ has a relative uncertainty of 3$\%$. The uncertainty associated with the luminosity is obtained using the LUCID-2 detector~\cite{Avoni:2018}, which is the primary luminosity monitor for ATLAS. This systematic uncertainty affects all processes modelled using MC simulations.
 
 
-\item \textbf{Pile-up reweighting:}
+\item \textbf{Pile-up modelling:}
 
-An uncertainty related to the SFs used for MC to account for differences in pile-up distributions between MC and data is applied.
-This uncertainty is obtained by re-scaling the $\langle \mu \rangle$ value in data by \num{1.00} and $1/1.18$ corrections are only applied to MC.
+An uncertainty related to the SFs used for MC to account for differences in pile-up distributions between MC and data is applied. This uncertainty is obtained by re-scaling the $\langle \mu \rangle$ value in data by \num{1.00} and $1/1.18$ corrections are only applied to MC.
 
 
 \item \textbf{Jet vertex tagger:}
@@ -1113,21 +1107,15 @@ residual contamination from pile-up jets after pile-up suppression and the MC ge
 
 \item \textbf{Heavy- and light-flavor tagging:}
 
-The efficiency of the flavour-tagging algorithm is measured for each jet flavour using control samples in data and in simulation. From these
-measurements, correction factors are derived to correct the tagging rates in the simulation. In the case of $b$-tagged jets, the correction factors and
-their uncertainties are estimated from data using dileptonic $t\bar{t}$ events~\cite{PERF-2016-05,FTAG-2018-01}. In the case of $c$-jets, they are derived from
-jets arising from $W$ boson decays in $t\bar{t}$ events~\cite{ATLAS-CONF-2018-001}. In the case of light-flavour jets, the correction factors are derived
-using dijet events~\cite{ATLAS-CONF-2018-006}. Sources of uncertainty affecting the $b$- and $c$-tagging efficiencies are evaluated as a function of
-jet $p_{T}$, including bin-to-bin correlations. The uncertainties in the efficiency for tagging light-flavour jets depend on the jet $p_{T}$ and on $\eta$.
-An additional uncertainty is assigned to account for the extrapolation of the $b$-tagging efficiency measurement from the $p_{T}$ region used
-to determine the correction factors to regions with higher $p_{T}$.
+
+An additional uncertainty is assigned to account for the extrapolation of the $b$-tagging efficiency measurement from the $p_{T}$ region used to determine the correction factors to regions with higher $p_{T}$.
 
 
 \item \textbf{Electron efficiency:}
 
-Uncertainties associated with the electron efficiency SFs are provided by the egamma CP group~\cite{twiki-elSF} and arise from the reconstruction,
-ID, isolation and trigger efficiencies. They correct for the efficiency difference between data and MC~\cite{EGAM-2018-01}
-and are measured with a ``tag-and-probe'' method in $Z\rightarrow e^{+}e^{-}$ and $J/\psi \rightarrow e^{+}e^{-}$ events. The information on the correlation of the different components of the systematic uncertainties are provided for all efficiency  measurements. The default correlation model for the uncertainties is used, which provides one up/down variation
+Uncertainties associated with the electron efficiency SFs arise from the reconstruction,
+ID, isolation and trigger efficiencies~\cite{twiki-elSF}. They correct for the efficiency difference between data and MC~\cite{EGAM-2018-01}
+and are measured with a "tag-and-probe" method in $Z\rightarrow e^{+}e^{-}$ and $J/\psi \rightarrow e^{+}e^{-}$ events. The information on the correlation of the different components of the systematic uncertainties are provided for all efficiency  measurements. The default correlation model for the uncertainties is used, which provides one up/down variation
 for each of the SF components separately~\cite{twiki-elSF,twiki-elSFunc}.
 
 
@@ -1148,7 +1136,7 @@ In this section, the theoretical systematics are outlined.
 \begin{itemize}
 \item \textbf{$t\bar{t}Z$ background:}
 
-An overall normalization uncertainty of 10$\%$ is considered for the $t\bar{t}Z$ background. Two generic shape systematics are considered for the $t\bar{t}Z$ background. They are constructed (see Section \ref{sec:genericShapeSyst}) by either applying a linear or triangular interpolation to up and down variations which are defined to be $\pm$20$\%$ from the nominal $t\bar{t}Z$ background.
+An overall normalization uncertainty of 10$\%$ is considered for the $t\bar{t}Z$ background. Two generic shape systematics are considered for the $t\bar{t}Z$ background. They are constructed (see Section \ref{sec:genericShapeSyst}) by either applying a linear or triangular interpolation to up and down variations which are defined to be $\pm$20$\%$ from the nominal $t\bar{t}Z$ background. These linear and triangular variations are applied to distributions used in the maximum likelihood fit (described in Section \ref{sec:fitting-procedure}).
 
 \item \textbf{$ZZ$ background:}
 
@@ -1175,8 +1163,8 @@ An overall normalization uncertainty of 50$\%$ is considered for the $t\bar{t}Z$
 The 'other' background consists of many processes which have minimal but non-negligible contribution in the signal regions (See Table \ref{tab:4Lep-PreFit-Yields}). An overall normalization uncertainty of 30$\%$ is considered for the 'other' background processes.
 
 
-\item \textbf{$tWZ$:}
-A modelling uncertainty on $tWZ$ is considered by comparing the nominal sample (using the DR1 scheme) and a minimal DR2 sample.
+\item \textbf{$tWZ$:}\\
+A modelling uncertainty on $tWZ$ is considered by comparing the nominal sample (using the DR1 scheme) and a DR2 sample.
 
 Two generic shape systematics are considered for the $tWZ$ background. They are constructed (see Section \ref{sec:genericShapeSyst}) by either applying a linear or triangular interpolation to up and down variations which are defined to be $\pm$20$\%$ from the nominal $tWZ$ background.
 
@@ -1185,11 +1173,11 @@ Two generic shape systematics are considered for the $tWZ$ background. They are 
 \subsection{Generic shape systematics}
 \label{sec:genericShapeSyst}
 
-It is evident that the tetralepton channel is statistically limited. We therefore expect that the uncertainty on $u_{tWZ}$ is dominated by statistical uncertainty and that the impact of shape systematics will be negligible in comparison.\\
+It is evident that the tetralepton channel is statistically limited, as seen by the small number of expected events in the control plots shown previously in Section \ref{sec:sig-and-control-regions}. We therefore expect that the uncertainty on $\mu(tWZ)$ is dominated by statistical uncertainty and that the impact of shape systematics will be negligible in comparison.\\
 
 In order to include shape uncertainties related to the modelling of our samples, we construct generic shape systematics for any given sample process. Given that we choose a sufficiently large set of values for which the systematics can take in the fit, the constructed systematics could represent many shape systematics which we have not yet considered to include in the fitting procedure.\\
 
-We start by constructing an envelope (error bars) consisting of two MC templates. One with the nominal MC template increased by 20$\%$ on its normalisation and the other with the nominal MC template decreased by 20$\%$ on its normalisation. The templates are then modified from their original shape either by doing linear interpolation (from the leftmost-up variation to the rightmost-down variation) or triangular interpolation (shape is set to zero at the rightmost and leftmost parts and reaches the envelope in the middle). The linear and triangular interpolation is done using TRF's \texttt{ForceShape} option~\cite{TRF-ForceShape}, which alters the original templates (as described above). This envelope now represents the bounds which the systematic can vary in the fit.\\
+We start by constructing an envelope (error bars) consisting of two MC templates. One with the nominal MC template increased by 20$\%$ on its normalisation and the other with the nominal MC template decreased by 20$\%$ on its normalisation. The templates are then modified from their original shape either by doing linear interpolation (from the leftmost-up variation to the rightmost-down variation) or triangular interpolation (shape is set to zero at the higher and lower parts and reaches the envelope in the middle). The linear and triangular interpolation is done using TRF's \texttt{ForceShape} option~\cite{TRF-ForceShape}, which alters the original templates (as described above). This envelope now represents the bounds which the systematic can vary in the fit.\\
 
 In Figure \ref{fig:genericShapeSystexamples} the envelope before and after the shape change, for both the linear and triangular interpolations, for the $t\bar{t}Z$ background in the $t\bar{t}Z$ CR is shown.
 
@@ -1207,11 +1195,7 @@ We consider two shape systematics (linear and triangular shapes) for $tWZ$ and t
 
 \section{Analysis Pipeline and TRExFitter}
 \label{sec:pipelineAnalysis-and-TRF}
-We make use of industry standard \texttt{ROOT}\footnote{CERN's HEP data analysis framework (written in C\texttt{++})} wrappers in this analysis, namely, \texttt{PyROOT} and \texttt{TRExFitter}.\\
-
-\texttt{Python} is used extensively in many fields of science (not limited to physics and data science) due to its simplicity and ongoing support by the communities which utilize it. \texttt{PyROOT} allows users to access the full \texttt{ROOT} functionality within \texttt{Python}. More specifically, \texttt{PyROOT} provides \texttt{Python} bindings for \texttt{ROOT}.\\
-
-\texttt{TRExFitter} is a framework for binned template profile likelihood fits\cite{TRexfitter}. In this analysis, we used TRExFitter (tag: \texttt{TRExFitter-00-04-13}) to produce all plots (including fit statistics, e.g. limit, significance, $\mu_{best-fit}$).\\
+We make use of industry standard \texttt{ROOT}\footnote{CERN's HEP data analysis framework (written in C\texttt{++})} wrappers in this analysis, namely, \texttt{PyROOT} and \texttt{TRExFitter}. \texttt{Python} is used extensively in many fields of science (not limited to physics and data science) due to its simplicity and ongoing support by the communities which utilize it. \texttt{PyROOT} allows users to access the full \texttt{ROOT} functionality within \texttt{Python}. More specifically, \texttt{PyROOT} provides \texttt{Python} bindings for \texttt{ROOT}. \texttt{TRExFitter} is a framework for binned template profile likelihood fits\cite{TRexfitter}. In this analysis, we used TRExFitter (tag: \texttt{TRExFitter-00-04-13}) to produce all plots (including fit statistics, e.g. limit, significance, $\mu_{best-fit}$).\\
 
 The analysis pipeline starts with sample derivations (derived dataset) being submitted to the grid for ntuple production. This applies cuts and selections to the already reduced derivations and produces ntuples with trees containing variables (e.g. scale factors, variables, MC truth flags) that will be used at future stages in the analysis. These ntuples are then read by \texttt{PyROOT} where the events are looped over, before being written to \texttt{ROOT} files as input to \texttt{TRExFitter}. The \texttt{Python} scripts are used to define the different regions and apply the final cuts and selections outlined in Table \ref{tab:4Lep-cutsummary}. In addition to this purpose, they are used to train the two BDTs and to produce the output from these trained BDTs. As each event is looped over, the cuts and selection criteria are checked for the given event and is either thrown away (if the event does not pass the selection criteria), or gets written to a \texttt{ROOT} file (if the event passes the selection criteria) corresponding to the MC sample and Run 2 data-set which it belongs to. These \texttt{ROOT} files contain all variables, weights and scale factors (corresponding to an event) which we wish to use in \texttt{TRExFitter}. \texttt{TRExFitter} then takes these files as input, runs a maximum likelihood fit and produces relevant plots (e.g. expected number of events, pull plots) and statistical parameters (e.g. limit, significance, $\mu_{best-fit}$).
 

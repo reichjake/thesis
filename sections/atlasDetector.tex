@@ -22,12 +22,19 @@ where $\mathcal{L}(t)$ is the instantaneous luminosity and $\sigma$ and is the c
 \mathcal{L}(t) = f \frac{N n_{1} n_{2}}{4\pi \sigma_{x} \sigma_{y}}
 \end{equation}
 
-where $f$ is the beam revolution frequency, $N$ is the number of proton bunches colliding per second, $n_{1}$ and $n_{2}$ are the number of protons in the colliding bunches, $\sigma_{x}$ and $\sigma_{y}$ are the beam spread in the $x$ and $y$ directions respectively. The total integrated luminosity, $L$, across some time interval, is given by,
+where $f$ is the beam revolution frequency, $N$ is the number of proton bunches colliding per second, $n_{1}$ and $n_{2}$ are the number of protons in the colliding bunches, $\sigma_{x}$ and $\sigma_{y}$ are the beam spread in the $x$ and $y$ directions respectively. The average number of visible (particles that are measurable by the detector) $pp$ interactions per bunch crossing, $\langle \mu \rangle$, can be written as,
+
+\begin{equation}
+\langle \mu \rangle = \frac{\sigma_{inel}\mathcal{L}}{N f}
+\end{equation}
+where $\sigma_{inel}$ is the inelastic $pp$ interaction cross section. The total integrated luminosity, $L$, across some time interval, is given by,
 
 \begin{equation}
 L = \int \mathcal{L} dt.
 \end{equation}
-The units of $L$ are inverse area, and are given by fb$^{-1}$ at the LHC and the ATLAS detector. In Figure \ref{fig:lhc-lumi}, the total integrated luminosity delivered to ATLAS, recorded by ATLAS, and certified to be good enough for physics analyses (the data passes certain quality control criteria) for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}. 
+The units of $L$ are inverse area, and are given by fb$^{-1}$ at the LHC and the ATLAS detector.\\
+
+In Figure \ref{fig:lhc-lumi}, the total integrated luminosity delivered to ATLAS, recorded by ATLAS, and certified to be good enough for physics analyses (the data passes certain quality control criteria) for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}.
 
 \begin{figure}[h!]
  \includegraphics[width=0.5\textwidth]{figures/theoryFigs/lhc_lumi.pdf}

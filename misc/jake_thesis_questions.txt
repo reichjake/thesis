@@ -1,0 +1,24 @@
+L204 cross section refers to the production probability which is of course the same regardless of the decay channel. Branching fraction refers to the fraction of events decaying a certain way… so
+Ois the large difference in branching fraction that accounts for the different in statistics. 
+
+L206— again the cross section is the same.
+
+^^^ but different decay channels can have different production cross sections...? - am I quoting these cross sections incorrectly? (should I be quoting the branching fractions)
+
+L226 poor sentence, rewrite. 
+
+^^^ not entirely sure why (is it the use of ‘such?’ Or ‘sensitive to tWZ?’ or something else)
+
+
+L535 working point is jargon, you can just simply explain that this is a certain algorithm with a certain cut 
+
+^^^ should I not just define what a wp is? I use WP quite a lot, for example in optimisation of the btag wps (event selection)
+
+L646 broken ref to table. 
+
+^^^ this was supposed to refer to the triggers used, do I need to include a section describing the triggers used in data and MC?  
+
+
+L844 mention why you only show the ttZ CR for this comparison of data and simulation. 
+
+^^^ I’m not entirely sure the reason why we are able to do this... the alternative ttbar sample and the ttz sample use different event generators and parton showers

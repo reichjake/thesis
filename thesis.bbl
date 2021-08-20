@@ -759,33 +759,6 @@
       \verb 1907.05120
       \endverb
     \endentry
-    \entry{ATLAS-CONF-2018-006}{booklet}{}
-      \name{author}{1}{}{%
-        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
-           family={{ATLAS Collaboration}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{{ATLAS-CONF-2018-006}}
-      \field{title}{{Calibration of light-flavour $b$-jet mistagging rates using ATLAS proton--proton collision data at $sqrt{s} = 13$TeV}}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://cds.cern.ch/record/2314418
-      \endverb
-      \verb{url}
-      \verb https://cds.cern.ch/record/2314418
-      \endverb
-    \endentry
     \entry{EGAM-2018-01}{article}{}
       \name{author}{1}{}{%
         {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
@@ -798,7 +771,7 @@
       \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
@@ -830,7 +803,7 @@
       \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
@@ -851,33 +824,6 @@
       \verb 1705.02211
       \endverb
     \endentry
-    \entry{ATLAS-CONF-2018-001}{booklet}{}
-      \name{author}{1}{}{%
-        {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
-           family={{ATLAS Collaboration}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{fullhash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{bibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \field{extraname}{5}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{{ATLAS-CONF-2018-001}}
-      \field{title}{{Measurement of $b$-tagging efficiency of $c$-jets in $t\bar{t}$ events using a likelihood approach with the ATLAS detector}}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://cds.cern.ch/record/2306649
-      \endverb
-      \verb{url}
-      \verb https://cds.cern.ch/record/2306649
-      \endverb
-    \endentry
     \entry{PERF-2016-05}{article}{}
       \name{author}{1}{}{%
         {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
@@ -890,7 +836,7 @@
       \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \field{extraname}{6}
+      \field{extraname}{4}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
@@ -922,7 +868,7 @@
       \strng{authorbibnamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
-      \field{extraname}{7}
+      \field{extraname}{5}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
@@ -1180,6 +1126,48 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1007/JHEP04(2015)040
+      \endverb
+    \endentry
+    \entry{BARLOW1993219}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f2a7df1b6b4a559de3e18c6f804ad77c}{%
+           family={Barlow},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9c54d89fdd7c4737481c2908f67c171a}{%
+           family={Beeston},
+           familyi={B\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{fullhash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{bibnamehash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{authorbibnamehash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{authornamehash}{48922b219447cf67203a98bf3cd204bc}
+      \strng{authorfullhash}{48922b219447cf67203a98bf3cd204bc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Analysis of results from HEP experiments often involves estimation of the composition of a sample of data, based on Monte Carlo simulations of the various sources. Data values (generally of more than one dimension) are binned, and because the numbers of data points in many bins are small, a χ2 minimisation is inappropriate, so a maximum likelihood technique using Poisson statistics is often used. This note shows how to incorporate the fact that the Monte Carlo statistics used are finite and thus subject to statistical fluctuations.}
+      \field{issn}{0010-4655}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{number}{2}
+      \field{title}{Fitting using finite Monte Carlo samples}
+      \field{volume}{77}
+      \field{year}{1993}
+      \field{pages}{219\bibrangedash 228}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0010-4655(93)90005-W
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/001046559390005W
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/001046559390005W
       \endverb
     \endentry
     \entry{twz-theory-paper}{report}{}
@@ -1562,6 +1550,7 @@
       \strng{authorbibnamehash}{ac06871108486d687d7aa78fa342e02a}
       \strng{authornamehash}{ac06871108486d687d7aa78fa342e02a}
       \strng{authorfullhash}{ac06871108486d687d7aa78fa342e02a}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -1572,6 +1561,36 @@
       \endverb
       \verb{url}
       \verb https://indico.cern.ch/event/455289/contributions/1953694/attachments/1209081/1762963/Calvet_binning_Htop_160108.pdf
+      \endverb
+    \endentry
+    \entry{Calvet:2296985}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=8e5ded51f8ee0da9cbd4439c910a9d76}{%
+           family={Calvet},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima Philippe},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e5ded51f8ee0da9cbd4439c910a9d76}
+      \strng{fullhash}{8e5ded51f8ee0da9cbd4439c910a9d76}
+      \strng{bibnamehash}{8e5ded51f8ee0da9cbd4439c910a9d76}
+      \strng{authorbibnamehash}{8e5ded51f8ee0da9cbd4439c910a9d76}
+      \strng{authornamehash}{8e5ded51f8ee0da9cbd4439c910a9d76}
+      \strng{authorfullhash}{8e5ded51f8ee0da9cbd4439c910a9d76}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{Presented 08 Nov 2017}
+      \field{title}{{Search for the production of a Higgs boson in association with top quarks and decaying into a b-quark pair and b-jet identification with the ATLAS experiment at LHC}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2296985
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2296985
       \endverb
     \endentry
     \entry{CANEPA2019100033}{article}{}
@@ -4312,30 +4331,33 @@
       \verb https://twiki.cern.ch/twiki/bin/view/Atlas/MuonSelectionTool
       \endverb
     \endentry
-    \entry{twz_3_lep}{online}{}
+    \entry{twz_3_lep}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=5d828806bf32a8842023699442059581}{%
-           family={Oncel},
-           familyi={O\bibinitperiod},
-           given={O},
+        {{hash=6070e036d254e7b020b389b3916b7857}{%
+           family={Ogul\bibnamedelima Oncel},
+           familyi={O\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={O.},
            giveni={O\bibinitperiod}}}%
       }
-      \strng{namehash}{5d828806bf32a8842023699442059581}
-      \strng{fullhash}{5d828806bf32a8842023699442059581}
-      \strng{bibnamehash}{5d828806bf32a8842023699442059581}
-      \strng{authorbibnamehash}{5d828806bf32a8842023699442059581}
-      \strng{authornamehash}{5d828806bf32a8842023699442059581}
-      \strng{authorfullhash}{5d828806bf32a8842023699442059581}
+      \strng{namehash}{6070e036d254e7b020b389b3916b7857}
+      \strng{fullhash}{6070e036d254e7b020b389b3916b7857}
+      \strng{bibnamehash}{6070e036d254e7b020b389b3916b7857}
+      \strng{authorbibnamehash}{6070e036d254e7b020b389b3916b7857}
+      \strng{authornamehash}{6070e036d254e7b020b389b3916b7857}
+      \strng{authorfullhash}{6070e036d254e7b020b389b3916b7857}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Search for Single Top Quark Production in Association with a W and a Z Boson in the 3 Lepton Final State with the ATLAS Experiment at 13 TeV}}
+      \field{month}{5}
+      \field{note}{Presented 04 Jun 2018}
+      \field{title}{{Search for Single Top Quark Production in Association with a $W$ and a $Z$ Boson in the 3 Lepton Final State with the ATLAS Experiment at 13 TeV}}
+      \field{year}{2018}
       \verb{urlraw}
-      \verb https://cds.cern.ch/record/2625170
+      \verb http://cds.cern.ch/record/2625170
       \endverb
       \verb{url}
-      \verb https://cds.cern.ch/record/2625170
+      \verb http://cds.cern.ch/record/2625170
       \endverb
     \endentry
     \entry{TopQuarkCouplings-searchNewPhysics}{article}{}
@@ -4411,6 +4433,32 @@
       \endverb
       \verb{url}
       \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/PileupJetRecommendations
+      \endverb
+    \endentry
+    \entry{stats-at-atlas-cms-slides}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0ee16a8449b4489bc8b155150ff79f9f}{%
+           family={Pinamonti},
+           familyi={P\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ee16a8449b4489bc8b155150ff79f9f}
+      \strng{fullhash}{0ee16a8449b4489bc8b155150ff79f9f}
+      \strng{bibnamehash}{0ee16a8449b4489bc8b155150ff79f9f}
+      \strng{authorbibnamehash}{0ee16a8449b4489bc8b155150ff79f9f}
+      \strng{authornamehash}{0ee16a8449b4489bc8b155150ff79f9f}
+      \strng{authorfullhash}{0ee16a8449b4489bc8b155150ff79f9f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Statistical methods at ATLAS and CMS}}
+      \verb{urlraw}
+      \verb https://indico.cern.ch/event/727396/contributions/3021899/attachments/1657532/2654085/Statistical_methods_at_ATLAS_and_CMS_2.pdf
+      \endverb
+      \verb{url}
+      \verb https://indico.cern.ch/event/727396/contributions/3021899/attachments/1657532/2654085/Statistical_methods_at_ATLAS_and_CMS_2.pdf
       \endverb
     \endentry
     \entry{recommendedIsolationWPs}{online}{}
@@ -4854,6 +4902,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{ROOTTH1C87:online}
 \endrefsection
 \endinput
 

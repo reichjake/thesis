@@ -1,40 +1,43 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
-[1] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[147] biber:340> INFO - === Thu Aug 19, 2021, 16:32:19
-[173] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[276] Biber.pm:952> INFO - Found 100 citekeys in bib section 0
-[293] Biber.pm:4340> INFO - Processing section 0
-[310] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
-[316] bibtex.pm:1689> INFO - LaTeX decoding ...
-[448] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[513] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'Burdman_2015' is not an integer - this will probably not sort properly.
-[518] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'twz-theory-paper' is not an integer - this will probably not sort properly.
-[532] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'ALTARELLI_1998' is not an integer - this will probably not sort properly.
-[538] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'ATLAS-CONF-2019-041' is not an integer - this will probably not sort properly.
-[552] Utils.pm:395> WARN - legacy month field 'Oct' in entry 'quark-confinement' is not an integer - this will probably not sort properly.
-[560] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'PhysRevLett.13.321' is not an integer - this will probably not sort properly.
-[629] Utils.pm:395> WARN - legacy month field 'Jan' in entry 'Jarosik_2011' is not an integer - this will probably not sort properly.
-[1053] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'Ball_2015' is not an integer - this will probably not sort properly.
-[1085] Utils.pm:395> WARN - legacy month field 'Oct' in entry 'Maltoni_2019' is not an integer - this will probably not sort properly.
-[1096] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'Brivio_2019' is not an integer - this will probably not sort properly.
-[1160] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'ttz-xsec-paper' is not an integer - this will probably not sort properly.
-[1230] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Evans_2008' is not an integer - this will probably not sort properly.
-[1237] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Collaboration_2008' is not an integer - this will probably not sort properly.
-[1253] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'Tovey_2019' is not an integer - this will probably not sort properly.
-[1279] Utils.pm:395> WARN - legacy month field 'dec' in entry 'Meloni_2016' is not an integer - this will probably not sort properly.
-[1306] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'electronRecoAndID:paper' is not an integer - this will probably not sort properly.
-[1326] Utils.pm:395> WARN - legacy month field 'May' in entry 'muonIDEfficiency' is not an integer - this will probably not sort properly.
-[1421] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'Bothmann_2019' is not an integer - this will probably not sort properly.
-[1452] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'ATL-PHYS-PUB-2015-034' is not an integer - this will probably not sort properly.
-[1454] Utils.pm:395> WARN - legacy month field 'May' in entry 'DL1r-paper' is not an integer - this will probably not sort properly.
-[1459] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'Marchese:2688452' is not an integer - this will probably not sort properly.
-[1474] Utils.pm:395> WARN - legacy month field 'May' in entry 'ATLAS-CONF-2012-048' is not an integer - this will probably not sort properly.
-[1568] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'Cowan_2011' is not an integer - this will probably not sort properly.
-[1572] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'asymptotic-formulae-slides' is not an integer - this will probably not sort properly.
-[1729] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1729] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1730] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[1730] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[1879] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[2271] bbl.pm:757> INFO - Output to thesis.bbl
-[2272] Biber.pm:128> INFO - WARNINGS: 24
+[0] Config.pm:314> INFO - Logfile is 'thesis.blg'
+[94] biber:340> INFO - === Fri Aug 20, 2021, 18:03:05
+[112] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[216] Biber.pm:952> INFO - Found 102 citekeys in bib section 0
+[233] Biber.pm:4340> INFO - Processing section 0
+[247] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[253] bibtex.pm:1689> INFO - LaTeX decoding ...
+[383] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[443] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'Burdman_2015' is not an integer - this will probably not sort properly.
+[447] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'twz-theory-paper' is not an integer - this will probably not sort properly.
+[460] Utils.pm:395> WARN - legacy month field 'Mar' in entry 'ALTARELLI_1998' is not an integer - this will probably not sort properly.
+[465] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'ATLAS-CONF-2019-041' is not an integer - this will probably not sort properly.
+[476] Utils.pm:395> WARN - legacy month field 'Oct' in entry 'quark-confinement' is not an integer - this will probably not sort properly.
+[482] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'PhysRevLett.13.321' is not an integer - this will probably not sort properly.
+[547] Utils.pm:395> WARN - legacy month field 'Jan' in entry 'Jarosik_2011' is not an integer - this will probably not sort properly.
+[985] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'Ball_2015' is not an integer - this will probably not sort properly.
+[1014] Utils.pm:395> WARN - legacy month field 'Oct' in entry 'Maltoni_2019' is not an integer - this will probably not sort properly.
+[1025] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'Brivio_2019' is not an integer - this will probably not sort properly.
+[1029] Utils.pm:395> WARN - legacy month field 'May' in entry 'twz_3_lep' is not an integer - this will probably not sort properly.
+[1078] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'ttz-xsec-paper' is not an integer - this will probably not sort properly.
+[1146] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Evans_2008' is not an integer - this will probably not sort properly.
+[1152] Utils.pm:395> WARN - legacy month field 'aug' in entry 'Collaboration_2008' is not an integer - this will probably not sort properly.
+[1168] Utils.pm:395> WARN - legacy month field 'Apr' in entry 'Tovey_2019' is not an integer - this will probably not sort properly.
+[1192] Utils.pm:395> WARN - legacy month field 'dec' in entry 'Meloni_2016' is not an integer - this will probably not sort properly.
+[1217] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'electronRecoAndID:paper' is not an integer - this will probably not sort properly.
+[1238] Utils.pm:395> WARN - legacy month field 'May' in entry 'muonIDEfficiency' is not an integer - this will probably not sort properly.
+[1324] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'Bothmann_2019' is not an integer - this will probably not sort properly.
+[1352] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'ATL-PHYS-PUB-2015-034' is not an integer - this will probably not sort properly.
+[1354] Utils.pm:395> WARN - legacy month field 'May' in entry 'DL1r-paper' is not an integer - this will probably not sort properly.
+[1367] Utils.pm:395> WARN - legacy month field 'Sep' in entry 'Marchese:2688452' is not an integer - this will probably not sort properly.
+[1383] Utils.pm:395> WARN - legacy month field 'May' in entry 'ATLAS-CONF-2012-048' is not an integer - this will probably not sort properly.
+[1465] Utils.pm:395> WARN - legacy month field 'Dec' in entry 'Calvet:2296985' is not an integer - this will probably not sort properly.
+[1475] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'Cowan_2011' is not an integer - this will probably not sort properly.
+[1479] Utils.pm:395> WARN - legacy month field 'Feb' in entry 'asymptotic-formulae-slides' is not an integer - this will probably not sort properly.
+[1487] Utils.pm:395> WARN - I didn't find a database entry for 'ROOTTH1C87:online' (section 0)
+[1639] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1639] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1639] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1639] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1785] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[2173] bbl.pm:757> INFO - Output to thesis.bbl
+[2174] Biber.pm:128> INFO - WARNINGS: 27

@@ -9,9 +9,7 @@ The LHC is a circular 27 km particle accelerator located in an underground tunne
 The four main experiments located at the interaction points are ATLAS, the Compact Muon Solenoid (CMS), Large Hadron Collider Beauty (LHCb) Experiment and A Large Ion Collider Experiment (ALICE). The ATLAS and CMS detectors are general-purpose detectors which investigate a wide range of physics processes. Since both ATLAS and CMS can measure the same processes, they are able to cross-check and validate measurements taken by one another. The LHCb detector is specifically designed to study decays of particles containing $b$-quarks. The ALICE detector is designed to study the strongly interacting quark-gluon plasma which is formed at extremely high energy densities. At the interaction points, the two proton beams which consist of protons in closely packed bunches, travel in opposite directions to one another and collide. Many hard $pp$ collisions (events) can occur per bunch crossing, however it is the most energetic collision in the bunch crossing that is interesting for discovery potential. The most energetic collision is therefore chosen to be studied and any additional collisions are aimed to be rejected. These additional collisions are referred to as \textit{pile-up}. Pileup complicates the reconstruction of the particles originating from the hard collision of interest. 
 
 \subsubsection{Luminosity}
-This section consists of information from "Modern Particle Physics"~\cite{thomson2013modern}, unless otherwise stated.\\
-
-The event production rate at the LHC, $R(t)$, for a certain process of interest is given by, 
+This section consists of information from "Modern Particle Physics"~\cite{thomson2013modern}, unless otherwise stated. The event production rate at the LHC, $R(t)$, for a certain process of interest is given by, 
 
 \begin{equation}
 R(t) = \mathcal{L}(t)\sigma
@@ -32,18 +30,16 @@ where $\sigma_{inel}$ is the inelastic $pp$ interaction cross section. The total
 \begin{equation}
 L = \int \mathcal{L} dt.
 \end{equation}
-The units of $L$ are inverse area, and are given by fb$^{-1}$ at the LHC and the ATLAS detector.\\
-
-In Figure \ref{fig:lhc-lumi}, the total integrated luminosity delivered to ATLAS, recorded by ATLAS, and certified to be good enough for physics analyses (the data passes certain quality control criteria) for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}.
+The units of $L$ are inverse area, and are given by fb$^{-1}$ at the LHC and the ATLAS detector. In Figure \ref{fig:lhc-lumi}, the total integrated luminosity vs time, recorded by ATLAS for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}.
 
 \begin{figure}[h!]
  \includegraphics[width=0.5\textwidth]{figures/theoryFigs/lhc_lumi.pdf}
  \centering
-\caption{The total integrated luminosity delivered to ATLAS, recorded by ATLAS, and certified to be good enough for physics analyses (the data passes certain quality control criteria) for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}. The total integrated luminosity delivered by the LHC, recorded by ATLAS and certified to be good quality data are shown by the green, yellow and blue histograms respectively. The month and year of data taking is shown on the x-axis and the total integrated luminosity (in fb$^{-1}$) is shown on the y-axis.}
+\caption{The total integrated luminosity vs time, recorded by ATLAS for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}. The total integrated luminosity delivered by the LHC, recorded by ATLAS and certified to be good quality data are shown by the green, yellow and blue histograms respectively. The month and year of data taking is shown on the x-axis and the total integrated luminosity (in fb$^{-1}$) is shown on the y-axis.}
 \label{fig:lhc-lumi}
 \end{figure}
 
-A total integrated luminosity of 139 fb$^{-1}$ of data certified as good for physics was recorded by ATLAS between 2015 and 2018. This data taking period is referred to as Run 2, since it proceeds the Run 1 data taking period (2011 and 2012) and the Long Shutdown 1 LHC upgrade period (2013 and 2014). In this analysis, we use the Full Run 2 dataset.
+A total integrated luminosity of 139 fb$^{-1}$ of data certified as good for physics was recorded by ATLAS between 2015 and 2018. This data taking period is referred to as Run 2. It occurred after the Run 1 data taking period (2011 and 2012) and the Long Shutdown 1 LHC upgrade period (2013 and 2014). In this analysis, we use the Full Run 2 dataset.
 
 
 \section{The ATLAS Detector}
@@ -52,7 +48,7 @@ In Figure \ref{fig:atlas-detector}, the schematic of the ATLAS detector, is show
 \begin{figure}[h!]
  \includegraphics[width=0.5\textwidth]{figures/theoryFigs/atlasDetector.png}
  \centering
-\caption{Schematic of the ATLAS detector~\cite{Collaboration_2008}}
+\caption{A schematic of the ATLAS detector is shown.~\cite{Collaboration_2008}}
 \label{fig:atlas-detector}
 \end{figure}
 
@@ -65,7 +61,7 @@ The ATLAS detector adopts a right-handed coordinate system. The origin is at the
 \begin{equation}
 \eta = -\ln{\tan{\left(\frac{\theta}{2}\right)}}
 \end{equation}
-$\eta$ is often used as a measure of the polar angle, instead of $\theta$, since the difference in $\eta$ between two particles, $\Delta \eta$, is invariant under a Lorentz boost in the $z-$direction~\cite{Tovey_2019}. The angular distance between two physics objects, $\Delta R$, can be written as,
+The polar angle, $\eta$, is often used instead of $\theta$, since the difference in $\eta$ between two particles, $\Delta \eta$, is invariant under a Lorentz boost in the $z-$direction~\cite{Tovey_2019}. The angular distance between two physics objects, $\Delta R$, can be written as,
 
 \begin{equation}
 \Delta R = \sqrt{(\Delta\phi)^{2} + (\Delta\eta)^{2}}

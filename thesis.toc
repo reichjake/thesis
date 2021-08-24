@@ -26,11 +26,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.1.1.1}Luminosity}{15}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}The ATLAS Detector}{16}{}%
+\contentsline {section}{\numberline {3.2}The ATLAS Detector}{15}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Coordinate System and Kinematics}{16}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Inner Detector}{17}{}%
+\contentsline {subsection}{\numberline {3.2.2}Inner Detector}{16}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Electromagnetic and Hadronic Calorimeters}{17}{}%
 \defcounter {refsection}{0}\relax 
@@ -48,7 +48,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.6.4}Jets and $b$-tagging}{18}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Analysis Setup and Strategy}{20}{}%
+\contentsline {chapter}{\numberline {4}Search for $tWZ$ production using events with four leptons}{20}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Data and Monte Carlo Simulation}{20}{}%
 \defcounter {refsection}{0}\relax 
@@ -56,53 +56,55 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}Monte Carlo Samples}{20}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Objects}{21}{}%
+\contentsline {subsection}{\numberline {4.1.3}Trigger Strategy}{21}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Leptons}{22}{}%
+\contentsline {section}{\numberline {4.2}Physics objects}{23}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Jets}{22}{}%
+\contentsline {subsection}{\numberline {4.2.1}Leptons}{23}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}$b$-tagging}{23}{}%
+\contentsline {subsection}{\numberline {4.2.2}Jets}{23}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Overlap Removal Procedure}{23}{}%
+\contentsline {subsection}{\numberline {4.2.3}$b$-tagging}{24}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Kinematic cuts}{23}{}%
+\contentsline {subsection}{\numberline {4.2.4}Overlap Removal Procedure}{24}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Regions and Event Selection}{23}{}%
+\contentsline {section}{\numberline {4.3}Kinematic cuts}{24}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Optimization studies for event selection}{25}{}%
+\contentsline {section}{\numberline {4.4}Regions and Event Selection}{24}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Signal and Control Regions}{27}{}%
+\contentsline {subsection}{\numberline {4.4.1}Optimization studies for event selection}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}$tWZ$ OF SR}{27}{}%
+\contentsline {section}{\numberline {4.5}Signal and Control Regions}{28}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}$tWZ$ SF SR}{28}{}%
+\contentsline {subsection}{\numberline {4.5.1}$tWZ$ OF SR}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}$t\bar {t}Z$ CR}{30}{}%
+\contentsline {subsection}{\numberline {4.5.2}$tWZ$ SF SR}{29}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}$ZZb$ CR}{30}{}%
+\contentsline {subsection}{\numberline {4.5.3}$t\bar {t}Z$ CR}{29}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}$ZZb$ CR}{32}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.5}$(tWZ)_{\text {fake}}$ CR}{32}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Fake Lepton Estimation}{32}{}%
+\contentsline {section}{\numberline {4.6}Fake Lepton Estimation}{34}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Machine Learning Techniques}{36}{}%
+\contentsline {section}{\numberline {4.7}Improving signal vs background discrimination}{37}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.1}Boosted Decision Trees}{36}{}%
+\contentsline {subsection}{\numberline {4.7.1}Two Neutrino Scanning Method (2$\nu $SM) Algorithm}{37}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.2}Object-level BDT}{37}{}%
+\contentsline {subsection}{\numberline {4.7.2}Boosted Decision Trees}{40}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.3}Two Neutrino Scanning Method (2$\nu $SM) Algorithm}{43}{}%
+\contentsline {subsection}{\numberline {4.7.3}Object-level BDT}{42}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.7.4}Event-level BDT}{48}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.8}Systematic Uncertainties}{51}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.1}Experimental uncertainties}{51}{}%
+\contentsline {subsection}{\numberline {4.8.1}Experimental uncertainties}{53}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.8.2}Theoretical uncertainties}{54}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.3}Generic shape systematics}{54}{}%
+\contentsline {subsection}{\numberline {4.8.3}Generic shape systematic uncertainties}{55}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.9}Analysis Pipeline and TRExFitter}{55}{}%
 \defcounter {refsection}{0}\relax 
@@ -114,6 +116,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.10.2}Trilepton and Tetralepton Channels}{60}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.10.2.1}Projection to Higher Luminosity}{62}{}%
+\contentsline {subsubsection}{\numberline {4.10.2.1}Projection to Higher Luminosity}{63}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Summary and Conclusions}{65}{}%

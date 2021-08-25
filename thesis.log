@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.23)  25 AUG 2021 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.23)  25 AUG 2021 20:07
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1636,44 +1636,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [28]
-Overfull \hbox (103.55309pt too wide) in paragraph at lines 150--182
- [][] 
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <figures/signif_jetEta.png, id=169, 462.528pt x 346.896pt>
 File: figures/signif_jetEta.png Graphic file (type png)
 <use figures/signif_jetEta.png>
-Package pdftex.def Info: figures/signif_jetEta.png  used on input line 189.
+Package pdftex.def Info: figures/signif_jetEta.png  used on input line 188.
 (pdftex.def)             Requested size: 170.16272pt x 127.62433pt.
 <figures/exp_upper_jetEta.png, id=170, 462.528pt x 346.896pt>
 File: figures/exp_upper_jetEta.png Graphic file (type png)
 <use figures/exp_upper_jetEta.png>
-Package pdftex.def Info: figures/exp_upper_jetEta.png  used on input line 190.
+Package pdftex.def Info: figures/exp_upper_jetEta.png  used on input line 189.
 (pdftex.def)             Requested size: 170.16272pt x 127.62433pt.
 <figures/signif_jetPt.png, id=171, 462.528pt x 346.896pt>
 File: figures/signif_jetPt.png Graphic file (type png)
 <use figures/signif_jetPt.png>
-Package pdftex.def Info: figures/signif_jetPt.png  used on input line 196.
+Package pdftex.def Info: figures/signif_jetPt.png  used on input line 195.
 (pdftex.def)             Requested size: 170.16272pt x 127.62433pt.
 <figures/exp_upper_jetPt.png, id=172, 462.528pt x 346.896pt>
 File: figures/exp_upper_jetPt.png Graphic file (type png)
 <use figures/exp_upper_jetPt.png>
-Package pdftex.def Info: figures/exp_upper_jetPt.png  used on input line 197.
+Package pdftex.def Info: figures/exp_upper_jetPt.png  used on input line 196.
 (pdftex.def)             Requested size: 170.16272pt x 127.62433pt.
 <figures/btagWP_optimization.png, id=173, 1300.86pt x 578.16pt>
 File: figures/btagWP_optimization.png Graphic file (type png)
 <use figures/btagWP_optimization.png>
 Package pdftex.def Info: figures/btagWP_optimization.png  used on input line 20
-3.
+2.
 (pdftex.def)             Requested size: 400.38872pt x 177.94855pt.
 <figures/NL_Lep_optimization.png, id=174, 462.528pt x 346.896pt>
 File: figures/NL_Lep_optimization.png Graphic file (type png)
 <use figures/NL_Lep_optimization.png>
 Package pdftex.def Info: figures/NL_Lep_optimization.png  used on input line 20
-9.
+8.
 (pdftex.def)             Requested size: 275.26772pt x 206.46124pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1691,7 +1687,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [29]
 
-LaTeX Warning: Text page 30 contains only floats.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1703,16 +1699,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [30 <./figures/signif_jetEta.png> <./figures/exp_upper_jetEta.png>]
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[31 <./figures/signif_jetPt.png> <./figures/exp_upper_jetPt.png> <./figures/bta
-gWP_optimization.png>]
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
@@ -1723,7 +1709,164 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+[31 <./figures/signif_jetPt.png> <./figures/exp_upper_jetPt.png> <./figures/bta
+gWP_optimization.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [32 <./figures/NL_Lep_optimization.png>]
+<figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png, id=194, 798.985pt x 774.89
+5pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png Graphic file (type png
+)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png  us
+ed on input line 285.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png, id=195, 798.985pt x 774.8
+95pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png Graphic file (type pn
+g)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png  u
+sed on input line 286.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png, id=196, 798.985pt x 774.8
+95pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png Graphic file (type pn
+g)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png  u
+sed on input line 287.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png, id=197, 798.985pt x 774.895pt>
+
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png  used o
+n input line 288.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png, id=198, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png  used 
+on input line 289.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png, id=199, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png  used 
+on input line 290.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png, id=200, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png  used on inp
+ut line 302.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png, id=201, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png  used 
+on input line 303.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png, id=202, 798.985pt x 774.89
+5pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png Graphic file (type png
+)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png  us
+ed on input line 305.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png, id=203, 798.985pt x 774.895p
+t>
+File: figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png  used
+ on input line 306.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png, id=204, 798.985pt x 774.89
+5pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png Graphic file (type png
+)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png  us
+ed on input line 329.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png, id=205, 798.985pt x 774.8
+95pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png Graphic file (type pn
+g)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png  u
+sed on input line 330.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png, id=206, 798.985pt x 774.8
+95pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png Graphic file (type pn
+g)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png  u
+sed on input line 331.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png, id=207, 798.985pt x 774.895pt>
+
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png  used o
+n input line 332.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png, id=208, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png  used 
+on input line 333.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png, id=209, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png  used 
+on input line 334.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png, id=210, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png  used on inp
+ut line 347.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png, id=211, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png  used 
+on input line 348.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png, id=212, 798.985pt x 774.89
+5pt>
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png Graphic file (type png
+)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png  us
+ed on input line 350.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png, id=213, 798.985pt x 774.895p
+t>
+File: figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png  used
+ on input line 351.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1733,217 +1876,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [33]
-<figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png, id=199, 798.985pt x 774.89
-5pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png Graphic file (type png
-)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_pt.png  us
-ed on input line 287.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png, id=200, 798.985pt x 774.8
-95pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png Graphic file (type pn
-g)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_eta.png  u
-sed on input line 288.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png, id=201, 798.985pt x 774.8
-95pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png Graphic file (type pn
-g)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_L_lepton_phi.png  u
-sed on input line 289.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png, id=202, 798.985pt x 774.895pt>
-
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png  used o
-n input line 290.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png, id=203, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_eta.png  used 
-on input line 291.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png, id=204, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_phi.png  used 
-on input line 292.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png, id=205, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png  used on inp
-ut line 305.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png, id=206, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_Num_Jets.png  used 
-on input line 306.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png, id=207, 798.985pt x 774.89
-5pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png Graphic file (type png
-)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png  us
-ed on input line 308.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png, id=208, 798.985pt x 774.895p
-t>
-File: figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png  used
- on input line 309.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png, id=209, 798.985pt x 774.89
-5pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png Graphic file (type png
-)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png  us
-ed on input line 332.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png, id=210, 798.985pt x 774.8
-95pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png Graphic file (type pn
-g)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.png  u
-sed on input line 333.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png, id=211, 798.985pt x 774.8
-95pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png Graphic file (type pn
-g)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png  u
-sed on input line 334.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png, id=212, 798.985pt x 774.895pt>
-
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png  used o
-n input line 335.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png, id=213, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta.png  used 
-on input line 336.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png, id=214, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png  used 
-on input line 337.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png, id=215, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png  used on inp
-ut line 350.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png, id=216, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_Num_Jets.png  used 
-on input line 351.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png, id=217, 798.985pt x 774.89
-5pt>
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png Graphic file (type png
-)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png  us
-ed on input line 353.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png, id=218, 798.985pt x 774.895p
-t>
-File: figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png  used
- on input line 354.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png, id=219, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png  used 
-on input line 378.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png, id=220, 798.985pt x 774.895p
-t>
-File: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png  used
- on input line 379.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png, id=221, 798.985pt x 774.895p
-t>
-File: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png  used
- on input line 380.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png, id=222, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png  used on i
-nput line 381.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png, id=223, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png  used on 
-input line 382.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png, id=224, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png  used on 
-input line 383.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_HT.png, id=225, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ttZ_4T_HT.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_HT.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_HT.png  used on input 
-line 395.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png, id=226, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png  used on 
-input line 396.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png, id=227, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png  used 
-on input line 398.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png, id=228, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png  used on
- input line 399.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1956,7 +1888,74 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ts/lep4_tWZ_4T_OF_L_lepton_eta.png> <./figures/PreFitPlots/lep4_tWZ_4T_OF_L_lep
 ton_phi.png> <./figures/PreFitPlots/lep4_tWZ_4T_OF_LJet_pt.png> <./figures/PreF
 itPlots/lep4_tWZ_4T_OF_LJet_eta.png> <./figures/PreFitPlots/lep4_tWZ_4T_OF_LJet
-_phi.png>]
+_phi.png> <./figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png> <./figures/PreFitPlots/
+lep4_tWZ_4T_OF_Num_Jets.png> <./figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.
+png> <./figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png>]
+<figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png, id=220, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png  used 
+on input line 375.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png, id=221, 798.985pt x 774.895p
+t>
+File: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png  used
+ on input line 376.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png, id=222, 798.985pt x 774.895p
+t>
+File: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png  used
+ on input line 377.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png, id=223, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png  used on i
+nput line 378.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png, id=224, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png  used on 
+input line 379.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png, id=225, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png  used on 
+input line 380.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ttZ_4T_HT.png, id=226, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ttZ_4T_HT.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_HT.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_HT.png  used on input 
+line 392.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png, id=227, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.png  used on 
+input line 393.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png, id=228, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png  used 
+on input line 395.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png, id=229, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ttZ_4T_Num_bJets.png  used on
+ input line 396.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1965,78 +1964,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[35 <./figures/PreFitPlots/lep4_tWZ_4T_OF_HT.png> <./figures/PreFitPlots/lep4_t
-WZ_4T_OF_Num_Jets.png> <./figures/PreFitPlots/lep4_tWZ_4T_OF_sum_bJet_Pt.png> <
-./figures/PreFitPlots/lep4_tWZ_4T_OF_Num_bJets.png> <./figures/PreFitPlots/lep4
-_tWZ_4T_SF_L_lepton_pt.png> <./figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_eta.
-png> <./figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_phi.png> <./figures/PreFitP
-lots/lep4_tWZ_4T_SF_LJet_pt.png> <./figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_eta
-.png> <./figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_phi.png>]
-<figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png, id=235, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png  used 
-on input line 423.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png, id=236, 798.985pt x 774.895p
-t>
-File: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png  used
- on input line 424.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png, id=237, 798.985pt x 774.895p
-t>
-File: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png  used
- on input line 425.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png, id=238, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png  used on i
-nput line 426.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png, id=239, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png  used on 
-input line 427.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png, id=240, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png  used on 
-input line 428.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ZZb_4T_HT.png, id=241, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ZZb_4T_HT.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_HT.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_HT.png  used on input 
-line 441.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png, id=242, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png  used on 
-input line 442.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png, id=243, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png  used 
-on input line 444.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png, id=244, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png  used on
- input line 445.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-
+[35 <./figures/PreFitPlots/lep4_tWZ_4T_SF_L_lepton_pt.png> <./figures/PreFitPlo
+ts/lep4_tWZ_4T_SF_L_lepton_eta.png> <./figures/PreFitPlots/lep4_tWZ_4T_SF_L_lep
+ton_phi.png> <./figures/PreFitPlots/lep4_tWZ_4T_SF_LJet_pt.png> <./figures/PreF
+itPlots/lep4_tWZ_4T_SF_LJet_eta.png> <./figures/PreFitPlots/lep4_tWZ_4T_SF_LJet
+_phi.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2047,7 +1979,148 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [36 <./figures/PreFitPlots/lep4_tWZ_4T_SF_HT.png> <./figures/PreFitPlots/lep4_t
 WZ_4T_SF_Num_Jets.png> <./figures/PreFitPlots/lep4_tWZ_4T_SF_sum_bJet_Pt.png> <
-./figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png>]
+./figures/PreFitPlots/lep4_tWZ_4T_SF_Num_bJets.png> <./figures/PreFitPlots/lep4
+_ttZ_4T_L_lepton_pt.png> <./figures/PreFitPlots/lep4_ttZ_4T_L_lepton_eta.png> <
+./figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.png> <./figures/PreFitPlots/lep4
+_ttZ_4T_LJet_pt.png> <./figures/PreFitPlots/lep4_ttZ_4T_LJet_eta.png> <./figure
+s/PreFitPlots/lep4_ttZ_4T_LJet_phi.png>]
+<figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png, id=236, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png  used 
+on input line 420.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png, id=237, 798.985pt x 774.895p
+t>
+File: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_eta.png  used
+ on input line 421.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png, id=238, 798.985pt x 774.895p
+t>
+File: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.png  used
+ on input line 422.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png, id=239, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png  used on i
+nput line 423.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png, id=240, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_LJet_eta.png  used on 
+input line 424.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png, id=241, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png  used on 
+input line 425.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ZZb_4T_HT.png, id=242, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ZZb_4T_HT.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_HT.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_HT.png  used on input 
+line 438.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png, id=243, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.png  used on 
+input line 439.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png, id=244, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png  used 
+on input line 441.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png, id=245, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_ZZb_4T_Num_bJets.png  used on
+ input line 442.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png, id=246, 798.985pt x 774.895
+pt>
+File: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png Graphic file (type png)
+
+<use figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png  use
+d on input line 467.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png, id=247, 798.985pt x 774.89
+5pt>
+File: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png Graphic file (type png
+)
+<use figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png  us
+ed on input line 468.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png, id=248, 798.985pt x 774.89
+5pt>
+File: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png Graphic file (type png
+)
+<use figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png  us
+ed on input line 469.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png, id=249, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png  used on
+ input line 470.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png, id=250, 798.985pt x 774.895pt>
+
+File: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png  used o
+n input line 471.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png, id=251, 798.985pt x 774.895pt>
+
+File: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png  used o
+n input line 472.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_HT.png, id=252, 798.985pt x 774.895pt>
+File: figures/PreFitPlots/lep4_tWZ_3T1L_HT.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_3T1L_HT.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_HT.png  used on inpu
+t line 485.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png, id=253, 798.985pt x 774.895pt>
+
+File: figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png  used o
+n input line 486.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png, id=254, 798.985pt x 774.895
+pt>
+File: figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png Graphic file (type png)
+
+<use figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png  use
+d on input line 488.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+<figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png, id=255, 798.985pt x 774.895pt
+>
+File: figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png Graphic file (type png)
+<use figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png>
+Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png  used 
+on input line 489.
+(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2056,90 +2129,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37 <./figures/PreFitPlots/lep4_ttZ_4T_L_lepton_pt.png> <./figures/PreFitPlots/
-lep4_ttZ_4T_L_lepton_eta.png> <./figures/PreFitPlots/lep4_ttZ_4T_L_lepton_phi.p
-ng> <./figures/PreFitPlots/lep4_ttZ_4T_LJet_pt.png> <./figures/PreFitPlots/lep4
-_ttZ_4T_LJet_eta.png> <./figures/PreFitPlots/lep4_ttZ_4T_LJet_phi.png> <./figur
-es/PreFitPlots/lep4_ttZ_4T_HT.png> <./figures/PreFitPlots/lep4_ttZ_4T_Num_Jets.
-png> <./figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png> <./figures/PreFitPlots
-/lep4_ttZ_4T_Num_bJets.png>]
-<figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png, id=252, 798.985pt x 774.895
-pt>
-File: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png Graphic file (type png)
-
-<use figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png  use
-d on input line 470.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png, id=253, 798.985pt x 774.89
-5pt>
-File: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png Graphic file (type png
-)
-<use figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png  us
-ed on input line 471.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png, id=254, 798.985pt x 774.89
-5pt>
-File: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png Graphic file (type png
-)
-<use figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png  us
-ed on input line 472.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png, id=255, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png  used on
- input line 473.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png, id=256, 798.985pt x 774.895pt>
-
-File: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png  used o
-n input line 474.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png, id=257, 798.985pt x 774.895pt>
-
-File: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png  used o
-n input line 475.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_3T1L_HT.png, id=258, 798.985pt x 774.895pt>
-File: figures/PreFitPlots/lep4_tWZ_3T1L_HT.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_3T1L_HT.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_HT.png  used on inpu
-t line 489.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png, id=259, 798.985pt x 774.895pt>
-
-File: figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_Num_Jets.png  used o
-n input line 490.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png, id=260, 798.985pt x 774.895
-pt>
-File: figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png Graphic file (type png)
-
-<use figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png  use
-d on input line 492.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-<figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png, id=261, 798.985pt x 774.895pt
->
-File: figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png Graphic file (type png)
-<use figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png>
-Package pdftex.def Info: figures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png  used 
-on input line 493.
-(pdftex.def)             Requested size: 125.12099pt x 121.349pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
-
- []
-
+[37 <./figures/PreFitPlots/lep4_ttZ_4T_HT.png> <./figures/PreFitPlots/lep4_ttZ_
+4T_Num_Jets.png> <./figures/PreFitPlots/lep4_ttZ_4T_sum_bJet_Pt.png> <./figures
+/PreFitPlots/lep4_ttZ_4T_Num_bJets.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2151,7 +2143,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [38 <./figures/PreFitPlots/lep4_ZZb_4T_L_lepton_pt.png> <./figures/PreFitPlots/
 lep4_ZZb_4T_L_lepton_eta.png> <./figures/PreFitPlots/lep4_ZZb_4T_L_lepton_phi.p
 ng> <./figures/PreFitPlots/lep4_ZZb_4T_LJet_pt.png> <./figures/PreFitPlots/lep4
-_ZZb_4T_LJet_eta.png> <./figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png>]
+_ZZb_4T_LJet_eta.png> <./figures/PreFitPlots/lep4_ZZb_4T_LJet_phi.png> <./figur
+es/PreFitPlots/lep4_ZZb_4T_HT.png> <./figures/PreFitPlots/lep4_ZZb_4T_Num_Jets.
+png> <./figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png> <./figures/PreFitPlots
+/lep4_ZZb_4T_Num_bJets.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2160,19 +2164,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[39 <./figures/PreFitPlots/lep4_ZZb_4T_HT.png> <./figures/PreFitPlots/lep4_ZZb_
-4T_Num_Jets.png> <./figures/PreFitPlots/lep4_ZZb_4T_sum_bJet_Pt.png> <./figures
-/PreFitPlots/lep4_ZZb_4T_Num_bJets.png> <./figures/PreFitPlots/lep4_tWZ_3T1L_L_
-lepton_pt.png> <./figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_eta.png> <./figure
-s/PreFitPlots/lep4_tWZ_3T1L_L_lepton_phi.png> <./figures/PreFitPlots/lep4_tWZ_3
-T1L_LJet_pt.png> <./figures/PreFitPlots/lep4_tWZ_3T1L_LJet_eta.png> <./figures/
-PreFitPlots/lep4_tWZ_3T1L_LJet_phi.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
-
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 505--506
+[39 <./figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton_pt.png> <./figures/PreFitPlot
+s/lep4_tWZ_3T1L_L_lepton_eta.png> <./figures/PreFitPlots/lep4_tWZ_3T1L_L_lepton
+_phi.png> <./figures/PreFitPlots/lep4_tWZ_3T1L_LJet_pt.png> <./figures/PreFitPl
+ots/lep4_tWZ_3T1L_LJet_eta.png> <./figures/PreFitPlots/lep4_tWZ_3T1L_LJet_phi.p
+ng>]
+Underfull \hbox (badness 2894) in paragraph at lines 501--502
 \OT1/cmtt/m/n/10.95 ChargeFlipIsoElectron\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.
 95 PromptMuon\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 PromptPhotonConversion\OT
 1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 ElectronFromMuon\OT1/cmr/m/n/10.95 , \OT1
@@ -2180,7 +2177,7 @@ Underfull \hbox (badness 2894) in paragraph at lines 505--506
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--506
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
 
@@ -2195,16 +2192,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [40 <./figures/PreFitPlots/lep4_tWZ_3T1L_HT.png> <./figures/PreFitPlots/lep4_tW
 Z_3T1L_Num_Jets.png> <./figures/PreFitPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png> <./f
 igures/PreFitPlots/lep4_tWZ_3T1L_Num_bJets.png>]
-<figures/iff_bar_1.png, id=272, 1156.32pt x 578.16pt>
+<figures/iff_bar_1.png, id=270, 1156.32pt x 578.16pt>
 File: figures/iff_bar_1.png Graphic file (type png)
 <use figures/iff_bar_1.png>
-Package pdftex.def Info: figures/iff_bar_1.png  used on input line 512.
+Package pdftex.def Info: figures/iff_bar_1.png  used on input line 508.
 (pdftex.def)             Requested size: 235.22807pt x 117.60608pt.
-<figures/iff_bar_2.png, id=273, 1228.59pt x 722.7pt>
+<figures/iff_bar_2.png, id=271, 1228.59pt x 722.7pt>
 File: figures/iff_bar_2.png Graphic file (type png)
 <use figures/iff_bar_2.png>
-Package pdftex.def Info: figures/iff_bar_2.png  used on input line 513.
+Package pdftex.def Info: figures/iff_bar_2.png  used on input line 509.
 (pdftex.def)             Requested size: 235.22807pt x 138.36203pt.
+<figures/iff_bar_3.png, id=272, 1084.05pt x 505.89pt>
+File: figures/iff_bar_3.png Graphic file (type png)
+<use figures/iff_bar_3.png>
+Package pdftex.def Info: figures/iff_bar_3.png  used on input line 517.
+(pdftex.def)             Requested size: 275.26772pt x 128.45602pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2215,12 +2217,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [41 <./figures/iff_bar_1.png> <./figures/iff_bar_2.png>]
-<figures/iff_bar_3.png, id=279, 1084.05pt x 505.89pt>
-File: figures/iff_bar_3.png Graphic file (type png)
-<use figures/iff_bar_3.png>
-Package pdftex.def Info: figures/iff_bar_3.png  used on input line 522.
-(pdftex.def)             Requested size: 275.26772pt x 128.45602pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2239,20 +2235,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [43]
-<figures/lbassoc_2vSM.png, id=288, 569.12625pt x 385.56046pt>
+<figures/lbassoc_2vSM.png, id=286, 569.12625pt x 385.56046pt>
 File: figures/lbassoc_2vSM.png Graphic file (type png)
 <use figures/lbassoc_2vSM.png>
-Package pdftex.def Info: figures/lbassoc_2vSM.png  used on input line 561.
+Package pdftex.def Info: figures/lbassoc_2vSM.png  used on input line 556.
 (pdftex.def)             Requested size: 300.29344pt x 203.44594pt.
-<figures/bbll_occ_2vSM.pdf, id=289, 569.12625pt x 385.44pt>
+<figures/bbll_occ_2vSM.pdf, id=287, 569.12625pt x 385.44pt>
 File: figures/bbll_occ_2vSM.pdf Graphic file (type pdf)
 <use figures/bbll_occ_2vSM.pdf>
-Package pdftex.def Info: figures/bbll_occ_2vSM.pdf  used on input line 567.
+Package pdftex.def Info: figures/bbll_occ_2vSM.pdf  used on input line 562.
 (pdftex.def)             Requested size: 225.21626pt x 152.52649pt.
-<figures/bbll_veto_2vSM.pdf, id=290, 569.12625pt x 385.44pt>
+<figures/bbll_veto_2vSM.pdf, id=288, 569.12625pt x 385.44pt>
 File: figures/bbll_veto_2vSM.pdf Graphic file (type pdf)
 <use figures/bbll_veto_2vSM.pdf>
-Package pdftex.def Info: figures/bbll_veto_2vSM.pdf  used on input line 568.
+Package pdftex.def Info: figures/bbll_veto_2vSM.pdf  used on input line 563.
+(pdftex.def)             Requested size: 225.21626pt x 152.52649pt.
+<figures/lt_occ_2vSM.pdf, id=289, 569.12625pt x 385.44pt>
+File: figures/lt_occ_2vSM.pdf Graphic file (type pdf)
+<use figures/lt_occ_2vSM.pdf>
+Package pdftex.def Info: figures/lt_occ_2vSM.pdf  used on input line 569.
+(pdftex.def)             Requested size: 225.21626pt x 152.52649pt.
+<figures/lt_veto_2vSM.pdf, id=290, 569.12625pt x 385.44pt>
+File: figures/lt_veto_2vSM.pdf Graphic file (type pdf)
+<use figures/lt_veto_2vSM.pdf>
+Package pdftex.def Info: figures/lt_veto_2vSM.pdf  used on input line 570.
 (pdftex.def)             Requested size: 225.21626pt x 152.52649pt.
 
 
@@ -2268,21 +2274,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [44]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-<figures/lt_occ_2vSM.pdf, id=295, 569.12625pt x 385.44pt>
-File: figures/lt_occ_2vSM.pdf Graphic file (type pdf)
-<use figures/lt_occ_2vSM.pdf>
-Package pdftex.def Info: figures/lt_occ_2vSM.pdf  used on input line 575.
-(pdftex.def)             Requested size: 225.21626pt x 152.52649pt.
-<figures/lt_veto_2vSM.pdf, id=296, 569.12625pt x 385.44pt>
-File: figures/lt_veto_2vSM.pdf Graphic file (type pdf)
-<use figures/lt_veto_2vSM.pdf>
-Package pdftex.def Info: figures/lt_veto_2vSM.pdf  used on input line 576.
-(pdftex.def)             Requested size: 225.21626pt x 152.52649pt.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[45 <./figures/lbassoc_2vSM.png> <./figures/bbll_occ_2vSM.pdf, page is rotated 
+90 degrees> <./figures/bbll_veto_2vSM.pdf, page is rotated 90 degrees>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2291,32 +2291,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[45 <./figures/lbassoc_2vSM.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[46 <./figures/bbll_occ_2vSM.pdf, page is rotated 90 degrees> <./figures/bbll_v
-eto_2vSM.pdf, page is rotated 90 degrees> <./figures/lt_occ_2vSM.pdf, page is r
-otated 90 degrees> <./figures/lt_veto_2vSM.pdf, page is rotated 90 degrees>]
-<figures/mtop_2vSM.pdf, id=476, 569.12625pt x 385.44pt>
+[46 <./figures/lt_occ_2vSM.pdf, page is rotated 90 degrees> <./figures/lt_veto_
+2vSM.pdf, page is rotated 90 degrees>]
+<figures/mtop_2vSM.pdf, id=474, 569.12625pt x 385.44pt>
 File: figures/mtop_2vSM.pdf Graphic file (type pdf)
 <use figures/mtop_2vSM.pdf>
-Package pdftex.def Info: figures/mtop_2vSM.pdf  used on input line 583.
+Package pdftex.def Info: figures/mtop_2vSM.pdf  used on input line 577.
 (pdftex.def)             Requested size: 235.22807pt x 159.30766pt.
-<figures/DExy_2vSM.pdf, id=477, 569.12625pt x 385.44pt>
+<figures/DExy_2vSM.pdf, id=475, 569.12625pt x 385.44pt>
 File: figures/DExy_2vSM.pdf Graphic file (type pdf)
 <use figures/DExy_2vSM.pdf>
-Package pdftex.def Info: figures/DExy_2vSM.pdf  used on input line 584.
+Package pdftex.def Info: figures/DExy_2vSM.pdf  used on input line 578.
 (pdftex.def)             Requested size: 235.22807pt x 159.30766pt.
-<figures/2vsm_flow.png, id=478, 1232.6853pt x 594.0594pt>
+<figures/2vsm_flow.png, id=476, 1232.6853pt x 594.0594pt>
 File: figures/2vsm_flow.png Graphic file (type png)
 <use figures/2vsm_flow.png>
-Package pdftex.def Info: figures/2vsm_flow.png  used on input line 594.
+Package pdftex.def Info: figures/2vsm_flow.png  used on input line 588.
 (pdftex.def)             Requested size: 500.484pt x 241.19101pt.
 
 
@@ -2341,96 +2331,99 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [48 <./figures/2vsm_flow.png>]
-<figures/bdtPlots/normPlot_m_lb.png, id=572, 578.16pt x 505.89pt>
+<figures/bdtPlots/normPlot_m_lb.png, id=570, 578.16pt x 505.89pt>
 File: figures/bdtPlots/normPlot_m_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_m_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_m_lb.png  used on input line
- 628.
+ 622.
 (pdftex.def)             Requested size: 150.14671pt x 131.3739pt.
-<figures/bdtPlots/normPlot_delR_lb.png, id=573, 578.16pt x 505.89pt>
+<figures/bdtPlots/normPlot_delR_lb.png, id=571, 578.16pt x 505.89pt>
 File: figures/bdtPlots/normPlot_delR_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_delR_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_delR_lb.png  used on input l
-ine 629.
+ine 623.
 (pdftex.def)             Requested size: 150.14671pt x 131.3739pt.
-<figures/bdtPlots/normPlot_pt_lb.png, id=574, 578.16pt x 505.89pt>
+<figures/bdtPlots/normPlot_pt_lb.png, id=572, 578.16pt x 505.89pt>
 File: figures/bdtPlots/normPlot_pt_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_pt_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_pt_lb.png  used on input lin
-e 630.
+e 624.
 (pdftex.def)             Requested size: 150.14671pt x 131.3739pt.
-<figures/bdtPlots/normPlot_delEta_lb.png, id=575, 578.16pt x 505.89pt>
+<figures/bdtPlots/normPlot_delEta_lb.png, id=573, 578.16pt x 505.89pt>
 File: figures/bdtPlots/normPlot_delEta_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_delEta_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_delEta_lb.png  used on input
- line 631.
+ line 625.
 (pdftex.def)             Requested size: 150.14671pt x 131.3739pt.
-<figures/bdtPlots/normPlot_delPhi_lb.png, id=576, 578.16pt x 505.89pt>
+<figures/bdtPlots/normPlot_delPhi_lb.png, id=574, 578.16pt x 505.89pt>
 File: figures/bdtPlots/normPlot_delPhi_lb.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_delPhi_lb.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_delPhi_lb.png  used on input
- line 632.
+ line 626.
 (pdftex.def)             Requested size: 150.14671pt x 131.3739pt.
-<figures/bdtPlots/lep4_ttZ_4T_delEta_l0b0.png, id=577, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ttZ_4T_delEta_l0b0.png, id=575, 598.235pt x 674.52pt>
 File: figures/bdtPlots/lep4_ttZ_4T_delEta_l0b0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_delEta_l0b0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_delEta_l0b0.png  used on 
-input line 640.
-(pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png, id=578, 798.985pt x 774.895pt>
+input line 634.
+(pdftex.def)             Requested size: 150.14671pt x 169.28828pt.
+<figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png, id=576, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_delPhi_l0b0.png  used on 
-input line 641.
+input line 635.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png, id=579, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png, id=577, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_delR_l0b0.png  used on in
-put line 642.
+put line 636.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png, id=580, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png, id=578, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_Pt_lb_0.png  used on inpu
-t line 643.
+t line 637.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png, id=581, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png, id=579, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_m_lb_0.png  used on input
- line 644.
+ line 638.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/normPlot_compare_m_lb.png, id=582, 614.295pt x 469.755pt>
+<figures/normPlot_compare_m_lb.png, id=580, 614.295pt x 469.755pt>
 File: figures/normPlot_compare_m_lb.png Graphic file (type png)
 <use figures/normPlot_compare_m_lb.png>
 Package pdftex.def Info: figures/normPlot_compare_m_lb.png  used on input line 
-653.
+647.
 (pdftex.def)             Requested size: 160.15854pt x 122.4703pt.
-<figures/normPlot_compare_pt_lb.png, id=583, 614.295pt x 469.755pt>
+<figures/normPlot_compare_pt_lb.png, id=581, 614.295pt x 469.755pt>
 File: figures/normPlot_compare_pt_lb.png Graphic file (type png)
 <use figures/normPlot_compare_pt_lb.png>
 Package pdftex.def Info: figures/normPlot_compare_pt_lb.png  used on input line
- 654.
+ 648.
 (pdftex.def)             Requested size: 160.15854pt x 122.4703pt.
-<figures/normPlot_compare_delEta_lb.png, id=584, 614.295pt x 469.755pt>
+<figures/normPlot_compare_delEta_lb.png, id=582, 614.295pt x 469.755pt>
 File: figures/normPlot_compare_delEta_lb.png Graphic file (type png)
 <use figures/normPlot_compare_delEta_lb.png>
 Package pdftex.def Info: figures/normPlot_compare_delEta_lb.png  used on input 
-line 655.
+line 649.
 (pdftex.def)             Requested size: 160.15854pt x 122.4703pt.
-<figures/normPlot_compare_delPhi_lb.png, id=585, 614.295pt x 469.755pt>
+<figures/normPlot_compare_delPhi_lb.png, id=583, 614.295pt x 469.755pt>
 File: figures/normPlot_compare_delPhi_lb.png Graphic file (type png)
 <use figures/normPlot_compare_delPhi_lb.png>
 Package pdftex.def Info: figures/normPlot_compare_delPhi_lb.png  used on input 
-line 656.
+line 650.
 (pdftex.def)             Requested size: 160.15854pt x 122.4703pt.
-<figures/normPlot_compare_delR_lb.png, id=586, 614.295pt x 469.755pt>
+<figures/normPlot_compare_delR_lb.png, id=584, 614.295pt x 469.755pt>
 File: figures/normPlot_compare_delR_lb.png Graphic file (type png)
 <use figures/normPlot_compare_delR_lb.png>
 Package pdftex.def Info: figures/normPlot_compare_delR_lb.png  used on input li
-ne 657.
+ne 651.
 (pdftex.def)             Requested size: 160.15854pt x 122.4703pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2442,6 +2435,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [49]
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -2452,9 +2448,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [50 <./figures/bdtPlots/normPlot_m_lb.png> <./figures/bdtPlots/normPlot_delR_lb
 .png> <./figures/bdtPlots/normPlot_pt_lb.png> <./figures/bdtPlots/normPlot_delE
 ta_lb.png> <./figures/bdtPlots/normPlot_delPhi_lb.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2478,66 +2471,66 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [52 <./figures/normPlot_compare_m_lb.png> <./figures/normPlot_compare_pt_lb.png
 > <./figures/normPlot_compare_delEta_lb.png> <./figures/normPlot_compare_delPhi
 _lb.png> <./figures/normPlot_compare_delR_lb.png>]
-<figures/overtrainingCheck_4lep_lb.png, id=610, 462.528pt x 346.896pt>
+<figures/overtrainingCheck_4lep_lb.png, id=608, 462.528pt x 346.896pt>
 File: figures/overtrainingCheck_4lep_lb.png Graphic file (type png)
 <use figures/overtrainingCheck_4lep_lb.png>
 Package pdftex.def Info: figures/overtrainingCheck_4lep_lb.png  used on input l
-ine 687.
+ine 681.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
 <figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.png, id=
-611, 448.67625pt x 430.60875pt>
+609, 448.67625pt x 430.60875pt>
 File: figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.png
  Graphic file (type png)
 <use figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_noExclusion.png>
 
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndB
-est_noExclusion.png  used on input line 694.
+est_noExclusion.png  used on input line 688.
 (pdftex.def)             Requested size: 150.14671pt x 144.09877pt.
 <figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_noExclusion.png, id=
-612, 448.67625pt x 430.60875pt>
+610, 448.67625pt x 430.60875pt>
 File: figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_noExclusion.png
  Graphic file (type png)
 <use figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_noExclusion.png>
 
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndB
-est_noExclusion.png  used on input line 695.
+est_noExclusion.png  used on input line 689.
 (pdftex.def)             Requested size: 150.14671pt x 144.09877pt.
-<figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_noExclusion.png, id=613
+<figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_noExclusion.png, id=611
 , 448.67625pt x 430.60875pt>
 File: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_noExclusion.png Gr
 aphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_noExclusion.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest
-_noExclusion.png  used on input line 696.
+_noExclusion.png  used on input line 690.
 (pdftex.def)             Requested size: 150.14671pt x 144.09877pt.
-<figures/DeltaR_lb_bdt.png, id=614, 867.24pt x 433.62pt>
+<figures/DeltaR_lb_bdt.png, id=612, 867.24pt x 433.62pt>
 File: figures/DeltaR_lb_bdt.png Graphic file (type png)
 <use figures/DeltaR_lb_bdt.png>
-Package pdftex.def Info: figures/DeltaR_lb_bdt.png  used on input line 702.
+Package pdftex.def Info: figures/DeltaR_lb_bdt.png  used on input line 696.
 (pdftex.def)             Requested size: 350.33727pt x 175.17183pt.
-<figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_sep.png, id=615, 448
+<figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_sep.png, id=613, 448
 .67625pt x 430.60875pt>
 File: figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_sep.png Graphic
  file (type png)
 <use figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndBest_sep.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_4T_OF_BDT_Score_bestOver2ndB
-est_sep.png  used on input line 708.
+est_sep.png  used on input line 702.
 (pdftex.def)             Requested size: 150.14671pt x 144.09877pt.
-<figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_sep.png, id=616, 448
+<figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_sep.png, id=614, 448
 .67625pt x 430.60875pt>
 File: figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_sep.png Graphic
  file (type png)
 <use figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndBest_sep.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_4T_SF_BDT_Score_bestOver2ndB
-est_sep.png  used on input line 709.
+est_sep.png  used on input line 703.
 (pdftex.def)             Requested size: 150.14671pt x 144.09877pt.
-<figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.png, id=617, 448.67
+<figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.png, id=615, 448.67
 625pt x 430.60875pt>
 File: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.png Graphic fi
 le (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest_sep.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest
-_sep.png  used on input line 710.
+_sep.png  used on input line 704.
 (pdftex.def)             Requested size: 150.14671pt x 144.09877pt.
 
 
@@ -2565,36 +2558,36 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 719.
+(Font)              size <8> substituted on input line 713.
 
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 721.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 715.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 721.
+(Font)              size <5> substituted on input line 715.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.5> not available
-(Font)              size <8> substituted on input line 721.
+(Font)              size <8> substituted on input line 715.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.25> not available
-(Font)              size <5> substituted on input line 721.
+(Font)              size <5> substituted on input line 715.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 721.
+(Font)              size <8> substituted on input line 715.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 721.
+(Font)              size <5> substituted on input line 715.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 721.
+(Font)              size <8> substituted on input line 715.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 721.
+(Font)              size <5> substituted on input line 715.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2605,142 +2598,142 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [55 <./figures/DeltaR_lb_bdt.png>]
-<figures/bdtPlots/normPlot_max_2vSM_weight.png, id=633, 650.43pt x 505.89pt>
+<figures/bdtPlots/normPlot_max_2vSM_weight.png, id=631, 650.43pt x 505.89pt>
 File: figures/bdtPlots/normPlot_max_2vSM_weight.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_max_2vSM_weight.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_max_2vSM_weight.png  used on
- input line 743.
+ input line 737.
 (pdftex.def)             Requested size: 150.14671pt x 116.7768pt.
-<figures/bdtPlots/normPlot_HT.png, id=634, 650.43pt x 505.89pt>
+<figures/bdtPlots/normPlot_HT.png, id=632, 650.43pt x 505.89pt>
 File: figures/bdtPlots/normPlot_HT.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_HT.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_HT.png  used on input line 7
-44.
+38.
 (pdftex.def)             Requested size: 150.14671pt x 116.7768pt.
-<figures/bdtPlots/normPlot_LT.png, id=635, 650.43pt x 505.89pt>
+<figures/bdtPlots/normPlot_LT.png, id=633, 650.43pt x 505.89pt>
 File: figures/bdtPlots/normPlot_LT.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_LT.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_LT.png  used on input line 7
-45.
+39.
 (pdftex.def)             Requested size: 150.14671pt x 116.7768pt.
-<figures/bdtPlots/normPlot_sum_bJet_pt.png, id=636, 650.43pt x 505.89pt>
+<figures/bdtPlots/normPlot_sum_bJet_pt.png, id=634, 650.43pt x 505.89pt>
 File: figures/bdtPlots/normPlot_sum_bJet_pt.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_sum_bJet_pt.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_sum_bJet_pt.png  used on inp
-ut line 746.
+ut line 740.
 (pdftex.def)             Requested size: 150.14671pt x 116.7768pt.
-<figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png, id=637, 650.43pt x 50
+<figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png, id=635, 650.43pt x 50
 5.89pt>
 File: figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png Graphic file (typ
 e png)
 <use figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_BDT_Score_bestOver2ndBest.pn
-g  used on input line 747.
+g  used on input line 741.
 (pdftex.def)             Requested size: 150.14671pt x 116.7768pt.
-<figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png, id=638, 650.43pt x 505.89pt>
+<figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png, id=636, 650.43pt x 505.89pt>
 
 File: figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png Graphic file (type png)
 <use figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png>
 Package pdftex.def Info: figures/bdtPlots/normPlot_delEta_lNonZ_lNonZ.png  used
- on input line 748.
+ on input line 742.
 (pdftex.def)             Requested size: 150.14671pt x 116.7768pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png, id=639, 798.985pt x 774.895p
+<figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png, id=637, 798.985pt x 774.895p
 t>
 File: figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_max_2vSM_weight.png  used
- on input line 757.
+ on input line 751.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_HT.png, id=640, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ttZ_4T_HT.png, id=638, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_HT.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_HT.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_HT.png  used on input lin
-e 758.
+e 752.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_LT.png, id=641, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ttZ_4T_LT.png, id=639, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_LT.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_LT.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_LT.png  used on input lin
-e 759.
+e 753.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png, id=642, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png, id=640, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_sum_bJet_Pt.png  used on 
-input line 760.
+input line 754.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png, id=643, 798.985pt 
+<figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png, id=641, 798.985pt 
 x 774.895pt>
 File: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png Graphic file (
 type png)
 <use figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2ndBest
-.png  used on input line 761.
+.png  used on input line 755.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png, id=644, 798.985pt x 774.8
+<figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png, id=642, 798.985pt x 774.8
 95pt>
 File: figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png Graphic file (type pn
 g)
 <use figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png  u
-sed on input line 762.
+sed on input line 756.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ZZb_4T_HT.png, id=645, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ZZb_4T_HT.png, id=643, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ZZb_4T_HT.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ZZb_4T_HT.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ZZb_4T_HT.png  used on input lin
-e 770.
+e 764.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ZZb_4T_LT.png, id=646, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ZZb_4T_LT.png, id=644, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ZZb_4T_LT.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ZZb_4T_LT.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ZZb_4T_LT.png  used on input lin
-e 771.
+e 765.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png, id=647, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png, id=645, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png Graphic file (type png)
 <use figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_ZZb_4T_sum_bJet_Pt.png  used on 
-input line 772.
+input line 766.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_HT.png, id=648, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_tWZ_3T1L_HT.png, id=646, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_tWZ_3T1L_HT.png Graphic file (type png)
 <use figures/bdtPlots/lep4_tWZ_3T1L_HT.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_HT.png  used on input l
-ine 781.
+ine 775.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_LT.png, id=649, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_tWZ_3T1L_LT.png, id=647, 798.985pt x 774.895pt>
 File: figures/bdtPlots/lep4_tWZ_3T1L_LT.png Graphic file (type png)
 <use figures/bdtPlots/lep4_tWZ_3T1L_LT.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_LT.png  used on input l
-ine 782.
+ine 776.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png, id=650, 798.985pt x 774.895pt>
+<figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png, id=648, 798.985pt x 774.895pt>
 
 File: figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png Graphic file (type png)
 <use figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png  used o
-n input line 783.
+n input line 777.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png, id=651, 798.985p
+<figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png, id=649, 798.985p
 t x 774.895pt>
 File: figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png Graphic file
  (type png)
 <use figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_BDT_Score_bestOver2ndBe
-st.png  used on input line 784.
+st.png  used on input line 778.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png, id=652, 798.985pt x 774
+<figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png, id=650, 798.985pt x 774
 .895pt>
 File: figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png Graphic file (type 
 png)
 <use figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png>
 Package pdftex.def Info: figures/bdtPlots/lep4_tWZ_3T1L_delEta_lNonZ_lNonZ.png 
- used on input line 785.
+ used on input line 779.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2777,12 +2770,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 p4_ttZ_4T_HT.png> <./figures/bdtPlots/lep4_ttZ_4T_LT.png> <./figures/bdtPlots/l
 ep4_ttZ_4T_sum_bJet_Pt.png> <./figures/bdtPlots/lep4_ttZ_4T_BDT_Score_bestOver2
 ndBest.png> <./figures/bdtPlots/lep4_ttZ_4T_delEta_lNonZ_lNonZ.png>]
-<figures/overtrainingCheck_4lep_event.png, id=671, 462.528pt x 346.896pt>
+<figures/overtrainingCheck_4lep_event.png, id=670, 462.528pt x 346.896pt>
 File: figures/overtrainingCheck_4lep_event.png Graphic file (type png)
 <use figures/overtrainingCheck_4lep_event.png>
 Package pdftex.def Info: figures/overtrainingCheck_4lep_event.png  used on inpu
-t line 817.
+t line 811.
 (pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+<figures/lep4_tWZ_4T_OF.png, id=671, 448.67625pt x 430.60875pt>
+File: figures/lep4_tWZ_4T_OF.png Graphic file (type png)
+<use figures/lep4_tWZ_4T_OF.png>
+Package pdftex.def Info: figures/lep4_tWZ_4T_OF.png  used on input line 817.
+(pdftex.def)             Requested size: 121.1442pt x 116.2659pt.
+<figures/lep4_tWZ_4T_SF.png, id=672, 448.67625pt x 430.60875pt>
+File: figures/lep4_tWZ_4T_SF.png Graphic file (type png)
+<use figures/lep4_tWZ_4T_SF.png>
+Package pdftex.def Info: figures/lep4_tWZ_4T_SF.png  used on input line 818.
+(pdftex.def)             Requested size: 121.1442pt x 116.2659pt.
+<figures/lep4_ttZ_4T.png, id=673, 448.67625pt x 430.60875pt>
+File: figures/lep4_ttZ_4T.png Graphic file (type png)
+<use figures/lep4_ttZ_4T.png>
+Package pdftex.def Info: figures/lep4_ttZ_4T.png  used on input line 819.
+(pdftex.def)             Requested size: 121.1442pt x 116.2659pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2806,22 +2814,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 _LT.png> <./figures/bdtPlots/lep4_tWZ_3T1L_sum_bJet_Pt.png> <./figures/bdtPlots
 /lep4_tWZ_3T1L_BDT_Score_bestOver2ndBest.png> <./figures/bdtPlots/lep4_tWZ_3T1L
 _delEta_lNonZ_lNonZ.png>]
-<figures/lep4_tWZ_4T_OF.png, id=678, 448.67625pt x 430.60875pt>
-File: figures/lep4_tWZ_4T_OF.png Graphic file (type png)
-<use figures/lep4_tWZ_4T_OF.png>
-Package pdftex.def Info: figures/lep4_tWZ_4T_OF.png  used on input line 824.
-(pdftex.def)             Requested size: 121.1442pt x 116.2659pt.
-<figures/lep4_tWZ_4T_SF.png, id=679, 448.67625pt x 430.60875pt>
-File: figures/lep4_tWZ_4T_SF.png Graphic file (type png)
-<use figures/lep4_tWZ_4T_SF.png>
-Package pdftex.def Info: figures/lep4_tWZ_4T_SF.png  used on input line 825.
-(pdftex.def)             Requested size: 121.1442pt x 116.2659pt.
-<figures/lep4_ttZ_4T.png, id=680, 448.67625pt x 430.60875pt>
-File: figures/lep4_ttZ_4T.png Graphic file (type png)
-<use figures/lep4_ttZ_4T.png>
-Package pdftex.def Info: figures/lep4_ttZ_4T.png  used on input line 826.
-(pdftex.def)             Requested size: 121.1442pt x 116.2659pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2853,21 +2845,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [63]
-<figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png, id=695, 798.985pt x 574.14
+<figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png, id=694, 798.985pt x 574.14
 5pt>
 File: figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png Graphic file (type png
 )
 <use figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png>
 Package pdftex.def Info: figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png  us
-ed on input line 927.
+ed on input line 919.
 (pdftex.def)             Requested size: 200.19054pt x 143.85127pt.
-<figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png, id=696, 798.985pt x 57
+<figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png, id=695, 798.985pt x 57
 4.145pt>
 File: figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png Graphic file (type
  png)
 <use figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png>
 Package pdftex.def Info: figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png
-  used on input line 928.
+  used on input line 920.
 (pdftex.def)             Requested size: 200.19054pt x 143.85127pt.
 
 
@@ -2880,7 +2872,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [64 <./figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png> <./figures/lep4_ttZ_
 4T_ttz_shape_20percent_triangular.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 937--938
+Underfull \hbox (badness 10000) in paragraph at lines 929--930
 
  []
 
@@ -2902,75 +2894,78 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [66]
-<figures/PostFitPlots/lep4_tWZ_4T_SF.png, id=706, 599.23875pt x 581.17125pt>
+<figures/PostFitPlots/lep4_tWZ_4T_SF.png, id=705, 599.23875pt x 581.17125pt>
 File: figures/PostFitPlots/lep4_tWZ_4T_SF.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_4T_SF.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_4T_SF.png  used on input
- line 972.
+ line 963.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_4T_OF.png, id=707, 599.23875pt x 581.17125pt>
+<figures/PostFitPlots/lep4_tWZ_4T_OF.png, id=706, 599.23875pt x 581.17125pt>
 File: figures/PostFitPlots/lep4_tWZ_4T_OF.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_4T_OF.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_4T_OF.png  used on input
- line 973.
+ line 964.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_ttZ_4T.png, id=708, 599.23875pt x 581.17125pt>
+<figures/PostFitPlots/lep4_ttZ_4T.png, id=707, 599.23875pt x 581.17125pt>
 File: figures/PostFitPlots/lep4_ttZ_4T.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_ttZ_4T.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_ttZ_4T.png  used on input li
-ne 974.
+ne 965.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_ZZb_4T.png, id=709, 599.23875pt x 581.17125pt>
+<figures/PostFitPlots/lep4_ZZb_4T.png, id=708, 599.23875pt x 581.17125pt>
 File: figures/PostFitPlots/lep4_ZZb_4T.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_ZZb_4T.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_ZZb_4T.png  used on input li
-ne 978.
+ne 969.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_3T1L.png, id=710, 599.23875pt x 581.17125pt>
+<figures/PostFitPlots/lep4_tWZ_3T1L.png, id=709, 599.23875pt x 581.17125pt>
 File: figures/PostFitPlots/lep4_tWZ_3T1L.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_3T1L.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_3T1L.png  used on input 
-line 979.
+line 970.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png, id=711, 599.23875pt x 581.171
+<figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png, id=710, 599.23875pt x 581.171
 25pt>
 File: figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_4T_SF_postFit.png  used 
-on input line 988.
+on input line 978.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png, id=712, 599.23875pt x 581.171
+<figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png, id=711, 599.23875pt x 581.171
 25pt>
 File: figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_4T_OF_postFit.png  used 
-on input line 989.
+on input line 979.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_ttZ_4T_postFit.png, id=713, 599.23875pt x 581.17125p
+<figures/PostFitPlots/lep4_ttZ_4T_postFit.png, id=712, 599.23875pt x 581.17125p
 t>
 File: figures/PostFitPlots/lep4_ttZ_4T_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_ttZ_4T_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_ttZ_4T_postFit.png  used on 
-input line 990.
+input line 980.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_ZZb_4T_postFit.png, id=714, 599.23875pt x 581.17125p
+<figures/PostFitPlots/lep4_ZZb_4T_postFit.png, id=713, 599.23875pt x 581.17125p
 t>
 File: figures/PostFitPlots/lep4_ZZb_4T_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_ZZb_4T_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_ZZb_4T_postFit.png  used on 
-input line 994.
+input line 984.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
-<figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png, id=715, 599.23875pt x 581.1712
+<figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png, id=714, 599.23875pt x 581.1712
 5pt>
 File: figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png Graphic file (type png)
 <use figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png>
 Package pdftex.def Info: figures/PostFitPlots/lep4_tWZ_3T1L_postFit.png  used o
-n input line 995.
+n input line 985.
 (pdftex.def)             Requested size: 150.14671pt x 145.6117pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1026
+Underfull \hbox (badness 10000) in paragraph at lines 959--1016
 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3004,18 +2999,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 /lep4_tWZ_4T_OF_postFit.png> <./figures/PostFitPlots/lep4_ttZ_4T_postFit.png> <
 ./figures/PostFitPlots/lep4_ZZb_4T_postFit.png> <./figures/PostFitPlots/lep4_tW
 Z_3T1L_postFit.png>]
-<figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.png, id=736, 448.67625pt
+<figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.png, id=735, 448.67625pt
  x 381.67593pt>
 File: figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.png Graphic file (t
 ype png)
 <use figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.png>
 Package pdftex.def Info: figures/PostFitPlots/RankingSysts_SigXsecOverSM_systs.
-png  used on input line 1030.
+png  used on input line 1020.
 (pdftex.def)             Requested size: 325.31154pt x 276.73999pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<figures/combined/Limits.png, id=736, 432.11438pt x 313.17pt>
+File: figures/combined/Limits.png Graphic file (type png)
+<use figures/combined/Limits.png>
+Package pdftex.def Info: figures/combined/Limits.png  used on input line 1070.
+(pdftex.def)             Requested size: 225.21626pt x 163.22206pt.
+<figures/combined/POI_SigXsecOverSM_.png, id=737, 523.9575pt x 355.3275pt>
+File: figures/combined/POI_SigXsecOverSM_.png Graphic file (type png)
+<use figures/combined/POI_SigXsecOverSM_.png>
+Package pdftex.def Info: figures/combined/POI_SigXsecOverSM_.png  used on input
+ line 1071.
+(pdftex.def)             Requested size: 225.21626pt x 152.73361pt.
+<figures/combined/RankingSysts_SigXsecOverSM_systs.png, id=738, 448.67625pt x 3
+81.67593pt>
+File: figures/combined/RankingSysts_SigXsecOverSM_systs.png Graphic file (type 
+png)
+<use figures/combined/RankingSysts_SigXsecOverSM_systs.png>
+Package pdftex.def Info: figures/combined/RankingSysts_SigXsecOverSM_systs.png 
+ used on input line 1077.
+(pdftex.def)             Requested size: 300.29344pt x 255.45947pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -3025,26 +3039,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [70]
-<figures/combined/Limits.png, id=740, 432.11438pt x 313.17pt>
-File: figures/combined/Limits.png Graphic file (type png)
-<use figures/combined/Limits.png>
-Package pdftex.def Info: figures/combined/Limits.png  used on input line 1080.
-(pdftex.def)             Requested size: 225.21626pt x 163.22206pt.
-<figures/combined/POI_SigXsecOverSM_.png, id=741, 523.9575pt x 355.3275pt>
-File: figures/combined/POI_SigXsecOverSM_.png Graphic file (type png)
-<use figures/combined/POI_SigXsecOverSM_.png>
-Package pdftex.def Info: figures/combined/POI_SigXsecOverSM_.png  used on input
- line 1081.
-(pdftex.def)             Requested size: 225.21626pt x 152.73361pt.
-<figures/combined/RankingSysts_SigXsecOverSM_systs.png, id=742, 448.67625pt x 3
-81.67593pt>
-File: figures/combined/RankingSysts_SigXsecOverSM_systs.png Graphic file (type 
-png)
-<use figures/combined/RankingSysts_SigXsecOverSM_systs.png>
-Package pdftex.def Info: figures/combined/RankingSysts_SigXsecOverSM_systs.png 
- used on input line 1087.
-(pdftex.def)             Requested size: 300.29344pt x 255.45947pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -3069,6 +3063,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<figures/combined/exp_upper.png, id=750, 462.528pt x 346.896pt>
+File: figures/combined/exp_upper.png Graphic file (type png)
+<use figures/combined/exp_upper.png>
+Package pdftex.def Info: figures/combined/exp_upper.png  used on input line 108
+7.
+(pdftex.def)             Requested size: 225.21626pt x 168.91129pt.
+<figures/combined/signif.png, id=751, 462.528pt x 346.896pt>
+File: figures/combined/signif.png Graphic file (type png)
+<use figures/combined/signif.png>
+Package pdftex.def Info: figures/combined/signif.png  used on input line 1088.
+(pdftex.def)             Requested size: 225.21626pt x 168.91129pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -3079,18 +3084,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [73 <./figures/combined/Limits.png> <./figures/combined/POI_SigXsecOverSM_.png>
 ]
-<figures/combined/exp_upper.png, id=757, 462.528pt x 346.896pt>
-File: figures/combined/exp_upper.png Graphic file (type png)
-<use figures/combined/exp_upper.png>
-Package pdftex.def Info: figures/combined/exp_upper.png  used on input line 109
-8.
-(pdftex.def)             Requested size: 225.21626pt x 168.91129pt.
-<figures/combined/signif.png, id=758, 462.528pt x 346.896pt>
-File: figures/combined/signif.png Graphic file (type png)
-<use figures/combined/signif.png>
-Package pdftex.def Info: figures/combined/signif.png  used on input line 1099.
-(pdftex.def)             Requested size: 225.21626pt x 168.91129pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3313,38 +3306,37 @@ Here is how much of TeX's memory you used:
  52905 multiletter control sequences out of 15000+600000
  427287 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,16n,131p,4341b,1910s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,17n,131p,4341b,1910s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jake/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.
 pk></home/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></home/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 /home/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb></ho
-me/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb></home/
-jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></home/j
-ake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/jak
-e/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></home/j
-ake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/jak
-e/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/jake/
-.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/jake/.mi
-ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/jake/.mikte
-x/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/jake/.miktex/t
-exmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/jake/.miktex/texm
-fs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/jake/.miktex/texmfs/
-install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/jake/.miktex/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/jake/.miktex/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmr9.pfb></home/jake/.miktex/texmfs/install/font
-s/type1/public/amsfonts/cm/cmsl10.pfb></home/jake/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmss8.pfb></home/jake/.miktex/texmfs/install/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></home/jake/.miktex/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb></home/jake/.miktex/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></home/jake/.miktex/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmsy9.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmti10.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/ams
-fonts/cm/cmti9.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmtt10.pfb></home/jake/.miktex/texmfs/install/fonts/type1/urw/zapfding/uz
-dr.pfb>
-Output written on thesis.pdf (85 pages, 4743519 bytes).
+me/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></hom
+e/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/
+jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></hom
+e/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/
+jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/ja
+ke/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/jake/
+.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/jake/.mi
+ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/jake/.mikte
+x/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/jake/.miktex/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/jake/.miktex/texm
+fs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/jake/.miktex/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/jake/.miktex/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/jake/.miktex/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmsl10.pfb></home/jake/.miktex/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmss8.pfb></home/jake/.miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></home/jake/.miktex/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmsy6.pfb></home/jake/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb></home/jake/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb></home/jake/.miktex/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmti9.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb></home/jake/.miktex/texmfs/install/fonts/type1/urw/zapfding
+/uzdr.pfb>
+Output written on thesis.pdf (85 pages, 4730932 bytes).
 PDF statistics:
- 919 PDF objects out of 1000 (max. 8388607)
+ 914 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  698 words of extra memory for PDF output out of 10000 (max. 10000000)
 

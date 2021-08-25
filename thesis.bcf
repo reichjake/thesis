@@ -2412,7 +2412,7 @@
     <bcf:citekey order="59">Connelly2017PerformanceAC</bcf:citekey>
     <bcf:citekey order="60">Connelly2017PerformanceAC</bcf:citekey>
     <bcf:citekey order="61">DL1r-slides</bcf:citekey>
-    <bcf:citekey order="62">GoodRunLists</bcf:citekey>
+    <bcf:citekey order="62">goodrunslist</bcf:citekey>
     <bcf:citekey order="63">goodrunslist</bcf:citekey>
     <bcf:citekey order="64">Alwall:2014hca</bcf:citekey>
     <bcf:citekey order="65">Sjostrand:2014zea</bcf:citekey>
@@ -2447,7 +2447,7 @@
     <bcf:citekey order="91">ATLAS-CONF-2012-048</bcf:citekey>
     <bcf:citekey order="92">IFFTruthClassifier</bcf:citekey>
     <bcf:citekey order="93">MCTruthClassifier</bcf:citekey>
-    <bcf:citekey order="94">IFFTruthClassifier-leptonCategories</bcf:citekey>
+    <bcf:citekey order="94">IFFTruthClassifier</bcf:citekey>
     <bcf:citekey order="95">2vSM-ref1</bcf:citekey>
     <bcf:citekey order="95">2vSM-ref2</bcf:citekey>
     <bcf:citekey order="96">2vSM-ref1</bcf:citekey>

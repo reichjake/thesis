@@ -15,18 +15,14 @@ This section consists of information from "Modern Particle Physics"~\cite{thomso
 R(t) = \mathcal{L}(t)\sigma
 \end{equation}
 where $\mathcal{L}(t)$ is the instantaneous luminosity and $\sigma$ and is the cross section of the process of interest. The instantaneous luminosity, $\mathcal{L}(t)$, is independent on the process of interest, and depends on various collider and beam parameters. $\mathcal{L}(t)$ can be written in terms of these parameters as,
-
 \begin{equation}
 \mathcal{L}(t) = f \frac{N n_{1} n_{2}}{4\pi \sigma_{x} \sigma_{y}}
 \end{equation}
-
 where $f$ is the beam revolution frequency, $N$ is the number of proton bunches colliding per second, $n_{1}$ and $n_{2}$ are the number of protons in the colliding bunches, $\sigma_{x}$ and $\sigma_{y}$ are the beam spread in the $x$ and $y$ directions respectively. The average number of visible (particles that are measurable by the detector) $pp$ interactions per bunch crossing, $\langle \mu \rangle$, can be written as,
-
 \begin{equation}
 \langle \mu \rangle = \frac{\sigma_{inel}\mathcal{L}}{N f}
 \end{equation}
 where $\sigma_{inel}$ is the inelastic $pp$ interaction cross section. The total integrated luminosity, $L$, across some time interval, is given by,
-
 \begin{equation}
 L = \int \mathcal{L} dt.
 \end{equation}
@@ -37,10 +33,7 @@ The units of $L$ are inverse area, and are given by fb$^{-1}$ at the LHC and the
  \centering
 \caption{The total integrated luminosity vs time, recorded by ATLAS for $\sqrt{s} = 13$ TeV $pp$ collisions at the LHC is shown~\cite{LHC-lumi}. The total integrated luminosity delivered by the LHC, recorded by ATLAS and certified to be good quality data are shown by the green, yellow and blue histograms respectively. The month and year of data taking is shown on the x-axis and the total integrated luminosity (in fb$^{-1}$) is shown on the y-axis.}
 \label{fig:lhc-lumi}
-\end{figure}
-
-A total integrated luminosity of 139 fb$^{-1}$ of data certified as good for physics was recorded by ATLAS between 2015 and 2018. This data taking period is referred to as Run 2. It occurred after the Run 1 data taking period (2011 and 2012) and the Long Shutdown 1 LHC upgrade period (2013 and 2014). In this analysis, we use the Full Run 2 dataset.
-
+\end{figure}A total integrated luminosity of 139 fb$^{-1}$ of data certified as good for physics was recorded by ATLAS between 2015 and 2018. This data taking period is referred to as Run 2. It occurred after the Run 1 data taking period (2011 and 2012) and the Long Shutdown 1 LHC upgrade period (2013 and 2014). In this analysis, we use the Full Run 2 dataset.
 
 \section{The ATLAS Detector}
 In Figure \ref{fig:atlas-detector}, the schematic of the ATLAS detector, is shown.
@@ -50,9 +43,7 @@ In Figure \ref{fig:atlas-detector}, the schematic of the ATLAS detector, is show
  \centering
 \caption{A schematic of the ATLAS detector is shown.~\cite{Collaboration_2008}}
 \label{fig:atlas-detector}
-\end{figure}
-
-The detector is cylindrically shaped which covers close to 4$\pi$ in solid angle. It has a length of 44 m, a diameter of 25 m and a mass of 7000 tons. The ATLAS detector consists of four main sub-detectors arranged in concentric cylindrical layers around the beam pipe. These include the inner detector, the electromagnetic calorimeter, the hadronic calorimeters and the muon spectrometer. The sub-detectors record the momenta, energies and trajectories of different particles produced in the collider, allowing for the reconstruction and identification of these particles to be used in physics analyses.
+\end{figure}The detector is cylindrically shaped which covers close to 4$\pi$ in solid angle. It has a length of 44 m, a diameter of 25 m and a mass of 7000 tons. The ATLAS detector consists of four main sub-detectors arranged in concentric cylindrical layers around the beam pipe. These include the inner detector, the electromagnetic calorimeter, the hadronic calorimeters and the muon spectrometer. The sub-detectors record the momenta, energies and trajectories of different particles produced in the collider, allowing for the reconstruction and identification of these particles to be used in physics analyses.
 
 \subsection{Coordinate System and Kinematics}
 
@@ -105,26 +96,20 @@ The trajectories of charged particles, or tracks, are reconstructed in the ID. F
 The primary vertex is the location of the $pp$ collision of interest (i.e. from the hard scatter). The primary vertex from the hard scatter needs to be identified, to isolate the event of interest from unwanted pile-up events. In the event reconstruction procedure~\cite{Meloni_2016}, the primary vertex is defined as the vertex of the event with the largest sum of $(p_{T})^{2}$ (corresponding to the measured $(p_{T})^{2}$ of the particle from its reconstructed track) of its associated tracks. Furthermore, the primary vertex is required to have at least two associated tracks. To reduce contamination from fake tracks used in primary vertex reconstruction, only tracks which pass certain tight selection criteria are used in the reconstruction procedure. An iterative fitting procedure is then used to reconstruct the primary vertex by finding a set of reconstructed tracks which have a common vertex.
 
 \subsubsection{Electrons}
-Since electrons are charged particles, they give rise to tracks in the Inner Detector. They also deposit energy in the ECAL via electromagnetic showering. Electrons are therefore reconstructed and identified from signals in the Inner Detector and ECAL. Electrons are reconstructed using a dynamic clustering algorithm~\cite{electronRecoAndID:paper} which matches electron candidate tracks in the Inner Detector to energy clusters in the ECAL. The dynamic clustering algorithm matches tracks to energy clusters which have local maxima, to form electron candidates.
-
-A likelihood discriminant is used to identify electrons. Quantities measured in the Inner Detector and ECAL are used as input, such that they discriminate well between prompt isolated electrons and other physics objects (e.g. jets, electron from a photon conversion, electron from a semi-leptonically decaying hadron). Important input variables include the shape of the electromagnetic shower, track quality in the Inner Detector and information from the TRT.
+Since electrons are charged particles, they give rise to tracks in the Inner Detector. They also deposit energy in the ECAL via electromagnetic showering. Electrons are therefore reconstructed and identified from signals in the Inner Detector and ECAL. Electrons are reconstructed using a dynamic clustering algorithm~\cite{electronRecoAndID:paper} which matches electron candidate tracks in the Inner Detector to energy clusters in the ECAL. The dynamic clustering algorithm matches tracks to energy clusters which have local maxima, to form electron candidates. A likelihood discriminant is used to identify electrons. Quantities measured in the Inner Detector and ECAL are used as input, such that they discriminate well between prompt isolated electrons and other physics objects (e.g. jets, electron from a photon conversion, electron from a semi-leptonically decaying hadron). Important input variables include the shape of the electromagnetic shower, track quality in the Inner Detector and information from the TRT.
 
 \subsubsection{Muons}
-Muons leave tracks in the Inner Detector and the MS. They traverse the ECAL and HCAL with no significant energy loss. Muons are therefore reconstructed and identified from information in the Inner Detector and MS. Tracks are reconstructed~\cite{muonIDEfficiency} in the Inner Detector and MS independently. Both tracks are combined, using a global $\chi^{2}$ fit, resulting in reconstructed muon candidates.\\
-
-Similar to electron identification, muons use a likelihood discriminant to identify prompt muons and suppress background contamination (mainly from pion and kaon decays).
+Muons leave tracks in the Inner Detector and the MS. They traverse the ECAL and HCAL with no significant energy loss. Muons are therefore reconstructed and identified from information in the Inner Detector and MS. Tracks are reconstructed~\cite{muonIDEfficiency} in the Inner Detector and MS independently. Both tracks are combined, using a global $\chi^{2}$ fit, resulting in reconstructed muon candidates. Similar to electron identification, muons use a likelihood discriminant to identify prompt muons and suppress background contamination (mainly from pion and kaon decays).
 
 \subsubsection{Jets and $b$-tagging}
 \label{sec:jets-btagging}
 Coloured particles emerging from the interaction point result in collimated streams of colourless particles, known as jets. Jets can deposit energy in the Inner Detector and in the HCAL. Jets in ATLAS are reconstructed from topological clusters using the anti-$k_{t}$ algorithm~\cite{Cacciari:2008gp}. Topological clusters are groups of adjacent calorimeter cells which contain energy deposition above the average amount of noise expected in the cell. Adjacent cells are grouped together under certain criteria to form topological clusters which form jets.\\
 
-Different tagging algorithms are used to identify the quark flavour which initiated a jet. $b$-quark tagging is used extensively in top physics, due to the $b$-quark present in the top quark's dominant decay channel (See Table \ref{tab:top-decay-modes}). Hadrons arising from $b$-quark hadronsation have have mean lifetimes $\sim$1.5 ps and travel (on average) a few millimetres before decaying. This creates a secondary vertex within the jet (See Figure \ref{fig:btag-pic}). This characteristic decay signature, along with several other unique features of $b$-jets, are exploited in $b$-tagging algorithms to distinguish $b$-jets from $c$- or light flavour jets. In Figure \ref{fig:btag-pic}, an illustration of the production of a $b$-jet, is shown.
+Different tagging algorithms are used to identify the quark flavour which initiated a jet. Tagging of $b$-quarks is used extensively in top physics, due to the $b$-quark present in the top quark's dominant decay channel (See Table \ref{tab:top-decay-modes}). Hadrons arising from $b$-quark hadronsation have have mean lifetimes $\sim$1.5 ps and travel (on average) a few millimetres before decaying. This creates a secondary vertex within the jet (See Figure \ref{fig:btag-pic}). This characteristic decay signature, along with several other unique features of $b$-jets, are exploited in $b$-tagging algorithms to distinguish $b$-jets from $c$- or light flavour jets. In Figure \ref{fig:btag-pic}, an illustration of the production of a $b$-jet, is shown.
 
 \begin{figure}[h!]
  \includegraphics[width=0.5\textwidth]{figures/theoryFigs/b_tag_illustration.png}
  \centering
-\caption{An illustration~\cite{Connelly2017PerformanceAC} of the production of a $b$-jet is shown. This illustrates the presence of a secondary vertex within a $b$-jet.}
+\caption{An illustration~\cite{Connelly2017PerformanceAC} of the production of a $b$-jet is shown. The jet is represented by the cone and axis of the jet is represented by the dotted black line drawn at a right angle to the circular base of the cone. The primary vertex is represented by the red circle and the secondary vertex is represented by the blue circle. The dotted blue line represents the path travelled by the hadron before decaying at its secondary vertex. The impact parameter is shown by a black line drawn from the secondary vertex. }
 \label{fig:btag-pic}
-\end{figure}
-
-In this analysis, we use the recommended DL1r (Deep-Learning Flavour Tagger) tagging algorithm~\cite{DL1r-slides}. The DL1r algorithm combines outputs from several low-level tagging algorithms using a Deep Neural Network and outputs the probability that a given input jet is identified as a $b$, $c$ or light flavoured jet.
+\end{figure}This illustrates the presence of a secondary vertex within a $b$-jet. In this analysis, we use the recommended DL1r (Deep-Learning Flavour Tagger) tagging algorithm~\cite{DL1r-slides}. The DL1r algorithm combines outputs from several low-level tagging algorithms using a Deep Neural Network and outputs the probability that a given input jet is identified as a $b$, $c$ or light flavoured jet.

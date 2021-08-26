@@ -78,7 +78,7 @@ Single-electron  & $p_{T} > 26$ & loose \\
 Single-electron  & $p_{T} > 60$ & medium \\
 Single-electron  & $p_{T} > 140$ & loose \\
 Di-muon$*$  & $p_{T} > 18$, $p_{T} > 8$  & - \\
-Di-muon  & $p_{T} > 18$, $p_{T} > 8$  & - \\
+Di-muon  & $p_{T} > 22$, $p_{T} > 8$  & - \\
 Di-electron$*$ & $p_{T} > 12$  & loose \\
 Di-electron$*$ & $p_{T} > 12$  & loose \\
 Di-electron & $p_{T} > 17$  & very loose \\
@@ -213,7 +213,7 @@ In order to find the selection criteria for jets and leptons which maximized sen
 
 \section{Signal and Control Regions}
 \label{sec:sig-and-control-regions}
-In this section, expected number of events of variables in each region are shown. For each figure in this section, the data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. In order to suppress a bias towards large signal observations in the development of the analysis, data has not been analysed in bins where the expected $\frac{signal}{background}$ exceeds 0.1. This is known as blinding. Blinded bins in the CRs are shaded with black diagonal lines and their data points are omitted. All data points are omitted in the SRs. In Table \ref{tab:4Lep-PreFit-Yields}, the expected number of events for each sample in each region are shown.
+In this section, expected number of events of variables in each region are shown. For each figure in this section, the data is given by the black points and the MC predictions for each process are given by the filled histograms. The vertical lines on the data points represent the statistical uncertainty in the data and the diagonally-lined bands represent the total (statistical and systematic added in quadrature) uncertainty. The lower panel in each plot shows the ratios of the data to the theoretical predictions. In order to suppress a bias towards large signal observations in the development of the analysis, data has not been analysed in bins where the expected $\frac{signal}{background}$ exceeds 0.1. This is known as blinding. Blinded bins are shaded with black diagonal lines and their data points are omitted. In Table \ref{tab:4Lep-PreFit-Yields}, the expected number of events for each sample in each region are shown.
 \begin{table}[h!]
     \resizebox{1\textwidth}{!}{%
 \begin{tabular}{|ll|l|l|l|l|l|}
@@ -336,7 +336,7 @@ In this section, expected number of events of variables in the $tWZ$ SF SR are s
   \end{tabular}
     \caption{Comparisons of simulation and data of $p_{T}$, $\eta$ and $\phi$ for leading (L) leptons (top row) and leading (NL) jets (bottom row) in the $tWZ$ SF SR are shown.}
   \label{fig:4lep-SF-SR-leptonPlots}
-\end{figure}All bins for each plot in Figure \ref{fig:4lep-SF-SR-leptonPlots} have $\frac{signal}{background}$ exceeding 0.1 and are therefore blinded. This region is therefore enriched in $tWZ$ signal events. In Figure \ref{fig:4lep-SF-SR-jets-bjet}, comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets in the $tWZ$ SF SR are shown.
+\end{figure}The vast majority of bins for each plot in Figure \ref{fig:4lep-SF-SR-leptonPlots} have $\frac{signal}{background}$ exceeding 0.1 and are therefore blinded. This region is therefore enriched in $tWZ$ signal events. In Figure \ref{fig:4lep-SF-SR-jets-bjet}, comparisons of simulation and data of $H_{T}$ (scalar sum of Jet $p_{T}$), the Number of jets, the scalar sum of $b$-tagged jet $p_{T}$ and the number of $b$-tagged jets in the $tWZ$ SF SR are shown.
 \begin{figure}[htbp]
  \centering
 
@@ -514,7 +514,7 @@ The $(tWZ)_{\text{fake}}$ CR aims to be as similar as possible to the $tWZ$ SRs,
 \begin{figure}[htbp]
 \centering
 
-    \includegraphics[width=.55\textwidth]{figures/iff_bar_3.png}   
+    \includegraphics[width=.65\textwidth]{figures/iff_bar_3.png}   
 
     \caption{The percentage of fake and real $t\bar{t}Z$ events which pass our selection criteria, in each region, is shown. The relative number of fake and real events (in $\%$ of the total number of events in the nominal and fake $t\bar{t}Z$ background samples) is shown on the y-axis. The different signal and control regions are shown on the x-axis. The blue and red histograms represent the percentage of real and fake events (out of the total number of events in the nominal and fake $t\bar{t}Z$ background samples), respectively. }
   \label{fig:4lep-iff-bar3}
@@ -678,7 +678,7 @@ The object-level BDT was trained on an $t\bar{t}$ sample simulated using the sam
 \end{table}The number of events used in training for the signal and background classes were 49871 and 384152 respectively. Imbalanced datasets can cause ML classifiers to ignore small classes while concentrating on classifying large classes more accurately, which may result in the trained BDT performing sub-optimally. In order to correct this dataset imbalance, it is ensured that the relative weighting of each event is such that the sum of the signal weights is equal to the sum of the background weights. In order to avoid over-training, the BDT outputs to the training set and a test set can be studied. If over-training occurs, the BDT will fit the data in the training set too closely, resulting in the BDT outputs of the training and test sets to differ. In Figure \ref{fig:object-bdt-overtrain-check} the normalised histograms of the training and test sets (extracted from fold 5 from a 5 fold kfold cross validation) for signal and background is shown.
 
 \begin{figure}[h!]
-	\includegraphics[scale=0.45]{figures/overtrainingCheck_4lep_lb.png}
+	\includegraphics[width=.5\textwidth]{figures/overtrainingCheck_4lep_lb.png}
 	\centering
 	\caption{Normalised histograms of the object-level BDT discriminator output from the signal and background classes for the training and test sets from the 5th fold in a 5 fold kfold cross validation is shown. The output of the object-level BDT is shown on the x-axis and the relative number of events in arbitrary units, is shown on the y-axis. The training set for the signal class is shown by the red dotted histogram. The test set for the signal class is shown by the red points, with the total uncertainty represented by the vertical error bars. The training set for the background class is shown by the blue dotted histogram. The test set for the background class is shown by the blue points, with the total uncertainty represented by the vertical error bars.}
 	\label{fig:object-bdt-overtrain-check}
@@ -808,7 +808,7 @@ W = \frac{\sigma \mathcal{L} \text{weight(MC)}}{\text{totalWeight(MC)}}
 \end{equation}
 where $\sigma$ is the cross section of the process, $\mathcal{L}$ is the integrated luminosity, weight(MC) is the weight assigned to the event by the MC event generator and totalWeight(MC) is the sum of those weights for all the generated events. The number of events used in training for the signal and background classes were 41066 and 22608 respectively. Similarly to the object-level BDT, there is a dataset imbalance. This imbalance is corrected for, in the same way as before with the object-level BDT, by ensuring that the relative weighting of each event is such that the sum of the signal weights is equal to the sum of the background weights. In order to avoid over-training, in the same way that was performed for the object-level BDT (See Section \ref{sec:object-level-bdt}), the BDT outputs to the training set and a test set can be studied. In Figure \ref{fig:event-bdt-overtrain-check} the normalised histograms of the training and test sets (extracted from fold 5 from a 5 fold kfold cross validation) for signal and background is shown.
 \begin{figure}[h!]
-	\includegraphics[scale=0.45]{figures/overtrainingCheck_4lep_event.png}
+	\includegraphics[width=.5\textwidth]{figures/overtrainingCheck_4lep_event.png}
 	\centering
 	\caption{Normalised histograms of the event-level BDT discriminator output from the signal and background classes for the training and test sets from the 5th fold in a 5 fold kfold cross validation are shown. The output of the event-level BDT is shown on the x-axis and the relative number of events (normalised to have an area of 1, in arbitrary units) is shown on the y-axis. The training set for the signal class is shown by the red dotted histogram. The test set for the signal class is shown by the red points, with the total uncertainty represented by the vertical error bars. The training set for the background class is shown by the blue dotted histogram. The test set for the background class is shown by the blue points, with the total uncertainty represented by the vertical error bars.}
 	\label{fig:event-bdt-overtrain-check}
@@ -820,7 +820,7 @@ where $\sigma$ is the cross section of the process, $\mathcal{L}$ is the integra
 	\centering
 	\caption{Normalised distributions of the signal and total background of the event-level BDT discriminator output in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR (left to right) are shown. The dotted red and solid blue lines represent the distributions of the signal and total background events respectively. These histograms are normalised to an area of 1. The x-axis shows the event-level BDT discriminator output and the y-axis shows the relative number of events in arbitrary units.}
 	\label{fig:2vsm-normdists}
-\end{figure}The event-level BDT discriminates well between signal and background events in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, with separations of 8.98$\%$, 10.6$\%$ and 20.6$\%$, respectively.
+\end{figure}The event-level BDT discriminates well between signal and background events in the $tWZ$ OF SR, $tWZ$ SF SR and $t\bar{t}Z$ CR, with separations of 9.14$\%$, 9.45$\%$ and 19.5$\%$, respectively.
 
 \section{Systematic Uncertainties}
 \label{sec:systematics}
@@ -916,8 +916,8 @@ A modelling uncertainty on $tWZ$ is considered by comparing the nominal sample (
 The quantity which is measured from the maximum likelihood fit, the expected signal strength of $tWZ$ ($\mu (tWZ)$), is defined as the ratio of the cross section of $tWZ$, $\sigma(tWZ)$, to the SM cross section of $tWZ$, $\sigma_{SM}(tWZ)$ (described in more detail in Section \ref{sec:fitting-procedure}). It is evident that the tetralepton channel is statistically limited, as seen by the small number of expected events in the control plots shown previously in Section \ref{sec:sig-and-control-regions}. Therefore it is expected that the uncertainty on $\mu(tWZ)$ is dominated by statistical uncertainty and that the impact of shape systematic uncertainties will be negligible in comparison. In this analysis, not all of the systematic uncertainties have been estimated, as this involves time consuming analysis of extra event samples, especially those related to the modelling of background processes. However, as described above, these missing systematic uncertainties are likely to have a negligible impact. To check this assumption, generic systematic uncertainties are generated as a proxy for the missing systematic uncertainties for the modelling of processes. If these generic shape systematic uncertainties have negligible impact on the measurement of the expected $\mu (tWZ)$, it would give us confidence that the missing systematic uncertainties will not greatly alter our results when they are eventually added. An envelope consisting of two MC templates is constructed that represents the bounds in which the systematic can vary in the fit. One with the nominal MC template increased by 20$\%$ on its normalisation and the other with the nominal MC template decreased by 20$\%$ on its normalisation. The templates are then modified from their original shape either by doing linear interpolation (from the leftmost-up variation to the rightmost-down variation) or triangular interpolation (shape is set to zero at the higher and lower parts and extends towards the envelope in the middle). The linear and triangular interpolation is done using TRF's \texttt{ForceShape} option~\cite{TRF-ForceShape}, which alter the original templates (as described above). In Figure \ref{fig:genericShapeSystexamples} the envelope before and after the shape change, for both the linear and triangular interpolations, for the $t\bar{t}Z$ background in the $t\bar{t}Z$ CR is shown.
 
 \begin{figure}[h!]
-  \includegraphics[width=0.4\textwidth]{figures/lep4_ttZ_4T_ttz_shape_20percent_linear.png}
-  \includegraphics[width=0.4\textwidth]{figures/lep4_ttZ_4T_ttz_shape_20percent_triangular.png}
+  \includegraphics[width=0.47\textwidth]{figures/lep4_ttZ_4T_ttz_ttZShapeLin.png}
+  \includegraphics[width=0.47\textwidth]{figures/lep4_ttZ_4T_ttz_ttZShapeTri.png}
   \centering
   
   \caption{The $t\bar{t}Z$ generic systematic uncertainty before and after linear (left) and triangular (right) interpolation in the $t\bar{t}Z$ CR is shown. The output from the event-level BDT shown on the x-axis. In the upper panel, the number of events is shown on the y-axis. In the lower panel, the difference between the systematic variation and the nominal template, divided by the nominal template, is shown on the y-axis. The nominal $t\bar{t}Z$ template is shown by the solid black lined histogram, with the diagonal lined bands representing its total uncertainty. The templates of the upper and lower envelopes, before modification, is given by the dotted red and blue lined histograms respectively. The templates of the upper and lower envelopes, after modification, is given by the solid red and blue lined histograms respectively, with the vertical dotted lines representing its total uncertainty. }

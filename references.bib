@@ -63,9 +63,23 @@ ATLAS and CMS}",
    month={Sep}
 }
 
-@online{goodrunslist,
-  title = "Good Run Lists for Analysis Run 2 - ATLAS Twiki",
-  url = "https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/GoodRunListsForAnalysisRun2",
+
+@techreport{Tomiwa_2017,
+      title         = "{Tagging and suppression of pileup jets with the ATLAS
+                       detector}",
+      institution   = "CERN",
+      address       = "Geneva",
+      reportNumber  = "ATLAS-CONF-2014-018",
+      month         = "May",
+      year          = "2014",
+      url           = "https://cds.cern.ch/record/1700870",
+      note          = "All figures including auxiliary figures are available at
+                       https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2014-018",
+}
+@misc{goodrunslist,
+title = {ATLAS Analysis Software Tutorial | General event information},
+howpublished = {\url{https://atlassoftwaredocs.web.cern.ch/ABtutorial/event_level/}},
+note = {(Accessed on 08/26/2021)}
 }
 @Article{Frixione:2007vw,
       author         = "Frixione, Stefano and Nason, Paolo and Oleari, Carlo",
@@ -91,7 +105,6 @@ ATLAS and CMS}",
 	archivePrefix = "arXiv",
 	primaryClass  =  "hep-ph",
 	doi       = "10.1016/j.cpc.2008.01.036",
-	SLACcitation  = "%%CITATION = 0710.3820;%%"
 }
 
 @article{Sjostrand:2014zea,
@@ -111,7 +124,6 @@ ATLAS and CMS}",
       reportNumber   = "LU-TP-14-36, MCNET-14-22, CERN-PH-TH-2014-190,
                         FERMILAB-PUB-14-316-CD, DESY-14-178, SLAC-PUB-16122,
                         --FERMILAB-PUB-14-316-CD",
-      SLACcitation   = "%%CITATION = ARXIV:1410.3012;%%"
 }
 
 
@@ -296,8 +308,8 @@ abstract = {We give an overview of track fitting using the Kalman filter method 
   author = "Aaron Armbruster",
   url = "https://indico.cern.ch/event/233551/contributions/493678/attachments/389871/542293/asymptotics_armbruster.pdf",
   day = "13",
-    month         = "Feb",
-      year          = "2013",
+    month = "Feb",
+      year  = "2013",
 }
 @misc{sonneveld2019searches,
       title={Searches for physics beyond the standard model at the LHC}, 
@@ -454,8 +466,6 @@ channel using Run 2 data from the ATLAS
 experiment.},
 year = {2020}
 }
-
-
 
 
 
@@ -656,12 +666,12 @@ author = {G. Aad and T. Abajyan and B. Abbott and J. Abdallah and S. {Abdel Khal
 
 @online{TRexfitter,
   title = "TRExFitter Documentation",
-  url = "https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/TtHFitter",
+  url = "https://trexfitter-docs.web.cern.ch/trexfitter-docs/",
 }
 
 
 @online{MixedDataAndMC_TRF,
-  title = "TRExFitter: Mixed data and MC fit",
+  title = "TRExFitter Documentation",
   url = "https://trexfitter-docs.web.cern.ch/trexfitter-docs/AdvancedTutorial2020/Mixed/",
 }
 
@@ -714,13 +724,16 @@ author = {G. Aad and T. Abajyan and B. Abbott and J. Abdallah and S. {Abdel Khal
   url = "https://indico.cern.ch/event/631313/contributions/2683959/attachments/1518878/2373377/Farrell_ORTools_ftaghbb.pdf",
   author = "Steve Farrell"
 }
-@online{overfitting-blog,
-  title = "Overfitting and Underfitting With Machine Learning Algorithms",
-  url = {"https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/"},
-  author = "Jason Brownlee"
-}
 
 
+@Book{overfitting-blog,
+ author = {Narsky, Ilya},
+ title = {Statistical analysis techniques in particle physics : fits, density estimation and supervised learning},
+ publisher = {Wiley-VCH},
+ year = {2013},
+ address = {Weinheim},
+ isbn = {9783527410866}
+ }
 
 @online{ML-metrics,
   title = "Metrics to Evaluate your Machine Learning Algorithm",
@@ -852,14 +865,8 @@ author = {G. Aad and T. Abajyan and B. Abbott and J. Abdallah and S. {Abdel Khal
   author = "Shion Chen",
   year = {2019},
   month = {10}
+}
 
-}
-@booklet{twiki-JVT,
-  author = "{ATLAS Internal}",
-  title = "{Jet Vertex Tagger for Run 2 in reco and analysis}",
-  url = "https://twiki.cern.ch/twiki/bin/view/AtlasProtected/JetVertexTaggerTool",
-  year = 2021
-}
 @Article{PERF-2016-06,
     author         = "{ATLAS Collaboration}",
     title          = "{Identification and rejection of pile-up jets at high pseudorapidity with the ATLAS detector}",
@@ -938,6 +945,7 @@ author = {Sheldon L. Glashow}
 }
 
 
+
 @Booklet{ATLAS-CONF-2018-001,
     author         = "{ATLAS Collaboration}",
     title          = "{Measurement of $b$-tagging efficiency of $c$-jets in $t\bar{t}$ events using a likelihood approach with the ATLAS detector}",
@@ -976,29 +984,23 @@ author = {Sheldon L. Glashow}
     primaryClass   = "hep-ex",
 }
 
-@booklet{twiki-muSF,
-  author = "{ATLAS Internal}",
-  title = "{Muon Efficiencies for Analyses}",
-  url = "https://twiki.cern.ch/twiki/bin/view/AtlasProtected/MuonEfficienciesForAnalysis",
-  year = 2021
+
+@article{twiki-elSFunc,
+   title={Performance of electron and photon triggers in ATLAS during LHC Run 2},
+   volume={80},
+   ISSN={1434-6052},
+   url={http://dx.doi.org/10.1140/epjc/s10052-019-7500-2},
+   DOI={10.1140/epjc/s10052-019-7500-2},
+   number={1},
+   journal={The European Physical Journal C},
+   publisher={Springer Science and Business Media LLC},
+   author={Aad, G. and Abbott, B. and Abbott, D. C. and Abud, A. Abed and Abeling, K. and Abhayasinghe, D. K. and Abidi, S. H. and AbouZeid, O. S. and Abraham, N. L. and et al.},
+   year={2020},
+   month={Jan}
 }
 
 
 
-@booklet{twiki-elSFunc,
-author = "{ATLAS Internal}",
-title = "{Electron Efficiency Correlation Model}",
-url = "https://twiki.cern.ch/twiki/bin/view/AtlasProtected/ElectronEfficiencyCorrelationModel",
-year = 2021
-}
-
-
-@booklet{twiki-elSF,
-  author = "{ATLAS Internal}",
-  title = "{Electron Efficiencies for Analyses}",
-  url = "https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/ElectronEfficienciesForAnalysis",
-  year = 2021
-}
 
 @online{JVTandfJVT-Recommendations,
   title = "Pileup jet recommendations",
@@ -1008,12 +1010,6 @@ year = 2021
   title = "IFF Truth Classifier GitLab Repository",
   url = "https://gitlab.cern.ch/ATLAS-IFF/IFFTruthClassifier/-/tree/master",
 }
-
-@online{TRF-ForceShape,
-  title = "Option to force a shape withing an error band by hand - TRF documentation",
-  url = "https://trexfitter-docs.web.cern.ch/trexfitter-docs/model_building/shape/",
-}
-
 
 
 
@@ -1042,11 +1038,7 @@ year = 2021
   year={2018},
 }
 
-@misc{2vSM-ref1,
-  title = "Exploiting full/partial $t\bar{t}$ reconstruction for background suppression in 2$\ell$",
-  url = "https://indico.cern.ch/event/955360/contributions/4016465/attachments/2102418/3534816/top_reco_bkgd_suppression_2L_20200915.pdf",
-  author = "Thomas McCarthy and Florian Fischer"
-}
+
 @thesis{Calvet:2296985,
       author        = "Calvet, Thomas Philippe",
       title         = "{Search for the production of a Higgs boson in association
@@ -1078,11 +1070,7 @@ year = 2021
 }
 
 
-@online{2vSM-ref2,
-  title = "Macro developed to compare t/W/Z reconstruction performance (2$\ell$, 3$\ell$, 4$\ell$)",
-  url = "https://indico.cern.ch/event/986357/contributions/4172907/attachments/2169451/3666801/reco_performance_macro_20210112.pdf",
-  author = "Thomas McCarthy"
-}
+
 @online{DL1r-slides,
   title = "Deep-Neural-Network-based b-Tagging as Basis for
 Improvements in Top Analyses",
@@ -1146,4 +1134,3 @@ author = {V. Khachatryan and A.M. Sirunyan and A. Tumasyan and W. Adam and E. As
   doi = {10.1103/PhysRevD.99.072009},
   url = {https://link.aps.org/doi/10.1103/PhysRevD.99.072009}
 }
-

@@ -1,121 +1,121 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{7}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Theory}{8}{}%
+\contentsline {chapter}{\numberline {2}Theory}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Standard Model of Particle Physics}{8}{}%
+\contentsline {section}{\numberline {2.1}Standard Model of Particle Physics}{7}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}The Top Quark}{10}{}%
+\contentsline {subsection}{\numberline {2.1.1}The Top Quark}{9}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.1}Motivation for the search for $tWZ$ production in the tetralepton channel}{11}{}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Motivation for the search for $tWZ$ production in the tetralepton channel}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}$tWZ$}{12}{}%
+\contentsline {section}{\numberline {2.2}$tWZ$}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Tetralepton Channel}{12}{}%
+\contentsline {subsection}{\numberline {2.2.1}Tetralepton Channel}{11}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.1}Backgrounds}{13}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Backgrounds}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Comparison to Trilepton Channel}{13}{}%
+\contentsline {subsection}{\numberline {2.2.2}Comparison to Trilepton Channel}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The ATLAS Experiment and Detector}{15}{}%
+\contentsline {chapter}{\numberline {3}The ATLAS Experiment and Detector}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The ATLAS Experiment}{15}{}%
+\contentsline {section}{\numberline {3.1}The ATLAS Experiment}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Large Hadron Collider (LHC)}{15}{}%
+\contentsline {subsection}{\numberline {3.1.1}Large Hadron Collider (LHC)}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1.1}Luminosity}{16}{}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Luminosity}{15}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}The ATLAS Detector}{17}{}%
+\contentsline {section}{\numberline {3.2}The ATLAS Detector}{16}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Coordinate System and Kinematics}{18}{}%
+\contentsline {subsection}{\numberline {3.2.1}Coordinate System and Kinematics}{17}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Inner Detector}{18}{}%
+\contentsline {subsection}{\numberline {3.2.2}Inner Detector}{17}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Electromagnetic and Hadronic Calorimeters}{19}{}%
+\contentsline {subsection}{\numberline {3.2.3}Electromagnetic and Hadronic Calorimeters}{18}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Muon Spectrometer}{19}{}%
+\contentsline {subsection}{\numberline {3.2.4}Muon Spectrometer}{18}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Trigger and Data Acquisition System}{19}{}%
+\contentsline {subsection}{\numberline {3.2.5}Trigger and Data Acquisition System}{18}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.6}Particle Identification and Object Reconstruction}{19}{}%
+\contentsline {subsection}{\numberline {3.2.6}Particle Identification and Object Reconstruction}{18}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.6.1}Tracks and primary vertices}{20}{}%
+\contentsline {subsubsection}{\numberline {3.2.6.1}Tracks and primary vertices}{19}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.6.2}Electrons}{20}{}%
+\contentsline {subsubsection}{\numberline {3.2.6.2}Electrons}{19}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.6.3}Muons}{20}{}%
+\contentsline {subsubsection}{\numberline {3.2.6.3}Muons}{19}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.6.4}Jets and $b$-tagging}{21}{}%
+\contentsline {subsubsection}{\numberline {3.2.6.4}Jets and $b$-tagging}{20}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}The search for $tWZ$ production using events with four leptons}{22}{}%
+\contentsline {chapter}{\numberline {4}The search for $tWZ$ production in the Full Run 2 ATLAS dataset using events with four leptons}{21}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Data and Monte Carlo Simulation}{22}{}%
+\contentsline {section}{\numberline {4.1}Data and Monte Carlo Simulation}{21}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Data Samples}{22}{}%
+\contentsline {subsection}{\numberline {4.1.1}Data Samples}{21}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Monte Carlo Samples}{23}{}%
+\contentsline {subsection}{\numberline {4.1.2}Monte Carlo Samples}{22}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Trigger Strategy}{24}{}%
+\contentsline {subsection}{\numberline {4.1.3}Trigger Strategy}{23}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Physics objects}{26}{}%
+\contentsline {section}{\numberline {4.2}Physics objects}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Leptons}{26}{}%
+\contentsline {subsection}{\numberline {4.2.1}Leptons}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Jets}{27}{}%
+\contentsline {subsection}{\numberline {4.2.2}Jets}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}$b$-tagging}{27}{}%
+\contentsline {subsection}{\numberline {4.2.3}$b$-tagging}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Overlap Removal Procedure}{28}{}%
+\contentsline {subsection}{\numberline {4.2.4}Overlap Removal Procedure}{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Kinematic cuts}{28}{}%
+\contentsline {section}{\numberline {4.3}Kinematic cuts}{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Regions and Event Selection}{28}{}%
+\contentsline {section}{\numberline {4.4}Regions and Event Selection}{27}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Optimization studies for event selection}{29}{}%
+\contentsline {subsection}{\numberline {4.4.1}Optimization studies for event selection}{28}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Signal and Control Regions}{31}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}$tWZ$ OF SR}{33}{}%
+\contentsline {subsection}{\numberline {4.5.1}$tWZ$ OF SR}{32}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}$tWZ$ SF SR}{35}{}%
+\contentsline {subsection}{\numberline {4.5.2}$tWZ$ SF SR}{34}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}$t\bar {t}Z$ CR}{35}{}%
+\contentsline {subsection}{\numberline {4.5.3}$t\bar {t}Z$ CR}{34}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.4}$ZZb$ CR}{37}{}%
+\contentsline {subsection}{\numberline {4.5.4}$ZZb$ CR}{36}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.5}$(tWZ)_{\text {fake}}$ CR}{39}{}%
+\contentsline {subsection}{\numberline {4.5.5}$(tWZ)_{\text {fake}}$ CR}{38}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Fake Lepton Estimation}{39}{}%
+\contentsline {section}{\numberline {4.6}Fake Lepton Estimation}{38}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Improving signal vs background discrimination}{42}{}%
+\contentsline {section}{\numberline {4.7}Improving signal vs background discrimination}{41}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.1}Two Neutrino Scanning Method (2$\nu $SM) Algorithm}{42}{}%
+\contentsline {subsection}{\numberline {4.7.1}Two Neutrino Scanning Method (2$\nu $SM) Algorithm}{41}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.2}Boosted Decision Trees}{48}{}%
+\contentsline {subsection}{\numberline {4.7.2}Boosted Decision Trees}{47}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.3}Object-level BDT}{49}{}%
+\contentsline {subsection}{\numberline {4.7.3}Object-level BDT}{48}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.4}Event-level BDT}{56}{}%
+\contentsline {subsection}{\numberline {4.7.4}Event-level BDT}{55}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Systematic Uncertainties}{62}{}%
+\contentsline {section}{\numberline {4.8}Systematic Uncertainties}{61}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.1}Experimental uncertainties}{62}{}%
+\contentsline {subsection}{\numberline {4.8.1}Experimental uncertainties}{61}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.2}Theoretical uncertainties}{63}{}%
+\contentsline {subsection}{\numberline {4.8.2}Theoretical uncertainties}{62}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.3}Generic shape systematic uncertainties}{64}{}%
+\contentsline {subsection}{\numberline {4.8.3}Generic shape systematic uncertainties}{63}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}Analysis Pipeline and TRExFitter}{64}{}%
+\contentsline {section}{\numberline {4.9}Analysis Pipeline and TRExFitter}{63}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9.1}Fitting Procedure}{65}{}%
+\contentsline {subsection}{\numberline {4.9.1}Fitting Procedure}{64}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.10}Results}{67}{}%
+\contentsline {section}{\numberline {4.10}Results}{66}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.10.1}Tetralepton Channel}{68}{}%
+\contentsline {subsection}{\numberline {4.10.1}Tetralepton Channel}{67}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.10.2}Trilepton and Tetralepton Channels}{70}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.10.2.1}Projection to Higher Luminosity}{73}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Summary and Conclusions}{76}{}%
+\contentsline {chapter}{\numberline {5}Summary and Conclusions}{75}{}%

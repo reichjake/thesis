@@ -701,47 +701,6 @@
       \verb http://dx.doi.org/10.1088/0067-0049/192/2/14
       \endverb
     \endentry
-    \entry{fantini2020formalism}{misc}{}
-      \name{author}{4}{}{%
-        {{hash=a2c1972d5a3707ff3d5fa5cd85f254ad}{%
-           family={Fantini},
-           familyi={F\bibinitperiod},
-           given={Guido},
-           giveni={G\bibinitperiod}}}%
-        {{hash=38fcf0abdf0d2b62f16f44c605eaa522}{%
-           family={Rosso},
-           familyi={R\bibinitperiod},
-           given={Andrea\bibnamedelima Gallo},
-           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=31a7a10cd4b3a37ebd2eb620cec1024a}{%
-           family={Vissani},
-           familyi={V\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod}}}%
-        {{hash=33534d9c867c76b6b54dcb83d26cdce1}{%
-           family={Zema},
-           familyi={Z\bibinitperiod},
-           given={Vanessa},
-           giveni={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{78bb230491fd61ecdcfbf230ab781d48}
-      \strng{fullhash}{fbbeabed1480c77c84953c36fc4dda8b}
-      \strng{bibnamehash}{78bb230491fd61ecdcfbf230ab781d48}
-      \strng{authorbibnamehash}{78bb230491fd61ecdcfbf230ab781d48}
-      \strng{authornamehash}{78bb230491fd61ecdcfbf230ab781d48}
-      \strng{authorfullhash}{fbbeabed1480c77c84953c36fc4dda8b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{title}{The formalism of neutrino oscillations: an introduction}
-      \field{year}{2020}
-      \verb{eprint}
-      \verb 1802.05781
-      \endverb
-    \endentry
     \entry{kirsten2010introduction}{book}{}
       \name{author}{1}{}{%
         {{hash=8bafc10b402a0484750a40f4400acf61}{%
@@ -2269,8 +2228,8 @@
       \strng{authorbibnamehash}{cccb26c78db0f671e43f1707a345f7a1}
       \strng{authornamehash}{cccb26c78db0f671e43f1707a345f7a1}
       \strng{authorfullhash}{cccb26c78db0f671e43f1707a345f7a1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -3373,8 +3332,8 @@
       \strng{authorbibnamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \strng{authornamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \strng{authorfullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -3468,17 +3427,13 @@
       \verb https://cds.cern.ch/record/2693088/files/ATL-PHYS-SLIDE-2019-751.pdf
       \endverb
     \endentry
-    \entry{goodrunslist}{online}{}
+    \entry{goodrunslist}{misc}{}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
-      \field{title}{Good Run Lists for Analysis Run 2 - ATLAS Twiki}
-      \verb{urlraw}
-      \verb https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/GoodRunListsForAnalysisRun2
-      \endverb
-      \verb{url}
-      \verb https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/GoodRunListsForAnalysisRun2
-      \endverb
+      \field{howpublished}{\url{https://atlassoftwaredocs.web.cern.ch/ABtutorial/event_level/}}
+      \field{note}{(Accessed on 08/26/2021)}
+      \field{title}{ATLAS Analysis Software Tutorial | General event information}
     \endentry
     \entry{Alwall:2014hca}{article}{}
       \name{author}{10}{}{%
@@ -3802,8 +3757,8 @@
       \strng{authorbibnamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
       \strng{authornamehash}{9a0fcbd16f305691a517c5a5cc0bcc06}
       \strng{authorfullhash}{9a0fcbd16f305691a517c5a5cc0bcc06}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -3864,18 +3819,6 @@
       \verb 0710.3820
       \endverb
     \endentry
-    \entry{TopRecoObjTwikiModel}{online}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labeltitlesource}{title}
-      \field{title}{TopRecoObjTwikiModel}
-      \verb{urlraw}
-      \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/TopRecoObjTwikiModel
-      \endverb
-      \verb{url}
-      \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/TopRecoObjTwikiModel
-      \endverb
-    \endentry
     \entry{muon-selection-tool}{misc}{}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
@@ -3919,8 +3862,8 @@
       \strng{authorbibnamehash}{ede444364a3ccb61d0b68dd95a01d4e6}
       \strng{authornamehash}{ede444364a3ccb61d0b68dd95a01d4e6}
       \strng{authorfullhash}{ede444364a3ccb61d0b68dd95a01d4e6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -3947,8 +3890,8 @@
       \strng{authorbibnamehash}{96e25a288d17b3af80ed6a64be714e78}
       \strng{authornamehash}{96e25a288d17b3af80ed6a64be714e78}
       \strng{authorfullhash}{96e25a288d17b3af80ed6a64be714e78}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -3971,6 +3914,28 @@
       \endverb
       \verb{url}
       \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/RecommendedIsolationWPs
+      \endverb
+    \endentry
+    \entry{Tomiwa_2017}{report}{}
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{note}{All figures including auxiliary figures are available at https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2014-018}
+      \field{title}{{Tagging and suppression of pileup jets with the ATLAS detector}}
+      \field{type}{techreport}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1700870
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1700870
       \endverb
     \endentry
     \entry{ATL-PHYS-PUB-2015-034}{report}{}
@@ -4146,8 +4111,8 @@
       \strng{authorbibnamehash}{2f936626cacf1d17294ede13b8c2491a}
       \strng{authornamehash}{2f936626cacf1d17294ede13b8c2491a}
       \strng{authorfullhash}{2f936626cacf1d17294ede13b8c2491a}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{{1029-8479}}
@@ -4179,8 +4144,8 @@
       \strng{authorbibnamehash}{0448d009825e0bfac7316a655abf5740}
       \strng{authornamehash}{0448d009825e0bfac7316a655abf5740}
       \strng{authorfullhash}{0448d009825e0bfac7316a655abf5740}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{{hep-ex}}
@@ -4192,8 +4157,8 @@
       \endverb
     \endentry
     \entry{N_equiv_Derivation}{online}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{title}{Errors in weighted histograms}
       \verb{urlraw}
@@ -4250,18 +4215,6 @@
       \verb https://cds.cern.ch/record/1450089
       \endverb
     \endentry
-    \entry{IFFTruthClassifier}{online}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labeltitlesource}{title}
-      \field{title}{IFF Truth Classifier GitLab Repository}
-      \verb{urlraw}
-      \verb https://gitlab.cern.ch/ATLAS-IFF/IFFTruthClassifier/-/tree/master
-      \endverb
-      \verb{url}
-      \verb https://gitlab.cern.ch/ATLAS-IFF/IFFTruthClassifier/-/tree/master
-      \endverb
-    \endentry
     \entry{MCTruthClassifier}{misc}{}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
@@ -4274,61 +4227,16 @@
       \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/MCTruthClassifier
       \endverb
     \endentry
-    \entry{2vSM-ref1}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=3b707a4547502e2db674f06714d5f481}{%
-           family={McCarthy},
-           familyi={M\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=e5d19ebe327480e125eea0927a619f87}{%
-           family={Fischer},
-           familyi={F\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{4f34f582adc38db68bbb2f936fe4ba7d}
-      \strng{fullhash}{4f34f582adc38db68bbb2f936fe4ba7d}
-      \strng{bibnamehash}{4f34f582adc38db68bbb2f936fe4ba7d}
-      \strng{authorbibnamehash}{4f34f582adc38db68bbb2f936fe4ba7d}
-      \strng{authornamehash}{4f34f582adc38db68bbb2f936fe4ba7d}
-      \strng{authorfullhash}{4f34f582adc38db68bbb2f936fe4ba7d}
+    \entry{IFFTruthClassifier}{online}{}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Exploiting full/partial $t\bar{t}$ reconstruction for background suppression in 2$\ell$}
+      \field{title}{IFF Truth Classifier GitLab Repository}
       \verb{urlraw}
-      \verb https://indico.cern.ch/event/955360/contributions/4016465/attachments/2102418/3534816/top_reco_bkgd_suppression_2L_20200915.pdf
+      \verb https://gitlab.cern.ch/ATLAS-IFF/IFFTruthClassifier/-/tree/master
       \endverb
       \verb{url}
-      \verb https://indico.cern.ch/event/955360/contributions/4016465/attachments/2102418/3534816/top_reco_bkgd_suppression_2L_20200915.pdf
-      \endverb
-    \endentry
-    \entry{2vSM-ref2}{online}{}
-      \name{author}{1}{}{%
-        {{hash=3b707a4547502e2db674f06714d5f481}{%
-           family={McCarthy},
-           familyi={M\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{3b707a4547502e2db674f06714d5f481}
-      \strng{fullhash}{3b707a4547502e2db674f06714d5f481}
-      \strng{bibnamehash}{3b707a4547502e2db674f06714d5f481}
-      \strng{authorbibnamehash}{3b707a4547502e2db674f06714d5f481}
-      \strng{authornamehash}{3b707a4547502e2db674f06714d5f481}
-      \strng{authorfullhash}{3b707a4547502e2db674f06714d5f481}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Macro developed to compare t/W/Z reconstruction performance (2$\ell$, 3$\ell$, 4$\ell$)}
-      \verb{urlraw}
-      \verb https://indico.cern.ch/event/986357/contributions/4172907/attachments/2169451/3666801/reco_performance_macro_20210112.pdf
-      \endverb
-      \verb{url}
-      \verb https://indico.cern.ch/event/986357/contributions/4172907/attachments/2169451/3666801/reco_performance_macro_20210112.pdf
+      \verb https://gitlab.cern.ch/ATLAS-IFF/IFFTruthClassifier/-/tree/master
       \endverb
     \endentry
     \entry{intro-bdt}{online}{}
@@ -4377,8 +4285,8 @@
       \strng{authorbibnamehash}{0cb8fe4210baa81c4b0e67913b4d2768}
       \strng{authornamehash}{0cb8fe4210baa81c4b0e67913b4d2768}
       \strng{authorfullhash}{0cb8fe4210baa81c4b0e67913b4d2768}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-387-84858-7}
@@ -4399,8 +4307,8 @@
       \strng{authorbibnamehash}{a9097cfddbfd8854e2aa89fa5f47b0c7}
       \strng{authornamehash}{a9097cfddbfd8854e2aa89fa5f47b0c7}
       \strng{authorfullhash}{a9097cfddbfd8854e2aa89fa5f47b0c7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Metrics to Evaluate your Machine Learning Algorithm}
@@ -4411,31 +4319,33 @@
       \verb https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234
       \endverb
     \endentry
-    \entry{overfitting-blog}{online}{}
+    \entry{overfitting-blog}{book}{}
       \name{author}{1}{}{%
-        {{hash=915af163e2107106fced5dd3164d9a8e}{%
-           family={Brownlee},
-           familyi={B\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod}}}%
+        {{hash=1d0f193755b6c8c1cef7ed7f1b3b090d}{%
+           family={Narsky},
+           familyi={N\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod}}}%
       }
-      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \list{location}{1}{%
+        {Weinheim}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH}%
+      }
+      \strng{namehash}{1d0f193755b6c8c1cef7ed7f1b3b090d}
+      \strng{fullhash}{1d0f193755b6c8c1cef7ed7f1b3b090d}
+      \strng{bibnamehash}{1d0f193755b6c8c1cef7ed7f1b3b090d}
+      \strng{authorbibnamehash}{1d0f193755b6c8c1cef7ed7f1b3b090d}
+      \strng{authornamehash}{1d0f193755b6c8c1cef7ed7f1b3b090d}
+      \strng{authorfullhash}{1d0f193755b6c8c1cef7ed7f1b3b090d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Overfitting and Underfitting With Machine Learning Algorithms}
-      \verb{urlraw}
-      \verb "https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/"
-      \endverb
-      \verb{url}
-      \verb https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/
-      \endverb
+      \field{isbn}{9783527410866}
+      \field{title}{Statistical analysis techniques in particle physics : fits, density estimation and supervised learning}
+      \field{year}{2013}
     \endentry
     \entry{cv-blog}{online}{}
       \name{author}{1}{}{%
@@ -4451,8 +4361,8 @@
       \strng{authorbibnamehash}{5c8b60d10e21a39537cd773990506ece}
       \strng{authornamehash}{5c8b60d10e21a39537cd773990506ece}
       \strng{authorfullhash}{5c8b60d10e21a39537cd773990506ece}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is Cross Validation in Machine learning? Types of Cross Validation}
@@ -4464,8 +4374,8 @@
       \endverb
     \endentry
     \entry{scikit-bdt}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{scikit-learn Documentation - Gradient Boosting Classifier}
       \verb{urlraw}
@@ -4476,8 +4386,8 @@
       \endverb
     \endentry
     \entry{skLearnGBClassifierDocs}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{Scikit-Learn GradientBoostingClassifier Documentation}
       \verb{urlraw}
@@ -4518,32 +4428,6 @@
       \verb 10.1088/1748-0221/13/07/P07017
       \endverb
     \endentry
-    \entry{twiki-JVT}{booklet}{}
-      \name{author}{1}{}{%
-        {{hash=0c1a895432b2eabdeb019da1e4bcd30a}{%
-           family={{ATLAS Internal}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{fullhash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{bibnamehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{authorbibnamehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{authornamehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{authorfullhash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Jet Vertex Tagger for Run 2 in reco and analysis}}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/JetVertexTaggerTool
-      \endverb
-      \verb{url}
-      \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/JetVertexTaggerTool
-      \endverb
-    \endentry
     \entry{PERF-2016-06}{article}{}
       \name{author}{1}{}{%
         {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
@@ -4577,30 +4461,89 @@
       \verb 1705.02211
       \endverb
     \endentry
-    \entry{twiki-elSF}{booklet}{}
-      \name{author}{1}{}{%
-        {{hash=0c1a895432b2eabdeb019da1e4bcd30a}{%
-           family={{ATLAS Internal}},
-           familyi={A\bibinitperiod}}}%
+    \entry{twiki-elSFunc}{article}{}
+      \name{author}{10}{}{%
+        {{hash=50f20d3c6dfbe5459d0f39bcb67740ec}{%
+           family={Aad},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6ff2c6c5b44129d4cfb6389e75869ea6}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=388bab9521275ab03be4f823f4ab8b6a}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=2f65abe288ebbc7b8562815c7cd5d7da}{%
+           family={Abud},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi Abed},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8e7bca2a93005a929c29cda76b0369ab}{%
+           family={Abeling},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c60f97b900dae34f82a0dde8b6b11864}{%
+           family={Abhayasinghe},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=1291ecc48177f6e1bdc612065e42c733}{%
+           family={Abidi},
+           familyi={A\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=21eebd79b6eee7aae47b8b2cc22eb0d6}{%
+           family={AbouZeid},
+           familyi={A\bibinitperiod},
+           given={O.\bibnamedelimi S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=afb24a9e3098c6bbffcae02436bb0939}{%
+           family={Abraham},
+           familyi={A\bibinitperiod},
+           given={N.\bibnamedelimi L.},
+           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
       }
-      \strng{namehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{fullhash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{bibnamehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{authorbibnamehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{authornamehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{authorfullhash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \field{extraname}{2}
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{fullhash}{8ad43191384e60c9f6e7094b2bc52925}
+      \strng{bibnamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authorbibnamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authornamehash}{f1cec2969fb25fe3621ef4c33b2c003a}
+      \strng{authorfullhash}{8ad43191384e60c9f6e7094b2bc52925}
+      \field{extraname}{3}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Electron Efficiencies for Analyses}}
-      \field{year}{2021}
+      \field{issn}{1434-6052}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Performance of electron and photon triggers in ATLAS during LHC Run 2}
+      \field{volume}{80}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-019-7500-2
+      \endverb
       \verb{urlraw}
-      \verb https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/ElectronEfficienciesForAnalysis
+      \verb http://dx.doi.org/10.1140/epjc/s10052-019-7500-2
       \endverb
       \verb{url}
-      \verb https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/ElectronEfficienciesForAnalysis
+      \verb http://dx.doi.org/10.1140/epjc/s10052-019-7500-2
       \endverb
     \endentry
     \entry{EGAM-2018-01}{article}{}
@@ -4635,32 +4578,6 @@
       \verb 1908.00005
       \endverb
     \endentry
-    \entry{twiki-elSFunc}{booklet}{}
-      \name{author}{1}{}{%
-        {{hash=0c1a895432b2eabdeb019da1e4bcd30a}{%
-           family={{ATLAS Internal}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{fullhash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{bibnamehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{authorbibnamehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{authornamehash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \strng{authorfullhash}{0c1a895432b2eabdeb019da1e4bcd30a}
-      \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Electron Efficiency Correlation Model}}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/ElectronEfficiencyCorrelationModel
-      \endverb
-      \verb{url}
-      \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/ElectronEfficiencyCorrelationModel
-      \endverb
-    \endentry
     \entry{MUON-2018-03}{article}{}
       \name{author}{1}{}{%
         {{hash=ebfe6052e5f504e4a3579c49c44afe41}{%
@@ -4686,28 +4603,16 @@
       \verb 2012.00578
       \endverb
     \endentry
-    \entry{TRF-ForceShape}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Option to force a shape withing an error band by hand - TRF documentation}
-      \verb{urlraw}
-      \verb https://trexfitter-docs.web.cern.ch/trexfitter-docs/model_building/shape/
-      \endverb
-      \verb{url}
-      \verb https://trexfitter-docs.web.cern.ch/trexfitter-docs/model_building/shape/
-      \endverb
-    \endentry
     \entry{TRexfitter}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{TRExFitter Documentation}
       \verb{urlraw}
-      \verb https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/TtHFitter
+      \verb https://trexfitter-docs.web.cern.ch/trexfitter-docs/
       \endverb
       \verb{url}
-      \verb https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/TtHFitter
+      \verb https://trexfitter-docs.web.cern.ch/trexfitter-docs/
       \endverb
     \endentry
     \entry{BARLOW1993219}{article}{}
@@ -4756,7 +4661,7 @@
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{title}{TRExFitter: Mixed data and MC fit}
+      \field{title}{TRExFitter Documentation}
       \verb{urlraw}
       \verb https://trexfitter-docs.web.cern.ch/trexfitter-docs/AdvancedTutorial2020/Mixed/
       \endverb

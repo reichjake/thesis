@@ -1,5 +1,0 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'references.bib.blg'
-[95] biber:340> INFO - === Wed Jun 23, 2021, 09:30:20
-[117] Utils.pm:411> ERROR - Cannot find 'references.bib.bcf'!
-[117] Biber.pm:132> INFO - ERRORS: 1

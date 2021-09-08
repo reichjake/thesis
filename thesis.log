@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.23)  26 AUG 2021 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.23)  8 SEP 2021 11:34
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1139,11 +1139,11 @@ Package biblatex Info: ... file 'thesis.bbl' found.
 Package biblatex Info: Reference section=0 on input line 89.
 Package biblatex Info: Reference segment=0 on input line 89.
 Package epstopdf Info: Source file: <figures//deptPhysics.eps>
-(epstopdf)                    date: 2021-06-21 07:04:38
+(epstopdf)                    date: 2021-06-21 06:04:38
 (epstopdf)                    size: 1301495 bytes
 (epstopdf)             Output file: <figures//deptPhysics-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2021-06-21 10:10:36
+(epstopdf)                    date: 2021-06-21 09:10:36
 (epstopdf)                    size: 432743 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures//deptPhysics
 -eps-converted-to.pdf figures//deptPhysics.eps>
@@ -3191,10 +3191,7 @@ Type  H <return>  for immediate help.
                                                   
 l.157 
       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -3273,7 +3270,7 @@ ts/cm/cmti10.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmti9.pfb></home/jake/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb></home/jake/.miktex/texmfs/install/fonts/type1/urw/zapfding/uzdr.pf
 b>
-Output written on thesis.pdf (83 pages, 4740101 bytes).
+Output written on thesis.pdf (83 pages, 4740103 bytes).
 PDF statistics:
  900 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
